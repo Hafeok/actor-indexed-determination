@@ -1,0 +1,260 @@
+# core/graph/terms.yaml — canonical term registry (format v1)
+# Generated from each doc's ddd:contract establishes list during the repo split.
+# Every term here is established_by exactly one core doc; edit canonical_md here, never in the doc.
+#
+# Rules enforced by validate-core-order.py:
+#   - every term in a doc's establishes list exists here, and vice versa
+#   - established_by matches the doc that declares it
+#   - exactly one ddd:embed per id, in established_by; everywhere else, ddd:ref
+
+format: terms/v1
+terms:
+
+  - id: term:determination
+    term: determination
+    established_by: 00-primitives.md
+    status: settled
+  - id: term:decision
+    term: decision
+    established_by: 00-primitives.md
+    status: settled
+  - id: term:ground
+    term: ground
+    established_by: 00-primitives.md
+    status: settled
+  - id: term:tolerance
+    term: tolerance
+    established_by: 00-primitives.md
+    status: settled
+  - id: term:admission-test
+    term: admission-test
+    established_by: 00-primitives.md
+    status: settled
+  - id: term:actor
+    term: actor
+    established_by: 00-primitives.md
+    status: settled
+  - id: term:arrangement
+    term: arrangement
+    established_by: 00-primitives.md
+    status: settled
+  - id: term:last-decision
+    term: last-decision
+    aliases: [last decision in the chain]
+    established_by: 00-primitives.md
+    status: settled
+  - id: term:demand
+    term: demand
+    aliases: [determination demand]
+    established_by: 01-the-principle.md
+    status: settled
+  - id: term:conservation
+    term: conservation
+    aliases: [conservation principle]
+    established_by: 01-the-principle.md
+    status: settled
+    canonical_md: |
+      > **For a task at a declared assurance level, and within a fixed decomposition of that task,
+      > determination demand is conserved.**
+      >
+      > Every governing decision gets made. The only choice is **by whom, when, and at what price.**
+      > Reduce the demand in one store and it **relocates**; it does not vanish.
+  - id: term:store
+    term: store
+    established_by: 01-the-principle.md
+    status: settled
+  - id: term:encoded
+    term: encoded
+    established_by: 01-the-principle.md
+    status: settled
+  - id: term:mechanical
+    term: mechanical
+    established_by: 01-the-principle.md
+    status: settled
+  - id: term:judgment
+    term: judgment
+    established_by: 01-the-principle.md
+    status: settled
+  - id: term:escape
+    term: escape
+    aliases: [escaped]
+    established_by: 01-the-principle.md
+    status: settled
+  - id: term:assurance
+    term: assurance
+    established_by: 01-the-principle.md
+    status: settled
+  - id: term:exhaustiveness
+    term: exhaustiveness
+    established_by: 02-completeness.md
+    status: settled
+  - id: term:governing-decision
+    term: governing-decision
+    aliases: [governing decision]
+    established_by: 02-completeness.md
+    status: settled
+  - id: term:acceptance-predicate
+    term: acceptance-predicate
+    aliases: [acceptance predicate]
+    established_by: 03-the-floor.md
+    status: settled
+  - id: term:closure
+    term: closure
+    aliases: [closes, closed, closing]
+    established_by: 03-the-floor.md
+    status: settled
+    canonical_md: |
+      **Effective closure, defined.** A predicate is **closed for an arrangement** when the relevant
+      ground is observable and adequacy can be evaluated within declared resource, latency, and confidence
+      bounds. **Decidable** is reserved for the formal special case.
+  - id: term:floor
+    term: floor
+    aliases: [intrinsic floor]
+    established_by: 03-the-floor.md
+    status: settled
+    canonical_md: |
+      > **The intrinsic floor is a property of the acceptance predicate, not of the decision.**
+  - id: term:path-degeneracy
+    term: path-degeneracy
+    aliases: [path degeneracy]
+    established_by: 03-the-floor.md
+    status: settled
+  - id: term:pinning-resolution
+    term: pinning-resolution
+    aliases: [pinning resolution]
+    established_by: 04-actors.md
+    status: settled
+  - id: term:selection
+    term: selection
+    established_by: 04-actors.md
+    status: settled
+  - id: term:training
+    term: training
+    established_by: 04-actors.md
+    status: settled
+  - id: term:accountability
+    term: accountability
+    established_by: 05-accountability.md
+    status: settled
+  - id: term:attribution
+    term: attribution
+    established_by: 05-accountability.md
+    status: settled
+  - id: term:answerability
+    term: answerability
+    established_by: 05-accountability.md
+    status: settled
+  - id: term:liability
+    term: liability
+    established_by: 05-accountability.md
+    status: settled
+  - id: term:assurance-tower
+    term: assurance-tower
+    aliases: [assurance tower]
+    established_by: 05-accountability.md
+    status: settled
+  - id: term:seam
+    term: seam
+    aliases: [seam demand]
+    established_by: 06-composition.md
+    status: settled
+  - id: term:seam-identity
+    term: seam-identity
+    aliases: [seam-demand identity]
+    established_by: 06-composition.md
+    status: settled
+    canonical_md: |
+      > **|D_comp| = |D_single| + |S|**
+  - id: term:composite-actor
+    term: composite-actor
+    aliases: [composite actor]
+    established_by: 06-composition.md
+    status: settled
+  - id: term:seam-occupancy
+    term: seam-occupancy
+    aliases: [seam occupancy]
+    established_by: 06-composition.md
+    status: settled
+  - id: term:orchestrator
+    term: orchestrator
+    established_by: 06-composition.md
+    status: settled
+  - id: term:determination-intelligence-separation
+    term: determination-intelligence-separation
+    aliases: [determination is not intelligence]
+    established_by: 07-determination-and-intelligence.md
+    status: settled
+    canonical_md: |
+      > **Determination is necessary and nowhere near sufficient for intelligence.**
+  - id: term:projection
+    term: projection
+    established_by: 08-projections.md
+    status: settled
+  - id: term:funnel
+    term: funnel
+    established_by: 08-projections.md
+    status: settled
+  - id: term:maturation
+    term: maturation
+    established_by: 08-projections.md
+    status: settled
+  - id: term:verdict
+    term: verdict
+    aliases: [verdict function]
+    established_by: 09-the-measure.md
+    status: settled
+  - id: term:verdict-entropy
+    term: verdict-entropy
+    aliases: [verdict entropy]
+    established_by: 09-the-measure.md
+    status: settled
+  - id: term:chain-rule-identification
+    term: chain-rule-identification
+    established_by: 09-the-measure.md
+    status: settled
+  - id: term:seam-information
+    term: seam-information
+    aliases: [I(V;S)]
+    established_by: 09-the-measure.md
+    status: settled
+  - id: term:capacity
+    term: capacity
+    established_by: 10-the-floor-mechanism.md
+    status: settled
+  - id: term:overflow
+    term: overflow
+    established_by: 10-the-floor-mechanism.md
+    status: settled
+  - id: term:escape-mechanism
+    term: escape-mechanism
+    aliases: [overflow ∩ open]
+    established_by: 10-the-floor-mechanism.md
+    status: settled
+  - id: term:p-err
+    term: p-err
+    aliases: [p_err]
+    established_by: 10-the-floor-mechanism.md
+    status: settled
+  - id: term:ensemble-actor
+    term: ensemble-actor
+    aliases: [ensemble actor]
+    established_by: 11-the-licensing-instance.md
+    status: settled
+  - id: term:diversity
+    term: diversity
+    established_by: 11-the-licensing-instance.md
+    status: settled
+  - id: term:redundancy
+    term: redundancy
+    established_by: 11-the-licensing-instance.md
+    status: settled
+  - id: term:swarm-gate
+    term: swarm-gate
+    aliases: [the gate on swarms]
+    established_by: 11-the-licensing-instance.md
+    status: settled
+  - id: term:immune-system
+    term: immune-system
+    aliases: [immune system]
+    established_by: 11-the-licensing-instance.md
+    status: settled

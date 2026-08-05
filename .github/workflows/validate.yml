@@ -1,0 +1,29 @@
+name: validate-core
+
+on:
+  push:
+    paths:
+      - 'core/**'
+      - 'graph/**'
+  pull_request:
+    paths:
+      - 'core/**'
+      - 'graph/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: pip install pyyaml
+      - name: Core ordering + transclusion (exit 0, zero W4)
+        run: |
+          out=$(python3 validate-core-order.py core/)
+          echo "$out"
+          echo "$out" | grep -q ' W4 ' && { echo "FAIL: W4 migration-gap warnings present"; exit 1; } || true
+      - name: Claim schema
+        run: python3 scripts/validate-claims.py core/claims/
