@@ -13,7 +13,7 @@ status: settled
 
 **Claims.** The propositions of this note are landed as claim nodes under `core/claims/`
 (`DDD-measure-*`); canon authority for each is its claim file, and this document is their
-exposition (`meta/way-of-working.md` §2, `meta/conversion-protocol.md`). The mapping:
+exposition (canon authority lives in the claim files; see `CLAUDE.md`). The mapping:
 
 | Section | Proposition | Claim |
 |---|---|---|
@@ -32,7 +32,7 @@ exposition (`meta/way-of-working.md` §2, `meta/conversion-protocol.md`). The ma
 | §8 | Demand is relative to the ground distribution | `DDD-measure-12` |
 
 Where this prose and a claim disagree, the claim governs and the prose is the bug
-(flagged in the claim's `notes:`, per `meta/conversion-protocol.md` §5).
+(flagged in the claim's `notes:`, not silently harmonised).
 
 **Status.** The central identity is a theorem (Shannon, 1948). The **claim** of this note is not
 the theorem — it is the *identification* of the framework's informal quantities with exact
