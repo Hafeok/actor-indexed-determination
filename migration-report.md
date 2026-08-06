@@ -116,13 +116,15 @@ linter would damage that and is not warranted. Grouped by the doc that establish
   silently drops terms on wrapped `establishes`/`requires` continuation lines. I kept every contract
   field on one line rather than patch the parser. A parser fix (handle continuations) would be more
   robust — flagged as a tooling follow-up.
-- **Term embedding is partial (5 of 52).** Zero-W4 is met (every establishes-term has a graph entry).
-  Only 5 terms with clean, unambiguous verbatim definition blocks were `ddd:embed`-ed byte-exact; the
-  other 47 have registry entries but no embed (W3, §below). Embedding the rest would require authoring
-  canonical definition blocks for abstract terms (e.g. *attribution*, *orchestrator*, *answerability*)
-  that the prose does not currently isolate as a single block — that is **authoring canon**, out of a
-  pure migration's scope. **Recommend**: Emil either authors canonical blocks for the remaining terms,
-  or trims those docs' `establishes` lists to the terms that genuinely have canonical statements.
+- **Term embedding — RESOLVED (post-report).** All 47 non-registry terms are now embedded
+  byte-exact (E6-verified) from Emil's ratified canonical-block proposals; 5 are registry-only by
+  design (`demand`, `governing-decision`, `assurance-tower`, `verdict-entropy`, `immune-system`).
+  Seven blocks were authored and ratified (recorded as a v5.0.0 batch in
+  `meta/CANON-PATCH-REGISTER.md`); the rest were located verbatim in the docs. W3 was patched to
+  exempt registry-only objects. **Note:** these blocks landed on the branch *after* the `v5.0.0`
+  tag (which marks the split-time canon); DDD's pins are `ddd:ref` not `ddd:embed`, so they resolve
+  against `v5.0.0` unaffected — advance the tag only if cross-repo canonical_md byte-matching is
+  ever wanted.
 - **`meta/way-of-working.md`, `meta/conversion-protocol.md`, the claim-conversion skill, and
   `spec/claim-format.md` + `scripts/validate-claims.py`** placement — see §7.
 - **The measure-note gate** was superseded by `DDD-dec-07` (Emil) before execution; recorded.
