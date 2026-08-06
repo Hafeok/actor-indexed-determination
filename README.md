@@ -11,21 +11,6 @@ no reference to its dependents**: the stable layer does not know who consumes it
 
 ---
 
-## Provenance
-
-This repository was split from the combined `decision-driven-design` corpus (owner `Hafeok`) as the
-execution of a filed decision, `DDD-dec-04`. It was branched fresh (no shared git history) from that
-repository at commit **`10f6ba6`** (branch `claude/repo-split-execution-j46b1q`). The combined repo's
-`CHANGELOG.md` stays behind with the software projection; this repository starts a fresh changelog.
-The claim graph carries the epistemic history regardless of git lineage.
-
-- Split decisions: `DDD-dec-04` (split), `DDD-dec-05` (org stays a directory in the projection),
-  `DDD-dec-06` (sequencing + this repo's name), `DDD-dec-07` (execution decoupled from the measure
-  note). These decision records live in the software-projection repository, which is where program
-  decisions belong.
-
----
-
 ## The one idea
 
 Four classical results govern how work is allocated in engineered systems — Brooks's essential
@@ -78,3 +63,18 @@ Ashby's variety, counted in bits). Where the word "law" appears it is homage, in
 *Tesler's Law* and *Ashby's Law*, and it is flagged. The framework's honesty about its own status is
 load-bearing — see [`core/01-the-principle.md`](core/01-the-principle.md) and
 [`meta/lineage-and-limits.md`](meta/lineage-and-limits.md).
+
+---
+
+## Provenance
+
+This repository was split from the combined `decision-driven-design` corpus (owner `Hafeok`) as the
+execution of a filed decision, `DDD-dec-04`. It was branched fresh (no shared git history) from that
+repository at commit **`10f6ba6`** (branch `claude/repo-split-execution-j46b1q`). The combined repo's
+`CHANGELOG.md` stays behind with the software projection; this repository starts a fresh changelog.
+The claim graph carries the epistemic history regardless of git lineage.
+
+- Split decisions: `DDD-dec-04` (split), `DDD-dec-05` (org stays a directory in the projection),
+  `DDD-dec-06` (sequencing + this repo's name), `DDD-dec-07` (execution decoupled from the measure
+  note). These decision records live in the software-projection repository, which is where program
+  decisions belong.
