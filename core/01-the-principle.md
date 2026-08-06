@@ -7,7 +7,7 @@ establishes: [demand|determination demand, conservation|conservation principle, 
 status: settled
 -->
 
-**Read `00-determination.md` first.** It establishes the two primitives (decisions and ground)
+**Read `00-primitives.md` first.** It establishes the two primitives (decisions and ground)
 and the admission tests. This document states the principle those primitives obey.
 
 ---
@@ -66,7 +66,7 @@ pre-paid into the seam versus resolved, per run, in every part.
 
 ## The four stores
 
-Every governing decision is determined by exactly one of four sources (`00`, §3):
+Every governing decision (`00`, admission tests) is determined by exactly one of four sources:
 
 | Store | Form | When | By whom | Property |
 |---|---|---|---|---|
