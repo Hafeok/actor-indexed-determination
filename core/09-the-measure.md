@@ -56,6 +56,7 @@ Count and demand come apart.
 
 So demand is not a count. It is a **measure**. And the measure is **Shannon information**.
 
+<!-- ddd:embed id=term:verdict -->
 > **Definition (determination demand).** *(In the engineering projection this same quantity is
 > denominated in the vocabulary of the domain and called* **specification demand** *; the measure
 > below is identical either way.)* For a task with a decidable acceptance predicate, let the
@@ -64,6 +65,7 @@ So demand is not a count. It is a **measure**. And the measure is **Shannon info
 > the task is the Shannon entropy of the verdict:
 >
 > **D = H(verdict)**, measured in **bits**.
+<!-- /ddd:embed -->
 
 Demand is the information required to specify the correct answer over the ground the task faces. Not
 how many decisions — *how much distinction*.
@@ -91,6 +93,16 @@ So the framework's asserted seam identity
 
 is **derived**, not posited: it is the chain rule, with `|S| = I(verdict ; S)`. The seam demand is
 the **mutual information between the decomposition and the answer.**
+
+<!-- ddd:embed id=term:seam-information -->
+> **I(verdict ; S)** is **seam demand** — what the *decomposition choice* absorbed.
+<!-- /ddd:embed -->
+
+<!-- ddd:embed id=term:chain-rule-identification -->
+> The **chain-rule identification**: conditioning the verdict on any variable `X` splits
+> total demand, exactly, into what `X` encoded — `I(verdict; X)` — and what remains —
+> `H(verdict | X)`. The theorem is Shannon's; the identification is the framework's claim.
+<!-- /ddd:embed -->
 
 **This is what "conservation within a fixed decomposition" means, made exact.** Fix `S`, and
 `H(verdict|S) + I(verdict;S)` is *forced* to equal `H(verdict)`. Moving work between the split and

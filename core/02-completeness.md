@@ -15,8 +15,10 @@ first appears, and saying so is the point.
 
 ## The exhaustiveness claim
 
+<!-- ddd:embed id=term:exhaustiveness -->
 > Every governing decision is determined by exactly one of: a **rule** (encoded), a **check**
 > (mechanical), an **actor** (judgment), or **nothing** (escaped).
+<!-- /ddd:embed -->
 
 The argument is a case split on two binary questions:
 

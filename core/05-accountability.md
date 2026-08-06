@@ -61,6 +61,12 @@ spectrum runs the other way.
 > It is independent of pinning resolution, in the sense that it is not recoverable from it — and it
 > is the scarcer of the two properties.
 
+<!-- ddd:embed id=term:accountability -->
+> **Accountability** is a property of the arrangement, not of the executor: attribution of
+> the determination, a persistent answerable party, and a borne consequence. An arrangement
+> missing any of the three has not allocated the decision's consequence.
+<!-- /ddd:embed -->
+
 A model does not simply *lack* sanctionability. Persistence depends on identity rules and continuity
 of obligation; stake depends on property, role, bond, reputation, or delegated interest;
 sanctionability depends on an authority with enforceable jurisdiction — all properties of a
@@ -122,6 +128,11 @@ What is required is a continuity binding act to consequence:
 > **The thing sanctioned later must be identifiably the thing that determined earlier.**
 
 This makes the condition **provenance-shaped, and therefore checkable**. Attribution over a
+
+<!-- ddd:embed id=term:attribution -->
+> **Attribution** — provenance-shaped, and therefore checkable: the record connecting the
+> determination to the execution that produced it.
+<!-- /ddd:embed -->
 determination record is not documentation *of* accountability; it is the substrate that makes
 accountability capacity computable rather than assumed.
 
@@ -182,6 +193,15 @@ Accountability decomposes into three components that come apart in practice and 
 - **Liability** — bearing the consequence.
 - **Control** — who had authority to make the determination, who could have prevented or overridden
   it, who selected and configured the executor.
+
+<!-- ddd:embed id=term:answerability -->
+> **Answerability** — the obligation to produce the chain: which determinations were made,
+> by whom, against what ground.
+<!-- /ddd:embed -->
+
+<!-- ddd:embed id=term:liability -->
+> **Liability** — bearing the consequence.
+<!-- /ddd:embed -->
 
 A party can be answerable and liable with no control — unfair, and ineffective; a party with control
 can shed liability through organisational design. For model deployments, **selection and

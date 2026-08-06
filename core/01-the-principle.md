@@ -75,7 +75,38 @@ Every governing decision is determined by exactly one of four sources (`00`, §3
 | **Judgment** | — | during the act | an actor reading ground, **with an accountable party named** | does not amortise · walks out the door |
 | **Escaped** | — | never | nobody | defect exposure · **the only forbidden state** |
 
-**{rule, check, actor, nothing}.** There is no fifth source.
+<!-- ddd:embed id=term:store -->
+> **{rule, check, actor, nothing}.** There is no fifth source.
+<!-- /ddd:embed -->
+
+<!-- ddd:embed id=term:encoded -->
+> **Encoded** — a constraint, fixed *before* the act, by a rule. It amortises: cheap to
+> state, **expensive to find**.
+<!-- /ddd:embed -->
+
+<!-- ddd:embed id=term:mechanical -->
+> **Mechanical** — a criterion, applied *after* the act, by a check. It pays the
+> **executability tax** and is cheap to trust.
+<!-- /ddd:embed -->
+
+<!-- ddd:embed id=term:judgment -->
+> **Judgment** — determined *during* the act, by an actor reading ground, **with an
+> accountable party named**. It does not amortise; it walks out the door.
+>
+> **A judgment allocation naming no accountable party is not an allocation. It is Escaped
+> with an executor attached.**
+<!-- /ddd:embed -->
+
+<!-- ddd:embed id=term:escape -->
+> **Escaped** — determined *never*, by nobody: decided-by-nobody as a first-class category.
+> Latent defect exposure. **The only forbidden state.**
+<!-- /ddd:embed -->
+
+<!-- ddd:embed id=term:assurance -->
+> **Tolerance** — which outcome deviations are acceptable — and **assurance** — the strength
+> of evidence that tolerance is met. Two systems can share a tolerance and differ in
+> required assurance.
+<!-- /ddd:embed -->
 
 **Two roles, not one.** The judgment store names an **executor** — the actor that determines this
 run — and an **accountable party** that bears the determination. For human actors these coincide,

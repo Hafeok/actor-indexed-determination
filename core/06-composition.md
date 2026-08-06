@@ -19,7 +19,13 @@ actor into several, or one task into several.**
 > **|D_comp| = |D_single| + |S|**
 <!-- /ddd:embed -->
 >
+<!-- ddd:embed id=term:seam -->
 > A composite carries the demand of its parts, **plus** the seam demand `S` created *between* them.
+<!-- /ddd:embed -->
+
+<!-- ddd:embed id=term:composite-actor -->
+> **A composite actor carries its members' demand, plus the seam demand between them.**
+<!-- /ddd:embed -->
 
 Decomposition is **not demand-neutral.** Splitting a task or an actor manufactures new governing
 decisions — the ones about how the parts coordinate — that did not exist when the thing was whole.
@@ -39,6 +45,11 @@ why the decomposition is the highest-leverage decision.
 allocation is a real design fork, and its name is **seam occupancy** — *who or what sits at the
 seam.*
 
+<!-- ddd:embed id=term:seam-occupancy -->
+> **Seam occupancy** — *who or what sits at the seam*: the allocation of seam demand across
+> the same four stores.
+<!-- /ddd:embed -->
+
 | Seam store | Occupant | Author cost | Run cost | Handles novelty | Poisonable centre |
 |---|---|---|---|---|---|
 | **Judgment** | an **actor** (an orchestrator) | cheap — just say "coordinate" | **expensive, every run** | **yes** | **yes** |
@@ -55,6 +66,11 @@ difference between an ant colony and a crowd is whether `S` is carried at all.
 ## Actor at the seam vs. mechanism at the seam
 
 The central trade, and it has teeth:
+
+<!-- ddd:embed id=term:orchestrator -->
+> **An actor at the seam** (an orchestrator) carries *judgment* — it handles novelty in the
+> coordination itself. It is expensive every run, and it does not scale.
+<!-- /ddd:embed -->
 
 **An actor at the seam** (an orchestrator) can carry *judgment* — it handles novelty in the
 coordination itself, decides which sub-actor to trust when they conflict, notices when the

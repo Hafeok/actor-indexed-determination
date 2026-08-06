@@ -44,6 +44,17 @@ An actor resolving residual demand faces two bounds, and they fail differently:
 
 Effective capacity is `min(C_hold, C_resolve)`, but the two produce different escapes:
 
+<!-- ddd:embed id=term:capacity -->
+> An actor's **capacity** is two-fold: **hold capacity** — the bits of ground it can have in
+> context at once — and **resolve capacity** — the bits it can jointly resolve.
+<!-- /ddd:embed -->
+
+<!-- ddd:embed id=term:overflow -->
+> **Hold-overflow** — the decision's governing ground does not fit. **Resolve-overflow** —
+> the ground fits and is held, but the bits that must be *jointly resolved* exceed resolve
+> capacity.
+<!-- /ddd:embed -->
+
 - **Hold-overflow** — the decision's governing ground does not fit; the actor decides against a
   *partial view*. This is **encodable away**: pre-resolve some ground into the constraint (raise
   `I(verdict;X)`) and the residual that must be held shrinks until it fits. RAG is this move. Not
@@ -76,6 +87,7 @@ And with **every** decision verified (`n_open = 0`), escape is **0 at every capa
 
 The result:
 
+<!-- ddd:embed id=term:escape-mechanism -->
 > **Escape requires two conditions, both necessary:**
 >
 > **(1) Overflow** — demand exceeds resolve capacity.
@@ -84,6 +96,7 @@ The result:
 > Overflow alone (closing predicate) → **retries, not escape.** Recoverable. Not floor.
 > Open alone (within capacity) → **carried correctly by judgment.** Not floor.
 > **Overflow AND open** → **escape. This is the floor.**
+<!-- /ddd:embed -->
 
 With a formula, in bits:
 
@@ -102,6 +115,11 @@ because the organism has no verdict function over that space.
 ## 4. The soft-capacity law, and a corrected prediction
 
 Real overflow is not a cliff. Error rate rises *smoothly* with load, giving:
+
+<!-- ddd:embed id=term:p-err -->
+> `p_err` is **derived** from rate-distortion theory, not assumed — the error rate rises
+> *smoothly* with load.
+<!-- /ddd:embed -->
 
 > **escape = (open residual) × p_err(load)**
 

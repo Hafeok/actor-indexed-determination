@@ -42,6 +42,10 @@ can be pinned**:
 The spectrum runs **by value → by binding → by classification**, and it runs from *tightest* to
 *loosest*.
 
+<!-- ddd:embed id=term:pinning-resolution -->
+> Actors differ in **pinning resolution** — how tightly their behaviour can be constrained.
+<!-- /ddd:embed -->
+
 The **last wind** is the executing actor's residual variance under the tightest available pinning.
 It is what remains after you have done everything you can to constrain the actor, and it is the
 irreducible cost of using that actor at all.
@@ -127,6 +131,12 @@ struck against a constraint.
 
 > ## **Closure decides whether training is *available*. Cost decides the *ratio* when it is.**
 
+<!-- ddd:embed id=term:training -->
+> **Closure decides whether training is *available*. Cost decides the *ratio* when it is.**
+> Training requires a **reliable error signal** — you must be able to tell, and tell soon,
+> whether the output was right.
+<!-- /ddd:embed -->
+
 ### Why closure is a hard constraint, not a price
 
 Training requires a **reliable error signal** — you must be able to tell, and tell soon, whether the
@@ -142,7 +152,9 @@ conserved and does not vanish, **relocates from the act onto the actor.**
 
 > **You cannot check the work, so you check the worker.**
 >
+<!-- ddd:embed id=term:selection -->
 > **Selection is verification relocated from the act onto the actor's identity.**
+<!-- /ddd:embed -->
 
 Which is why selection is brutal and high-attrition: you are measuring a property you **cannot
 manufacture.**

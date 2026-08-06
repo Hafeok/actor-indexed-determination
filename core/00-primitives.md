@@ -36,6 +36,11 @@ decisions merely describe. It is decisions the whole way down. What we called *t
 **last decision in the chain** — the one closest to the world, whose determination is expressed
 rather than passed on.
 
+<!-- ddd:embed id=term:last-decision -->
+> The **last decision in the chain** — the one closest to the world, whose determination is
+> expressed rather than passed on.
+<!-- /ddd:embed -->
+
 > **The law is not about building. It is about the requirements for making a determinate choice
 > at all.**
 
@@ -49,11 +54,20 @@ what it is about.
 
 Once the act dissolves, the framework has exactly two primitives.
 
+<!-- ddd:embed id=term:decision -->
 > **Decisions** — the things determined.
+<!-- /ddd:embed -->
+<!-- ddd:embed id=term:ground -->
 > **Ground** — what they are determined against.
+<!-- /ddd:embed -->
 
 That is the whole ontology. Every act of determination — by rule, by check, or by an actor in
 the moment — **reads ground in order to resolve a choice.** There is no third thing.
+
+<!-- ddd:embed id=term:determination -->
+> **Determination** is the resolving of a decision against ground — by a rule, a check, or an
+> actor in the moment. Nothing else resolves anything.
+<!-- /ddd:embed -->
 
 The apparatus holds against this without strain:
 
@@ -80,14 +94,18 @@ Two nouns the consequences need early, defined here at the minimum and no more. 
 earns them waits for its documents: pinning resolution, selection and training in `04`, the
 accountability conditions in `05`.
 
-> **An actor is anything that determines choices against ground** — anything that passes the
-> admission tests of §4. Whether its behaviour can be *pinned* is a separate property (`04`);
-> whether it can be *held* to a determination afterwards is a third (`05`).
+<!-- ddd:embed id=term:actor -->
+> An **actor** is a system that resolves decisions by reading ground: variation in declared
+> ground can alter the resolution through an internal pathway that selects among
+> alternatives. A thermostat qualifies; a falling rock does not. Actorhood does not require
+> intelligence.
+<!-- /ddd:embed -->
 
-> **An arrangement is the composition through which a resolution is produced** — the actor or
-> actors, the ground they read, and the path from determination to consequence. `03` speaks of a
-> predicate closing *for an arrangement*; `05` locates accountability in the arrangement, not in
-> the actor.
+<!-- ddd:embed id=term:arrangement -->
+> The **arrangement** is the composition through which a resolution is produced and governed:
+> executor, prior commitments, ground channels, checks, reviewers, record, and accountable
+> principal. The unit of comparison is the arrangement, not the isolated actor.
+<!-- /ddd:embed -->
 
 Nothing predictive is claimed here. These are the nouns; the theory is downstream.
 
@@ -101,11 +119,19 @@ step from *"everything is decisions,"* which explains nothing because it exclude
 **"Makes a determinate choice against a substrate" must remain a real predicate, not a universal
 solvent.**
 
+<!-- ddd:embed id=term:admission-test -->
 > **A choice is a decision iff varying *the choice* moves the outcome past tolerance.**
 >
 > **A fact is ground iff varying *the world* moves the outcome past tolerance.**
+<!-- /ddd:embed -->
 
 Same tolerance, same granularity bound; two different things varied.
+
+<!-- ddd:embed id=term:tolerance -->
+> **Tolerance** is the declared boundary of acceptable outcome deviation. It indexes
+> everything: a choice is a governing decision, and a fact is ground, only relative to a
+> declared tolerance. Without one, the decision set is not well-formed.
+<!-- /ddd:embed -->
 
 These tests **exclude**, and must be allowed to. A rock falling is not deciding where to land.
 Describing it in choice-language is *you authoring ground, not the rock reading it* — it inspects

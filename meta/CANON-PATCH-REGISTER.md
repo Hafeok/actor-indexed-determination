@@ -260,3 +260,33 @@ doing it twice. Then P3.2 (or the tower work lands), P1, P2, P4, the two deliver
   depend on the answer.
 - Whether the **assurance tower** exists. P3.2 blocks on this and it is the only item that can stall
   the release.
+
+---
+
+## v5.0.0 batch — canonical term definitions ratified (repo split)
+
+**Filed by Emil during the repo split.** Populating `core/graph/terms.yaml` required a canonical
+block per term. Most were **located** in the existing docs (VERBATIM — no authoring). Seven were
+**authored** for the term graph and ratified by Emil (this is the canon act recorded here); the
+rest were extracted from the docs, where doc wording won over any proposal wording.
+
+**DRAFTED and ratified (7)** — new canonical wording, embedded in the named home doc:
+
+| term | home | note |
+|---|---|---|
+| `determination` | `00-primitives.md` | the ontology had no single defining sentence |
+| `tolerance` | `00-primitives.md` | used in both admission tests, defined in neither |
+| `actor` | `00-primitives.md` | supersedes the minimal split-session placeholder |
+| `arrangement` | `00-primitives.md` | supersedes the minimal split-session placeholder |
+| `accountability` | `05-accountability.md` | §§1–6 build the condition; no single sentence existed |
+| `acceptance-predicate` | `03-the-floor.md` | the VERBATIM candidate was the floor *claim*, not a definition of the predicate |
+| `chain-rule-identification` | `09-the-measure.md` | names the identification (theorem Shannon's, identification the framework's) |
+
+**Registry-only (5)** — no canonical block; nothing pins their exact wording, and a block would be
+ceremony: `demand`, `governing-decision`, `assurance-tower`, `verdict-entropy`, `immune-system`.
+The validator's W3 was patched to exempt objects without a `canonical_md` (fire only on a defined
+block that is embedded nowhere — real drift).
+
+**VERBATIM (40)** — located in the docs and embedded byte-for-byte; `validate-core-order.py core/`
+confirms the match (E6). Where the split's edits touched a source line (e.g. the `09` register fix),
+the block was extracted **after** that edit, per the standing lesson.

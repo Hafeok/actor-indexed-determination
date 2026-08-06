@@ -52,7 +52,9 @@ Each is a dumb detector with one fixed receptor: it binds, or it does not. Close
 The determination — *this is non-self, respond* — is made by the **population**, through
 selection: clones whose receptors happen to bind are amplified; the rest are not.
 
+<!-- ddd:embed id=term:ensemble-actor -->
 > **The choice is a property of the ensemble, and it exists nowhere in any member.**
+<!-- /ddd:embed -->
 
 Run the admission tests on the ensemble and it passes cleanly. Vary the collective response →
 outcome moves past tolerance. Vary the ground (which antigen is present) → outcome moves. **The
@@ -60,8 +62,10 @@ population is an actor in the framework's exact sense.** The cell mostly is not.
 
 ### 1.3 The result
 
+<!-- ddd:embed id=term:diversity -->
 > **Diversity in a population is how you carry judgment demand that exceeds any single actor's
 > capacity.**
+<!-- /ddd:embed -->
 
 When demand exceeds an actor's floor there are three options: encode more (impossible if the space
 is too large), accept escape (fatal), or **distribute across a diverse population whose union
@@ -71,9 +75,11 @@ covers what no member could.**
 
 The distinction with teeth. Conflating the two is a real error.
 
+<!-- ddd:embed id=term:redundancy -->
 > **Redundancy buys reliability. Diversity buys coverage.**
 >
 > **They are different goods.**
+<!-- /ddd:embed -->
 
 A population of *identical* actors does not carry more judgment than one actor — it carries the
 same judgment redundantly. Ten thousand identical lymphocytes recognise exactly one antigen. Ten
@@ -107,8 +113,10 @@ says must be paid somewhere.
 
 ### 1.6 The gate on swarms
 
+<!-- ddd:embed id=term:swarm-gate -->
 **A swarm is an actor only if it genuinely determines choices against ground.** The admission
 tests (§4) still gate, and they must.
+<!-- /ddd:embed -->
 
 A flock turning together is mostly **not** making a determination — local rules producing global
 pattern, with no choice resolved against a substrate. Ant colony foraging is closer, because the

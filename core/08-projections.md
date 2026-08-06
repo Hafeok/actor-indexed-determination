@@ -27,6 +27,21 @@ counting-procedure debt already booked for conservation.
 The principle has two projections. They are not two mechanisms. **They are the same mechanism — the
 encoded store amortising a cost paid once — viewed on two different axes.**
 
+<!-- ddd:embed id=term:projection -->
+> The principle has two projections. They are not two mechanisms. **They are the same
+> mechanism — the compound — run along two different axes.**
+<!-- /ddd:embed -->
+
+<!-- ddd:embed id=term:maturation -->
+> **Maturation** is the compound over **repetition**: pay once, and every future *run* is
+> cheaper.
+<!-- /ddd:embed -->
+
+<!-- ddd:embed id=term:funnel -->
+> **The funnel** is the compound over **depth**: pay once at the top, and every decision
+> *below* inherits.
+<!-- /ddd:embed -->
+
 > **Maturation** is the compound over **repetition**: pay once, and every future *run* is cheaper.
 >
 > **The funnel** is the compound over **depth**: pay once at the top, and every decision *below*

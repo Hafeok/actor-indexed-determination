@@ -47,6 +47,12 @@ operational closure is the conjunction of whichever are relevant to the arrangem
 strengthening, not a retreat: the framework has been using closure as an engineering property
 throughout, and this makes the usage honest.
 
+<!-- ddd:embed id=term:acceptance-predicate -->
+> The **acceptance predicate** is the criterion that settles whether an outcome is
+> acceptable at the declared tolerance. Everything about a task's checkability — and
+> therefore its floor — lives here.
+<!-- /ddd:embed -->
+
 ---
 
 ## Why the floor is in the predicate
@@ -80,6 +86,12 @@ yielding the same function).
 Infinitely many distinct decision paths converge on an adequate act. You do not need the path that a
 particular expert would take; you need *any* path that lands inside the acceptance region, and you
 can tell when you've landed there because the predicate closes.
+
+<!-- ddd:embed id=term:path-degeneracy -->
+> Where the floor is zero, *path-degeneracy* makes it *robustly* zero: infinitely many
+> structurally different candidates satisfy the predicate, so no particular path is
+> load-bearing.
+<!-- /ddd:embed -->
 
 This is why machines reach superhuman performance on closing-predicate tasks without anything worth
 calling understanding: **no particular determiner is required where adequacy is checkable.** What
