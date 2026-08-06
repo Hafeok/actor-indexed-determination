@@ -31,6 +31,13 @@ claim live in `core/assets/` and must reproduce — a claim whose computation fa
   harmonise.
 - **The reading order is the dependency order.** Each doc's `ddd:contract` declares what it requires
   and establishes; every edge must point backward. A forward edge is an escaped seam.
+- **All core material carries the graph machinery.** Every doc under `core/` has a `ddd:contract`
+  block, and every term the registry marks `established_by` that doc with a `canonical_md` embeds
+  that block byte-for-byte inside `ddd:embed` markers. A revision — including a wholesale file
+  replacement — that drops the contract or an embed is invalid regardless of prose quality: restore
+  the machinery into the revised text before landing. `validate-core-order.py` enforces this
+  (E1, E6, E10, W3); prose supplied from outside the repo never arrives carrying it, so replacing a
+  file means re-seating the machinery, not just the words.
 - **Never present an identity holding as evidence for the framework.** State which is arithmetic and
   which is a modelling claim, always.
 - **Flag, don't guess.** Reasoning not confirmed by canon or a named principal is marked

@@ -1,5 +1,12 @@
 # Accountability
 
+<!-- ddd:contract
+
+requires: [actor, arrangement, escape, assurance, pinning-resolution]
+establishes: [accountability, attribution, answerability, liability, assurance-tower|assurance tower]
+status: settled
+-->
+
 **Destination:** `core/05-accountability.md` — immediately after `04-actors.md`, which it extends.
 This seats accountability with the actor model and shifts former `05`–`09` to `06`–`10` (see the
 canon patch register, P3.1). Actor-general, denominated in determinations. Depends on `00` (admission tests), `01` (the four stores), `03` (the
@@ -52,6 +59,12 @@ spectrum runs the other way.
 >
 > It is independent of pinning resolution, in the sense that it is not recoverable from it — and it
 > is the scarcer of the two properties.
+
+<!-- ddd:embed id=term:accountability -->
+> **Accountability** is a property of the arrangement, not of the executor: attribution of
+> the determination, a persistent answerable party, and a borne consequence. An arrangement
+> missing any of the three has not allocated the decision's consequence.
+<!-- /ddd:embed -->
 
 A model does not simply *lack* sanctionability. Persistence depends on identity rules and continuity
 of obligation; stake depends on property, role, bond, reputation, or delegated interest;
@@ -185,8 +198,10 @@ What is required is a continuity binding act to consequence:
 
 This makes the condition **provenance-shaped, and therefore checkable**.
 
+<!-- ddd:embed id=term:attribution -->
 > **Attribution** — provenance-shaped, and therefore checkable: the record connecting the
 > determination to the execution that produced it.
+<!-- /ddd:embed -->
 
 Attribution over a determination record is not documentation *of* accountability; it is the substrate
 that makes accountability capacity computable rather than assumed.
@@ -251,9 +266,14 @@ against what ground.
 - **Control** — who had authority to make the determination, who could have prevented or overridden
 it, who selected and configured the executor.
 
+<!-- ddd:embed id=term:answerability -->
 > **Answerability** — the obligation to produce the chain: which determinations were made,
 > by whom, against what ground.
+<!-- /ddd:embed -->
+
+<!-- ddd:embed id=term:liability -->
 > **Liability** — bearing the consequence.
+<!-- /ddd:embed -->
 
 A party can be answerable and liable with no control — unfair, and ineffective; a party with control
 can shed liability through organisational design. For model deployments, **selection and
