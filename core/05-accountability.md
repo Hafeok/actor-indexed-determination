@@ -15,11 +15,12 @@ order; the dependency is citational, not definitional.
 
 **Status: projected.** Derived, unexercised. Falsifiers stated per claim. Nothing here is reported.
 
-This document **introduces** two things core does not currently contain: an accountability condition
-on actors (§§1–6) and the **assurance tower** (§7). Neither is cited from elsewhere in the repo, so
-there are no dangling forward-references — but §7 is a substantive addition in its own right, and if
-the tower is held back for a later release, §§1–6 stand without it and §7 lifts out cleanly. One
-edit to `01`'s store table ships alongside (register P3.3).
+This document supplies the accountability condition on actors (§§1–6) and the **assurance tower**
+(§7). Both are now depended upon rather than free-standing: `01` cites §7's tower and §6, `04` §3
+cites this chapter, and five `DDD-frame-*` claims cite it. **§7 does not lift out** — `01` depends
+on the tower. Register entries P3.1 (renumbering) and P3.3 (the `01` store-table edit seating the
+executor / accountable-party split) have both shipped; `01`'s Judgment row already reads "an actor
+reading ground, with an accountable party named".
 
 ---
 
@@ -307,10 +308,12 @@ standing that survives.
 > A sanction that removes the entire stake is **replacement**, not consequence. It leaves no
 > arrangement to have borne anything.
 
-This is the same move `04` §3 rules out for model actors — retraining produces a successor rather
-than sanctioning the predecessor — appearing here for arrangements generally. The classification-
-pinned case is not exempt: dismissing a person removes an entire envelope and terminates the
-relationship, which is structurally the same operation as re-fitting weights.
+The result generalises across the pinning spectrum, and is derived here rather than imported. §2's
+persistence condition binds at **sanction time**, not only at determination time — the arrangement
+must survive the sanction in order to have borne it. An operation removing the whole stake leaves no
+arrangement persisting past its own application, so the persistence condition fails on the operation
+itself. Re-fitting a model's weights and dismissing a classification-pinned person are the same
+operation under this description, and neither sanctions the arrangement that determined.
 
 **Where sanction can attach is determined by what the arrangement records.** Sanction binds to the
 finest-grained element the record distinguishes; undifferentiated records force whole-stake removal
@@ -344,13 +347,18 @@ Without this, a sanction stops the exposure prospectively and leaves the accumul
 unexamined. The review scope is not itself a sanction; it is the ground-characterisation instrument
 the sanction makes available.
 
+*Falsifier:* a domain where withdrawal of standing is routinely exercised and determinations made
+under the withdrawn standing go unreviewed, with no elevated late-discovery over the withdrawn
+interval. This would show the withdrawal discharges the accumulated exposure rather than merely
+halting it.
+
 ---
 
 ## 6. The two roles in the Judgment store
 
 `01` gives Judgment's source as *an actor reading ground*. That is correct and stays. It elides one
-distinction that matters as soon as the executing actor is not a human — and the elision is patched
-directly into `01`'s store table alongside this chapter (canon patch register, P3.3):
+distinction that matters as soon as the executing actor is not a human — and the elision is seated
+in `01`'s store table alongside this chapter (canon patch register, P3.3):
 
 - **Executor** — the actor making the determination this run.
 - **Accountable party** — the actor bound to it afterwards.
@@ -490,6 +498,9 @@ One condition on that relocation, from §5.1: relocating the base case requires 
 **differentiated** stake. A withdrawal that removes the whole of a model's standing is replacement,
 and replacement is what already disqualifies retraining. The instrument must be able to withdraw one
 determination class and leave the rest standing, or the relocation is nominal.
+
+*Falsifier:* a relocated base case admitting only whole-standing withdrawal that is nonetheless
+accountability-complete — which would sever the §5.1 link between differentiation and stake.
 
 ### 7.2 The seating requirement, generalised
 
