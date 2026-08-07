@@ -72,7 +72,7 @@ claim's assertion) / SUBSTANTIVE (does; requires Emil's ratification, not applie
 
 | Line | Quoted phrase | Code | Defined where, if anywhere | Remedy | Class |
 |---|---|---|---|---|---|
-| 28 | "We spoke of **governing decisions** as decisions *about an act*" | R4 | — ("we spoke" presupposes a discourse the reader was not part of) | rephrase to name the source: earlier statements of the framework | EDITORIAL |
+| 28 | "We spoke of **governing decisions** as decisions *about an act*" | R4 | — ("we spoke" presupposes a discourse the reader was not part of) | ~~rephrase to name the source~~ **SUPERSEDED** — the whole §1 opening is replaced by Emil's ratified rewrite; see the supersession note in §8 | EDITORIAL |
 | 77 | "The Polanyi floor" | R3 | Polanyi's tacit-knowledge result first glossed at `04`:505–508; never at first use | add one-line gloss/citation at first use | EDITORIAL |
 | 78 | "The seam-demand identity" | R1 | `06`:19 (five documents later) | add forward citation in the table row | EDITORIAL |
 | 79 | "Poisoned ground — *corrupting what a determination reads against*" | R2 | nowhere — this table gloss is the only definition; load-bearing at `04`:496, `10`:224 (Poisoned cause), `11`:151/153/174 | promote to the term registry (candidate C1, §6) | EDITORIAL¹ |
@@ -416,20 +416,64 @@ Emil-ratified canonical_md and should be confirmed even though it changes no ass
 claim-note amendments (frame-02, frame-07) are listed in §4.14 but deliberately left out of the
 diff, since claim files are canon authority.
 
+**Supersession note (2026-08-07, second pass).** The first hunk of the `00-primitives.md` diff
+below — the `00`:28 "We spoke of…" rephrasing — is **superseded by Emil's ratified rewrite of
+§1's opening and has been removed from the diff.** History, so the two are not applied twice:
+that hunk *was* applied to the tree in commit `2633bcf` (Phase 2a of the fix run), so `00` §1
+briefly read "Earlier statements of the framework spoke of…". Emil's ratified replacement covers
+the section heading through the end of the "It is decisions the whole way down" paragraph — it
+deletes that sentence *and* the "has been carrying a distinction" sentence above it, which shares
+the same R4 defect (one instance, fixed together). The ratified patch, built against `3300f8c`
+and validated on a scratch copy (0 errors, 52 warnings — unchanged; 25 claims valid), is recorded
+here and is **not applied**:
+
+```diff
+diff --git a/core/00-primitives.md b/core/00-primitives.md
+index c2702eb..67dc437 100644
+--- a/core/00-primitives.md
++++ b/core/00-primitives.md
+@@ -22,19 +22,16 @@ for those.
+ 
+ ## 1. The collapse
+ 
+-The framework has been carrying a distinction it does not need, and the distinction has been
+-hiding what the law is about.
+-
+-Earlier statements of the framework spoke of **governing decisions** as decisions *about an act* — the act was the primitive, the
+-decisions were the specification wrapped around it. Decide the constraints, then act.
+-
+ **There is no act.**
+ 
+-"Which voltage to the motor, now" is a decision. "Which word next" is a decision. "Fire or hold"
+-is a decision. Descend as far as you like and you never reach a floor of *pure action* that
+-decisions merely describe. It is decisions the whole way down. What we called *the act* was the
+-**last decision in the chain** — the one closest to the world, whose determination is expressed
+-rather than passed on.
++It is tempting to treat the act as the primitive and decisions as the
++specification wrapped around it: decide the constraints, then act. But
++"which voltage to the motor, now" is a decision. "Which word next" is a
++decision. "Fire or hold" is a decision. Descend as far as you like and you
++never reach a floor of pure action that decisions merely describe. It is
++decisions the whole way down. What looked like the act was the last
++decision in the chain — the one closest to the world, whose determination
++is expressed rather than passed on.
+ 
+ <!-- ddd:embed id=term:last-decision -->
+ > The **last decision in the chain** — the one closest to the world, whose determination is
+```
+
+The `term:last-decision` embed sitting immediately after the replaced range is **retained**, per
+the stop-gate in Emil's instruction: the "isolated repetition of the last-decision clause" is not
+verbatim prose — it is the canonical `ddd:embed id=term:last-decision` block, byte-paired with
+`core/graph/terms.yaml` (E6) and the term's only embed (deleting it would orphan the
+canonical_md, W3), and it bolds the term where the ratified wording does not. It therefore
+carries something the replacement lacks and was not deleted.
+
 ```diff
 diff --git a/core/00-primitives.md b/core/00-primitives.md
 index b6284f9..c8bd4d6 100644
 --- a/core/00-primitives.md
 +++ b/core/00-primitives.md
-@@ -25,7 +25,7 @@ for those.
- The framework has been carrying a distinction it does not need, and the distinction has been
- hiding what the law is about.
- 
--We spoke of **governing decisions** as decisions *about an act* — the act was the primitive, the
-+Earlier statements of the framework spoke of **governing decisions** as decisions *about an act* — the act was the primitive, the
- decisions were the specification wrapped around it. Decide the constraints, then act.
- 
- **There is no act.**
 @@ -73,13 +73,13 @@ The apparatus holds against this without strain:
  
  | Apparatus | A statement about |
