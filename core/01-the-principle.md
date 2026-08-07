@@ -139,6 +139,59 @@ These two stores are *not* interchangeable, and the difference is the reason bot
 Every governing decision admits both forms — a constraint before, a criterion after. Redundancy is
 permitted. Only **uncovered-and-unpriced** — escaped — is forbidden.
 
+### The act axis: the cost profile is derived, not asserted
+
+The table's cost column is not four independent stipulations. The stores are positions on one
+axis — position relative to the act, the write-side primitive of `00` §2 — and an execution is
+one traversal of that axis. Read the profile off the positions:
+
+- **Encoded** sits *before* the act, outside the execution loop entirely. Authoring is paid
+  once, off-line, and amortises over every execution that inherits the constraint — nothing
+  paid outside the loop can recur with the loop.
+- **Mechanical** straddles the axis: authored *before* the act, evaluated *after* it. The
+  authoring — the executability tax — amortises like any encoding; the evaluation recurs on
+  every execution, but at machine price. That is why it is cheap to trust: what recurs is the
+  firing, not the finding.
+- **Judgment** sits *at* the act, inside the loop. What is determined there is determined again
+  on the next execution, at actor price — a cost incurred at the act recurs with the act. That
+  is "does not amortise," derived rather than asserted.
+- **Escaped** holds no position on the axis — and therefore incurs no cost at any position.
+  Which is the derivation of the drift claim below: for a capacity-bound actor the axis offers
+  exactly one free coordinate, so escape is not merely available, it is the attractor.
+
+Position on the axis is topology, not taxonomy. Nothing above types acts or sorts them into
+kinds; the only structure used is *before / during / after / nowhere*.
+
+**The break-even follows.** Encode a governing decision when the cost of encoding it is less
+than the expected number of executions times the per-run judgment cost. One side of that
+inequality is not knowable in advance: execution count is an **expectation**, not a measurement
+— and retries are re-executions, which re-pay judgment in full.
+
+### Embodiment: an amendment to the judgment cost structure
+
+The judgment store itself never amortises — the canonical block above stands. But recurring
+judgment has a second exit besides the rulebook: **embodiment**, encoding that attaches *inside
+the actor* — the practiced hand, the calibrated eye, fine-tuned weights. What looks like
+judgment amortising is conservation doing its ordinary work: the demand has relocated into the
+encoded store through an intra-actor channel, and encoding amortises wherever it attaches.
+
+The relocation is real, and so is the catch: the capital now sits in the actor, which is exactly
+what "walks out the door" prices. Intra-actor encoding is therefore available as an
+*arrangement's* amortisation only where the arrangement **owns** the actor it trains, not where
+it rents one — embodiment in a rented actor is capital the arrangement pays to create and does
+not hold. This is a property of the **arrangement**, not of the actor kind. Fine-tuning is
+embodiment; whether the weights are owned or rented is a contingent fact about the arrangement,
+and it can change without anything about the actor changing.
+
+*Status: the derivation in these two subsections is **projected**, not reported — no cost
+accounting has been run against it. Two falsifiers, one per load-bearing clause:*
+
+1. *An arrangement in which per-run judgment cost declines for a **rented** actor with no
+   encoding added — no constraint authored, no check built, nothing written back — would break
+   the ownership claim.*
+2. *A task whose act granularity provably cannot be fixed by the decision tolerance bound
+   (`00` §4) would break the shared-knob clause.*
+
 ---
 
 ## Escape is the only store with no window cost

@@ -90,6 +90,41 @@ The apparatus holds against this without strain:
 
 Nothing needs a third primitive. Nothing is left over.
 
+### The write side: the act
+
+Nothing on the read side, that is. Both primitives are read-side nouns: decisions are resolved by
+*reading* ground, and §1's collapse is a collapse of the read side — descend through the choices
+and you never hit a floor of pure action that decisions merely describe. But the collapse itself
+leaves a remainder in view: the last decision in the chain is the one "expressed rather than
+passed on," and the expression is a **write**. Ground at t₁ differs from ground at t₀, and
+something is the difference. Core has declared what an actor reads and left unnamed what it
+writes.
+
+> The **act** — what an actor writes: the expression of the last decision in the chain into
+> ground; the event by which ground at t₁ comes to differ from ground at t₀.
+
+The act is the write-side primitive, and it earns the name on exactly two grounds:
+
+1. **Read/write duality.** Ground is the read-only surface a determination inspects. Declaring
+   the read primitive while leaving the write primitive implicit closes one side of a duality
+   and leaves the other open. The act closes the asymmetry: ground is what an actor reads; the
+   act is what an actor writes.
+2. **Definitional load.** The four stores (`01`) are already defined by position relative to the
+   act — encoded is constraint form *before* the act, mechanical is criterion form *after* it,
+   judgment is determined *during* it — and this document's own encode/verify split divides
+   demand "before the act" and "after it." A partition cannot index on an undefined term. This
+   names what it indexes on.
+
+Neither ground claims the act does anything decisions and ground cannot. §1 stands unamended:
+determination-wise the act **is** a decision — the last one, seen from the write side. There is
+still no floor of pure action beneath the chain; there is an expression at the end of it, and
+the stores are clocked against that expression.
+
+*Registry note: `term:act` has no entry yet in `core/graph/terms.yaml`, so this document's
+`establishes` list does not carry it (a listed term without a graph entry is a validation gap,
+W4). The block above is candidate canonical wording pending ratification and projection from the
+registry — see `meta/CANON-PATCH-REGISTER.md`.*
+
 ---
 
 
@@ -145,6 +180,16 @@ Same tolerance, same granularity bound; two different things varied.
 > governing set: a choice is a governing decision iff varying it moves the outcome past the
 > declared tolerance.
 <!-- /ddd:embed -->
+
+The bound fixes a third thing, with the same knob: **act granularity**. Acts decompose into
+sub-acts — "which voltage to the motor, now" (§1) is a sub-act of whatever manoeuvre it serves —
+and the decomposition terminates where the admission test terminates it: where varying a sub-act
+no longer moves the outcome past tolerance, that sub-act falls below the granularity bound and
+out of the governing set. There is no second knob, and this is forced, not thrifty. The stores
+(`01`) clock every determination against its act, and demand is denominated per governing
+decision; a granularity bound for acts independent of the bound for decisions would let one
+allocation be counted at two grains at once, leaving demand without a well-defined denominator.
+One tolerance, one bound: choices, facts, and acts are all admitted by it.
 
 These tests **exclude**, and must be allowed to. A rock falling is not deciding where to land.
 Describing it in choice-language is *you authoring ground, not the rock reading it* — it inspects
