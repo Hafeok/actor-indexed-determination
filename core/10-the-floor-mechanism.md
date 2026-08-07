@@ -112,7 +112,7 @@ because the organism has no verdict function over that space.
 
 ---
 
-## 4. The soft-capacity law, and a corrected prediction
+## 4. The soft-capacity bound, and a corrected prediction
 
 Real overflow is not a cliff. Error rate rises *smoothly* with load, giving:
 

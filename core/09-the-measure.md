@@ -253,7 +253,7 @@ H(verdict)`.
 Splitting those two required a model of actor **capacity**, and `core/10-the-floor-mechanism.md`
 supplies it: hold and resolve capacity in bits, effective capacity `min(C_hold, C_resolve)`, the two
 overflow modes, and the intersection result `escape = overflow ∩ open` with a formula in bits, plus
-a soft-capacity law derived from rate-distortion theory. The point at which `H(verdict|X)` exceeds
+a soft-capacity bound derived from rate-distortion theory. The point at which `H(verdict|X)` exceeds
 effective capacity is where demand begins to escape — derived and demonstrated, not conjectured
 (`core/10` §§2–4).
 
