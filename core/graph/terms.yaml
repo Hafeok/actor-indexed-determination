@@ -267,6 +267,14 @@ terms:
     canonical_md: |
       > **An actor at the seam** (an orchestrator) carries *judgment* — it handles novelty in the
       > coordination itself. It is expensive every run, and it does not scale.
+  - id: term:compound
+    term: compound
+    established_by: 06-composition.md
+    status: settled
+    canonical_md: |
+      > **The compound** — the loop that harvests recurring seam-judgment into the encoded store over a
+      > write-back channel, always paired with a mechanical check on what was harvested, so that each
+      > cycle shrinks per-run judgment toward the floor.
   - id: term:determination-intelligence-separation
     term: determination-intelligence-separation
     aliases: [determination is not intelligence]

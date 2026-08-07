@@ -3,7 +3,7 @@
 <!-- ddd:contract
 
 requires: [actor, demand, store, conservation, decision]
-establishes: [seam|seam demand, seam-identity|seam-demand identity, composite-actor|composite actor, seam-occupancy|seam occupancy, orchestrator]
+establishes: [seam|seam demand, seam-identity|seam-demand identity, composite-actor|composite actor, seam-occupancy|seam occupancy, orchestrator, compound]
 status: settled
 -->
 
@@ -105,6 +105,12 @@ seam-encoding.*
 ---
 
 ## The compound: harvesting the seam
+
+<!-- ddd:embed id=term:compound -->
+> **The compound** — the loop that harvests recurring seam-judgment into the encoded store over a
+> write-back channel, always paired with a mechanical check on what was harvested, so that each
+> cycle shrinks per-run judgment toward the floor.
+<!-- /ddd:embed -->
 
 The seam is where the compound effect lives. The orchestrator,
 running, is *performing the search* — and you are paying for it anyway. So harvest it:
