@@ -22,19 +22,16 @@ for those.
 
 ## 1. The collapse
 
-The framework has been carrying a distinction it does not need, and the distinction has been
-hiding what the law is about.
-
-Earlier statements of the framework spoke of **governing decisions** as decisions *about an act* — the act was the primitive, the
-decisions were the specification wrapped around it. Decide the constraints, then act.
-
 **There is no act.**
 
-"Which voltage to the motor, now" is a decision. "Which word next" is a decision. "Fire or hold"
-is a decision. Descend as far as you like and you never reach a floor of *pure action* that
-decisions merely describe. It is decisions the whole way down. What we called *the act* was the
-**last decision in the chain** — the one closest to the world, whose determination is expressed
-rather than passed on.
+It is tempting to treat the act as the primitive and decisions as the
+specification wrapped around it: decide the constraints, then act. But
+"which voltage to the motor, now" is a decision. "Which word next" is a
+decision. "Fire or hold" is a decision. Descend as far as you like and you
+never reach a floor of pure action that decisions merely describe. It is
+decisions the whole way down. What looked like the act was the last
+decision in the chain — the one closest to the world, whose determination
+is expressed rather than passed on.
 
 <!-- ddd:embed id=term:last-decision -->
 > The **last decision in the chain** — the one closest to the world, whose determination is
