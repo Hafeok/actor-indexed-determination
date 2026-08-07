@@ -85,14 +85,14 @@ with its cost unpaid. That is the escaped state, and it is the only forbidden on
 ## The boundary of a "governing decision"
 
 Completeness is only meaningful relative to what counts as a governing decision, and that is set by
-the **assurance level** (`00`, admission tests):
+the **declared tolerance** (`00`, admission tests):
 
 > A choice is a **governing decision** iff varying it moves the outcome **past tolerance**.
 
 Below tolerance, a choice is not a governing decision and is not in the accounting at all — it is
 *substrate*, inspected in order to act, not demand to be allocated. This is what keeps the store
-count finite: raise the
-assurance level and more choices cross into the governing set; lower it and fewer do. The partition
+count finite: tighten the
+tolerance and more choices cross into the governing set; loosen it and fewer do. The partition
 is complete *at a declared tolerance*, and undefined without one.
 
 ---

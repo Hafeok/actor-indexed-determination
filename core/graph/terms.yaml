@@ -78,6 +78,15 @@ terms:
       > **Poisoned ground** — ground that is present but false: the substrate a determination reads has
       > been corrupted, so a correct determiner resolves wrongly with full authority. The logic is
       > sound; the ground is the attack surface.
+  - id: term:granularity-bound
+    term: granularity-bound
+    aliases: [granularity bound]
+    established_by: 00-primitives.md
+    status: settled
+    canonical_md: |
+      > The **granularity bound** — the tolerance-indexed criterion fixing which choices enter the
+      > governing set: a choice is a governing decision iff varying it moves the outcome past the
+      > declared tolerance.
   - id: term:demand
     term: demand
     aliases: [determination demand]

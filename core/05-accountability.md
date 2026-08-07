@@ -258,8 +258,8 @@ decomposition*. `01` already concedes that the second is itself a governing deci
 decomposition is the highest-leverage governing decision there is.** The first has not been given the
 same treatment. This section gives it.
 
-**The declaration is internal.** The assurance level fixes which choices are governing decisions at
-all (`00`, admission tests; `01`, granularity bound). Vary it and the set resizes. It therefore
+**The declaration is internal.** The declared tolerance fixes which choices are governing decisions
+at all (`00`, admission tests; `01`, granularity bound). Vary it and the set resizes. It therefore
 passes `00`'s own admission test: varying it moves the outcome past tolerance. It is a governing
 decision. If it were exogenous — outside every store — it would be a governing decision determined by
 nobody, which is Escaped. **The framework would require its own forbidden state as a precondition.**

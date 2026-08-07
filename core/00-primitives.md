@@ -3,7 +3,7 @@
 <!-- ddd:contract
 
 requires: []
-establishes: [determination, decision, ground, tolerance, admission-test, actor, arrangement, last-decision|last decision in the chain, poisoned-ground|poisoned ground]
+establishes: [determination, decision, ground, tolerance, admission-test, actor, arrangement, last-decision|last decision in the chain, poisoned-ground|poisoned ground, granularity-bound|granularity bound]
 status: settled
 -->
 
@@ -137,6 +137,12 @@ Same tolerance, same granularity bound; two different things varied.
 > **Tolerance** is the declared boundary of acceptable outcome deviation. It indexes
 > everything: a choice is a governing decision, and a fact is ground, only relative to a
 > declared tolerance. Without one, the decision set is not well-formed.
+<!-- /ddd:embed -->
+
+<!-- ddd:embed id=term:granularity-bound -->
+> The **granularity bound** — the tolerance-indexed criterion fixing which choices enter the
+> governing set: a choice is a governing decision iff varying it moves the outcome past the
+> declared tolerance.
 <!-- /ddd:embed -->
 
 These tests **exclude**, and must be allowed to. A rock falling is not deciding where to land.
