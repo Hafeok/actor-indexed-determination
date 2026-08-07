@@ -3,7 +3,7 @@
 <!-- ddd:contract
 
 requires: []
-establishes: [determination, decision, ground, tolerance, admission-test, actor, arrangement, last-decision|last decision in the chain]
+establishes: [determination, decision, ground, tolerance, admission-test, actor, arrangement, last-decision|last decision in the chain, poisoned-ground|poisoned ground]
 status: settled
 -->
 
@@ -80,6 +80,12 @@ The apparatus holds against this without strain:
 | The encode/verify split | *whether you author the ground a determination reads* |
 | Tolerance | *which choices count as decisions at all* |
 | Assurance (`01`) | *how much evidence the allocation must carry* |
+
+<!-- ddd:embed id=term:poisoned-ground -->
+> **Poisoned ground** — ground that is present but false: the substrate a determination reads has
+> been corrupted, so a correct determiner resolves wrongly with full authority. The logic is
+> sound; the ground is the attack surface.
+<!-- /ddd:embed -->
 
 Nothing needs a third primitive. Nothing is left over.
 

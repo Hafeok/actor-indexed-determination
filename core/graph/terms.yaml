@@ -69,6 +69,15 @@ terms:
     canonical_md: |
       > The **last decision in the chain** — the one closest to the world, whose determination is
       > expressed rather than passed on.
+  - id: term:poisoned-ground
+    term: poisoned-ground
+    aliases: [poisoned ground]
+    established_by: 00-primitives.md
+    status: settled
+    canonical_md: |
+      > **Poisoned ground** — ground that is present but false: the substrate a determination reads has
+      > been corrupted, so a correct determiner resolves wrongly with full authority. The logic is
+      > sound; the ground is the attack surface.
   - id: term:demand
     term: demand
     aliases: [determination demand]
