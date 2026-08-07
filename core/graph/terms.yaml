@@ -69,6 +69,32 @@ terms:
     canonical_md: |
       > The **last decision in the chain** — the one closest to the world, whose determination is
       > expressed rather than passed on.
+  - id: term:poisoned-ground
+    term: poisoned-ground
+    aliases: [poisoned ground]
+    established_by: 00-primitives.md
+    status: settled
+    canonical_md: |
+      > **Poisoned ground** — ground that is present but false: the substrate a determination reads has
+      > been corrupted, so a correct determiner resolves wrongly with full authority. The logic is
+      > sound; the ground is the attack surface.
+  - id: term:granularity-bound
+    term: granularity-bound
+    aliases: [granularity bound]
+    established_by: 00-primitives.md
+    status: settled
+    canonical_md: |
+      > The **granularity bound** — the tolerance-indexed criterion fixing which choices enter the
+      > governing set: a choice is a governing decision iff varying it moves the outcome past the
+      > declared tolerance.
+  - id: term:encode-verify-split
+    term: encode-verify-split
+    aliases: [encode/verify split]
+    established_by: 00-primitives.md
+    status: settled
+    canonical_md: |
+      > The **encode/verify split** — the division of a determination's demand between pre-resolving
+      > ground into the encoded store before the act and verifying the residual mechanically after it.
   - id: term:demand
     term: demand
     aliases: [determination demand]
@@ -267,6 +293,14 @@ terms:
     canonical_md: |
       > **An actor at the seam** (an orchestrator) carries *judgment* — it handles novelty in the
       > coordination itself. It is expensive every run, and it does not scale.
+  - id: term:compound
+    term: compound
+    established_by: 06-composition.md
+    status: settled
+    canonical_md: |
+      > **The compound** — the loop that harvests recurring seam-judgment into the encoded store over a
+      > write-back channel, always paired with a mechanical check on what was harvested, so that each
+      > cycle shrinks per-run judgment toward the floor.
   - id: term:determination-intelligence-separation
     term: determination-intelligence-separation
     aliases: [determination is not intelligence]
@@ -395,7 +429,7 @@ terms:
     status: settled
     canonical_md: |
       **A swarm is an actor only if it genuinely determines choices against ground.** The admission
-      tests (§4) still gate, and they must.
+      tests (`00` §4) still gate, and they must.
   - id: term:immune-system
     term: immune-system
     aliases: [immune system]

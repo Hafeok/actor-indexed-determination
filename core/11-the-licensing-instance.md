@@ -9,8 +9,7 @@ status: settled
 
 **Read `00` through `10` first.** This is the capstone worked instance: it is legal only after
 `10` supplies capacity and overflow, because ensemble theory (diversity carrying judgment demand
-that exceeds any single actor's capacity) depends on them. It relocates here from the old
-`00`'s closing sections — the material was never wrong, only early.
+that exceeds any single actor's capacity) depends on them.
 
 ## 1. Ensemble actors
 
@@ -87,8 +86,7 @@ thousand *different* ones recognise ten thousand.
 
 **The variance is not a defect tolerated for robustness. The variance is the capability.**
 
-And this is the same structure as denying single-point authorship of ground (`The Adversarial
-Ground`). Redundant *uncorrelated* channels defeat an adversary who can author only one. Diverse
+And this is the same structure as denying single-point authorship of ground. Redundant *uncorrelated* channels defeat an adversary who can author only one. Diverse
 *uncorrelated* detectors cover a space no single detector can. In both, the value lies in the
 actors being **decorrelated** — and in both, **correlation is the failure mode.**
 
@@ -108,14 +106,14 @@ must be checked and destroyed before licensing.
 > **Diversity is not free judgment. It is judgment bought with time, energy, and an obligatory
 > verification apparatus.**
 
-That is the price of covering a floor you cannot encode away — and it is exactly the price the law
+That is the price of covering a floor you cannot encode away — and it is exactly the price the principle
 says must be paid somewhere.
 
 ### 1.6 The gate on swarms
 
 <!-- ddd:embed id=term:swarm-gate -->
 **A swarm is an actor only if it genuinely determines choices against ground.** The admission
-tests (§4) still gate, and they must.
+tests (`00` §4) still gate, and they must.
 <!-- /ddd:embed -->
 
 A flock turning together is mostly **not** making a determination — local rules producing global
@@ -123,7 +121,7 @@ pattern, with no choice resolved against a substrate. Ant colony foraging is clo
 pheromone field is genuine ground, read and written.
 
 **The immune system passes. Not everything swarm-shaped will.** Without the gate, "swarms are
-intelligent actors" becomes exactly the vacuous generalisation §4 exists to prevent.
+intelligent actors" becomes exactly the vacuous generalisation `00` §4 exists to prevent.
 
 ---
 
@@ -145,7 +143,7 @@ Nobody wrote its specification. And yet:
 
 All four stores, physically instantiated, with the correct cost structures. Conservation is visible
 in the forced split: innate is fast and cannot handle novelty; adaptive handles novelty and is
-slow. **The organism runs both because neither store can carry the whole demand** — the law forcing
+slow. **The organism runs both because neither store can carry the whole demand** — the principle forcing
 a split, not an engineering preference.
 
 **And both poisoned-ground attacks, with no metaphor in between:**
@@ -174,7 +172,7 @@ protein instead of packets or intel.
 mechanical-verification organ, a genuine Polanyi floor, an ensemble actor, and both poisoned-ground
 attacks — that **evolved**, with no specifier anywhere.
 
-If the law were about engineering, it could not be here.
+If the principle were about engineering, it could not be here.
 
 It is here. So it is not.
 

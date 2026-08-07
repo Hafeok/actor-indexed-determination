@@ -7,12 +7,14 @@ establishes: [projection, funnel, maturation]
 status: settled
 -->
 
-**Location:** `core/08-projections.md`. Depends on the principle (`01`), the floor (`03`), and the
-compound loop in composition (`06`). Patch addition to the shipped 4.0 core.
+Depends on the principle (`01`), the floor (`03`), and the
+compound loop in composition (`06`).
 
 **Status:** the correction in this document (funnel as *cost*, not *count*) resolves a modelling
 error that produced spurious feedback loops in the reference model. That diagnostic history is
-reported, not projected — see §5. This revision also makes "cost" precise (§"What cost is"): it is
+**projected, not reported** — demoted: the reference model that exhibited the loops is not in
+`core/assets/` and no computation in this repository reproduces it (`assets/projections.html`
+illustrates the corrected reading; it is not the diagnostic run). See §5. This revision also makes "cost" precise (§"What cost is"): it is
 **judgment demand**, denominated in decisions, and it inherits — does not escape — the
 counting-procedure debt already booked for conservation.
 
@@ -59,8 +61,8 @@ neither community noticed they were describing one thing).
 
 ## What "cost" is
 
-"Cost" cannot stay a vibe with axes, or it is exactly the unpinned quantity the review caught in
-"demand." So, precisely:
+"Cost" cannot stay a vibe with axes, or it is an unpinned quantity of exactly the kind "demand"
+itself once was. So, precisely:
 
 **Cost is not tokens, dollars, or wall-clock time.** Those are *substrate-specific prices* — they
 vary by actor (a human-hour versus a GPU-second), so they cannot be the quantity the projection is

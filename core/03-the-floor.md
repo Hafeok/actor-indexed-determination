@@ -154,8 +154,7 @@ absence:
 
 This is more useful than the original, because it tells you *where to look*: to lower a task's floor,
 you do not train harder — **you find or construct a closing predicate.** That is the move that
-actually works, and it is the move the whole software-projection apparatus operationalises (contracts, checks,
-the encode/verify split).
+actually works.
 
 **Retired:** the slogan *"there is no tacit knowledge in digital work."* Not defensible against
 Collins's collective tacit knowledge, and not needed — the predicate-located version is both correct

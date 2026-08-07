@@ -7,8 +7,6 @@ establishes: [determination-intelligence-separation|determination is not intelli
 status: settled
 -->
 
-**Destination:** `core/07-determination-and-intelligence.md`
-
 **Status.** The positive claim (*determination ≠ intelligence*) is a **consequence** of the
 admission tests and is not optional — the framework collapses without it. The negative result
 (*the LLM-intelligence debate is structurally undecidable*) is a **derivation** from the

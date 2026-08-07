@@ -3,14 +3,13 @@
 <!-- ddd:contract
 
 requires: []
-establishes: [determination, decision, ground, tolerance, admission-test, actor, arrangement, last-decision|last decision in the chain]
+establishes: [determination, decision, ground, tolerance, admission-test, actor, arrangement, last-decision|last decision in the chain, poisoned-ground|poisoned ground, granularity-bound|granularity bound, encode-verify-split|encode/verify split]
 status: settled
 -->
 
-*Register note: where this document says "the law," read "the principle" — the framework's own
-claim is a principle, not a law (see `01`, "Register"). The word "law" is retained below only
-where it refers to **Tesler's** or **Ashby's** laws, or is used as a deliberate rhetorical foil
-("a law about X").*
+*Register note: the framework's own claim is a principle, not a law (see `01`, "Register"). The
+word "law" is retained below only where it refers to **Tesler's** or **Ashby's** laws, or is used
+as a deliberate rhetorical foil ("a law about X").*
 
 **Status:** the reframing is a clarification, not a new claim. It changes nothing about what the
 principle asserts, only about what it is understood to range over. The load-bearing claims are
@@ -22,26 +21,23 @@ for those.
 
 ## 1. The collapse
 
-The framework has been carrying a distinction it does not need, and the distinction has been
-hiding what the law is about.
-
-We spoke of **governing decisions** as decisions *about an act* — the act was the primitive, the
-decisions were the specification wrapped around it. Decide the constraints, then act.
-
 **There is no act.**
 
-"Which voltage to the motor, now" is a decision. "Which word next" is a decision. "Fire or hold"
-is a decision. Descend as far as you like and you never reach a floor of *pure action* that
-decisions merely describe. It is decisions the whole way down. What we called *the act* was the
-**last decision in the chain** — the one closest to the world, whose determination is expressed
-rather than passed on.
+It is tempting to treat the act as the primitive and decisions as the
+specification wrapped around it: decide the constraints, then act. But
+"which voltage to the motor, now" is a decision. "Which word next" is a
+decision. "Fire or hold" is a decision. Descend as far as you like and you
+never reach a floor of pure action that decisions merely describe. It is
+decisions the whole way down. What looked like the act was the last
+decision in the chain — the one closest to the world, whose determination
+is expressed rather than passed on.
 
 <!-- ddd:embed id=term:last-decision -->
 > The **last decision in the chain** — the one closest to the world, whose determination is
 > expressed rather than passed on.
 <!-- /ddd:embed -->
 
-> **The law is not about building. It is about the requirements for making a determinate choice
+> **The principle is not about building. It is about the requirements for making a determinate choice
 > at all.**
 
 It reads as a law about software engineering for the same reason thermodynamics reads as a law
@@ -73,13 +69,24 @@ The apparatus holds against this without strain:
 
 | Apparatus | A statement about |
 |---|---|
-| The four stores | *where the determination lives* |
+| The four stores (`01`) | *where the determination lives* |
 | The Polanyi floor | *how much determination can be moved off an actor* |
-| The seam-demand identity | *decisions created between decomposed decisions* |
+| The seam-demand identity (`06`) | *decisions created between decomposed decisions* |
 | Poisoned ground | *corrupting what a determination reads against* |
-| The encode/verify split | *whether you author the ground a determination reads* |
+| The encode/verify split | *dividing demand between encoding before the act and verifying after it* |
 | Tolerance | *which choices count as decisions at all* |
-| Assurance | *how much evidence the allocation must carry* |
+| Assurance (`01`) | *how much evidence the allocation must carry* |
+
+<!-- ddd:embed id=term:poisoned-ground -->
+> **Poisoned ground** — ground that is present but false: the substrate a determination reads has
+> been corrupted, so a correct determiner resolves wrongly with full authority. The logic is
+> sound; the ground is the attack surface.
+<!-- /ddd:embed -->
+
+<!-- ddd:embed id=term:encode-verify-split -->
+> The **encode/verify split** — the division of a determination's demand between pre-resolving
+> ground into the encoded store before the act and verifying the residual mechanically after it.
+<!-- /ddd:embed -->
 
 Nothing needs a third primitive. Nothing is left over.
 
@@ -133,6 +140,12 @@ Same tolerance, same granularity bound; two different things varied.
 > declared tolerance. Without one, the decision set is not well-formed.
 <!-- /ddd:embed -->
 
+<!-- ddd:embed id=term:granularity-bound -->
+> The **granularity bound** — the tolerance-indexed criterion fixing which choices enter the
+> governing set: a choice is a governing decision iff varying it moves the outcome past the
+> declared tolerance.
+<!-- /ddd:embed -->
+
 These tests **exclude**, and must be allowed to. A rock falling is not deciding where to land.
 Describing it in choice-language is *you authoring ground, not the rock reading it* — it inspects
 nothing, nothing it "reads" could vary and change what it does, and there is no substrate against
@@ -148,7 +161,7 @@ nothing.**
 
 ## 5. The name
 
-*Full treatment: `01-the-principle.md` ("Register") and `meta/lineage-and-limits.md`.*
+*Full treatment: `01-the-principle.md` ("Register").*
 
 The reframing forces a naming question, and the answer is a **two-level structure**, not a
 replacement — and, after external review, a **downgrade of register.**
@@ -171,7 +184,7 @@ So the two-level structure is:
 >
 > ### Conservation of Specification Demand
 > *(the **engineering projection** — the same principle, denominated in the vocabulary of a domain
-> where determinations are called specifications; see the software projection.)*
+> where determinations are called specifications.)*
 
 **Specification is what determination demand is called when the actor is building software.**
 
@@ -194,7 +207,7 @@ The obvious account — *we only had humans in the choice-making category* — i
 right.
 
 **Classical programs were always actors**, degenerate ones, every decision pre-made at authoring
-time. And that is *why* the law stayed invisible. A program **cannot take** an unallocated
+time. And that is *why* the principle stayed invisible. A program **cannot take** an unallocated
 decision; its judgment store is fixed at zero. So the allocation question had two answers: encode
 it, or a human carries it. Not a spectrum. **A light switch.**
 
@@ -207,7 +220,7 @@ judgment store has a **carrier that is neither a person nor zero.**
 The allocation became **continuous**. Demand can now sit anywhere on the spectrum, placement is a
 real choice with real prices, and — decisively — **it can be got wrong in ways that look right.**
 
-> **The law was always true. It was unobservable, because the demand had nowhere to go.**
+> **The principle was always true. It was unobservable, because the demand had nowhere to go.**
 >
 > **A conserved quantity is invisible until something moves.**
 
@@ -227,5 +240,5 @@ actor existed to move it.
 
 ## 7. The one line
 
-> **The law does not describe how to build things. It describes what is required to determine
+> **The principle does not describe how to build things. It describes what is required to determine
 > anything at all — and what necessarily happens to a determination nobody makes.**
