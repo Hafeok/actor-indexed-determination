@@ -91,7 +91,7 @@ the **assurance level** (`00`, admission tests):
 
 Below tolerance, a choice is not a governing decision and is not in the accounting at all — it is
 *substrate*, inspected in order to act, not demand to be allocated. This is what keeps the store
-count finite (see the finiteness argument in `03-the-floor.md`, which depends on it): raise the
+count finite: raise the
 assurance level and more choices cross into the governing set; lower it and fewer do. The partition
 is complete *at a declared tolerance*, and undefined without one.
 

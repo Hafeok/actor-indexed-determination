@@ -25,7 +25,7 @@ for those.
 The framework has been carrying a distinction it does not need, and the distinction has been
 hiding what the law is about.
 
-We spoke of **governing decisions** as decisions *about an act* — the act was the primitive, the
+Earlier statements of the framework spoke of **governing decisions** as decisions *about an act* — the act was the primitive, the
 decisions were the specification wrapped around it. Decide the constraints, then act.
 
 **There is no act.**
@@ -73,13 +73,13 @@ The apparatus holds against this without strain:
 
 | Apparatus | A statement about |
 |---|---|
-| The four stores | *where the determination lives* |
+| The four stores (`01`) | *where the determination lives* |
 | The Polanyi floor | *how much determination can be moved off an actor* |
-| The seam-demand identity | *decisions created between decomposed decisions* |
+| The seam-demand identity (`06`) | *decisions created between decomposed decisions* |
 | Poisoned ground | *corrupting what a determination reads against* |
 | The encode/verify split | *whether you author the ground a determination reads* |
 | Tolerance | *which choices count as decisions at all* |
-| Assurance | *how much evidence the allocation must carry* |
+| Assurance (`01`) | *how much evidence the allocation must carry* |
 
 Nothing needs a third primitive. Nothing is left over.
 
@@ -148,7 +148,7 @@ nothing.**
 
 ## 5. The name
 
-*Full treatment: `01-the-principle.md` ("Register") and `meta/lineage-and-limits.md`.*
+*Full treatment: `01-the-principle.md` ("Register").*
 
 The reframing forces a naming question, and the answer is a **two-level structure**, not a
 replacement — and, after external review, a **downgrade of register.**
@@ -171,7 +171,7 @@ So the two-level structure is:
 >
 > ### Conservation of Specification Demand
 > *(the **engineering projection** — the same principle, denominated in the vocabulary of a domain
-> where determinations are called specifications; see the software projection.)*
+> where determinations are called specifications.)*
 
 **Specification is what determination demand is called when the actor is building software.**
 

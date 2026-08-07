@@ -395,7 +395,7 @@ terms:
     status: settled
     canonical_md: |
       **A swarm is an actor only if it genuinely determines choices against ground.** The admission
-      tests (§4) still gate, and they must.
+      tests (`00` §4) still gate, and they must.
   - id: term:immune-system
     term: immune-system
     aliases: [immune system]

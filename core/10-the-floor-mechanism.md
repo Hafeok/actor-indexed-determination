@@ -7,7 +7,7 @@ establishes: [capacity, overflow, escape-mechanism|overflow ∩ open, p-err|p_er
 status: settled
 -->
 
-**Location:** `core/10-the-floor-mechanism.md`. Completes `core/03` (the floor is in the acceptance
+Completes `core/03` (the floor is in the acceptance
 predicate) by supplying the *mechanism*: how, and exactly when, demand escapes. Depends on the
 measure (`core/09`), the matched-pair invariant (`core/06`), and the closure principle (an actor's own prior output is not ground). Reproduction: `assets/floor-mechanism.py` and `assets/perr-rate-distortion.py`.
 
@@ -201,8 +201,8 @@ It satisfies condition (2) by construction, so the moment condition (1) is met (
 sits in the escape intersection and fails *silently*.
 
 Its reliability is therefore not authored in — it is `1 − (overflow × openness)`, and it degrades
-under load. *"We can't trust a skill works as intended"* is the correct verdict, mechanically: an
-unverified skill is protected from overflow-escape by nothing. Its full treatment lives in the software projection.
+under load. That an unverified skill cannot be trusted to work as intended is the correct verdict,
+mechanically: an unverified skill is protected from overflow-escape by nothing.
 
 ---
 

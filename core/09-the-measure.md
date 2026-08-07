@@ -7,13 +7,11 @@ establishes: [verdict|verdict function, verdict-entropy|verdict entropy, chain-r
 status: settled
 -->
 
-**A formal note.** Location: `core/09-the-measure.md`. Reproduction scripts in
-`core/assets/measure-*.py`. Also suitable as a standalone paper
-(*"Determination Demand Is Verdict Entropy: Conservation as the Chain Rule"*).
+**A formal note.** Reproduction scripts in `core/assets/measure-*.py`.
 
 **Claims.** The propositions of this note are landed as claim nodes under `core/claims/`
 (`DDD-measure-*`); canon authority for each is its claim file, and this document is their
-exposition (canon authority lives in the claim files; see `CLAUDE.md`). The mapping:
+exposition (canon authority lives in the claim files; see `core/claims/README.md`). The mapping:
 
 | Section | Proposition | Claim |
 |---|---|---|
@@ -291,7 +289,7 @@ identical verdict entropy can differ unboundedly in generation cost — a lookup
 instance over the same input space carry the same `H(verdict)`, and one is answered by indexing
 while the other is NP-hard to solve. Closure decides whether the floor is zero and whether the
 measure exists; generation cost is a second, independent variable the measure does not see
-(`core/03` §2, `core/04` §2). The two quantities this release separates must not be re-fused through
+(`core/03` §2, `core/04` §2). The two quantities are separated deliberately and must not be re-fused through
 the measure.
 
 ---

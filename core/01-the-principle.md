@@ -7,7 +7,7 @@ establishes: [demand|determination demand, conservation|conservation principle, 
 status: settled
 -->
 
-**Read `00-determination.md` first.** It establishes the two primitives (decisions and ground)
+**Read `00-primitives.md` first.** It establishes the two primitives (decisions and ground)
 and the admission tests. This document states the principle those primitives obey.
 
 ---
@@ -41,7 +41,7 @@ law that overclaims.
 > Reduce the demand in one store and it **relocates**; it does not vanish.
 <!-- /ddd:embed -->
 
-Two qualifiers carry the whole weight, and both are concessions the review forced:
+Two qualifiers carry the whole weight, and both are deliberate concessions:
 
 **"At a declared assurance level."** Two distinct variables live under this qualifier and must not
 be fused: **tolerance** — which outcome deviations are acceptable — and **assurance** — the strength

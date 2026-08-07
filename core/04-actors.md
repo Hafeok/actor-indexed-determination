@@ -7,11 +7,8 @@ establishes: [pinning-resolution|pinning resolution, selection, training]
 status: settled
 -->
 
-**Destination:** `core/04-actors.md`
-
 **Status.** This is the part of the framework with the least prior art and the strongest claim to
-novelty. It survived external adversarial review intact — not because it was overlooked, but
-because there is little to hit it with: the classical results have an **actor slot that nobody
+novelty: the classical results have an **actor slot that nobody
 filled in**, and this document fills it.
 
 The load-bearing claims here are:
@@ -20,7 +17,7 @@ The load-bearing claims here are:
 2. The **intrinsic floor is a property of the acceptance predicate, not of the decision** — which
    yields *selection intensity is inversely proportional to predicate closure.*
 3. Composite actors allocate **seam demand** across the same four stores, and *seam occupancy* —
-   actor vs. mechanism — is a real design fork with a real price.
+   actor vs. mechanism — is a real design fork with a real price (`06`).
 4. **Re-indexing the classical laws by actor changes their predictions.** This is the contribution.
 
 ---
@@ -224,7 +221,7 @@ That is checkable against existing professional data, with both factors independ
 
 **Guard against unfalsifiability.** "Cost" must be operationalised by that proxy and fixed in
 advance. Otherwise any observed ratio can be explained post hoc by positing an unmeasured cost —
-which is exactly the failure mode the conservation claim was corrected for in v4.0. **Pre-register the
+which is exactly the failure mode the conservation claim was previously corrected for. **Pre-register the
 cost proxy, or the claim is not a claim.**
 
 ---
@@ -517,7 +514,7 @@ addresses.
 ## 7. The honest statement of the contribution
 
 Not *"I have reframed Tesler, Ashby, Brooks, Meyer, and Kalman."* That is true, and it will read as
-grandiose, and it will be dismissed for the reasons the adversarial review already gave.
+grandiose, and it will be dismissed.
 
 The defensible framing is smaller and lands harder:
 

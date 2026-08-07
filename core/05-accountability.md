@@ -7,20 +7,15 @@ establishes: [accountability, attribution, answerability, liability, assurance-t
 status: settled
 -->
 
-**Destination:** `core/05-accountability.md` — immediately after `04-actors.md`, which it extends.
-This seats accountability with the actor model and shifts former `05`–`09` to `06`–`10` (see the
-canon patch register, P3.1). Actor-general, denominated in determinations. Depends on `00` (admission tests), `01` (the four stores), `03` (the
-floor lives in the acceptance predicate) and `04` (pinning-resolution spectrum). Forward-references
-`09` (the measure) and `10` (escape = overflow ∩ open), both of which now sit later in the read
-order; the dependency is citational, not definitional.
+Extends `04-actors.md`. Actor-general, denominated in determinations. Depends on `00` (admission
+tests), `01` (the four stores), `03` (the floor lives in the acceptance predicate) and `04`
+(pinning-resolution spectrum). Forward-references `09` (the measure) and `10` (escape = overflow ∩
+open), both later in the read order; the dependency is citational, not definitional.
 
 **Status: projected.** Derived, unexercised. Falsifiers stated per claim. Nothing here is reported.
 
-This document **introduces** two things core does not currently contain: an accountability condition
-on actors (§§1–6) and the **assurance tower** (§7). Neither is cited from elsewhere in the repo, so
-there are no dangling forward-references — but §7 is a substantive addition in its own right, and if
-the tower is held back for a later release, §§1–6 stand without it and §7 lifts out cleanly. One
-edit to `01`'s store table ships alongside (register P3.3).
+This document **introduces** two things core does not otherwise contain: an accountability condition
+on actors (§§1–6) and the **assurance tower** (§7).
 
 ---
 
@@ -127,14 +122,13 @@ What is required is a continuity binding act to consequence:
 
 > **The thing sanctioned later must be identifiably the thing that determined earlier.**
 
-This makes the condition **provenance-shaped, and therefore checkable**. Attribution over a
-
 <!-- ddd:embed id=term:attribution -->
 > **Attribution** — provenance-shaped, and therefore checkable: the record connecting the
 > determination to the execution that produced it.
 <!-- /ddd:embed -->
-determination record is not documentation *of* accountability; it is the substrate that makes
-accountability capacity computable rather than assumed.
+
+Attribution over a determination record is not documentation *of* accountability; it is the
+substrate that makes accountability capacity computable rather than assumed.
 
 ---
 
@@ -226,8 +220,8 @@ immediate cost, and suppressing it does not.
 ## 6. The two roles in the Judgment store
 
 `01` gives Judgment's source as *an actor reading ground*. That is correct and stays. It elides one
-distinction that matters as soon as the executing actor is not a human — and the elision is patched
-directly into `01`'s store table alongside this chapter (canon patch register, P3.3):
+distinction that matters as soon as the executing actor is not a human — and `01`'s store table now carries the
+split:
 
 - **Executor** — the actor making the determination this run.
 - **Accountable party** — the actor bound to it afterwards.
