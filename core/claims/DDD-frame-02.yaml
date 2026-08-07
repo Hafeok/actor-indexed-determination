@@ -10,4 +10,4 @@ test: >-
 owner: none
 changed: v4.4
 notes: |
-  UNVERIFIED — Emil review. The three commitment levels (outcome/policy/principal) appear only in the session-authored scaffolding (meta/way-of-working §4, meta/graph-tool-ontology §2) as the decision node's commitmentLevel, not in any core/ document as a claim about behavioural commitments. Cannot verify against canon; flagged, not struck.
+  UNVERIFIED — Emil review. The three commitment levels (outcome/policy/principal) appear only in the session-authored scaffolding (meta/way-of-working §4, meta/graph-tool-ontology §2 — pre-split scaffolding that did not migrate; neither file is present in this repository) as the decision node's commitmentLevel, not in any core/ document as a claim about behavioural commitments. Cannot verify against canon; flagged, not struck.
