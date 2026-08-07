@@ -87,6 +87,14 @@ terms:
       > The **granularity bound** — the tolerance-indexed criterion fixing which choices enter the
       > governing set: a choice is a governing decision iff varying it moves the outcome past the
       > declared tolerance.
+  - id: term:encode-verify-split
+    term: encode-verify-split
+    aliases: [encode/verify split]
+    established_by: 00-primitives.md
+    status: settled
+    canonical_md: |
+      > The **encode/verify split** — the division of a determination's demand between pre-resolving
+      > ground into the encoded store before the act and verifying the residual mechanically after it.
   - id: term:demand
     term: demand
     aliases: [determination demand]
