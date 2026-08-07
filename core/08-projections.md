@@ -12,7 +12,9 @@ compound loop in composition (`06`). Patch addition to the shipped 4.0 core.
 
 **Status:** the correction in this document (funnel as *cost*, not *count*) resolves a modelling
 error that produced spurious feedback loops in the reference model. That diagnostic history is
-reported, not projected — see §5. This revision also makes "cost" precise (§"What cost is"): it is
+**projected, not reported** — demoted: the reference model that exhibited the loops is not in
+`core/assets/` and no computation in this repository reproduces it (`assets/projections.html`
+illustrates the corrected reading; it is not the diagnostic run). See §5. This revision also makes "cost" precise (§"What cost is"): it is
 **judgment demand**, denominated in decisions, and it inherits — does not escape — the
 counting-procedure debt already booked for conservation.
 
