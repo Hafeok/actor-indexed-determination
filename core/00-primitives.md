@@ -7,10 +7,9 @@ establishes: [determination, decision, ground, tolerance, admission-test, actor,
 status: settled
 -->
 
-*Register note: where this document says "the law," read "the principle" — the framework's own
-claim is a principle, not a law (see `01`, "Register"). The word "law" is retained below only
-where it refers to **Tesler's** or **Ashby's** laws, or is used as a deliberate rhetorical foil
-("a law about X").*
+*Register note: the framework's own claim is a principle, not a law (see `01`, "Register"). The
+word "law" is retained below only where it refers to **Tesler's** or **Ashby's** laws, or is used
+as a deliberate rhetorical foil ("a law about X").*
 
 **Status:** the reframing is a clarification, not a new claim. It changes nothing about what the
 principle asserts, only about what it is understood to range over. The load-bearing claims are
@@ -38,7 +37,7 @@ is expressed rather than passed on.
 > expressed rather than passed on.
 <!-- /ddd:embed -->
 
-> **The law is not about building. It is about the requirements for making a determinate choice
+> **The principle is not about building. It is about the requirements for making a determinate choice
 > at all.**
 
 It reads as a law about software engineering for the same reason thermodynamics reads as a law
@@ -208,7 +207,7 @@ The obvious account — *we only had humans in the choice-making category* — i
 right.
 
 **Classical programs were always actors**, degenerate ones, every decision pre-made at authoring
-time. And that is *why* the law stayed invisible. A program **cannot take** an unallocated
+time. And that is *why* the principle stayed invisible. A program **cannot take** an unallocated
 decision; its judgment store is fixed at zero. So the allocation question had two answers: encode
 it, or a human carries it. Not a spectrum. **A light switch.**
 
@@ -221,7 +220,7 @@ judgment store has a **carrier that is neither a person nor zero.**
 The allocation became **continuous**. Demand can now sit anywhere on the spectrum, placement is a
 real choice with real prices, and — decisively — **it can be got wrong in ways that look right.**
 
-> **The law was always true. It was unobservable, because the demand had nowhere to go.**
+> **The principle was always true. It was unobservable, because the demand had nowhere to go.**
 >
 > **A conserved quantity is invisible until something moves.**
 
@@ -241,5 +240,5 @@ actor existed to move it.
 
 ## 7. The one line
 
-> **The law does not describe how to build things. It describes what is required to determine
+> **The principle does not describe how to build things. It describes what is required to determine
 > anything at all — and what necessarily happens to a determination nobody makes.**

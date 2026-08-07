@@ -106,7 +106,7 @@ must be checked and destroyed before licensing.
 > **Diversity is not free judgment. It is judgment bought with time, energy, and an obligatory
 > verification apparatus.**
 
-That is the price of covering a floor you cannot encode away — and it is exactly the price the law
+That is the price of covering a floor you cannot encode away — and it is exactly the price the principle
 says must be paid somewhere.
 
 ### 1.6 The gate on swarms
@@ -143,7 +143,7 @@ Nobody wrote its specification. And yet:
 
 All four stores, physically instantiated, with the correct cost structures. Conservation is visible
 in the forced split: innate is fast and cannot handle novelty; adaptive handles novelty and is
-slow. **The organism runs both because neither store can carry the whole demand** — the law forcing
+slow. **The organism runs both because neither store can carry the whole demand** — the principle forcing
 a split, not an engineering preference.
 
 **And both poisoned-ground attacks, with no metaphor in between:**
@@ -172,7 +172,7 @@ protein instead of packets or intel.
 mechanical-verification organ, a genuine Polanyi floor, an ensemble actor, and both poisoned-ground
 attacks — that **evolved**, with no specifier anywhere.
 
-If the law were about engineering, it could not be here.
+If the principle were about engineering, it could not be here.
 
 It is here. So it is not.
 
