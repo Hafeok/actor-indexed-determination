@@ -3,7 +3,7 @@
 <!-- ddd:contract
 
 requires: []
-establishes: [determination, decision, ground, tolerance, admission-test, actor, arrangement, last-decision|last decision in the chain, poisoned-ground|poisoned ground, granularity-bound|granularity bound, encode-verify-split|encode/verify split]
+establishes: [determination, decision, ground, tolerance, admission-test, actor, arrangement, last-decision|last decision in the chain, poisoned-ground|poisoned ground, granularity-bound|granularity bound, encode-verify-split|encode/verify split, act]
 status: settled
 -->
 
@@ -21,7 +21,7 @@ for those.
 
 ## 1. The collapse
 
-**There is no act.**
+**There is no act beneath the decisions.**
 
 It is tempting to treat the act as the primitive and decisions as the
 specification wrapped around it: decide the constraints, then act. But
@@ -43,6 +43,21 @@ is expressed rather than passed on.
 It reads as a law about software engineering for the same reason thermodynamics reads as a law
 about steam engines to someone standing next to one. Engineering is where we found it. It is not
 what it is about.
+
+The collapse removes the act as a floor. It does not remove the act as a unit. The chain
+terminates: the last decision is expressed, an outcome exists, and the outcome is judged.
+Reclaim the name for that bounded episode.
+
+<!-- ddd:embed id=term:act -->
+> The **act** — the bounded episode of determination running from its first governing
+> decision to an expressed outcome; the unit demand is counted in. Derived, not primitive:
+> an act is decisions resolved against ground. Its exact individuation is earned in `09` —
+> one verdict, one act, where the measure exists.
+<!-- /ddd:embed -->
+
+There is no act *beneath* the decisions. There is an act *made of* them. The document
+already knew this: the encode/verify split is stated relative to the act, and the
+admission tests presuppose an outcome to judge.
 
 ---
 
@@ -88,7 +103,8 @@ The apparatus holds against this without strain:
 > ground into the encoded store before the act and verifying the residual mechanically after it.
 <!-- /ddd:embed -->
 
-Nothing needs a third primitive. Nothing is left over.
+Nothing needs a third primitive. Nothing is left over. The act (§1) is not a third; it is
+composed of the two.
 
 ---
 

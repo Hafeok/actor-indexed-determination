@@ -69,6 +69,15 @@ terms:
     canonical_md: |
       > The **last decision in the chain** — the one closest to the world, whose determination is
       > expressed rather than passed on.
+  - id: term:act
+    term: act
+    established_by: 00-primitives.md
+    status: settled
+    canonical_md: |
+      > The **act** — the bounded episode of determination running from its first governing
+      > decision to an expressed outcome; the unit demand is counted in. Derived, not primitive:
+      > an act is decisions resolved against ground. Its exact individuation is earned in `09` —
+      > one verdict, one act, where the measure exists.
   - id: term:poisoned-ground
     term: poisoned-ground
     aliases: [poisoned ground]
