@@ -7,8 +7,8 @@ establishes: [ensemble-actor|ensemble actor, diversity, redundancy, swarm-gate|t
 status: settled
 -->
 
-**Read `00` through `10` first.** This is the capstone worked instance: it is legal only after
-`10` supplies capacity and overflow, because ensemble theory (diversity carrying judgment demand
+**Read `00` through `11` first.** This is the capstone worked instance: it is legal only after
+`11` supplies capacity and overflow, because ensemble theory (diversity carrying judgment demand
 that exceeds any single actor's capacity) depends on them.
 
 ## 1. Ensemble actors

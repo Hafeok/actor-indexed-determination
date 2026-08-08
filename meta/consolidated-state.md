@@ -304,7 +304,7 @@ claims — see §4).
   p_err = H_b^-1(1 - C/n), the information-theoretic lower bound on per-decision error at
   available rate r = C/n. Limits are exact (r>=1 -> 0; r->0 -> 0.5, recovering the hard-case
   coin flip). Substituting it for the earlier assumed logistic changes the numbers and no
-  structural claim. See core/10 §4.1.
+  structural claim. See core/11 §4.1.
 - Measuring demand on OPEN predicates. **NOT A DEBT — A STATED BOUNDARY.** core/09 measures
   demand as verdict entropy, which requires a verdict function; an open predicate is precisely
   one that lacks it. Asking to measure demand there is asking for entropy without a random

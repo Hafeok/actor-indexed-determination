@@ -383,14 +383,14 @@ terms:
       > **I(verdict ; S)** is **seam demand** — what the *decomposition choice* absorbed.
   - id: term:capacity
     term: capacity
-    established_by: 10-the-floor-mechanism.md
+    established_by: 11-the-floor-mechanism.md
     status: settled
     canonical_md: |
       > An actor's **capacity** is two-fold: **hold capacity** — the bits of ground it can have in
       > context at once — and **resolve capacity** — the bits it can jointly resolve.
   - id: term:overflow
     term: overflow
-    established_by: 10-the-floor-mechanism.md
+    established_by: 11-the-floor-mechanism.md
     status: settled
     canonical_md: |
       > **Hold-overflow** — the decision's governing ground does not fit. **Resolve-overflow** —
@@ -399,7 +399,7 @@ terms:
   - id: term:escape-mechanism
     term: escape-mechanism
     aliases: [overflow ∩ open]
-    established_by: 10-the-floor-mechanism.md
+    established_by: 11-the-floor-mechanism.md
     status: settled
     canonical_md: |
       > **Escape requires two conditions, both necessary:**
@@ -413,7 +413,7 @@ terms:
   - id: term:p-err
     term: p-err
     aliases: [p_err]
-    established_by: 10-the-floor-mechanism.md
+    established_by: 11-the-floor-mechanism.md
     status: settled
     canonical_md: |
       > `p_err` is **derived** from rate-distortion theory, not assumed — the error rate rises
@@ -421,20 +421,20 @@ terms:
   - id: term:ensemble-actor
     term: ensemble-actor
     aliases: [ensemble actor]
-    established_by: 11-the-licensing-instance.md
+    established_by: 12-the-licensing-instance.md
     status: settled
     canonical_md: |
       > **The choice is a property of the ensemble, and it exists nowhere in any member.**
   - id: term:diversity
     term: diversity
-    established_by: 11-the-licensing-instance.md
+    established_by: 12-the-licensing-instance.md
     status: settled
     canonical_md: |
       > **Diversity in a population is how you carry judgment demand that exceeds any single actor's
       > capacity.**
   - id: term:redundancy
     term: redundancy
-    established_by: 11-the-licensing-instance.md
+    established_by: 12-the-licensing-instance.md
     status: settled
     canonical_md: |
       > **Redundancy buys reliability. Diversity buys coverage.**
@@ -443,7 +443,7 @@ terms:
   - id: term:swarm-gate
     term: swarm-gate
     aliases: [the gate on swarms]
-    established_by: 11-the-licensing-instance.md
+    established_by: 12-the-licensing-instance.md
     status: settled
     canonical_md: |
       **A swarm is an actor only if it genuinely determines choices against ground.** The admission
@@ -451,5 +451,5 @@ terms:
   - id: term:immune-system
     term: immune-system
     aliases: [immune system]
-    established_by: 11-the-licensing-instance.md
+    established_by: 12-the-licensing-instance.md
     status: settled
