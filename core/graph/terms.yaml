@@ -365,6 +365,15 @@ terms:
       > The **chain-rule identification**: conditioning the verdict on any variable `X` splits
       > total demand, exactly, into what `X` encoded — `I(verdict; X)` — and what remains —
       > `H(verdict | X)`. The theorem is Shannon's; the identification is the framework's claim.
+  - id: term:act-individuation
+    term: act-individuation
+    aliases: [act individuation]
+    established_by: 09-the-measure.md
+    status: settled
+    canonical_md: |
+      > **Act individuation** — one act = one verdict of the acceptance predicate, where the
+      > predicate's measure exists; batch boundaries are verdict boundaries. The individuation
+      > inherits the predicate's discipline and adds no free parameter.
   - id: term:seam-information
     term: seam-information
     aliases: [I(V;S)]

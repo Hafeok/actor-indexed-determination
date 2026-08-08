@@ -2,8 +2,8 @@
 
 <!-- ddd:contract
 
-requires: [closure, acceptance-predicate, demand, conservation, seam, store, actor]
-establishes: [verdict|verdict function, verdict-entropy|verdict entropy, chain-rule-identification, seam-information|I(V;S)]
+requires: [closure, acceptance-predicate, demand, conservation, seam, store, actor, act]
+establishes: [verdict|verdict function, verdict-entropy|verdict entropy, chain-rule-identification, seam-information|I(V;S), act-individuation|act individuation]
 status: settled
 -->
 
@@ -67,6 +67,19 @@ So demand is not a count. It is a **measure**. And the measure is **Shannon info
 
 Demand is the information required to specify the correct answer over the ground the task faces. Not
 how many decisions — *how much distinction*.
+
+**The unit of account.** Every quantity in this note is **per-act** (`00` §1). `H(verdict)` is the
+demand of one act, and the identities below split per-act demand. The earlier statements carried an
+unexposed assumption: act volume was fixed at one. Exposing it revises nothing — volume is a
+parameter demand never sees; it prices supply, not the task, and belongs to the cost register, not
+to the conserved identity. The act's individuation is filed here because this is where the
+predicate's measure exists (§7):
+
+<!-- ddd:embed id=term:act-individuation -->
+> **Act individuation** — one act = one verdict of the acceptance predicate, where the
+> predicate's measure exists; batch boundaries are verdict boundaries. The individuation
+> inherits the predicate's discipline and adds no free parameter.
+<!-- /ddd:embed -->
 
 ---
 
