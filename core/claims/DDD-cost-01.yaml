@@ -1,0 +1,17 @@
+format: 1
+id: DDD-cost-01
+kind: conceptual
+statement: |
+  Bits are per-act on both sides of the demand identity; the asymmetry between I(V;E) and H(V|E) is locus of supply — a standing artifact built before any act versus a contemporaneous event paid at each act.
+status: projected
+region: |
+  closing-predicate region, where the measure exists; the cost register layered on the demand identity, not an amendment to it
+evidence: []
+falsifier: |
+  A case where the two sides of the identity denominate differently — a task whose encoded and judged bits cannot be brought to a common per-act unit.
+breaks: |
+  The cost register's common denominator; DDD-cost-03's two-part form would need re-derivation in mixed units.
+owner: none
+changed: v5.1 (2026-08-08, act-primitive session)
+notes: |
+  Files with the cost note. The per-act denomination itself is DDD-dec-08's resolution; this claim carries the locus-of-supply asymmetry as the falsifiable content.

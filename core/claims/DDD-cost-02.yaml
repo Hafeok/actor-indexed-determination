@@ -1,0 +1,23 @@
+format: 1
+id: DDD-cost-02
+kind: formal
+statement: |
+  Degeneracy: a cost model whose standing side is linear in I(V;E) yields a flat tradeoff — conservation forces dI = -dR exactly, so every crossover sits at N* = n·(α/β) and the whole frontier flips at once; a graded build-out therefore requires standing cost priced as mechanism description length, which is not a conserved quantity.
+status: reported
+region: |
+  identity consequence — any task with a defined verdict function; exercised on the date-validation task
+evidence:
+- kind: asset
+  ref: core/assets/measure-mdl-demo.py
+  note: >-
+    reproduces the degeneracy exactly: all inter-encoding densities 1.000, all crossovers at
+    N* = n(α/β) = 124 on the date task; the description-length form (model 2) then produces the
+    graded build-out the information-linear form cannot
+falsifier: |
+  — (identity consequence; fails only with the chain rule)
+credits: |
+  The identity is Shannon's chain rule; the two-part form is Rissanen's MDL. The degeneracy observation — that conservation makes information-linear standing cost crossover-degenerate — is the framework's.
+owner: none
+changed: v5.1 (2026-08-08, act-primitive session)
+notes: |
+  Reported as arithmetic, per the session ruling: the claim is an identity consequence exercised by the script, not an empirical finding about any production system.

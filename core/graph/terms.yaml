@@ -418,6 +418,26 @@ terms:
     canonical_md: |
       > `p_err` is **derived** from rate-distortion theory, not assumed — the error rate rises
       > *smoothly* with load.
+  - id: term:cost-register
+    term: cost-register
+    aliases: [cost register]
+    established_by: 10-cost.md
+    status: settled
+  - id: term:standing-cost
+    term: standing-cost
+    aliases: [standing cost]
+    established_by: 10-cost.md
+    status: settled
+  - id: term:occasioned-cost
+    term: occasioned-cost
+    aliases: [occasioned cost]
+    established_by: 10-cost.md
+    status: settled
+  - id: term:act-volume
+    term: act-volume
+    aliases: [act volume]
+    established_by: 10-cost.md
+    status: settled
   - id: term:ensemble-actor
     term: ensemble-actor
     aliases: [ensemble actor]

@@ -19,7 +19,8 @@ Read in order:
 - **07 — determination and intelligence** · determination ≠ intelligence; the LLM debate is structurally undecidable
 - **08 — projections** · the funnel & maturation as judgment-demand projections; the count/cost correction
 - **09 — the measure** · demand = Shannon entropy of the verdict; conservation = the chain rule; the counting debt paid for closing predicates
+- **10 — cost** · the cost register: standing vs occasioned supply, denominated per act; the degeneracy that forces description-length pricing; the MDL correspondence, projected
 - **11 — the floor mechanism** · escape = overflow ∩ open; p_err derived from rate-distortion; hallucination as surfaced escape
 - **12 — the licensing instance** · ensemble actors; diversity vs. redundancy; the swarm gate; the immune system as the test that licenses the general name — the capstone worked instance, legal only after 11
 
-The load-bearing, falsifiable claims are in **03**, **04**, **09**, and **11**. The honesty about register is in **01**. The graph of canonical terms is in `graph/terms.yaml`.
+The load-bearing, falsifiable claims are in **03**, **04**, **09**, **10**, and **11**. The honesty about register is in **01**. The graph of canonical terms is in `graph/terms.yaml`.
