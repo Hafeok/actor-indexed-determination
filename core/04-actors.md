@@ -346,7 +346,7 @@ And the consequence follows immediately, without needing to be observed first:
 wherever an open predicate is proxied by a manufactured closed one — not a bug to be engineered away
 by better reward modelling. Better reward models shrink the gap; they cannot close it, because closing
 it would mean the original predicate was not open after all. The framework says where the residual
-must live, and it is the same place the floor lives (`core/03`, `core/10`).
+must live, and it is the same place the floor lives (`core/03`, `core/11`).
 
 ### Cost decides the ratio — selection substituting for training
 

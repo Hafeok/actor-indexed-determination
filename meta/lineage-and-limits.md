@@ -113,7 +113,7 @@ socialization).
 **Correction:** our floor decomposition (intrinsic + transfer) maps onto *relational and somatic*
 TK but **denies collective TK**, which Collins's whole program says exists. See §2.2.
 
-**Why §1.8–§1.11 exist.** v4.1 (`core/09-the-measure.md`) and v4.2 (`core/10-the-floor-mechanism.md`) rest
+**Why §1.8–§1.11 exist.** v4.1 (`core/09-the-measure.md`) and v4.2 (`core/11-the-floor-mechanism.md`) rest
 almost entirely on information theory. Prior to this addendum, **Shannon appeared exactly once in the
 repository** — as a passing mention inside the Ashby section. That is an attribution failure of the
 same kind the framework corrected in v4.0, and it is corrected here on the same principle: **cite
@@ -130,7 +130,7 @@ The governing sentence for both new results:
 
 **"A Mathematical Theory of Communication," *Bell System Technical Journal* 27.**
 
-This is the foundation of everything in `core/09` and `core/10`. Specifically:
+This is the foundation of everything in `core/09` and `core/11`. Specifically:
 
 - **Entropy `H(X)`** — the measure of information in a random variable. `core/09` identifies
   *specification demand* with `H(verdict)`. The unit (bits) is Shannon's; the quantity is Shannon's;
@@ -154,7 +154,7 @@ closing-predicate region, is Shannon's chain rule — here is why that identific
 
 **"Coding Theorems for a Discrete Source with a Fidelity Criterion," IRE Nat. Conv. Rec. (1959).**
 
-`core/10` §4.1 derives the per-decision error rate under resolve-overflow as
+`core/11` §4.1 derives the per-decision error rate under resolve-overflow as
 
 > `p_err = H_b⁻¹(1 − r)`, `r = C_resolve / n`
 
@@ -174,12 +174,12 @@ model.
 **"Elements of Information Theory" (1991, 2nd ed. 2006).**
 
 The canonical reference for the chain rule, conditional entropy, mutual information, and
-rate-distortion as used throughout `core/09` and `core/10`. Any formal write-up should cite this for
+rate-distortion as used throughout `core/09` and `core/11`. Any formal write-up should cite this for
 the machinery rather than re-deriving it, and any reviewer will expect it.
 
-### 1.11 Hallucination taxonomies — prior art for `core/10` §6
+### 1.11 Hallucination taxonomies — prior art for `core/11` §6
 
-`core/10` decomposes hallucination into three causes (missing / poisoned / overflowed ground). The
+`core/11` decomposes hallucination into three causes (missing / poisoned / overflowed ground). The
 existing literature already partitions hallucination, and must be credited:
 
 - **Ji et al. (2023), "Survey of Hallucination in Natural Language Generation," *ACM Computing
@@ -187,7 +187,7 @@ existing literature already partitions hallucination, and must be credited:
 - **Huang et al. (2023), "A Survey on Hallucination in Large Language Models"** — the extended
   taxonomy.
 - **Xu, Jain & Kankanhalli (2024), "Hallucination is Inevitable"** and **Kalai & Vempala** — the
-  non-zero lower bound on model error, already cited in `core/03`, and the reason `core/10`'s escape
+  non-zero lower bound on model error, already cited in `core/03`, and the reason `core/11`'s escape
   cannot be driven to zero by capacity alone.
 
 **What DDD adds — and the honest limit of the claim.** The three-cause decomposition is *causal and
@@ -265,14 +265,14 @@ rather than be caught by:
   compute the worked examples.
 - **Bounded rationality** (Simon, 1955) and **rational inattention** (Sims, 2003) — the economics
   literature on agents with limited information-processing capacity, where Sims in particular models
-  attention as a Shannon channel with finite capacity. This is close prior art for `core/10`'s
+  attention as a Shannon channel with finite capacity. This is close prior art for `core/11`'s
   capacity model and should be cited: **the move of treating a decision-maker's capacity as an
   information channel is Sims's, not ours.** DDD's addition is the *verifier* condition — that
   capacity overflow only produces escape where no check catches the shed decision.
 
 ### The register sentence, for every future write-up
 
-> **`core/09` and `core/10` are applied information theory. Shannon supplied the entropy, the chain
+> **`core/09` and `core/11` are applied information theory. Shannon supplied the entropy, the chain
 > rule, and the rate-distortion bound; Sims supplied the channel model of a capacity-limited
 > decision-maker. What this framework contributes is the identification of specification demand with
 > verdict entropy, of seam demand with mutual information, and of escape with the intersection of
@@ -477,7 +477,7 @@ the cross-domain unification, universal "act is a decision" as anything more tha
 | `p_err` under resolve-overflow | **Shannon 1959** (rate-distortion) | we applied a bound, did not derive one |
 | Capacity as an information channel | **Sims 2003** (rational inattention); **Simon 1955** | the channel model of a decision-maker is Sims's |
 | Hallucination has kinds | **Ji et al. 2023**; **Huang et al. 2023** | our contribution is the *causal* split + distinct remedies |
-| Error cannot be driven to zero | **Xu et al. 2024**; **Kalai & Vempala** | already cited in `core/03`; also bounds `core/10` |
+| Error cannot be driven to zero | **Xu et al. 2024**; **Kalai & Vempala** | already cited in `core/03`; also bounds `core/11` |
 | Alternative demand formalisation | **Kolmogorov / MDL** | acknowledge the road not taken, and why |
 | Prefix ordering by stability | Martin (SDP) | the ordering principle is his |
 | The optimal ordering is rate/length | Smith 1956 (WSPT) | a known scheduling result, applied |

@@ -1,0 +1,30 @@
+format: 1
+id: DDD-cost-03
+kind: empirical
+statement: |
+  MDL correspondence: supply cost decomposes as L(mechanism) + N·H(V|E) — description length prices the standing side, entropy prices the occasioned side, and N is act volume.
+status: projected
+region: |
+  closing-predicate region; coefficients stipulated, not measured; correspondence to physical production cost is the projected content
+evidence:
+- kind: asset
+  ref: core/assets/measure-mdl-demo.py
+  note: >-
+    exercises the projected model (computable and non-degenerate); does not and cannot confirm
+    the correspondence — coefficients stipulated
+- kind: observation
+  ref: meta/mdl-cost-manufacturing-assessment-2026-08-08.md
+  note: >-
+    basis, not confirmation: public manufacturing data strongly consistent with the generic
+    two-part form but structurally unable to select the MDL form; experience-curve meta-analyses
+    are floor-free by construction (a floor term never tested); within-part moulding
+    cost-vs-volume data identified as the accessible discriminating test; no prior
+    MDL-to-manufacturing-cost application found
+falsifier: |
+  (a) within-task cost-vs-volume data whose crossover-curve shape contradicts the marginal condition N* = n·ΔL/ΔR; (b) occasioned per-act cost driven to zero at high volume under a partial mechanism (no non-zero occasioned floor).
+breaks: |
+  DDD-cost-04's regime reading loses its pricing mechanism; the capacity/escape denomination (DDD-cost-05) survives, it is not MDL-specific.
+credits: |
+  The two-part code is Rissanen's MDL; the identity beneath it is Shannon's. The identification with determination-supply cost is the framework's.
+owner: none
+changed: v5.1 (2026-08-08, act-primitive session)

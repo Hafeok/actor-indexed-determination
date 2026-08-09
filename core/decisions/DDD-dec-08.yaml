@@ -1,0 +1,36 @@
+format: 1
+id: DDD-dec-08
+kind: decision
+statement: |
+  The act is the unit of account — derived from the two primitives, individuated by verdict where the predicate closes; all demand and cost quantities are per-act.
+principal: Emil
+made: 2026-08-08, project session (act-primitive); ratified in-session, filed same day
+resolution: |
+  Reclaim "act" as the bounded episode of determination (00 §1) — derived, composed of the two
+  primitives, never a third. Individuation files with the measure (09), where the predicate's
+  measure exists: one act = one verdict of the acceptance predicate; batch boundaries are verdict
+  boundaries. All demand and cost quantities are per-act or per-act-aggregated; H(V) was already
+  per-verdict with act volume fixed at one, so the move exposes an assumption and revises no
+  result. Vocabulary ruling: "act", never "action", in this sense.
+basedOn:
+  - term:last-decision
+  - term:encode-verify-split
+  - term:admission-test
+  - term:acceptance-predicate
+  - DDD-measure-01
+  - DDD-measure-06
+  - core/assets/measure-mdl-demo.py
+notes: |
+  Basis, as ratified: (1) the N=1 exposure argument — every demand quantity was already
+  denominated per verdict with act volume implicitly one; volume is a parameter demand never
+  sees; (2) 00's prior load-bearing use of the term — the encode/verify embed is stated "before
+  the act / after it" and the admission tests presuppose an outcome to judge; the name was in
+  use, only the definition was missing; (3) core/assets/measure-mdl-demo.py as exercised
+  evidence that act volume is the parameter the cost layer needs and the demand identity never
+  mentions.
+
+  ID continuity: DDD-dec-01..07 stayed with the software projection at the repo split
+  (migration-report, "Decisions -> DDD" row). This repo's decisions continue the sequence at 08
+  so decision IDs stay unique across the whole graph; this is the first decision filed in the
+  principle repo, and core/decisions/ is created for it (CLAUDE.md already names the validator
+  invocation).
