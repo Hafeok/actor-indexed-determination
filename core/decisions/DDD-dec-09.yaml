@@ -1,0 +1,47 @@
+format: 1
+id: DDD-dec-09
+kind: decision
+statement: |
+  The boundary charter (R4): the principle layer is synchronic and stateless — one actor, one act, four stores; any statement requiring anything to persist between acts files with the projection. Applied to the cost layer by supersession: the per-act cost register stays in core/10; the volume-optimisation layer relocates.
+principal: Emil
+made: 2026-08-09, canon session (Wave 1 residual); ruled in-session
+resolution: |
+  Carve core/10-cost.md to the per-act layer, by supersession of the Wave-1 co-location plan
+  (DDD-dec-08's filing plan and the act-primitive session's Gate 1/Gate 4 rulings, which seated
+  one cost file, worked volume material inside, at core/10). The carve:
+
+  - DDD-cost-01 stays whole — the per-act denomination and locus-of-supply asymmetry are
+    synchronic.
+  - DDD-cost-02 keeps the per-act core: the flat tradeoff, density identically 1, forced by
+    conservation, and the consequence that pricing distinctions apart requires description-length
+    pricing. The volume corollary — every crossover at the same act volume N* = n·(α/β), the
+    frontier flipping at once, the graded build-out over volume — relocates as a new claim with
+    the software projection, citing DDD-cost-02 as basis.
+  - DDD-cost-03 keeps the rate-split — description length prices the standing side, entropy the
+    occasioned side — and the per-act occasioned-floor falsifier. The N-denominated total
+    L(mechanism) + N·H(V|E), the marginal condition, and the crossover-curve falsifier relocate
+    as a new claim with the software projection, citing DDD-cost-03 as basis.
+  - DDD-cost-04 relocates whole (the regime reading quantifies over act volume). The ID moves
+    with the claim: claims relocate, never renumber, and IDs are never reused.
+  - DDD-cost-05 stays — capacity and escape are denominated per act.
+  - term:act-volume relocates: no upstream statement may quantify over it under the charter.
+  - The projection pins the per-act identity (DDD-cost-01, DDD-cost-02, DDD-cost-03, term:act
+    and the register terms) via graph/upstream.yaml.
+basedOn:
+  - DDD-dec-08
+  - DDD-cost-01
+  - DDD-cost-02
+  - DDD-cost-03
+  - term:act
+notes: |
+  Basis update, not defect: PR #5 (the act-primitive session) was correctly governed under its
+  pre-charter basis — ratified input 5, "cost gets its own core file, after the measure",
+  predates the charter, and the session's gates were properly held and ruled. The charter is a
+  new sorting test (does the statement require anything to persist between acts?), issued
+  2026-08-09, applied here by supersession rather than correction. Nothing in the carved
+  material is demoted; every relocated statement keeps its filed status at its new home.
+
+  Relocation record (the graph's record of the move, per "record the move in the graph"):
+  DDD-cost-04 moves whole to the software projection's core/claims/; the volume halves of
+  DDD-cost-02 and DDD-cost-03 file there as new claims citing the upstream IDs as basis. The
+  upstream IDs keep the per-act statements.
