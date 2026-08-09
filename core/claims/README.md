@@ -9,9 +9,11 @@ Canon authority for a converted claim lives here, not in the prose it was extrac
 claim's `notes:`, not silently harmonised.
 
 **Areas held here (the principle layer):** `measure`, `frame` (actor-indexed determination),
-`floor`, `agent`. The software-projection areas — `tool`, `org`, `sim` — live with the projection
-repository and pin this repo's claims where they depend on them. New areas are cheap; renumbering is
-forbidden; retired claims keep their IDs (`DDD-measure-08` is the exemplar).
+`floor`, `agent`, and the per-act `cost` claims. The software-projection areas — `tool`, `org`,
+`sim` — live with the projection repository and pin this repo's claims where they depend on them,
+as do the volume-denominated `cost` claims relocated under the boundary charter (`DDD-dec-09`) —
+IDs travel with their claims and are never reused. New areas are cheap; renumbering is forbidden;
+retired claims keep their IDs (`DDD-measure-08` is the exemplar).
 
 **Flags awaiting Emil review.** Claims whose `notes:` carry `UNVERIFIED` could not be confirmed from
 repo contents — Paper A / foundation-revision material not yet in `core/` (`frame-01`, `frame-02`,

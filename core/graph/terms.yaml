@@ -433,11 +433,6 @@ terms:
     aliases: [occasioned cost]
     established_by: 10-cost.md
     status: settled
-  - id: term:act-volume
-    term: act-volume
-    aliases: [act volume]
-    established_by: 10-cost.md
-    status: settled
   - id: term:ensemble-actor
     term: ensemble-actor
     aliases: [ensemble actor]
