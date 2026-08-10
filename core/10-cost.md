@@ -25,6 +25,8 @@ The mapping:
 | §6 | The sign flip: closure reverses the assurance–class coupling, bounded by coverage | `DDD-cost-11` | projected |
 | §7 | Required class = max over the act's capabilities where assurance is not discharged | `DDD-cost-12` | projected |
 | §7 | Answer-keyed instruments evidence declared-predicate class only, never open carriage | `DDD-cost-13` | projected |
+| §8 | Around/within: encoding loci differ; training buys allocation, not capacity | `DDD-cost-20` | projected |
+| §9 | The claim layer is governed by the same two gates | `DDD-cost-22` | projected |
 
 Where this prose and a claim disagree, the claim governs and the prose is the bug.
 
@@ -240,7 +242,43 @@ pending, and files with the ledger layer's calibration construct.
 
 ---
 
-## 8. Reproduce
+## 8. Around and within: the carrier's two encodings
+
+Standing supply relates to a carrier at one of two loci. **Around-encoding** — context,
+retrieval, scaffolds — is standing supply outside the carrier, delivered through the channel at
+each act. **Within-encoding** — training — converts judgment allocation to encoded allocation
+inside the carrier. **Training buys allocation, not capacity: it does not enlarge the judgment
+store.** *(Claim `DDD-cost-20`, projected.)*
+
+Two precision points, carried from the session's corrections. Ownership of the carrier does not
+create a principal; it adds the **control linkage** — weights, training data, and change record
+governed, in `05`'s accountability register. And the locus distinction is per-act: which path an
+arrangement should take quantifies over act volume and closure, and files with the projection
+layer.
+
+---
+
+## 9. The claim layer: the same two gates
+
+A claim is an act with a deferred verdict (`09` §1; claim `DDD-frame-12`) — so the routing rule
+of §6 applies to it with no new mechanism. *(Claim `DDD-cost-22`, projected.)*
+
+- **Instrument toward closure** where the horizon permits: declared falsifier, metric, horizon.
+  Coverage investment on claim predicates obeys the same economics as coverage on any predicate;
+  its volume form files with the projection layer.
+- **Carrier assurance** where it does not: assurance attaches to the claimant by demonstrated
+  class. The instrument bound of §7 applies with full force here — **an answer-keyed instrument
+  cannot certify carriage of a deferred-verdict claim** (`DDD-cost-13`): the instrument's
+  predicate closes at examination time, and the claim's verdict has not arrived. The instrument
+  class for this gate is a record of matured verdicts — pending at queue item 2.12.
+
+Demand does not leave the claim layer when tooling ignores it; it escapes there — verification
+investment points at the layer below, and the claims ride ungoverned above it. Mixed inventories
+split, exactly as mixed acts do: instrument what can close, select claimants for the rest.
+
+---
+
+## 10. Reproduce
 
 One self-contained script regenerates every figure in this note:
 

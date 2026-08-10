@@ -88,6 +88,13 @@ individuates the outer act, one act regardless of how many inner verdicts fire i
 outer act; learning from rejections *across* acts persists between acts and is outside this
 repository's charter (`DDD-dec-09`).
 
+The individuation also extends in time: **a claim is an act with a deferred verdict** — one
+claim = one act, individuated by the verdict of its declared predicate at the declared
+boundary; the verdict event arrives at the declared horizon, and the act is in flight until it
+does. Nothing new is added — deferral moves only the verdict's time. *(Claim `DDD-frame-12`,
+projected; the deferred-verdict machinery is operable only with the ledger layer, outside this
+repository's charter.)*
+
 ---
 
 ## 2. The identity: conservation is the chain rule
