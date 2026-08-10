@@ -4,6 +4,34 @@ This repository starts a fresh changelog at the split. The combined `decision-dr
 history stays with the software-projection repository; the claim graph carries the epistemics
 regardless of git lineage.
 
+## v5.2.0 — the boundary charter applied to cost
+
+The boundary charter (R4, Emil 2026-08-09): the principle layer is synchronic and stateless —
+one actor, one act, four stores; any statement requiring anything to persist between acts files
+with the projection. Applied to the cost layer by supersession of the Wave-1 co-location plan —
+a basis update, not a defect. Decision filed as `DDD-dec-09`.
+
+### Changed
+- `core/10-cost.md` carved to the per-act layer: the register split (`DDD-cost-01`, whole), the
+  degeneracy's per-act core (flat tradeoff, density 1, conservation-forced), and the rate-split
+  (description length prices the standing side, entropy the occasioned side) with the per-act
+  occasioned-floor falsifier. Act volume, crossover volumes `N*`, and the `N`-denominated MDL
+  total relocate with the projection layer.
+- `core/claims/DDD-cost-02.yaml`, `DDD-cost-03.yaml` — statements re-cut to the per-act cores;
+  the volume halves file with the projection as new claims citing these IDs as basis.
+- `core/assets/measure-mdl-demo.py` trimmed to the per-act demonstrations: frontier, densities
+  (all 1.000 under information pricing), separation under description-length pricing, residual
+  floor. Volume sweeps relocate with the projection layer.
+
+### Removed (relocated, IDs intact)
+- `core/claims/DDD-cost-04.yaml` — the actor-table regime reading quantifies over act volume;
+  relocated whole per `DDD-dec-09`. Claims relocate, never renumber; the ID is not reused.
+- Term `act-volume` — no upstream statement may quantify over it under the charter.
+
+### Added
+- `core/decisions/DDD-dec-09.yaml` — the boundary charter applied to cost by supersession;
+  records the relocation map.
+
 ## v5.1.0 — the act as unit of account; the cost register
 
 The act reclaimed as the bounded episode of determination — derived, composed of the two
