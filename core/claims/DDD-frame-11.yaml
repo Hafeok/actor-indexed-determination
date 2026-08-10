@@ -1,0 +1,19 @@
+format: 1
+id: DDD-frame-11
+kind: conceptual
+statement: |
+  The governance question — is every decision governing the act in a declared store, none escaped? — is well-formed on the total domain, including open predicates where the measure does not exist; the cost question — how much is in each store? — exists only where the predicate closes. The framework's governed domain is strictly wider than its measured domain.
+status: projected
+region: |
+  All acts; the strict widening is claimed wherever open predicates exist.
+evidence: []
+falsifier: |
+  A governance audit question that cannot be posed without the measure; or a demand reduction (not relocation) demonstrated at fixed task, tolerance, and ground.
+test: |
+  Explanatory utility across open-predicate domains (claims, mission statements, architecture) where H(verdict) is undefined; a counterexample is an audit that needs the count.
+breaks: |
+  The count-free operational form; 09 §7's boundary would become a limit on governance, not only on measurement.
+owner: none
+changed: v5.3 (2026-08-10, Wave 2 curation session)
+notes: |
+  Emil's crystallisation of 2026-08-09 (holding note §12a), affirmed in session; sharpened wording filed at Wave 2 GATE A per ruling. The operational one-line — "for an act, every decision governing it must be supplied from one of the four stores; we do not care how many, we care that each is in one of the three and not escaped" — is flagged as candidate companion text for 00 §7. The measure-role addendum — "the measure's job is to exist, not to be computed; necessary for the warrant, unnecessary for the operation" — is flagged onward to the measure paper's framing near its §6. The corollary (placement and escape-prevention are the only games) follows from conservation and files as exposition, not a separate claim.

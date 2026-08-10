@@ -371,9 +371,9 @@ terms:
     established_by: 09-the-measure.md
     status: settled
     canonical_md: |
-      > **Act individuation** — one act = one verdict of the acceptance predicate, where the
-      > predicate's measure exists; batch boundaries are verdict boundaries. The individuation
-      > inherits the predicate's discipline and adds no free parameter.
+      > **Act individuation** — one act = one verdict of the acceptance predicate at the declared
+      > boundary, where the predicate's measure exists; batch boundaries are verdict boundaries.
+      > The individuation inherits the predicate's discipline and adds no free parameter.
   - id: term:seam-information
     term: seam-information
     aliases: [I(V;S)]
@@ -433,6 +433,14 @@ terms:
     aliases: [occasioned cost]
     established_by: 10-cost.md
     status: settled
+  - id: term:capability
+    term: capability
+    established_by: 10-cost.md
+    status: settled
+    canonical_md: |
+      > A **capability** is a typing over an actor's pathways: the class of ground a pathway can
+      > read — visual, repository, physical, tool-mediated — and the class of distinctions it can
+      > resolve against it. Not a third primitive: it classifies the two primitives' traffic.
   - id: term:ensemble-actor
     term: ensemble-actor
     aliases: [ensemble actor]

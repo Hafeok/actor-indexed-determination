@@ -76,10 +76,17 @@ to the conserved identity. The act's individuation is filed here because this is
 predicate's measure exists (§7):
 
 <!-- ddd:embed id=term:act-individuation -->
-> **Act individuation** — one act = one verdict of the acceptance predicate, where the
-> predicate's measure exists; batch boundaries are verdict boundaries. The individuation
-> inherits the predicate's discipline and adds no free parameter.
+> **Act individuation** — one act = one verdict of the acceptance predicate at the declared
+> boundary, where the predicate's measure exists; batch boundaries are verdict boundaries.
+> The individuation inherits the predicate's discipline and adds no free parameter.
 <!-- /ddd:embed -->
+
+The boundary clause is load-bearing for composition: **acts nest as actors nest.** An inner
+check with its own verdict individuates an inner act; the declared boundary's verdict
+individuates the outer act, one act regardless of how many inner verdicts fire inside it
+(`06`, composition at one act). Retry economics stays synchronic as an expectation over the
+outer act; learning from rejections *across* acts persists between acts and is outside this
+repository's charter (`DDD-dec-09`).
 
 ---
 
@@ -304,6 +311,35 @@ while the other is NP-hard to solve. Closure decides whether the floor is zero a
 measure exists; generation cost is a second, independent variable the measure does not see
 (`core/03` §2, `core/04` §2). The two quantities are separated deliberately and must not be re-fused through
 the measure.
+
+### The operational form: two questions
+
+The boundary gives the framework its operational form, and the form survives the measure's
+silence. **For an act, every decision governing it must be supplied from one of the four
+stores** — and the operational demand is two questions with different domains:
+
+- **The governance question** — *is every governing decision in a declared store, none
+  escaped?* Binary per decision, count-free, and **total in domain**: well-formed on open
+  predicates, exactly where the measure does not exist. Three suppliers, one sink; the goal
+  is a dry sink.
+- **The cost question** — *how much is in each store?* Denominated in bits, and **partial in
+  domain**: it exists only where the predicate closes (§7 above).
+
+The governance question therefore ranges strictly wider than the measure — the reason the
+framework is not merely applied information theory, and the reason it governs claims, mission
+statements, and architecture where `H(verdict)` is undefined. *(Claim `DDD-frame-11`,
+projected.)*
+
+Two consequences, booked:
+
+- **Conservation retires a practice class.** Reduction is impossible; relocation is the whole
+  game. "Simplify away the decisions" is not a goal — the only games are **placement** and
+  **escape-prevention**.
+- **The measure's job is to exist, not to be computed.** Its existence on the closing region
+  is what makes conservation a theorem, escape a defined category, and the cost proxies
+  honest. Practice runs count-free on the audit and proxy-priced — money, hours, tokens — on
+  the optimisation, never on live entropy. Necessary for the warrant, unnecessary for the
+  operation.
 
 ---
 

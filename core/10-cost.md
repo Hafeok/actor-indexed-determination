@@ -2,8 +2,8 @@
 
 <!-- ddd:contract
 
-requires: [act, actor, demand, judgment, escape, acceptance-predicate, closure|closes|closing, verdict]
-establishes: [cost-register|cost register, standing-cost|standing cost, occasioned-cost|occasioned cost]
+requires: [act, actor, demand, judgment, escape, acceptance-predicate, closure|closes|closing, verdict, tolerance, assurance, admission-test]
+establishes: [cost-register|cost register, standing-cost|standing cost, occasioned-cost|occasioned cost, capability]
 status: settled
 -->
 
@@ -20,6 +20,7 @@ The mapping:
 | §3 | Degeneracy: standing cost linear in `I(V;E)` cannot price distinctions apart | `DDD-cost-02` | reported (arithmetic) |
 | §4 | Rate-split: description length prices the standing side, entropy the occasioned side | `DDD-cost-03` | projected |
 | §5 | Capacity = bits suppliable per act; escape = residual exceeding capacity | `DDD-cost-05` | projected, named next result |
+| §6 | Actor selection is two-gated: capacity always; assurance where the predicate does not close | `DDD-cost-08` | projected |
 
 Where this prose and a claim disagree, the claim governs and the prose is the bug.
 
@@ -117,7 +118,58 @@ floor-mechanism work (`11`), where hold and resolve capacity already have their 
 
 ---
 
-## 6. Reproduce
+## 6. Actor selection: the two gates
+
+Acts differ in residual demand `H(V|E)`; actors differ in what they can supply per act and in the
+assurance their class carries. Selection of the actor for the act is governed by two gates, and
+the gates cover different regions of the act:
+
+- **Capacity gates always.** The actor must carry the act's residual at the declared tolerance,
+  or the excess escapes (§5).
+- **Assurance gates where the predicate does not close.** Where a property is checked, producer
+  identity is not epistemically necessary for it (`DDD-frame-05`; `07` §2) — assurance discharges
+  through the check, and actor choice above the capacity bar is free there. The contrapositive is
+  the gate: **for every unchecked property, producer identity is load-bearing**, so assurance
+  must attach to the actor — qualification, track record, certification, class. Actor assurance
+  is what fills the space mechanical verification vacates: check the work where you can; check
+  the worker where you cannot check the work. Mixed acts split — check what closes, select for
+  the rest.
+
+This is what legitimises cheapest-sufficient routing where predicates close, and only there.
+Selection additionally carries **tail-risk assurance**: a checker vouches for the acts it sees; a
+selected actor is vouched for on the acts nobody foresaw — low variance under conditions no
+output-check would have exercised. That is part of what a higher class buys, and why selection
+persists even where predicates mostly close. The tendency in pure form is the soldier: no mid-act
+verification is possible, so assurance is pre-paid entirely into selection, and the class of
+soldier is the assurance mechanism. *(Claim `DDD-cost-08`, projected.)*
+
+Routing requires per-act demand and per-act assurance need to be declared — which the acceptance
+predicate and the declared tolerance already provide in a governed arrangement. **Actor selection
+is downstream of predicate discipline, not a separate practice.**
+
+---
+
+## 7. Capability: typing the capacity
+
+Capacity (§5) is not a scalar.
+
+<!-- ddd:embed id=term:capability -->
+> A **capability** is a typing over an actor's pathways: the class of ground a pathway can
+> read — visual, repository, physical, tool-mediated — and the class of distinctions it can
+> resolve against it. Not a third primitive: it classifies the two primitives' traffic.
+<!-- /ddd:embed -->
+
+The requirement side derives from the admission test (`00` §4), applied per ground type:
+
+> **An act requires capability X iff its verdict varies with ground accessible only through
+> X-type pathways.**
+
+Grounded, exclusionary, no free parameter. `04`'s capability envelope is this typing read
+per-actor: the envelope is an actor's profile of classes across capabilities.
+
+---
+
+## 8. Reproduce
 
 One self-contained script regenerates every figure in this note:
 
