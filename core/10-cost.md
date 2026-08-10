@@ -25,6 +25,7 @@ The mapping:
 | §6 | The sign flip: closure reverses the assurance–class coupling, bounded by coverage | `DDD-cost-11` | projected |
 | §7 | Required class = max over the act's capabilities where assurance is not discharged | `DDD-cost-12` | projected |
 | §7 | Answer-keyed instruments evidence declared-predicate class only, never open carriage | `DDD-cost-13` | projected |
+| §6 | Tempo prunes assurance positions: latency over budget forces assurance pre-act | `DDD-cost-25` | projected |
 | §8 | Around/within: encoding loci differ; training buys allocation, not capacity | `DDD-cost-20` | projected |
 | §9 | The claim layer is governed by the same two gates | `DDD-cost-22` | projected |
 
@@ -184,6 +185,15 @@ The flip is bounded, and the bounds are the claim's region:
   predicate's coverage degrades without a signal. **Class may fall only as far as the predicate's
   coverage of the act's assurance actually extends.** Skipped, the move is an escape-mode
   generator, not an optimisation.
+
+**Tempo prunes assurance positions.** Assurance mechanisms occupy temporal positions relative
+to the act — pre-act (selection, training, encoding, static checks), at-act (monitoring),
+post-act (review, audit, consequence) — each with a latency. A mechanism whose latency exceeds
+its position's budget — the episode for at-act mechanisms, the consequence horizon for post-act
+ones — cannot hold its position, so rising tempo, which compresses both budgets, forces
+assurance pre-act, into standing supply or the carrier. *(Claim `DDD-cost-25`, projected.)*
+This names the mechanism in the soldier case: no review fits inside the act, so all assurance
+is pre-paid into selection.
 
 Routing requires per-act demand and per-act assurance need to be declared — which the acceptance
 predicate and the declared tolerance already provide in a governed arrangement. **Actor selection
