@@ -1,0 +1,24 @@
+format: 1
+id: DDD-cost-12
+kind: conceptual
+statement: |
+  Required actor class for an act is the maximum, over the act's capabilities, of the class needed where assurance is not mechanically discharged — per capability, not per act.
+status: projected
+region: |
+  Per-act routing under the two gates (DDD-cost-08), with capacity typed per term:capability. The claim earns its keep where actor capability profiles diverge; where a general factor dominates, the scalar approximation is admitted to work.
+evidence: []
+falsifier: |
+  Scalar capacity predicting routing outcomes as well as the capability vector on divergent-profile actors; or assurance transferring freely across capabilities within an actor at no loss.
+breaks: |
+  The frontier-pin explanation and its release condition (coverage of the binding capability, not actor improvement); bundled-pricing economics reverts to scalar class.
+owner: none
+changed: v5.3 (2026-08-10, Wave 2 curation session)
+notes: |
+  Affirmed in session 2026-08-08 (holding note §5a); formulations filed at Wave 2. Single-domain
+  basis flagged per DDD-dec-12 (R3): the discriminating evidence to date — capability-specialised
+  actors beating general mid-class actors on matched acts, market unbundling of the vector — is
+  from the rented-model market; instance evidence files where it lives. Consequences carried as
+  exposition: the frontier pin (one uncovered high-class capability pins the act); coverage, not
+  actor progress, gates the class saving; bundled pricing buys the vector. Confound carried
+  honestly: within-actor capability correlation (a general factor) is why single class labels
+  work at all.

@@ -21,6 +21,9 @@ The mapping:
 | §4 | Rate-split: description length prices the standing side, entropy the occasioned side | `DDD-cost-03` | projected |
 | §5 | Capacity = bits suppliable per act; escape = residual exceeding capacity | `DDD-cost-05` | projected, named next result |
 | §6 | Actor selection is two-gated: capacity always; assurance where the predicate does not close | `DDD-cost-08` | projected |
+| §6 | Closure converts a property's assurance supply from occasioned to standing | `DDD-cost-09` | projected |
+| §6 | The sign flip: closure reverses the assurance–class coupling, bounded by coverage | `DDD-cost-11` | projected |
+| §7 | Required class = max over the act's capabilities where assurance is not discharged | `DDD-cost-12` | projected |
 
 Where this prose and a claim disagree, the claim governs and the prose is the bug.
 
@@ -143,6 +146,42 @@ persists even where predicates mostly close. The tendency in pure form is the so
 verification is possible, so assurance is pre-paid entirely into selection, and the class of
 soldier is the assurance mechanism. *(Claim `DDD-cost-08`, projected.)*
 
+**Closure converts the locus of assurance supply.** Assurance-by-actor binds assurance to a
+scarce carrier, supplied occasioned — at the act, at the carrier's class price. Assurance-by-check
+moves it into a mechanism, supplied standing — independent of the act. Closing a predicate
+converts a property's assurance supply from occasioned to standing. *(Claim `DDD-cost-09`,
+projected.)* The conversion is an economic argument for predicate discipline: carrier-borne
+assurance is characteristically the costliest occasioned supply, and closure is what moves it off
+the carrier. The soldier again, synchronically: a high-assurance act with no check available
+leaves carrier class carrying the assurance at act time — the conversion is exactly the move that
+is unavailable there. This claim governs the *locus* of assurance supply; the *class* consequences
+of the conversion are the sign flip's, below — adjacent, not identical.
+
+**Closure flips the sign of the assurance–class coupling.** On an open predicate, assurance and
+actor class are positively coupled: the more assurance the act needs, the higher the class,
+because the carrier is the assurance mechanism. Closure reverses it: high assurance becomes a
+reason to encode into the mechanical store, and the required class falls — the actor is left
+carrying generation only. Two distinct mechanisms do the lowering: **(i) the assurance gate
+lifts** — assurance discharges through the check, and producer identity stops being load-bearing
+for the checked property (`DDD-frame-05`); **(ii) the capacity gate softens** — a checker permits
+generate-and-test, so a weaker actor with retries and verification composes into effective
+capacity exceeding its own; verification converts capacity shortfall into retry cost, borne as an
+expectation over the act (`09` §1, nesting). *(Claim `DDD-cost-11`, projected.)*
+
+The flip is bounded, and the bounds are the claim's region:
+
+- **Acceptance-region accessibility still gates generation.** A checker cannot make a weak actor
+  find a sparse candidate; the move works where the acceptance region is dense and retries cheap.
+- **Retry economics enter the routing.** Weak actor × expected retries × per-act price against
+  strong actor × one shot — a computable crossover. Rich rejection payloads shift it: a check
+  that explains its rejection turns each retry into a guided step, raising the weak actor's
+  effective capacity.
+- **Unchecked-property degradation — the safety bound.** High-class actors silently supply
+  assurance on properties nobody declared. Downgrade the class and everything outside the
+  predicate's coverage degrades without a signal. **Class may fall only as far as the predicate's
+  coverage of the act's assurance actually extends.** Skipped, the move is an escape-mode
+  generator, not an optimisation.
+
 Routing requires per-act demand and per-act assurance need to be declared — which the acceptance
 predicate and the declared tolerance already provide in a governed arrangement. **Actor selection
 is downstream of predicate discipline, not a separate practice.**
@@ -166,6 +205,26 @@ The requirement side derives from the admission test (`00` §4), applied per gro
 
 Grounded, exclusionary, no free parameter. `04`'s capability envelope is this typing read
 per-actor: the envelope is an actor's profile of classes across capabilities.
+
+The routing rule (§6) sharpens to a maximum over the vector:
+
+> **Required actor class = the maximum, over the act's capabilities, of the class needed where
+> assurance is not mechanically discharged — per capability, not per act.**
+
+One uncovered high-class capability pins the act to the highest class even when everything else
+about the act is trivial — the **frontier pin**. Where mechanical coverage of a capability is
+partial, the assurance residual attaches to that capability specifically, and the sign flip (§6)
+has not occurred for that component: high class is being bought as assurance on everything the
+checks do not reach. Close the coverage and the pin releases — **the class saving is gated on
+coverage of the binding capability, not on the actor improving.** *(Claim `DDD-cost-12`,
+projected; single-domain basis flagged per `DDD-dec-12`.)*
+
+**Bundled pricing buys the vector.** An actor of high class across many capabilities prices as a
+bundle; an act with one binding capability pays for all of them. Capability-specialised actors
+are the market unbundling this — and evidence for the typed view, since scalar capacity cannot
+explain narrow-high beating general-mid on matched acts. The confound, carried honestly:
+capability levels within an actor correlate strongly — a general factor — which is why a single
+class label works at all. The typed claim earns its keep at the margins where profiles diverge.
 
 ---
 
