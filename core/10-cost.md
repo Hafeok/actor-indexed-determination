@@ -284,7 +284,10 @@ of §6 applies to it with no new mechanism. *(Claim `DDD-cost-22`, projected.)*
 
 Demand does not leave the claim layer when tooling ignores it; it escapes there — verification
 investment points at the layer below, and the claims ride ungoverned above it. Mixed inventories
-split, exactly as mixed acts do: instrument what can close, select claimants for the rest.
+split, exactly as mixed acts do: instrument what can close, select claimants for the rest. A
+third disposition exists and is out of the gates' scope: **declared risk acceptance** — a claim
+knowingly carried unassured is governed, not escaped; the gates cover assurance, not the
+decision to go without it.
 
 ---
 

@@ -8,7 +8,7 @@ region: |
   Claims as deferred-verdict acts (DDD-frame-12); the routing register of DDD-cost-08 applied at the claim layer. The coverage economics of the instrument gate quantify over claim volume and file with the projection.
 evidence: []
 falsifier: |
-  A governable claim covered by neither gate — no instrumentable predicate at any horizon and no demonstrable claimant class; or claim-layer assurance demonstrated to require a mechanism the act-layer gates cannot express.
+  A governable claim covered by neither gate and not disposed by declared risk acceptance — no instrumentable predicate at any horizon and no demonstrable claimant class; or claim-layer assurance demonstrated to require a mechanism the act-layer gates cannot express.
 test: |
   Counterexamples against the two-gate exhaustiveness at the claim layer; coding reliability of the gate assignment (instrumentable vs carrier-assured) on real claim inventories.
 credits: |
@@ -21,6 +21,7 @@ notes: |
   cannot certify carriage of deferred-verdict claims (the instrument's predicate closes at
   examination time; the claim's verdict has not arrived) — and the matured-verdict record is
   the instrument class for this gate, pending at queue item 2.12; reference by item, ID on
-  2.12's filing. The falsifier and test here are Wave-2 proposed — flagged for strike-or-amend
-  before merge. The escaped-claim reduction falsifier the holding note ships attaches to the
+  2.12's filing. The falsifier was amended and the test ratified verbatim at the pre-Gate-H
+  hold (Emil, 2026-08-10); declared risk acceptance is named in the doc's exposition as the
+  out-of-scope third disposition — governed, unassured. The escaped-claim reduction falsifier the holding note ships attaches to the
   coverage-economics claim with the projection.
