@@ -1,0 +1,21 @@
+format: 1
+id: DDD-cost-20
+kind: conceptual
+statement: |
+  Encoding around a carrier and encoding within it differ in locus: around-encoding — context, retrieval, scaffolds — is standing supply outside the carrier, delivered through the channel at each act; within-encoding — training — converts judgment allocation to encoded allocation inside the carrier. Training buys allocation, not capacity: it does not enlarge the judgment store.
+status: projected
+region: |
+  Per-act, synchronic: the locus distinction and what training buys are properties of the carrier at the act. The crossover between the two paths quantifies over act volume and files with the projection.
+evidence: []
+falsifier: |
+  A training intervention demonstrated to enlarge a carrier's capacity — hold or resolve — rather than reallocate supply between its stores, at fixed architecture; or around-encoding shown to alter the carrier's internal allocation without the channel.
+breaks: |
+  The rent-and-encode versus own-and-train fork loses its locus premise; 10 §8's precision points revert to vendor framing.
+owner: none
+changed: v5.3 (2026-08-10, Wave 2 curation session)
+notes: |
+  Affirmed in session 2026-08-08 (holding note §4, with the two canon-precision corrections
+  applied: training buys allocation, not capacity; ownership does not create a principal — it
+  adds the control linkage, weights, training data, and change record governed, in 05's
+  accountability register). Ratified at the pre-Gate-E hold (Emil, 2026-08-10), falsifier
+  verbatim. The volume-and-closure crossover is the downstream half of this item.

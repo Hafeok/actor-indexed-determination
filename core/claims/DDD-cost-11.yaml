@@ -1,0 +1,25 @@
+format: 1
+id: DDD-cost-11
+kind: conceptual
+statement: |
+  On an open predicate, assurance and actor class are positively coupled; closing the predicate flips the sign — the assurance gate lifts and the capacity gate softens — so the actor class the act requires falls, leaving the actor carrying generation only.
+status: projected
+region: |
+  Per-act, synchronic. The three bounds are the region's edges: dense acceptance regions with affordable retries (accessibility); the weak-actor-plus-retries crossover computable and favourable (retry economics); and only as far as the predicate's coverage of the act's assurance actually extends (unchecked-property degradation — the safety bound).
+evidence: []
+falsifier: |
+  Closed-predicate deployments where declared-equal assurance is not met by weak-actor-plus-checker arrangements at any retry budget in dense regions; or actor class failing to fall with checker investment where coverage is complete.
+breaks: |
+  The formal licence for low-class routing on closed predicates; DDD-cost-12's frontier-pin release loses its mechanism.
+credits: |
+  The assurance-gate mechanism is DDD-frame-05's producer-independence applied per property; the capacity-gate mechanism composes with DDD-cost-05's capacity reading. The two mechanisms are distinct and both are claimed.
+owner: none
+changed: v5.3 (2026-08-10, Wave 2 curation session)
+notes: |
+  Affirmed in session 2026-08-08 (holding note §5); formulation filed at Wave 2, shown for
+  ratification per the queue's "A (formulation P)". Retry cost is synchronic as an expectation
+  over the outer act (09 §1, nesting). Rich rejection payloads shift the retry crossover — a
+  check that explains its rejection raises the weak actor's effective capacity; the basis
+  cross-reference for the pending M3/M4 principal decision files with the projection layer
+  (queue 2.13). Adjacent, not identical, to DDD-cost-09: locus of supply there, class
+  consequences here.

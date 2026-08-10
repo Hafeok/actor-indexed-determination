@@ -2,7 +2,7 @@
 
 <!-- ddd:contract
 
-requires: [actor, demand, store, conservation, decision]
+requires: [actor, demand, store, conservation, decision, act, acceptance-predicate]
 establishes: [seam|seam demand, seam-identity|seam-demand identity, composite-actor|composite actor, seam-occupancy|seam occupancy, orchestrator, compound]
 status: settled
 -->
@@ -157,6 +157,33 @@ judgment into encoding, and an **inheritance path** from encoding to the next ru
 
 > **The channel is the platform.** Not the graph, not the ledger, not the orchestrator — the
 > write-back path from judgment to encoding, and the inheritance path from encoding to the next run.
+
+---
+
+## Composition at one act
+
+A composed arrangement executing one act is the two primitives twice over. From outside the
+declared boundary, the composite is **one actor**: one capability envelope (`04`), one verdict
+owed. Inside the boundary, the wiring — who reads what, which member resolves which slice, what
+sits at the seam — is declared structure, exactly as the decomposition and the ground
+distribution are. Nothing about being composed requires anything beyond the act.
+
+Synchronic does not mean timeless. Sequence exists within the episode — members fire in order,
+retries happen, the orchestrator waits — and none of it leaves the act: **the test is only that
+nothing survives past the verdict.** The arrangement is synchronic; the arrangement's *history*
+— how its members were selected, which compositions were kept, what the record taught — persists
+between acts and is outside this repository's charter (`DDD-dec-09`).
+
+**Acts nest as actors nest.** One act = one verdict of the acceptance predicate *at the declared
+boundary* — the individuation is earned in `09`, and the boundary clause is what makes it
+compose: an inner check's verdict individuates an inner act; the outer boundary's verdict
+individuates the outer act, one act regardless of how many inner verdicts fire inside it.
+
+**The mathematics is the same identity, iterated.** Where the measure exists, the chain rule
+composes — `H(V) = I(V;E₁) + I(V;E₂|E₁) + H(V|E₁,E₂)` — and the conditional terms are the
+composition's internal seams. Composition is to the supply side what decomposition is to the
+task side, under the same identity. Earned in `09`, and named there as unfinished (`09` §8):
+chained seams and multi-actor compositions are exactly the cases still owed a worked instance.
 
 ---
 

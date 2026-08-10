@@ -1,0 +1,23 @@
+format: 1
+id: DDD-frame-12
+kind: conceptual
+statement: |
+  A claim is an act with a deferred verdict: one claim = one act, individuated by the verdict of its declared predicate at the declared boundary; the verdict event arrives at the declared horizon, and the act is in flight until it does. Act individuation extends with no new rule.
+status: projected
+region: |
+  All claims with a declarable predicate, boundary, and horizon; the bridge definition — stated in act vocabulary, operable only with the ledger layer, which files with the projection.
+evidence: []
+falsifier: |
+  A claim that cannot be individuated as an act — no declarable predicate, boundary, or horizon — while remaining governable; or a claim-layer phenomenon requiring governance machinery beyond the act-and-ledger apparatus.
+test: |
+  Explanatory transfer: the act-layer machinery — individuation, the two gates, escape, the return channel — applying at the claim layer without new rules. A claim-layer phenomenon that needs new machinery fails the test.
+owner: none
+changed: v5.3 (2026-08-10, Wave 2 curation session)
+notes: |
+  Wave 2 item 2.11, filed on GATE E's construal confirmation (Emil, 2026-08-10, verbatim):
+  claim assurance attaches to the arrangement's actors by capability class where the claim's
+  predicate will not close mechanically; the alternate reading — system instrumentation closing
+  claim predicates — is the other gate of the same rule, and both are filed (DDD-cost-22). The
+  falsifier was amended and the test ratified verbatim at the pre-Gate-H hold (Emil,
+  2026-08-10). The deferred-verdict machinery (verdict horizons, claims in
+  flight as pending verdicts, the verdict ledger) is operable only with the ledger layer.

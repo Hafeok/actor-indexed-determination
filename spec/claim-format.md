@@ -76,3 +76,11 @@ renumbering is forbidden.
 A claim file is valid iff: it declares `format`; validation runs against the declared version's
 rules (§2 for format 1); mandatory fields for its `status` and `kind` are present. Everything else
 — how claims are authored, converted, or reviewed — is process and lives outside this spec.
+
+## 5. The format as a claim-layer instance (note)
+
+Interpretation note, not a rule; no field or rule changes, format version unchanged. Each claim
+file is itself a deferred-verdict act in the framework's sense (`DDD-frame-12`): `falsifier`
+declares the predicate, a `status` transition is the verdict event, and `changed` pins when it
+fired. The format predates the bridge definition and required no amendment to instance it —
+which is the bridge claim's own test applied to this spec.

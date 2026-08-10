@@ -1,0 +1,23 @@
+format: 1
+id: DDD-cost-25
+kind: conceptual
+statement: |
+  Assurance mechanisms occupy temporal positions relative to the act — pre-act (selection, training, encoding, static checks), at-act (monitoring), post-act (review, audit, consequence) — each with a latency; a mechanism whose latency exceeds its position's budget — the episode for at-act mechanisms, the consequence horizon for post-act ones — cannot hold its position, so rising tempo, which compresses both budgets, forces assurance pre-act, into standing supply or the carrier.
+status: projected
+region: |
+  Per-act, synchronic: positions are defined relative to the bounded episode and its consequence horizon; the claim quantifies over mechanism latencies, not over acts.
+evidence: []
+falsifier: |
+  High-tempo arrangements holding declared assurance through post-act mechanisms whose detection completes after consequences land, without pre-act compensation.
+breaks: |
+  The pre-paid reading of the soldier case (10 §6); tempo would stop being a routing pressure on assurance positions.
+owner: none
+changed: v5.3 (2026-08-10, Wave 2 curation session)
+notes: |
+  Wave 2 §11(d), ratified with amendments at GATE G (Emil, 2026-08-10): position budgets split
+  — episode for at-act, consequence horizon for post-act — and the falsifier keyed to detection
+  completing after consequences land. Names the mechanism in the soldier case: no review fits
+  inside the act, so all assurance is pre-paid into selection. The holding note's
+  "conservation-into-tempo" anchor was struck as an unconfirmed addition — restorable only on a
+  located citation. The time-indexed remainder of §11 (verdict-gap carriage, decay, accrual,
+  ground assurance) persists between acts and files with the projection.

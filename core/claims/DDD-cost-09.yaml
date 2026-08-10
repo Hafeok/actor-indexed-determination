@@ -1,0 +1,24 @@
+format: 1
+id: DDD-cost-09
+kind: conceptual
+statement: |
+  Assurance-by-actor binds assurance to a scarce carrier, supplied occasioned — at the act, at the carrier's class price. Assurance-by-check moves it into a mechanism, supplied standing — independent of the act. Closing a predicate converts a property's assurance supply from occasioned to standing.
+status: projected
+region: |
+  Per-act, synchronic; locus of supply per DDD-cost-01's register split. Governs the locus of assurance supply only; class consequences are DDD-cost-11's.
+evidence: []
+falsifier: |
+  A property whose check is complete at the declared assurance level, where the arrangement nonetheless cannot discharge that property's assurance without per-act carrier supply.
+breaks: |
+  The predicate-discipline economics of 10 §6; DDD-cost-11's assurance-gate mechanism loses its supply-side premise.
+owner: none
+changed: v5.3 (2026-08-10, Wave 2 curation session)
+notes: |
+  Ratified at Wave 2 GATE B with amendments (Emil, 2026-08-10): stated synchronically in locus
+  terms; "built once, present for every act thereafter" struck (volume reading); "the
+  arrangement's most expensive" struck from claim content — "characteristically the costliest
+  occasioned supply" is carried as prose commentary, not claim. The affirmed headline phrase —
+  "a closed predicate is amortised assurance" — and the volume corollary (standing cost divides
+  over act volume; occasioned carrier supply does not) file with the projection, citing this
+  claim as pinned basis. Adjacent, not identical, to DDD-cost-11 (the sign flip): this claim
+  governs supply locus; the sign flip governs class consequences.

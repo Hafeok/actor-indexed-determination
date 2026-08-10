@@ -1,0 +1,19 @@
+format: 1
+id: DDD-cost-08
+kind: conceptual
+statement: |
+  Actor selection for an act is two-gated: capacity gates always — the actor must carry the act's residual at the declared tolerance or the excess escapes — and assurance gates exactly where the acceptance predicate does not close, where assurance must attach to the actor because no check can carry it.
+status: projected
+region: |
+  Per-act, synchronic; the assurance gate's region is the open-predicate portion of the act. Contrapositive of DDD-frame-05's checked-property independence — where the predicate closes, actor choice above the capacity bar is free.
+evidence: []
+falsifier: |
+  Demand-routed arrangements failing to beat single-frontier-actor arrangements on cost at equal acceptance rates; or arrangements achieving declared assurance on open predicates with unselected actors at no loss.
+breaks: |
+  The licence for cheapest-sufficient routing; DDD-cost-05's escape reading of capacity stands, but the selection economics layered on it does not.
+credits: |
+  The checked-property side is DDD-frame-05 (producer-independence, for trust only); the gate is its contrapositive, not a new independence result.
+owner: none
+changed: v5.3 (2026-08-10, Wave 2 curation session)
+notes: |
+  Affirmed in session 2026-08-08 (holding note §5), including the assurance gate; formulation as filed ratified at Wave 2. Tail-risk assurance — a selected actor is vouched for on acts nobody foresaw — files as exposition with the claim; the soldier case is the tendency in pure form (assurance pre-paid entirely into selection). Mixed acts split: check what closes, select for the rest.

@@ -1,0 +1,26 @@
+format: 1
+id: DDD-dec-12
+kind: decision
+statement: |
+  R3, the register ruling: a synchronic, actor-general claim evidenced in a single domain files in this repository at projected, with the single-domain basis flagged in the claim file; evidence instances file where their evidence lives. Diachronic claims are outside R3's scope and file by layer, per DDD-dec-09, regardless of evidence breadth.
+principal: Emil
+made: 2026-08-10, Wave 2 curation session (GATE A); ruled in-session
+resolution: |
+  File upstream at projected with the single-domain basis flagged. The status vocabulary exists
+  for exactly this case: projected marks a claim awaiting discriminating evidence, and the claim
+  file's evidence and notes fields carry the flag. Holding a general statement out of canon until
+  a second domain evidences would leave the statement unpinned while its instances accumulate —
+  basis loss by delay.
+
+  Scope, per R4b (ruled immediately before, recorded with the projection): R3 governs only
+  synchronic general claims. A claim requiring inter-act persistence files with the projection by
+  layer (DDD-dec-09), regardless of how many domains evidence it.
+basedOn:
+  - DDD-dec-09
+  - DDD-measure-08
+notes: |
+  DDD-measure-08 is cited as the exemplar that status machinery, not destination, is the
+  correction surface: a claim filed and later killed stays in the graph with its correction. The
+  type case that occasioned R3 — the channel-memory claim — was re-sorted to the ledger layer by
+  R4b before R3 applied; R3's live instances in Wave 2 are the synchronic formulations with
+  single-domain evidence.
