@@ -1,0 +1,25 @@
+format: 1
+id: DDD-cost-13
+kind: conceptual
+statement: |
+  Where assurance attaches to the actor per capability, an answer-keyed qualification instrument — an examination, an eval — evidences demonstrated class on predicates that close. Its verdict cannot evidence open-predicate carriage: the instrument's own predicate closes while the target predicate does not, so delegation to the open predicate substitutes the actor's identity for exactly the check the instrument cannot be.
+status: projected
+region: |
+  Actor selection under the assurance gate (DDD-cost-08), per capability (DDD-cost-12); the bound is claimed wherever the target predicate is open.
+evidence: []
+falsifier: |
+  Answer-keyed qualification scores predicting open-predicate carriage outcomes at no loss against carriage-tested selection, at matched capability class — if certificates fully predict open-delegation outcomes with the general factor controlled, the bound is redundant.
+breaks: |
+  The selection economics of 10 §7 would lose the instrument bound; certificate-based routing to open work would stand unbounded.
+credits: |
+  The producer-independence contrapositive (DDD-frame-05 via DDD-cost-08): checked properties need no identity; unchecked properties make identity load-bearing.
+owner: none
+changed: v5.3 (2026-08-10, Wave 2 curation session)
+notes: |
+  Ratified at Wave 2 GATE C with amendments (Emil, 2026-08-10): "licences"/"licence" struck from
+  claim body; the prose glosses the bound as why certificates are not licences for open work.
+  Single-domain discriminating evidence (model evals) flagged per DDD-dec-12; the rented-model
+  reading ("benchmarks are licences, bounded") files with the projection when its evidence
+  lands, citing this claim as pinned basis. Forward cross-reference, pending by item not by ID:
+  the complementary instrument for open-predicate carriage — a record of matured verdicts —
+  files at queue item 2.12.

@@ -24,6 +24,7 @@ The mapping:
 | §6 | Closure converts a property's assurance supply from occasioned to standing | `DDD-cost-09` | projected |
 | §6 | The sign flip: closure reverses the assurance–class coupling, bounded by coverage | `DDD-cost-11` | projected |
 | §7 | Required class = max over the act's capabilities where assurance is not discharged | `DDD-cost-12` | projected |
+| §7 | Answer-keyed instruments evidence declared-predicate class only, never open carriage | `DDD-cost-13` | projected |
 
 Where this prose and a claim disagree, the claim governs and the prose is the bug.
 
@@ -225,6 +226,17 @@ are the market unbundling this — and evidence for the typed view, since scalar
 explain narrow-high beating general-mid on matched acts. The confound, carried honestly:
 capability levels within an actor correlate strongly — a general factor — which is why a single
 class label works at all. The typed claim earns its keep at the margins where profiles diverge.
+
+**The selection instrument, and its bound.** Where assurance attaches to the actor per
+capability, an answer-keyed qualification instrument — an examination, an eval — evidences
+demonstrated class on predicates that close. Its verdict cannot evidence open-predicate
+carriage: the instrument's own predicate closes while the target predicate does not, so
+delegation to the open predicate substitutes the actor's identity for exactly the check the
+instrument cannot be. *(Claim `DDD-cost-13`, projected.)* This is why certificates are not
+licences for open work: the certificate demonstrates class where checks exist, and the actor is
+being selected precisely for where they do not (`DDD-frame-05`'s contrapositive, per §6). The
+complementary instrument for open-predicate carriage — a record of matured verdicts — is
+pending, and files with the ledger layer's calibration construct.
 
 ---
 
