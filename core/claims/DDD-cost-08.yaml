@@ -10,7 +10,7 @@ evidence: []
 falsifier: |
   Demand-routed arrangements failing to beat single-frontier-actor arrangements on cost at equal acceptance rates; or arrangements achieving declared assurance on open predicates with unselected actors at no loss.
 breaks: |
-  The licence for cheapest-sufficient routing; DDD-cost-05's escape reading of capacity stands, but the selection economics layered on it does not.
+  The licence for cheapest-sufficient routing; DDD-cost-05's per-act denomination of the capacity model's escape term stands, but the selection economics layered on it does not.
 credits: |
   The checked-property side is DDD-frame-05 (producer-independence, for trust only); the gate is its contrapositive, not a new independence result.
 owner: none

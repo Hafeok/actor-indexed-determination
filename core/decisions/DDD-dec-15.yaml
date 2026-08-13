@@ -66,6 +66,46 @@ resolution: |
   are retained, the superseded quantifier is recorded here rather than erased, and no claim is
   renumbered or deleted.
 
+  Scope extended at GATE 4, on Emil's ruling, after the basis-impact sweep found the same defect in
+  nodes the GATE 2/3 scope had not named. The warrant for extending rather than deferring: the same
+  defect, one clause each, the correcting decision already existing, the nodes unpinned and
+  evidence-free, and the ground-applicability note's blocker B1 waiting on DDD-cost-05 — deferring
+  would have left a known-false identity in canon and blocked that note's Q10 on it. Added:
+
+  - DDD-cost-05's statement — "escape is the residual exceeding capacity" amended to the
+    denominational reading, "within core/11's capacity model the escape term is the residual
+    exceeding capacity". Region gains the scope; status, evidence, test and owner unchanged.
+  - 10 §5's pull-quote correspondingly, and 10's §-summary table row for §5 — one row beyond the
+    pull-quote named in the ruling, corrected because it carries the identical clause.
+  - DDD-cost-08's breaks field, which named the defective clause as the thing that survives.
+  - meta/lineage-and-limits.md's register sentence — the framework's own novelty statement, which
+    claimed "the identification ... of escape with the intersection". Corrected to
+    capacity-generated escape. A false originality claim is the most expensive kind, which is why
+    this one file outside core/ is in scope.
+
+  Also ruled in at GATE 3: 11 §6's lead sentence, "Escape has exactly three sources", narrowed to
+  "Escape that surfaces as output has exactly three sources" — one clause beyond the Missing row
+  named in the ruling, ruled in because §6 is about hallucination throughout and leaving the
+  unrestricted quantifier would reintroduce the corrected defect one section after correcting it.
+
+  Named for the next canon session, not repaired here (Emil, GATE 4): 09 §6 and core/README:23,
+  which carry the identity form as index and summary prose; meta/consolidated-state.md:318-321,
+  which carries it and additionally describes the judgment/escape split as unstarted when core/11
+  landed it, a second defect predating this session; DDD-cost-03's notes, transitively citing
+  DDD-cost-05's denomination; and core/assets/floor-mechanism.py's header string, cosmetic and true
+  within the asset's own model.
+
+  Consequence for the ground-applicability holding note's blocker B1, recorded here so the note's
+  author has it without the session transcript. B1 reads "H(V|X) bundles judged and escaped demand;
+  Q10 stays blocked", and the natural reading after this correction is that it eases, the split
+  having landed. It does not — it widens, and now has two components. First, the capacity split
+  itself, which waits on DDD-cost-05. Second, and new: even a complete actor-capacity model would
+  not separate judged from escaped, because escape that never entered the residual contributes
+  nothing to H(V|X)'s allocation and cannot be recovered from it. Q10's refusal to label the
+  residual — "residual demand; allocation not inferred by this measure" — was already correct and is
+  now correct for a second reason.
+
+
   Not filed, deliberately. No new claim is minted. Escape as the general condition of a governing
   decision supplied by nobody is already carried by term:escape, term:store, term:exhaustiveness
   and DDD-frame-04; minting a claim for it would file as new what canon has held since 01. The
@@ -101,6 +141,13 @@ notes: |
   GATE 1 and this decision files on the capacity-shortfall and no-applicable-filed-source generators
   only. Whether an empty closing set under forced commitment is a third route to unsupplied
   determination, or an instance of the no-applicable-source route, is open and unexamined.
+
+  The question is sharper after this correction, and the sharpened form is recorded so the next
+  session inherits it: not "is an empty option set a kind of capacity shortfall?" — which is the
+  question the superseded quantifier forced — but "is it a third route to unsupplied determination,
+  or an instance of the no-applicable-source route?" With overflow removed as necessary, the second
+  conjunct is the open variable across generators, and that is where the empty-option-set generator
+  has to be tested.
 
   Also out of scope by ruling, from the ground-applicability note: Q4 limb 2 (a filed source whose
   assurance proved inadequate) is not escape — 10 §9 governs, a claim knowingly carried unassured is

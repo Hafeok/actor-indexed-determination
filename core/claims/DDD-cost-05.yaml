@@ -2,14 +2,18 @@ format: 1
 id: DDD-cost-05
 kind: conceptual
 statement: |
-  Capacity is the bits an actor can supply per act; escape is the residual exceeding capacity — the per-act denomination of core/11's capacity model.
+  Capacity is the bits an actor can supply per act; within core/11's capacity model the escape term is the residual exceeding capacity — the per-act denomination of that model.
 status: projected
 region: |
-  named next result; denomination only until the floor-mechanism extension lands
+  named next result; denomination only until the floor-mechanism extension lands. The capacity model's escape term, not escape as such — capacity shortfall is one generator of escape and not its definition (DDD-dec-15).
 evidence: []
 test: |
   Lands with the floor-mechanism work (core/11): the per-act capacity model must reproduce 11's overflow ∩ open result under the act denomination; its falsifier files with that work.
 owner: none
-changed: v5.1 (2026-08-08, act-primitive session)
+changed: v5.4 (2026-08-13, escape reconciliation session)
 notes: |
   Named as the next result, per the session's ratified input 5; the capacity/escape model itself is out of scope this session. Sims's channel model of a capacity-limited decision-maker is the credited ancestor (meta/lineage-and-limits §1.9, "Additional context").
+
+  Scope correction, 2026-08-13 (DDD-dec-15, Emil ruling at GATE 4). The prior middle clause read "escape is the residual exceeding capacity", an identity carrying the same defect the same decision corrects in DDD-floor-01 and term:escape-mechanism: escape is supplied-by-nobody (term:escape), and the residual exceeding capacity is one generator of it, not its definition. Amended to the denominational reading the trailing clause always intended. Statement only; status, evidence, test, and owner unchanged, and the claim was projected with no evidence, so nothing rested on the defective reading.
+
+  Surfaced by GATE 4's basis-impact sweep rather than by the GATE 2/3 scope, and pulled into the same supersession on Emil's ruling: the same defect, one clause, the correcting decision already existing, the claim unpinned and evidence-free, and the ground-applicability note's blocker B1 waiting on this node — leaving it defective would have blocked that note's Q10 on a statement known to be wrong.

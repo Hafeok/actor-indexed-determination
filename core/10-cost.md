@@ -19,7 +19,7 @@ The mapping:
 | §1 | Bits are per-act on both sides; the asymmetry is locus of supply | `DDD-cost-01` | projected |
 | §3 | Degeneracy: standing cost linear in `I(V;E)` cannot price distinctions apart | `DDD-cost-02` | reported (arithmetic) |
 | §4 | Rate-split: description length prices the standing side, entropy the occasioned side | `DDD-cost-03` | projected |
-| §5 | Capacity = bits suppliable per act; escape = residual exceeding capacity | `DDD-cost-05` | projected, named next result |
+| §5 | Capacity = bits suppliable per act; the model's escape term = residual exceeding capacity | `DDD-cost-05` | projected, named next result |
 | §6 | Actor selection is two-gated: capacity always; assurance where the predicate does not close | `DDD-cost-08` | projected |
 | §6 | Closure converts a property's assurance supply from occasioned to standing | `DDD-cost-09` | projected |
 | §6 | The sign flip: closure reverses the assurance–class coupling, bounded by coverage | `DDD-cost-11` | projected |
@@ -117,7 +117,7 @@ on basis, not reported. *(Claim `DDD-cost-03`.)*
 ## 5. Capacity and escape, named
 
 The cost register gives capacity its per-act denomination: **capacity is the bits an actor can
-supply per act; escape is the residual exceeding it.** Where `H(V|E)` — the occasioned side — is
+supply per act; the model's escape term is the residual exceeding it.** Where `H(V|E)` — the occasioned side — is
 greater than what the actor can supply at the act, the excess is supplied by nobody, and the
 demand escapes. Projected and **named as the next result**: the model that earns it lands with the
 floor-mechanism work (`11`), where hold and resolve capacity already have their bits. *(Claim

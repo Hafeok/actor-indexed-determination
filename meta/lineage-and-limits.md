@@ -275,8 +275,8 @@ rather than be caught by:
 > **`core/09` and `core/11` are applied information theory. Shannon supplied the entropy, the chain
 > rule, and the rate-distortion bound; Sims supplied the channel model of a capacity-limited
 > decision-maker. What this framework contributes is the identification of specification demand with
-> verdict entropy, of seam demand with mutual information, and of escape with the intersection of
-> rate-distortion-forced error and absent verification — together with the demonstration that those
+> verdict entropy, of seam demand with mutual information, and of **capacity-generated** escape with
+> the intersection of rate-distortion-forced error and absent verification — together with the demonstration that those
 > identifications hold without leftover on worked examples. The mathematics is not ours. The mapping
 > is, and the mapping is what is falsifiable.**
 
