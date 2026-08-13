@@ -402,14 +402,21 @@ terms:
     established_by: 11-the-floor-mechanism.md
     status: settled
     canonical_md: |
-      > **Escape requires two conditions, both necessary:**
+      > **Capacity-generated escape — the escape an actor produces from residual it has taken up —
+      > requires two conditions, both necessary:**
       >
       > **(1) Overflow** — demand exceeds resolve capacity.
       > **(2) Open** — no verifier the actor holds.
       >
       > Overflow alone (closing predicate) → **retries, not escape.** Recoverable. Not floor.
-      > Open alone (within capacity) → **carried correctly by judgment.** Not floor.
+      > Open alone (within capacity) → **carried by judgment**, where an accountable supplier is
+      > named. Not floor. Where none is named, it is escape by another route (`05` §7) — outside
+      > this mechanism, not excluded by it.
       > **Overflow AND open** → **escape. This is the floor.**
+      >
+      > **Sufficient for escape, never necessary.** A governing decision that never entered an
+      > actor's residual escapes without overflowing anything: escape is supplied-by-nobody
+      > (`term:escape`), and capacity shortfall is one generator of it.
   - id: term:p-err
     term: p-err
     aliases: [p_err]

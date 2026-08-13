@@ -1,0 +1,157 @@
+format: 1
+id: DDD-dec-15
+kind: decision
+statement: |
+  The escape mechanism's scope correction: overflow ∩ open is the mechanism of capacity-generated escape — sufficient for escape, never necessary for it. Escape as such stays as term:escape defines it, supplied by nobody for any reason, and term:escape-mechanism and DDD-floor-01 are re-scoped by supersession of their universal quantifier.
+principal: Emil
+made: 2026-08-13, escape reconciliation session (GATE 2 ruling, drafted at GATE 3); ruled in-session
+resolution: |
+  Correct the mechanism's scope; do not widen the definition. Three holding notes independently
+  reported canon's escape definition as too narrow. Tested against the repository, that report
+  rests on an error: term:escape is stated in terms of supply generally — "determined never, by
+  nobody" — and term:store partitions by source, "{rule, check, actor, nothing}. There is no fifth
+  source." Neither is capacity-indexed, and "no fifth source" already admits any reason nobody
+  supplied. The definition is not too narrow and is not amended.
+
+  What is too narrow sits one level down. term:escape-mechanism (settled, established by 11) and
+  DDD-floor-01 (reported) assert a capacity condition as *necessary* for a category the definition
+  indexes on supply alone. DDD-floor-01's own filed falsifier names the observation that fires
+  it — "escape without overflow" — so this session ran a filed falsifier against a reported claim
+  rather than proposing a widening. It fired, on five instances of ratified canon and one from the
+  ground-applicability holding note:
+
+  - 05 §7, the tower — a tolerance declared by an actor incapable of bearing consequence is
+    "escaped on its face". Open, within capacity, nothing shed. term:escape-mechanism assigned
+    that cell to judgment, which is the disjunct this decision corrects.
+  - 05 §6, the unqualified declarer — a judgment allocation naming no accountable party is
+    "Escaped with an executor attached". The escape verdict is load-independent; the prose routed
+    it through the intersection via an "under load" clause that the passage's own next sentence
+    contradicts. The routing sentence is corrected.
+  - 06, mechanism at the seam — "a situation outside what the rule anticipates escapes". Escape by
+    non-applicability of an encoded source, with no capacity term in the picture.
+  - 10 §9, the claim layer — "it escapes there", with nobody overloaded.
+  - 11 §6, the Missing row — ground that "was never there" labelled hold-overflow, one section
+    after term:overflow defines hold-overflow as ground that does not fit. Corrected.
+  - Ground-applicability holding note (2026-08-12, unratified), Q4 limb 1 — an act occurred for
+    which no filed source applied at the declared assurance level.
+
+  The common structure: 11 §3 builds the mechanism on an actor that "resolves C_resolve bits
+  correctly per run; anything beyond is shed". It therefore describes escape from within residual
+  an actor has already taken up. Every instance above is a governing decision that never entered
+  any actor's residual, so nothing overflowed and it was still determined by nobody. The
+  granularity bound settles that such a decision is a governing decision regardless: membership is
+  fixed by tolerance and the world, not by anyone having posed it.
+
+  The mechanism, sufficiency, and every consequence built on it are untouched. Both assets re-ran
+  on 2026-08-13 and reproduce.
+
+  Filed changes, all upstream — escape is synchronic and the definition and its mechanism are
+  Layer 1 under R4 (DDD-dec-09):
+
+  - term:escape-mechanism re-scoped in core/graph/terms.yaml and re-projected into 11 §3: scoped
+    to capacity-generated escape, declared sufficient and never necessary, with the "open alone
+    (within capacity) -> carried correctly by judgment" disjunct corrected to require a named
+    accountable supplier and to name 05 §7 as the other route.
+  - DDD-floor-01 statement re-scoped, region tightened to capacity-generated escape, falsifier
+    re-scoped to shed demand. Status retained at reported: the assets support the re-scoped claim
+    in full, the generality removed is the generality they never evidenced, and no computation
+    fails, so the demotion rule is not triggered.
+  - Prose corrected where it carried the superseded quantifier: 11 §7 "Closed" and 11 §8 "the one
+    line"; 11 §6's Missing row; 05 §6's routing sentence.
+  - DDD-frame-04 is not amended. Its "no adequate source-and-assurance combination" was already
+    supply-general and could not both be right alongside DDD-floor-01's prior form; the
+    inconsistency dates from v4.4, predates this session, and resolves in DDD-frame-04's favour.
+
+  Filed by supersession, not rewriting, per the Wave-1 precedent (DDD-dec-09/DDD-dec-10): the IDs
+  are retained, the superseded quantifier is recorded here rather than erased, and no claim is
+  renumbered or deleted.
+
+  Scope extended at GATE 4, on Emil's ruling, after the basis-impact sweep found the same defect in
+  nodes the GATE 2/3 scope had not named. The warrant for extending rather than deferring: the same
+  defect, one clause each, the correcting decision already existing, the nodes unpinned and
+  evidence-free, and the ground-applicability note's blocker B1 waiting on DDD-cost-05 — deferring
+  would have left a known-false identity in canon and blocked that note's Q10 on it. Added:
+
+  - DDD-cost-05's statement — "escape is the residual exceeding capacity" amended to the
+    denominational reading, "within core/11's capacity model the escape term is the residual
+    exceeding capacity". Region gains the scope; status, evidence, test and owner unchanged.
+  - 10 §5's pull-quote correspondingly, and 10's §-summary table row for §5 — one row beyond the
+    pull-quote named in the ruling, corrected because it carries the identical clause.
+  - DDD-cost-08's breaks field, which named the defective clause as the thing that survives.
+  - meta/lineage-and-limits.md's register sentence — the framework's own novelty statement, which
+    claimed "the identification ... of escape with the intersection". Corrected to
+    capacity-generated escape. A false originality claim is the most expensive kind, which is why
+    this one file outside core/ is in scope.
+
+  Also ruled in at GATE 3: 11 §6's lead sentence, "Escape has exactly three sources", narrowed to
+  "Escape that surfaces as output has exactly three sources" — one clause beyond the Missing row
+  named in the ruling, ruled in because §6 is about hallucination throughout and leaving the
+  unrestricted quantifier would reintroduce the corrected defect one section after correcting it.
+
+  Named for the next canon session, not repaired here (Emil, GATE 4): 09 §6 and core/README:23,
+  which carry the identity form as index and summary prose; meta/consolidated-state.md:318-321,
+  which carries it and additionally describes the judgment/escape split as unstarted when core/11
+  landed it, a second defect predating this session; DDD-cost-03's notes, transitively citing
+  DDD-cost-05's denomination; and core/assets/floor-mechanism.py's header string, cosmetic and true
+  within the asset's own model.
+
+  Consequence for the ground-applicability holding note's blocker B1, recorded here so the note's
+  author has it without the session transcript. B1 reads "H(V|X) bundles judged and escaped demand;
+  Q10 stays blocked", and the natural reading after this correction is that it eases, the split
+  having landed. It does not — it widens, and now has two components. First, the capacity split
+  itself, which waits on DDD-cost-05. Second, and new: even a complete actor-capacity model would
+  not separate judged from escaped, because escape that never entered the residual contributes
+  nothing to H(V|X)'s allocation and cannot be recovered from it. Q10's refusal to label the
+  residual — "residual demand; allocation not inferred by this measure" — was already correct and is
+  now correct for a second reason.
+
+
+  Not filed, deliberately. No new claim is minted. Escape as the general condition of a governing
+  decision supplied by nobody is already carried by term:escape, term:store, term:exhaustiveness
+  and DDD-frame-04; minting a claim for it would file as new what canon has held since 01. The
+  three holding notes' proposed widening is therefore declined as a widening and recorded as this
+  correction instead.
+basedOn:
+  - DDD-floor-01
+  - DDD-frame-04
+  - term:escape
+  - term:store
+  - term:escape-mechanism
+  - DDD-dec-09
+notes: |
+  Recorded per Emil's GATE 1 ruling: the widening hypothesis rests on an error in Claude's advisory
+  assessment of the predicted-ground note, which stated "canon's escape is capacity-generated:
+  residual exceeding what the actor can supply at the act". That describes DDD-cost-05 and
+  term:escape-mechanism, not term:escape. Both Claude assessments in the session package were
+  advisory and carried no ruling.
+
+  Limb two of DDD-floor-01's falsifier — escape on decisions with a held verifier — did not fire on
+  this corpus. Every counter-instance is open in the mechanism's sense. Accepted as the finding that
+  the open conjunct survives while the overflow conjunct does not, and explicitly *not* filed as a
+  necessity claim for the open conjunct: an absence of counter-instances across six cases does not
+  warrant a universal, and filing one would repeat the error this decision corrects.
+
+  FLAGGED for a later session, not repaired here (Emil, GATE 2): the open conjunct is actor-indexed
+  — "no verifier *the actor holds*" — and is ill-defined where no actor was assigned to the decision
+  at all. A smaller scope problem of the same family as the one corrected here.
+
+  UNVERIFIED — Emil review: the empty-option-set generator (predicted-ground holding note,
+  2026-08-11, Emil's) was **not examined**. The source note did not reach the session; only Claude's
+  advisory assessment of it was available, which carries no ruling. Emil ruled the slot held open at
+  GATE 1 and this decision files on the capacity-shortfall and no-applicable-filed-source generators
+  only. Whether an empty closing set under forced commitment is a third route to unsupplied
+  determination, or an instance of the no-applicable-source route, is open and unexamined.
+
+  The question is sharper after this correction, and the sharpened form is recorded so the next
+  session inherits it: not "is an empty option set a kind of capacity shortfall?" — which is the
+  question the superseded quantifier forced — but "is it a third route to unsupplied determination,
+  or an instance of the no-applicable-source route?" With overflow removed as necessary, the second
+  conjunct is the open variable across generators, and that is where the empty-option-set generator
+  has to be tested.
+
+  Also out of scope by ruling, from the ground-applicability note: Q4 limb 2 (a filed source whose
+  assurance proved inadequate) is not escape — 10 §9 governs, a claim knowingly carried unassured is
+  governed, not escaped. Q8's coverage sweep is a detection instrument that predicts where escape
+  would occur, not escape itself; it stays blocked behind that note's own B4 corpus test, and its
+  "candidate source-coverage escape" wording is recommended to the note's author for tightening
+  rather than filed here.

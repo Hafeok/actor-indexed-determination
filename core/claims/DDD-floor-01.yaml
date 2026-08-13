@@ -2,10 +2,10 @@ format: 1
 id: DDD-floor-01
 kind: formal
 statement: |
-  H(V|X) bundles judged and escaped demand; cleaving them requires an actor-capacity model, and demand escapes where residual demand exceeds effective capacity min(C_hold, C_resolve) AND the shed decisions carry no verifier — escape is the intersection overflow ∩ open, with overflow alone producing retries, not escape.
+  H(V|X) bundles judged and escaped demand; cleaving them requires an actor-capacity model, and residual demand an actor has taken up escapes where it exceeds effective capacity min(C_hold, C_resolve) AND the shed decisions carry no verifier — overflow ∩ open is the mechanism of capacity-generated escape, sufficient for escape and not necessary for it, with overflow alone producing retries, not escape.
 status: reported
 region: |
-  closing/open decision mixes on hard- and soft-capacity toy actors; the formal write-up (paper-3) and any real-actor calibration remain open
+  Capacity-generated escape only — residual an actor has taken up and sheds; closing/open decision mixes on hard- and soft-capacity toy actors. Escape arising where no supplier took the governing decision up at all is outside this claim's region (DDD-dec-15). The formal write-up (paper-3) and any real-actor calibration remain open.
 credits: |
   Rate-distortion theory is Shannon's; p_err = Hb^-1(1 - C/n) is the standard bound. The identification of the escape mechanism with the intersection is ours.
 evidence:
@@ -25,8 +25,18 @@ evidence:
     derived p_err reproduces core/11 §4 limits (r>=1 -> 0, r->0 -> 0.5); soft-capacity structure
     survives the substitution
 falsifier: |
-  An actor whose observed escape departs from the intersection — escape without overflow, escape on decisions with a held verifier, or no escape past capacity on open decisions.
+  An actor whose observed escape from residual it has taken up departs from the intersection — shed demand escaping without overflow, escape on shed decisions with a held verifier, or no escape past capacity on open decisions.
 owner: paper-3
-changed: v4.5
+changed: v5.4 (2026-08-13, escape reconciliation session)
 notes: |
   Restatused projected -> reported in the verification pass: the seed, drafted from projections pinned at v4.4/v4.5, treated the actor-capacity model as future work, but live canon supplies it — core/11 derives and demonstrates it, and both assets reproduce. The seed statement also omitted the open conjunct (overflow alone is retries, not escape — core/11 §3); amended to the intersection form.
+
+  Scope correction, 2026-08-13 (DDD-dec-15, Emil ruling at GATE 2). The prior statement quantified over escape as such — "demand escapes where ... AND ..." — and this claim's own falsifier named "escape without overflow" as the observation that would fire it. That limb fired, on five instances of ratified canon (05 §7's tower, 05 §8's unqualified declarer, 06's unanticipated situation at an encoded seam, 10 §9's claim layer, and 11 §6's own Missing row) and on the ground-applicability holding note's Q4 limb 1 (an act occurred for which no filed source applied). Every one of them is a governing decision that never entered an actor's residual, so nothing was shed and nothing overflowed, while the decision was still supplied by nobody — escaped under term:escape. The statement is re-scoped to the mechanism it always demonstrated rather than retired: the intersection is sufficient for escape and describes capacity-generated escape specifically.
+
+  Status retained at reported. Both assets re-ran on 2026-08-13 and reproduce (hard table 0/2.490/3.987/5.989/9.971, all-verified escape 0.000 at C=0; derived p_err reproduces core/11 §4.1's 1.67/4.40/6.25/7.57). They support the re-scoped statement in full — the generality they never evidenced is exactly the generality removed — so the demotion rule for a failing computation is not triggered.
+
+  Limb two of the falsifier — escape on decisions with a held verifier — did **not** fire on this corpus: every counter-instance is open in the mechanism's sense. That is an absence of counter-instances, not a demonstration, and no necessity claim for the open conjunct is filed on it.
+
+  FLAGGED, not repaired here (Emil, GATE 2): the open conjunct is actor-indexed — "no verifier *the actor holds*" — which is ill-defined where no actor was assigned to the decision at all. A smaller scope problem of the same family, carried to a later session.
+
+  UNVERIFIED — Emil review: the empty-option-set generator (predicted-ground holding note, 2026-08-11) was not examined in the session that made this correction; the source note did not reach it. Whether an empty closing set is a third route to unsupplied determination or an instance of the no-applicable-source route is open.
