@@ -88,14 +88,21 @@ And with **every** decision verified (`n_open = 0`), escape is **0 at every capa
 The result:
 
 <!-- ddd:embed id=term:escape-mechanism -->
-> **Escape requires two conditions, both necessary:**
+> **Capacity-generated escape — the escape an actor produces from residual it has taken up —
+> requires two conditions, both necessary:**
 >
 > **(1) Overflow** — demand exceeds resolve capacity.
 > **(2) Open** — no verifier the actor holds.
 >
 > Overflow alone (closing predicate) → **retries, not escape.** Recoverable. Not floor.
-> Open alone (within capacity) → **carried correctly by judgment.** Not floor.
+> Open alone (within capacity) → **carried by judgment**, where an accountable supplier is
+> named. Not floor. Where none is named, it is escape by another route (`05` §7) — outside
+> this mechanism, not excluded by it.
 > **Overflow AND open** → **escape. This is the floor.**
+>
+> **Sufficient for escape, never necessary.** A governing decision that never entered an
+> actor's residual escapes without overflowing anything: escape is supplied-by-nobody
+> (`term:escape`), and capacity shortfall is one generator of it.
 <!-- /ddd:embed -->
 
 With a formula, in bits:
@@ -215,12 +222,12 @@ derived from the store model, not a catalogue from observation.
 > output decoupled from the true ground — confident, fluent, and unconstrained by what is actually
 > the case.**
 
-Escape has exactly three sources, because there are exactly three ways a decision can be made without
-correct ground:
+Escape that surfaces as output has exactly three sources, because there are exactly three ways a
+decision can be made without correct ground:
 
 | Cause | The ground is… | Mechanism | The fix |
 |---|---|---|---|
-| **Missing** | **absent** — not in the window | hold-overflow; the fact was never there | **add** ground (retrieval) |
+| **Missing** | **absent** — not in the window | the ground was never supplied; hold-overflow where the window is full, plain non-supply where it is not | **add** ground (retrieval) |
 | **Poisoned** | **false** — present but wrong | a cached belief / own prior output consumed as ground (`closure-principle`) | **re-verify** ground against source of truth |
 | **Overflowed** | **correct but unresolved** — present, right, but exceeds `C_resolve` | resolve-overflow; the actor sheds and coin-flips | **encode** ground (raise encode fraction) — do *not* add |
 
@@ -252,11 +259,18 @@ validation, failed inspection* is this, observed.
 
 ## 7. What is now closed, and what remains
 
-**Closed.** The judgment/escape seam that `core/09` left fused. Escape is the intersection of overflow
-and open (hard case) / `open_residual × p_err` with `p_err = H_b⁻¹(1 − C/n)` (soft case, **derived**
-from rate-distortion, §4.1). The floor is the escape that both exceeds capacity *and* has no verifier
-— *the demand you can neither resolve nor catch.* This is `core/03`'s "predicate doesn't close" given
-a mechanism and a unit.
+**Closed.** The judgment/escape seam that `core/09` left fused. Capacity-generated escape is the
+intersection of overflow and open (hard case) / `open_residual × p_err` with `p_err = H_b⁻¹(1 − C/n)`
+(soft case, **derived** from rate-distortion, §4.1). The floor is the escape that both exceeds
+capacity *and* has no verifier — *the demand you can neither resolve nor catch.* This is `core/03`'s
+"predicate doesn't close" given a mechanism and a unit.
+
+**What this section does not close.** The intersection is sufficient for escape and is not necessary
+for it. It describes what an actor sheds from residual it has taken up; a governing decision that no
+supplier took up at all is escaped without overflowing anything, and canon diagnoses exactly that in
+`05` §7, `05` §8, `06`'s unanticipated situation at an encoded seam, and `10` §9's claim layer. The
+scope correction is recorded in `DDD-dec-15`; the general category remains `term:escape`'s —
+supplied by nobody, for any reason.
 
 **Remains.** `C_resolve` and `C_hold` are treated as **given constants**. Deriving them from actor
 architecture (parameters, context length, attention) is open — and is an **empirical calibration
@@ -277,7 +291,8 @@ and it coincides exactly with the floor: measurement and closure have the same d
 
 ## 8. The one line
 
-> **Demand escapes only where two conditions meet: it exceeds what the actor can resolve, *and* it has
-> no verifier to catch what is shed. That intersection is the floor. Everything else is either caught
-> (a retry) or carried (judgment). Hallucination is that escape surfacing as output — from ground that
-> is absent, false, or unresolved — and only the first is helped by more context.**
+> **Demand an actor has taken up escapes where two conditions meet: it exceeds what the actor can
+> resolve, *and* it has no verifier to catch what is shed. That intersection is the floor. Everything
+> else it took up is either caught (a retry) or carried (judgment) — and demand it never took up
+> escapes without meeting either condition. Hallucination is escape surfacing as output — from ground
+> that is absent, false, or unresolved — and only the first is helped by more context.**

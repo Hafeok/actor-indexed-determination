@@ -236,9 +236,12 @@ ever occupied the Judgment store, the two coincided.
 > **A judgment allocation naming no accountable party is not an allocation. It is Escaped with an
 > executor attached.**
 
-This is `11`'s escape condition at the allocation layer rather than the run layer: the question *who
-answers for this* is **open** — no closing predicate is available for it — and under load it is
-resolved by nobody. Overflow ∩ open.
+This is escape at the allocation layer rather than the run layer, and it does **not** run through
+`11`'s mechanism. The question *who answers for this* is **open** — no closing predicate is available
+for it — and the allocation names nobody to answer it. No capacity is exceeded and nothing is shed:
+the allocation is escaped because the Judgment store requires a supplier and this one has none, which
+is why the prohibition holds at any load. `11`'s overflow ∩ open generates escape from residual an
+actor has taken up; this is a second route to the same forbidden state (`DDD-dec-15`).
 
 Note what this does **not** claim: that model-executed determinations are always escape. A model
 executing under a named accountable human is a well-formed Judgment allocation. What is forbidden is

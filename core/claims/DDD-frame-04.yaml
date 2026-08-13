@@ -12,3 +12,5 @@ owner: paper-4
 changed: v4.4
 notes: |
   Rests on the canon escaped-store concept (core/01; core/05 §1 "Escaped with an executor attached"), but the predictive claim over incident data is unexercised — correctly projected. Not canon-verifiable beyond the underlying category; the empirical prediction is paper-4 work.
+
+  Graph-level inconsistency resolved in this claim's favour, 2026-08-13 (DDD-dec-15). This statement's "no adequate source-and-assurance combination" is supply-general and could not both be right alongside DDD-floor-01's prior form, which made capacity overflow necessary for escape. The two coexisted from v4.4; the inconsistency predates the escape reconciliation session and was found by it, not introduced by it. DDD-floor-01 is the node that moved. Nothing here is amended: this claim's statement, status, region, and falsifier are unchanged, and it is strengthened rather than repaired.
