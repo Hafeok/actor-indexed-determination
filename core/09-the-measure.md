@@ -26,8 +26,8 @@ exposition (canon authority lives in the claim files; see `core/claims/README.md
 | §6.2 | Store allocation actor-relative, total actor-invariant | `DDD-measure-04` |
 | §6.3 | Identification survives an estimated channel (RAG) | `DDD-measure-05` |
 | §7 | The measure exists iff the predicate closes; vanishes at the floor | `DDD-measure-06` |
-| §7–§8 | The measure prices the verdict, not the search | `DDD-measure-11` |
-| §8 | Demand is relative to the ground distribution | `DDD-measure-12` |
+| §7, §9 | The measure prices the verdict, not the search | `DDD-measure-11` |
+| §9 | Demand is relative to the ground distribution | `DDD-measure-12` |
 
 Where this prose and a claim disagree, the claim governs and the prose is the bug
 (flagged in the claim's `notes:`, not silently harmonised).
@@ -350,7 +350,109 @@ Two consequences, booked:
 
 ---
 
-## 8. Caveats, booked
+## 8. Related work
+
+**Shannon (1948).** The chain rule, the unit, and the source-coding interpretation used below are his.
+This note contributes no mathematics. It contributes an identification, and the identification is
+falsifiable where the mathematics is not (§9).
+
+**Ashby (1956).** Requisite variety is the rigorous ancestor: a fixed quantity of variety must be
+absorbed by whatever regulates, and the quantity is stated in bits. The framework's conservation
+principle is Ashby's shape, and this note is the point at which it recovers Ashby's unit — on the
+region where a verdict function exists. That the arrival is late is a comment on the engineering
+literature, not on Ashby.
+
+**Kolmogorov complexity and MDL.** The obvious neighbour, and the obvious objection: if demand is the
+information required to specify the verdict, why is it not the length of the shortest description —
+Kolmogorov complexity (Li and Vitányi 2008), or its statistical descendant, minimum description length
+(Rissanen 1978; Grünwald 2007)?
+
+Three answers, in increasing order of strength.
+
+First, computability and relativity. Kolmogorov complexity is uncomputable and distribution-free.
+Demand as defined here is computable and deployment-relative: the same validator faces different demand
+under different input distributions, and §9 argues that this relativity is a correction rather than a
+concession. A distribution-free quantity cannot express it.
+
+Second, the objects differ. MDL is computable — that is its purpose — but it prices the description of
+a hypothesis against data. It is model-selection machinery. Verdict entropy prices the distinctions a
+task requires of whatever resolves it. The two reconcile rather than compete: by the source-coding
+theorem, `H(V)` is the expected length of an optimal description of the verdict under the ground
+distribution. The measure proposed here is therefore itself a description-length quantity — the
+distribution-relative expectation, which is the form a deployed system faces.
+
+Third, and decisive for this note: the chain rule is exact for entropy and is not exact for
+description length. Conservation here is the identity `I(V;X) + H(V|X) = H(V)`, holding with no error
+term for every conditioning variable (§6). The Kolmogorov analogue — symmetry of information — holds
+only to logarithmic precision (Zvonkin and Levin 1970). A conserved quantity that leaks
+logarithmically under decomposition is an approximation, not an identity, and §§4–6 rest on the
+identity being forced. Entropy is not a convenient choice among complexity measures. It is the measure
+under which conservation is a theorem, and the objection, followed to its end, becomes an argument for
+the identification.
+
+**Information bottleneck.** The closest formal machinery (Tishby, Pereira and Bialek 1999). The
+bottleneck optimises a trade-off between compression and relevance over exactly the quantities used
+here. This note optimises nothing: the total is fixed, and the identity holds for every `X`, optimal or
+not. The point of contact is §5's prediction — over the decompositions of a fixed task, parts are
+minimised exactly when the seam is maximised — which is a bottleneck-shaped frontier for a concrete
+engineering object. Where the bottleneck asks for the best `T`, this note asks what any `S` must pay.
+
+**Actor uncertainty as difficulty.** A recent line estimates task difficulty from a model's own output
+entropy — predictive entropy over responses (Malinin and Gales 2020), or the entropy of plausibility
+scores over candidate answers in subsequent LLM-difficulty work. These are actor-side quantities: the
+residual uncertainty of one arrangement, `H(V|E)` in §6.2's terms, and they vary by actor exactly as
+the framework requires — which is why they measure difficulty-for-an-actor and not demand. Verdict
+entropy never mentions the actor. §6.2 states the relation exactly: actor uncertainty is what remains
+of demand after that actor's encoding.
+
+**Psychometrics.** The Rasch tradition separates person ability from item difficulty as a modelling
+requirement (Rasch 1960), and entropy-based construct specification equations have been used within it
+to explain memory-test difficulty. The separability is an ancestor of §6.2's result — total fixed by
+the task, split relative to the actor — reached from measurement theory rather than information
+theory.
+
+<!-- RECONCILIATION FLAG (2026-08-14, insertion of this section) — UNVERIFIED — Emil review.
+     The paragraph below is reproduced as drafted against the 2026-08-13 project copy. Two clauses
+     are stale against live canon and were NOT reworded, per the standing rule that prose which
+     contradicts canon is flagged, not silently harmonised:
+       (a) "the companion framework derives an error floor from it" — the derivation is in this
+           repository, at `core/11-the-floor-mechanism.md` §4.1, not in a companion;
+       (b) "named as this note's next result" — §6.4 records the escape/judgement split as already
+           supplied by `core/11`, not as owed. The pointer was renumbered §5.3 → §6.4; the claim
+           about its status was left as written. Resolve at the gate. -->
+
+**Rate–distortion.** Adjacent rather than overlapping. The companion framework derives an error floor
+from it, and it is the natural home for the escape/judgement split named as this note's next result
+(§6.4).
+
+**Brooks (1987).** "No Silver Bullet" claims an essential complexity fixed by the problem. `H(V)` gives
+that claim an exact form and a boundary: fixed by the task, the tolerance, and the ground distribution
+— and never by the actor — where the predicate closes, and only there.
+
+### References
+
+- **Ashby, W. R.** (1956). *An Introduction to Cybernetics.* Chapman & Hall, London.
+- **Brooks, F. P.** (1987). "No Silver Bullet: Essence and Accidents of Software Engineering."
+  *IEEE Computer* 20(4), 10–19.
+- **Grünwald, P. D.** (2007). *The Minimum Description Length Principle.* MIT Press.
+- **Li, M., and P. Vitányi** (2008). *An Introduction to Kolmogorov Complexity and Its Applications*,
+  3rd ed. Springer.
+- **Malinin, A., and M. Gales** (2020). "Uncertainty Estimation in Autoregressive Structured
+  Prediction." arXiv:2002.07650; published ICLR 2021.
+- **Rasch, G.** (1960). *Probabilistic Models for Some Intelligence and Attainment Tests.*
+  Danmarks Pædagogiske Institut, Copenhagen.
+- **Rissanen, J.** (1978). "Modeling by Shortest Data Description." *Automatica* 14(5), 465–471.
+- **Shannon, C. E.** (1948). "A Mathematical Theory of Communication." *Bell System Technical Journal*
+  27, 379–423 and 623–656.
+- **Tishby, N., F. C. Pereira and W. Bialek** (1999). "The Information Bottleneck Method."
+  *Proceedings of the 37th Allerton Conference on Communication, Control and Computing*, 368–377.
+- **Zvonkin, A. K., and L. A. Levin** (1970). "The Complexity of Finite Objects and the Development of
+  the Concepts of Information and Randomness by Means of the Theory of Algorithms."
+  *Russian Mathematical Surveys* 25(6), 83–124.
+
+---
+
+## 9. Caveats, booked
 
 Three, none fatal, all required in any write-up:
 
@@ -375,7 +477,7 @@ Three, none fatal, all required in any write-up:
 
 ---
 
-## 9. The result, in one line
+## 10. The result, in one line
 
 > **For a task whose acceptance predicate closes, determination demand is the Shannon entropy of the
 > verdict. Conditioning on any variable `X` splits it, by the chain rule, into what `X` encoded

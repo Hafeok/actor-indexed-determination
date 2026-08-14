@@ -15,7 +15,7 @@ evidence:
 - kind: derivation
   ref: core/09-the-measure.md
   note: >-
-    §7 "A second silence, inside the boundary" and §8 caveat 1 — a lookup table and a SAT
+    §7 "A second silence, inside the boundary" and §9 caveat 1 — a lookup table and a SAT
     instance over the same input space carry the same H(verdict)
 falsifier: >
   A task family in which verdict entropy bounds generation cost, so that the measure does

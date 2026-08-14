@@ -17,4 +17,4 @@ breaks: |
 owner: paper-2
 changed: v4.5
 notes: |
-  Verified against core/09 §1 and §8. Bounded by core/09 §7 (v4.5): H(V) prices the verdict, not the search — the identification must not be read as pricing generation cost.
+  Verified against core/09 §1 and §9. Bounded by core/09 §7 (v4.5): H(V) prices the verdict, not the search — the identification must not be read as pricing generation cost.
