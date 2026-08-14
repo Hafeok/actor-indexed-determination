@@ -411,19 +411,9 @@ to explain memory-test difficulty. The separability is an ancestor of §6.2's re
 the task, split relative to the actor — reached from measurement theory rather than information
 theory.
 
-<!-- RECONCILIATION FLAG (2026-08-14, insertion of this section) — UNVERIFIED — Emil review.
-     The paragraph below is reproduced as drafted against the 2026-08-13 project copy. Two clauses
-     are stale against live canon and were NOT reworded, per the standing rule that prose which
-     contradicts canon is flagged, not silently harmonised:
-       (a) "the companion framework derives an error floor from it" — the derivation is in this
-           repository, at `core/11-the-floor-mechanism.md` §4.1, not in a companion;
-       (b) "named as this note's next result" — §6.4 records the escape/judgment split as already
-           supplied by `core/11`, not as owed. The pointer was renumbered §5.3 → §6.4; the claim
-           about its status was left as written. Resolve at the gate. -->
-
-**Rate–distortion.** Adjacent rather than overlapping. The companion framework derives an error floor
-from it, and it is the natural home for the escape/judgment split named as this note's next result
-(§6.4).
+**Rate–distortion.** Adjacent rather than overlapping. The framework derives its soft-capacity bound
+from it (`core/11` §4), and that bound supplies the escape/judgment split that §6.4 records. The
+supply is partial: the mechanism is sufficient for escape and not necessary for it (`core/11` §7).
 
 **Brooks (1987).** "No Silver Bullet" claims an essential complexity fixed by the problem. `H(V)` gives
 that claim an exact form and a boundary: fixed by the task, the tolerance, and the ground distribution
