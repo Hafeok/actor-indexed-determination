@@ -476,6 +476,7 @@ the cross-domain unification, universal "act is a decision" as anything more tha
 | Conservation = chain rule; seam = mutual information | **Shannon 1948**; **Cover & Thomas** | *the theorem is Shannon's* — say so first |
 | `p_err` under resolve-overflow | **Shannon 1959** (rate-distortion) | we applied a bound, did not derive one |
 | Capacity as an information channel | **Sims 2003** (rational inattention); **Simon 1955** | the channel model of a decision-maker is Sims's |
+| Total fixed by the task, split relative to the actor | **Rasch 1960** (person ability vs item difficulty) | the separability is his, from measurement theory; the information-theoretic form is ours |
 | Hallucination has kinds | **Ji et al. 2023**; **Huang et al. 2023** | our contribution is the *causal* split + distinct remedies |
 | Error cannot be driven to zero | **Xu et al. 2024**; **Kalai & Vempala** | already cited in `core/03`; also bounds `core/11` |
 | Alternative demand formalisation | **Kolmogorov / MDL** | acknowledge the road not taken, and why |

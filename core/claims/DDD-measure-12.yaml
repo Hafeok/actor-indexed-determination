@@ -11,13 +11,13 @@ region: closing predicates only
 evidence:
 - kind: derivation
   ref: core/09-the-measure.md
-  note: §8 caveat 2 — the worked example used uniform P(input); entropy is distribution-relative by definition
+  note: §9 caveat 2 — the worked example used uniform P(input); entropy is distribution-relative by definition
 test: >
   A closing task whose verdict entropy is invariant to P(input), which would make the
   distribution parameter idle.
 owner: paper-1
 changed: v4.5
 notes: >
-  Extracted in the core/09 conversion (§8 caveat 2). A scoping proposition the seed folded
+  Extracted in the core/09 conversion (§9 caveat 2). A scoping proposition the seed folded
   silently into DDD-measure-01/04's "fixed by the task"; landed explicitly so the added
   parameter is visible.
