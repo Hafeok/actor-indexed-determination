@@ -85,11 +85,29 @@ which overstates the claim's own region. The claim keeps the honest form and the
 flagged for Emil review. It bears on O1 and it is `§§1–7` content, so it is listed here and not
 touched.
 
-## What remains
+## The follow-up list — four sites, one gated session
 
-1. **Three live sites, all canon content edits.** `core/09` §6.4, `core/README.md` line 23, and the
-   `DDD-measure-05`/§6.3 tension. Each needs its own gated session; none is repaired here.
-2. **O2 and O5** — the worked-example gap and the outside certification. Both are genuine standing
+All four are canon content edits and none was repaired by the session that found them. Listed here
+and in the pull request body, so they cannot evaporate: an audit file alone is not a queue.
+
+| # | Site | What is wrong | Found |
+|---|---|---|---|
+| F1 | `core/09` §6.4 | *"The point at which `H(verdict\|X)` exceeds effective capacity is where demand begins to escape"* reads necessary-and-sufficient; predates `DDD-dec-15` | Gate 1 |
+| F2 | `core/README.md` line 23 | *"escape = overflow ∩ open"*, unqualified. An index gloss, but it is the front door | Gate 2 |
+| F3 | `core/09` §6.3 vs `DDD-measure-05` | §6.3 presents the RAG run as *"measured on a deployed system pattern rather than a toy"*, overstating the claim's region. Already flagged in the claim's `notes:` | Gate 2, settling O1 |
+| F4 | `core/11` §7 | Lists **four** instances where the falsifier limb fired; `DDD-floor-01`'s notes list **five**, adding `11` §6's own Missing row. The claim governs, so the prose is the bug | Gate 3, writing the B1 note |
+
+F1, F2 and F4 are the v4.4 shape or its bookkeeping. F3 is a separate overstatement of a claim's
+region, and it was flagged by the repository's own mechanism rather than by this audit.
+
+## What else remains
+
+1. **O2 and O5** — the worked-example gap and the outside certification. Both are genuine standing
    debts, not staleness.
-3. **A pass over any other artifact drafted against the v4.4 context.** The related-work section was
+2. **A pass over any other artifact drafted against the v4.4 context.** The related-work section was
    the known case, and the audit has not established that it was the only one.
+3. **A consumer-side discipline.** The projection refresh rule filed in
+   `meta/measure-paper-context.md` addresses the source: a projection must name its repository,
+   commit and canon version. Nothing yet governs the consumers — drafts and notes that *quote* a
+   projection and inherit its pin. Three instances of the same failure in one session make that a
+   class rather than an anecdote.
