@@ -417,12 +417,12 @@ theory.
      contradicts canon is flagged, not silently harmonised:
        (a) "the companion framework derives an error floor from it" — the derivation is in this
            repository, at `core/11-the-floor-mechanism.md` §4.1, not in a companion;
-       (b) "named as this note's next result" — §6.4 records the escape/judgement split as already
+       (b) "named as this note's next result" — §6.4 records the escape/judgment split as already
            supplied by `core/11`, not as owed. The pointer was renumbered §5.3 → §6.4; the claim
            about its status was left as written. Resolve at the gate. -->
 
 **Rate–distortion.** Adjacent rather than overlapping. The companion framework derives an error floor
-from it, and it is the natural home for the escape/judgement split named as this note's next result
+from it, and it is the natural home for the escape/judgment split named as this note's next result
 (§6.4).
 
 **Brooks (1987).** "No Silver Bullet" claims an essential complexity fixed by the problem. `H(V)` gives
