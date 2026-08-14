@@ -36,12 +36,30 @@ The paper **projects canon and introduces nothing**. Every proposition in it is 
 node under `core/claims/DDD-measure-*`. Where the prose and a claim disagree, the claim governs and
 the prose is the bug — flag it in the claim's `notes:`, never harmonise silently.
 
+**What the paper still owes.** Two genuine standing debts, distinct from staleness.
+
+| Debt | Where booked | State |
+|---|---|---|
+| Chained seams, multi-actor compositions, non-uniform ground | `core/09` §9 caveat 3; `core/06` line 185 | Open, unmoved. The honest filler for the length gap, if one is ever wanted |
+| Outside certification by an information theorist | `core/09` §9 caveat 3; `core/11` §7 | Open, and now owed twice — `core/11` inherited it |
+
+Two further items read as debts and are not. The RAG instance is **not** claimed as evidence of
+conservation — `DDD-measure-05` is scoped *"simulation only; a tractability result, not evidence of
+conservation"* — and measuring demand on open predicates is a stated boundary, not unpaid work. The
+correspondence campaign behind `DDD-measure-07` exists as protocol only: a written falsifier, an
+empty evidence list, and a subject matter the boundary charter files downstream, so it cannot be run
+from this repository.
+
 ## 2. Where it lives, and what it is called
 
-| | Live | Was (v4.4 projection) |
+The v4.4 projection's header read, in full: *"Canon source. Projection of `decision-driven-design` at
+v4.4, principally `core/08-the-measure.md`."* One sentence, three errors.
+
+| | Live | Old header said |
 |---|---|---|
-| Repository | `actor-indexed-determination` | `decision-driven-design` |
-| Path | `core/09-the-measure.md` | `core/08` |
+| Repository | `actor-indexed-determination` | `decision-driven-design` — the dependent layer, not this paper's home |
+| Path | `core/09-the-measure.md` | `core/08-the-measure.md` — v4.3-era numbering, pre-P3.1 |
+| Canon version | v4.5 | v4.4 |
 | Title | *An Information-Theoretic Account of Determination Demand* | — |
 
 Both moves are documented in the repository. The renumbering is P3.1 of the v4.3 → v4.4 patch
@@ -167,6 +185,14 @@ Paper A *into* canon is flagged `UNVERIFIED` until it lands: `DDD-frame-01`, `DD
 `DDD-frame-07` carry that flag today, and the six-tuple index and the H1–H5 hypothesis set are the
 named examples. **Do not import Paper A material into the measure paper as though it were canon.**
 
+**Citation direction, retained verbatim from the v4.4 projection at Emil's ruling.** The paragraphs
+above give the *authoring* direction; this gives the *citing* direction, and they answer different
+questions.
+
+> Paper A states the actor-general principle and cites this result rather than deriving it; the
+> measure paper cites A for the framework and does not restate it. A is the primary statement; this
+> is the formal backbone for one region of it.
+
 Paper A §6 was previously gated on evidence campaigns E1–E4 and is now unblocked, the
 selection/training ratio being falsifiable from existing literature.
 
@@ -238,5 +264,5 @@ Before filing any inherited prose, run the check:
 4. File only where the draft and the live text agree; hold where they do not.
 
 The audit at `meta/measure-paper-context-staleness-2026-08-14.md` is this check run against the v4.4
-projection, and it found the drift in two shipped places. Neither was found by reading the draft
-carefully. Both were found by reading the referent.
+projection, and it found the drift in three live places. None was found by reading the draft
+carefully. All three were found by reading the referent.
