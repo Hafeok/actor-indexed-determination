@@ -43,7 +43,13 @@ notes: |
   fields is deliberately not built this session (no validator or tooling work); the claim files
   the requirement, and the format follows on ratification.
 
-  Flag retained from the note, unresolved here: retro-filing may be the discharge mechanism for
-  the escape generators rather than a separate operation. Whether the retro-filing act itself
-  is a claim-layer act (as declared-empty was ruled to be at GATE 2) is not settled by this
-  claim and is left for Emil.
+  Both sub-questions ruled at GATE 4 (Emil, 2026-08-15; recorded in DDD-dec-17):
+
+  - Retro-filing is a discharge mechanism for the escape generators — the ledger-side one —
+    and it discharges only when both fields are present. Without the fields it is not
+    discharge; it is the laundering this claim names. The two fields are what turn retro-filing
+    from concealment into remedy.
+  - The retro-filing act is a claim-layer act, by the same reasoning as declared-empty (the
+    sibling ruling to GATE 2's, same reasoning, same session): it asserts a fact about the past
+    — that this decision governed acts before its filing date — attributable, falsifiable by
+    one act in the interval the decision did not govern, and subject to claimant calibration.
