@@ -1,0 +1,59 @@
+format: 1
+id: DDD-ground-01
+kind: normative
+statement: |
+  A decision files with a resolvable applicability predicate over declared ground axes, or with an explicit declaration of universal applicability; each declared axis is marked mechanically-evaluable or judgement-evaluable, and non-evaluation must never silently become non-applicability.
+status: projected
+region: |
+  Binds at filing, synchronically — the gate is a property of the filing act, not of anything
+  persisting between acts (upstream per DDD-dec-09's charter). Evidenced bound, stated per the
+  corpus: the gate binds fully where acts are mediated by extractable artefacts; decisions whose
+  discriminating content is semantic may carry nameable axes with the weaker standing named.
+  Both nameable axes in the corpus registry came from canon-register rows with semantic content
+  (charter temporality, question bearing); every axis from the toolchain corpus resolved.
+evidence:
+  - kind: observation
+    ref: "Corpus test results, 2026-08-14 — 'The axis registry — first draft' and Gate 4 synthesis §2"
+    note: |
+      22 axes invented across the 11-row sample (5 canon-ratified, 4 accepted-not-ratified,
+      2 pending); 20 resolvable (one partial), 2 nameable — 91%. Every axis carried an extractor
+      sketch or an explicit nameable mark; no registry existed anywhere before the exercise, so
+      the invention cost measured is the adoption cost.
+  - kind: observation
+    ref: "Corpus test results, 2026-08-14 — §4 Q2 (the matched pair) and the Gate 4 consequence ruling"
+    note: |
+      The axis-type field is a maturity state, not a fixed type: the same revisitation slot moved
+      from judgement-read to mechanically evaluable as the register's formats matured —
+      DDD-dec-02's reviewTrigger tolerance ("a wide margin", nameable; decision made 2026-07-28)
+      to the revisit_if ruling's hash-pinned tolerance (resolvable; pinned reported@2026-08-06,
+      ruling accepted 2026-08-13). Interval roughly two and a half weeks, per the repository
+      record. (Erratum carried in the session document: the corpus document's "five weeks" and
+      the session prompt's 2026-07-08 date do not match the repository; the repo governs.)
+falsifier: |
+  A meaningful fraction of existing ratified decision files cannot name a ground axis, and reading them shows no defect.
+test: |
+  Counterexample hunt over decision registers: decisions that file cleanly with no nameable axis and no defect on reading, or axes whose mechanically-evaluable/judgement-evaluable mark proves undecidable at filing.
+breaks: |
+  Nothing else in core/ falls. Downstream, the axis-registry seed artefact loses its gate premise, and any future sweep mechanisability rests on this gate having held.
+owner: none
+changed: v5.5 (2026-08-15, vocabulary-and-delivery session)
+notes: |
+  Filed from the vocabulary-and-delivery session (earned by the corpus test, Emil's Gate 4 ruling
+  2026-08-14; interactive curation, Emil ruling at every gate). Scoped as evidenced: the corpus
+  priced the gate against eleven decisions and found 20 of 22 invented axes resolvable; the
+  region's semantic-content bound is the corpus's own characterisation of the two nameable axes,
+  stated here rather than smuggled past.
+
+  The statement's first sentence is sourced from the ground-applicability holding note
+  (2026-08-12, unratified — the revised Q1), filed here on corpus evidence per Emil's Gate 1
+  ruling. PENDING — Emil review: the applicability note announced at the Gate 1 ruling (362
+  lines / 2,494 words, sha256 4afe380c…) did not arrive; the identity check failed as absent, and
+  the wording above carries the session prompt's paraphrase until the note is received and its
+  wording made to govern. Held at Gate 2 on exactly this.
+
+  Distinguish two failures the gate keeps apart, per the note's Q1: an artefact naming no axis
+  fails the decision admission test (term:admission-test) — it is a stated intention, not a
+  decision; an axis nameable but not evaluable is closure failure, a legitimate filing routed
+  through the assurance gate with the weaker standing named. Non-evaluation never silently
+  becomes non-applicability because governing-set membership is fixed by tolerance and the world
+  (term:granularity-bound), not by what an extractor happens to close over.
