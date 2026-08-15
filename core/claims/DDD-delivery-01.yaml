@@ -1,0 +1,55 @@
+format: 1
+id: DDD-delivery-01
+kind: conceptual
+statement: |
+  Filing is not encoding: a decision sits in I(V;X) only to the extent the arrangement delivers it at the act, so store allocation cannot be read off artefacts, and the paid-once-inherited-by-every-run property belongs to mechanical delivery specifically, not to standing supply generally.
+status: projected
+region: |
+  A correctness condition on reading allocation, synchronic — it constrains what may be inferred
+  from a register at an act, not what exists (upstream per DDD-dec-09's charter). Explicitly not
+  a fifth store and not a new axis of the store partition: term:store's {rule, check, actor,
+  nothing} is untouched, and a filed-but-undelivered decision's store assignment is nothing —
+  escape — exactly as the partition already reads it. The boundary is the corpus session's SR-1
+  ruling and it binds this filing.
+evidence:
+  - kind: observation
+    ref: "Corpus test results, 2026-08-14 — rows 1 and 5 (DDD-dec-15/16), and row 6"
+    note: |
+      Ratified canon carries the instance: the downstream pin's mechanical channel (E12/E13/W5)
+      demonstrably did not deliver the escape-scope correction — the checks instrument status,
+      not statement, and would have carried the repository forward against a superseded statement
+      without a word. The artefact showed coverage; the delivery had not happened. Row 6 shows
+      the same divergence spatially: one decision mechanically delivered at the MCP write path
+      and absent at the CLI act-site — the register's artefact identical from both sites. Corpus
+      sample: 11 rows (5 canon-ratified, 4 accepted-not-ratified, 2 pending).
+  - kind: observation
+    ref: "Corpus test results, 2026-08-14 — Test B tally and Gate 3 closure"
+    note: |
+      Delivery type was determinable at 7 of 7 examined gates from the record alone — the
+      distinction has extension in practice. The un-annotated follow-through base rate (one gate
+      in seven, mildest form) is the observed floor of record-versus-arrival divergence: an
+      emitted record showing more than was delivered, at a low nonzero rate.
+falsifier: |
+  Ledger-counted and delivery-counted store allocation agree across a corpus; then the distinction has no extension.
+test: |
+  Count a register's allocation twice — once off artefacts, once off what arrived at each act — and compare; the corpus test's per-act-site delivery column is the first instance of the second count.
+breaks: |
+  DDD-delivery-02 loses its mechanism (undelivered would be unreadable); DDD-delivery-03's correlated-failure account loses the reading it depends on. The store partition itself is untouched either way.
+owner: none
+changed: v5.5 (2026-08-15, vocabulary-and-delivery session)
+notes: |
+  Filed from the vocabulary-and-delivery session (earned 2026-08-14; interactive curation, Emil
+  ruling at every gate). Sourced from the ground-axes holding note (2026-08-13, unratified, Q15),
+  filed here on corpus evidence.
+
+  The claim's negative half is load-bearing: it is a condition on reading, not a store. The
+  corpus session's SR-1 ruling (the partition stands; the counterexample channel closed empty
+  over 11 rows) is the boundary, and the store re-derivation the originating note proposed is
+  not on the table — the advisory assessment's argument stands: the partition handles the
+  undelivered case exactly (store = nothing, escape); what fails is the inference from artefact
+  to store.
+
+  I(V;X) here is the measure's mutual-information split (DDD-measure-01 vocabulary): X as the
+  arrangement's encoding contributes only what is present at the act. A ledger entry judgement
+  fails to retrieve was never in the encoding — it looked like it was because someone paid the
+  authoring cost.

@@ -1,0 +1,62 @@
+format: 1
+id: DDD-delivery-02
+kind: conceptual
+statement: |
+  Governance filed but not delivered is escape: no source supplied the governing decision at the act, so it was determined by nobody (term:escape, supply-general), and delivery failure is thereby a generator of escape — sufficient, never necessary — whose distinguishing feature is that the ledger shows coverage: escape that presents as governance.
+status: projected
+region: |
+  Synchronic, per act (upstream per DDD-dec-09's charter). Adds no condition to term:escape and
+  widens nothing — escape is supplied-by-nobody for any reason, and this claim names one more
+  route to it, joining the generators recorded in DDD-dec-15 (capacity shortfall;
+  no-applicable-filed-source). Requires the decision to have been filed and adequate: an
+  unfiled decision escapes by the plain route, and a filed source whose assurance proved
+  inadequate is governed, not escaped (the 10 §9 boundary, as DDD-dec-15 records it).
+evidence:
+  - kind: observation
+    ref: "Corpus test results, 2026-08-14 — Gate 4 synthesis §5, the A-01 Gate 1 centrepiece"
+    note: |
+      The fidelity-ceiling claim with a live instance in the project's own record, end to end: a
+      governing input (the predicted-ground holding note) failed to arrive at the escape
+      reconciliation session; the session did not improvise it from the advisory summary; the
+      non-arrival was surfaced, ruled, and the slot held open — DDD-dec-15 carries the UNVERIFIED
+      block to this day. The reflexive chain: the same artefact also failed to arrive at the
+      corpus session's first gate, caught both times by an identity check refusing to substitute
+      a summary for a source. Real, recurrent, detectable. (A third instance occurred in this
+      filing session itself: the applicability note announced at the Gate 1 ruling arrived only
+      after the identity check reported it absent — recorded in the session document.)
+  - kind: observation
+    ref: "Corpus test results, 2026-08-14 — rows 1 and 5"
+    note: |
+      The presentation feature observed verbatim in ratified canon: DDD-dec-16's resolution
+      records the pin checks (E12/E13/W5) silent while the pinned statement moved — the artefact
+      recording the pass identical to the artefact recording the skip. The ledger showed
+      coverage; delivery had not happened. Corpus sample: 11 rows (5 canon-ratified, 4
+      accepted-not-ratified, 2 pending).
+falsifier: |
+  A corpus act whose governing decision was filed, adequate, and demonstrably never reached it, for which the determination is nonetheless shown to have been supplied at the act by some source — undelivered without escape.
+test: |
+  Classify observed delivery failures against the store partition: every genuine undelivered case must land in the nothing cell; one that lands elsewhere fires the falsifier.
+breaks: |
+  term:undelivered loses its escape reading and reverts to a bare failure label; the delivered-versus-emitted check loses its stake (a miss would no longer be an escape finding). term:escape and DDD-dec-15 are untouched either way — this claim rests on them, not they on it.
+owner: none
+changed: v5.5 (2026-08-15, vocabulary-and-delivery session)
+notes: |
+  Filed from the vocabulary-and-delivery session (earned 2026-08-14; interactive curation, Emil
+  ruling at every gate). Sourced from the ground-axes holding note (2026-08-13, unratified, Q18's
+  open question — generator or sibling), resolved to generator here on the advisory assessment's
+  argument and the corpus evidence, per the session prompt; the Q12/Q18 tension the note recorded
+  dissolves under this reading — Q12's ruling turned on governance being present at the act,
+  Q18's case has it present in the ledger and absent at the act, and delivery is what
+  distinguishes them.
+
+  No new escape condition is minted — the model is DDD-dec-15's own holding ("no new claim is
+  minted" for supply-generality). What this claim adds is the generator's name and its
+  distinguishing feature: every other escape leaves the register empty at the point of failure;
+  this one leaves it full, which is why it needs the name and why sweeps that read artefacts
+  alone report clean over it (the retro-filing fields, filed separately, exist for the same
+  reason).
+
+  The generator-2 slot stays untouched: whether an empty option set under forced commitment is a
+  third route to unsupplied determination, or an instance of the no-applicable-source route, is
+  recorded open and unexamined in DDD-dec-15's notes, and nothing here closes or crowds it —
+  delivery failure is a route distinct from that question on either answer.

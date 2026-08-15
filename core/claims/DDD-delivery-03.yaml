@@ -1,0 +1,47 @@
+format: 1
+id: DDD-delivery-03
+kind: conceptual
+statement: |
+  An unretrieved decision and an unretrieved check over the same act are correlated failures — same actor, same budget, same position — so judgement-mediated delivery on both the source and assurance sides silently removes the independence a gate depends on: the failures compound rather than stack.
+status: projected
+region: |
+  Synchronic, per act (upstream per DDD-dec-09's charter). Applies where both a governing
+  decision and a check over the same act reach it by judgement-mediated delivery; where either
+  side is mechanically delivered, the correlation is broken by construction. Cuts across source
+  and assurance identically — which is evidence the delivery split is real rather than an
+  artefact of the source side (the originating note's Q17 argument, Emil's extension).
+evidence:
+  - kind: observation
+    ref: "Corpus test results, 2026-08-14 — Test B tally, finding 3, and the Gate 3 closure"
+    note: |
+      Indirect, stated as such: the corpus did not observe the correlated double failure itself.
+      What it observed is the condition that makes the claim's check worth having — the
+      un-annotated follow-through base rate (one gate in seven, mildest form): low and nonzero,
+      which is precisely where a delivered-versus-emitted comparison earns its keep (at base rate
+      zero the check is dead weight; at a high rate the practice is broken; observed: neither).
+      Corpus sample: 11 rows (5 canon-ratified, 4 accepted-not-ratified, 2 pending); 7 gates.
+falsifier: |
+  Arrangements mechanising checks while leaving decision retrieval to judgement fail to outperform the reverse, content of both held constant.
+test: |
+  The originating note's prediction, filed as this claim's falsifier per the session prompt: compare arrangements that mechanise the assurance side against arrangements that mechanise the source side, content constant; the asymmetry claim fails if the ordering does not appear.
+breaks: |
+  The design consequence — mechanise checks first, because the assurance side has no independent signal that delivery happened — loses its warrant; presumed discharge remains a record property but stops being the compounding case's signature. DDD-frame-05's independence result is untouched: this claim describes independence being removed by shared delivery, not the checked-property independence itself failing.
+owner: none
+changed: v5.5 (2026-08-15, vocabulary-and-delivery session)
+notes: |
+  Filed from the vocabulary-and-delivery session (earned 2026-08-14; interactive curation, Emil
+  ruling at every gate). Sourced from the ground-axes holding note (2026-08-13, unratified, Q17
+  — Emil's extension of the delivery split to assurance), filed here on corpus evidence.
+
+  Flagged, per scoped-as-evidenced: this is the filing whose direct evidence is thinnest — the
+  corpus evidenced the delivery split, the record asymmetry (presumed discharge observed
+  verbatim), and the nonzero base rate, but no sampled act exhibited the correlated double miss.
+  The structural argument (same actor, same budget, same position) and the prediction-as-
+  falsifier carry the filing; the falsifier is the note's own testable design consequence,
+  stated before any instance was sought.
+
+  The record asymmetry underneath the claim: retrieval failure is invisible to the check's own
+  record — a gate reports passed meaning applied-and-satisfied or meaning never-reached
+  (term:presumed-discharge), where on the source side the act's outcome is at least available to
+  argue from. That asymmetry is why mechanical delivery matters more on the assurance side, and
+  it is what the falsifier's ordering tests.

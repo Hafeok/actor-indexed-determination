@@ -483,3 +483,32 @@ terms:
     aliases: [immune system]
     established_by: 12-the-licensing-instance.md
     status: settled
+  - id: term:delivery
+    term: delivery
+    aliases: [mechanical delivery, judgment-mediated delivery, judgement-mediated delivery]
+    established_by: 18-delivery.md
+    status: draft
+    canonical_md: |
+      > **Delivery** is how authored governance reaches an act: **mechanical** — the act triggers
+      > retrieval, without judgment — or **judgment-mediated** — it reaches the act only if an actor
+      > recalls it. Delivery is a property of a decision **at an act-site**, never of the decision
+      > alone: the same decision can be mechanically delivered at one act-site and judgment-mediated at
+      > another, and a path from a decision to an act is only as mechanical as its weakest edge.
+  - id: term:undelivered
+    term: undelivered
+    established_by: 18-delivery.md
+    status: draft
+    canonical_md: |
+      > **Undelivered** — filed, adequate, and never reached the act. No source supplied the governing
+      > decision at the act, so it was determined by nobody: escape, with a distinguishing feature —
+      > **the ledger shows coverage.** Escape that presents as governance.
+  - id: term:presumed-discharge
+    term: presumed-discharge
+    aliases: [presumed discharge]
+    established_by: 18-delivery.md
+    status: draft
+    canonical_md: |
+      > **Presumed discharge** — a gate's *pass* meaning never-reached: the artefact recording the
+      > skip is identical to the artefact recording the pass. Named as a property of the record, not
+      > of an actor's omission, so it stays mechanisable — a discharge ref can be asked whether it
+      > distinguishes applied-and-satisfied from never-reached.
