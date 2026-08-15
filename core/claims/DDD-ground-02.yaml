@@ -22,7 +22,8 @@ evidence:
       verdict's distinctive features did real work: an owner, a horizon or transfer condition,
       under-observation. Row 8 shows the typing keeping apart what the store partition alone
       cannot state: accepted exposure realising at a deliberately-open boundary is the
-      arrangement working, not a finding against coverage.
+      arrangement working, not a finding against coverage. Rows 4 and 8 varied resolution
+      independently of coverage — the one orthogonality the corpus did test, and it held.
   - kind: observation
     ref: "Corpus test results, 2026-08-14 — Gate 4 criterion-1 ruling"
     note: |
@@ -61,13 +62,20 @@ notes: |
   independent of both) is exercised only partially — rows 4 and 8 vary resolution independently
   of coverage; assurance was not varied.
 
-  Structural observation, not a ruling: the ground-axes note's open ruling 2 (do inert and open
-  collapse?) is answered structurally by the orthogonal split — declared-empty is a coverage
-  value and deliberately-open a resolution value, so they cannot collapse; they were never on
-  one axis. Recorded for Emil, not asserted as settled.
+  The inert/open collapse question dissolves by construction (ruled at Gate 2, Emil,
+  2026-08-15): declared-empty is a coverage value and deliberately-open a resolution value —
+  they were never on one axis, so the ground-axes note's open ruling 2 (do inert and open
+  collapse?) is answered by the orthogonal split itself.
 
-  FLAGGED for the Gate 2 ruling — the declared-empty value: the corpus exercised it zero times,
-  and the session prompt's "per the applicability note's ruling-2 answer" has no referent — the
-  note's open ruling 2 ("is declared-empty a decision kind, a resolution value, or a
-  conventional applicability record?") is an open question, not an answer. Whether the value
-  files now (and if so in which of the three shapes) or waits is Emil's ruling at this gate.
+  The declared-empty value files now, as the coverage value it already is in this typing (ruled
+  at Gate 2, Emil, 2026-08-15): omitting one of four values from a filed enumeration because the
+  corpus did not draw it would leave the enumeration incomplete on ratification. Zero corpus
+  draws is recorded as its evidence status. Shape, answering the applicability note's open
+  ruling 2 ("decision kind, resolution value, or conventional applicability record?") with the
+  note as source and this session as the ruling site: **the filing of a declared-empty is a
+  claim-layer act.** Declared-empty asserts that no choice in the region moves the outcome past
+  tolerance — an admission-test assertion, attributable and falsifiable by one act, which in
+  this framework is a claim with a claimant, subject to claimant calibration. Not a decision
+  kind; not a bare record. (Emil's ruling names the calibration instrument; it is carried here
+  as "claimant calibration" because the instrument is filed with a projection and this registry
+  carries no reference to its dependents.)
