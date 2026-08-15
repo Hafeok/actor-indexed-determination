@@ -2,53 +2,72 @@ format: 1
 id: DDD-ground-02
 kind: conceptual
 statement: |
-  Ground relative to a filed decision set takes exactly one of four states — governed (a filed decision covers this region), declared-empty (declared: no outcome-relevant alternative here), open (declared: alternative here, deliberately unresolved, under observation), uncovered-undeclared (none of the above) — and only the fourth is a finding.
+  Source coverage (covered · declared-empty · undeclared · unknown), resolution (resolved · deliberately-open · unknown), and assurance (adequate · inadequate · unknown) are orthogonal properties of ground relative to a filed decision set: only source coverage = undeclared is a source-coverage finding, deliberately-open is a resolution value carrying a deferred verdict, and Unknown is never a pass.
 status: projected
 region: |
-  Synchronic — a state of ground relative to a filed decision set, read at an act (upstream per
-  DDD-dec-09's charter). The typing classifies ground, not decisions: a single decision may file
-  an acceptance whose sub-regions are open underneath it, and the states are read per region.
+  Synchronic — properties of ground relative to a filed decision set, read per region at an act
+  (upstream per DDD-dec-09's charter). declared-empty is an attributable decision that no
+  outcome-relevant alternative is live in the region, not ungoverned ground. A deliberately open
+  object-level determination may be governed at the meta level by an experiment or observation
+  decision; openness at one level and governance at another coexist.
 evidence:
   - kind: observation
     ref: "Corpus test results, 2026-08-14 — rows 4 and 8, and §4 Q1"
     note: |
-      The corpus (11 rows: 5 canon-ratified, 4 accepted-not-ratified, 2 pending) exercised open
-      twice — DDD-dec-14's first-order question and the What-boundaries acceptance's 24
-      underlying determinations — and both times open's distinctive features did real work: an
-      owner, a horizon or transfer condition, under-observation. Row 8 shows the typing keeping
-      apart what the store partition alone cannot state: accepted exposure realising at an open
-      boundary is the arrangement working, not an incident, and not escape.
+      The corpus (11 rows: 5 canon-ratified, 4 accepted-not-ratified, 2 pending) exercised
+      deliberately-open twice — DDD-dec-14's first-order question (second-order rule covered and
+      resolved; first-order determination deliberately-open, with owner and transfer condition)
+      and the What-boundaries acceptance (acceptance covered and resolved; the 24 underlying
+      determinations deliberately-open under a declared horizon). Both times the deferred
+      verdict's distinctive features did real work: an owner, a horizon or transfer condition,
+      under-observation. Row 8 shows the typing keeping apart what the store partition alone
+      cannot state: accepted exposure realising at a deliberately-open boundary is the
+      arrangement working, not a finding against coverage.
   - kind: observation
     ref: "Corpus test results, 2026-08-14 — Gate 4 criterion-1 ruling"
     note: |
-      11 of 11 rows express fully under this typing (the governing reading, ruled); 9 of 11 plus
-      one nameable failure class without it. The gap between the two readings is the typing's
-      earned value, ruled at Gate 4.
+      11 of 11 rows express fully with the typing carried alongside timing and delivery (the
+      governing reading, ruled); 9 of 11 plus one nameable failure class without it. The gap
+      between the two readings is the typing's earned value, ruled at Gate 4. The corpus
+      exercised the typing in its four-state projection (governed / inert / open /
+      uncovered-undeclared); the mapping is recorded in notes.
 falsifier: |
-  A corpus retrieval miss whose ground state cannot be assigned to exactly one of the four states; or a corpus over which open's distinctive features (owner, horizon or transfer condition, under-observation) do no discriminating work against governed and uncovered-undeclared.
+  Real cases cannot be represented without adding an ordering or coupling that the orthogonal split forbids.
 test: |
-  Expression over further decision corpora; the 2026-08-14 eleven-row table is the first instance. The declared-empty limb has no instance yet and is the state to watch.
+  Expression over further decision corpora; the 2026-08-14 eleven-row table, expressed in the four-state projection, is the first instance. The declared-empty value has no corpus instance yet and is the value to watch.
 breaks: |
-  DDD-ground-03 loses its subject (the open state is what has no resolution to time). The sweep's promised remedy — a retrieval miss resolving to a named state rather than an ambiguity — reverts to advisory.
+  DDD-ground-03 loses its subject (deliberately-open is what has no resolution to time). The sweep's promised remedy — a retrieval miss resolving to a named state rather than an ambiguity between nothing-applies, nobody-filed, and deliberately-watching — reverts to advisory.
 owner: none
 changed: v5.5 (2026-08-15, vocabulary-and-delivery session)
 notes: |
   Filed from the vocabulary-and-delivery session (earned 2026-08-14; interactive curation, Emil
-  ruling at every gate). Scoped as evidenced, and the scoping is uneven by state: the corpus
-  exercised open twice and governed/uncovered throughout, but declared-empty zero times — no
-  sampled decision declares "no outcome-relevant alternative here". FLAGGED for the Gate 2
-  ruling: whether the declared-empty limb files now (per the applicability note's ruling-2
-  answer) or waits; the corpus did not exercise it, and its wording sources to the
-  ground-applicability note (2026-08-12, unratified).
+  ruling at every gate). Kept separate from DDD-ground-03 per Emil's Gate 1 ruling: the typing
+  and the timing value fail independently.
 
-  PENDING — Emil review: that applicability note, announced at the Gate 1 ruling (362 lines /
-  2,494 words, sha256 4afe380c…), did not arrive; the identity check failed as absent. Two
-  elements of this filing rest on it and are carried here as the session prompt's paraphrase
-  until the note is received: the declared-empty wording and ruling-2 reference above, and the
-  framing of source coverage, resolution, and assurance as orthogonal properties (with open as a
-  resolution value carrying a deferred verdict, and the Unknown-is-never-a-pass rule) — the
-  orthogonality framing is deliberately kept OUT of the statement for exactly this reason.
+  Provenance: the orthogonal typing, its value sets, the declared-empty and deliberately-open
+  readings, and the Unknown-is-never-a-pass rule are sourced from the ground-applicability
+  holding note, 2026-08-12, unratified (Q3; identity verified on receipt 2026-08-15: 362 lines /
+  2,494 words / sha256 4afe380c…), filed here on corpus evidence per the Gate 1 ruling.
 
-  Whether declared-empty and open collapse into one construct with two values is the note's open
-  ruling 2, still open: the corpus can only report that open did all the observed work of the
-  pair (§4 Q1). Nothing here settles it.
+  Two-notes conflict, recorded rather than harmonised (flag, don't guess): the ground-axes
+  holding note (2026-08-13, revision 8 — the corpus session's source) carries Q3 as four states
+  (governed / inert / open / uncovered-undeclared); the applicability note (2026-08-12) replaces
+  the four states with the orthogonal axes above, and the session prompt and Gate 1 ruling
+  follow the applicability note. The later-dated note carries the superseded shape. The corpus
+  exercised the four-state projection; it maps onto the orthogonal typing as: governed ↔ covered
+  ∧ resolved; inert ↔ declared-empty; open ↔ deliberately-open (coverage possible at the meta
+  level); uncovered-undeclared ↔ undeclared. Nothing the corpus evidenced is lost in the
+  mapping; the orthogonality itself (coverage moving without resolution moving, assurance
+  independent of both) is exercised only partially — rows 4 and 8 vary resolution independently
+  of coverage; assurance was not varied.
+
+  Structural observation, not a ruling: the ground-axes note's open ruling 2 (do inert and open
+  collapse?) is answered structurally by the orthogonal split — declared-empty is a coverage
+  value and deliberately-open a resolution value, so they cannot collapse; they were never on
+  one axis. Recorded for Emil, not asserted as settled.
+
+  FLAGGED for the Gate 2 ruling — the declared-empty value: the corpus exercised it zero times,
+  and the session prompt's "per the applicability note's ruling-2 answer" has no referent — the
+  note's open ruling 2 ("is declared-empty a decision kind, a resolution value, or a
+  conventional applicability record?") is an open question, not an answer. Whether the value
+  files now (and if so in which of the three shapes) or waits is Emil's ruling at this gate.

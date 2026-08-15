@@ -2,13 +2,14 @@ format: 1
 id: DDD-ground-03
 kind: conceptual
 statement: |
-  An open decision has no resolution for a timing predicate to read, so the timing vocabulary carries a fourth value — "—(open)" — alongside before, during, and after; any timing predicate without it misfiles open decisions, because every definite value it can assign erases the declaredness that makes them open.
+  A decision whose resolution is deliberately-open has no resolution for a timing predicate to read, so the timing vocabulary carries a fourth value — "—(open)" — alongside before, during, and after; any timing predicate without it misfiles open decisions, because every definite value it can assign erases the declaredness that makes them open.
 status: projected
 region: |
   Synchronic — timing is read per decision relative to an act (upstream per DDD-dec-09's
   charter). Additive to the three positions term:encoded, term:mechanical, and term:judgment
   carry (before / after / during); none of the three is amended. The fourth value applies
-  exactly where DDD-ground-02's open state holds — a deferred verdict is not a position in time.
+  exactly where DDD-ground-02's resolution reads deliberately-open — a deferred verdict is not a
+  position in time.
 evidence:
   - kind: observation
     ref: "Corpus test results, 2026-08-14 — rows 4 and 8, summary table failure column"
@@ -27,11 +28,11 @@ evidence:
       mechanical store's defining after-position. The three-way-plus-fourth-value vocabulary is
       primary and the binary does not suffice; ruled as the hybrid's verdict at Gate 2.
 falsifier: |
-  A corpus open decision that a three-valued timing predicate reads correctly without misfiling its openness; or an open decision for which the fourth value proves assignable to before, during, or after without loss.
+  A corpus decision with resolution deliberately-open that a three-valued timing predicate reads correctly without misfiling its openness; or an open decision for which the fourth value proves assignable to before, during, or after without loss.
 test: |
   Re-expression of open decisions across further corpora; the value earns its place exactly as often as open rows appear and resist the three definite positions.
 breaks: |
-  The Gate 4 criterion-1 governing reading (11 of 11 expressing fully) reverts to 9 of 11 plus a nameable failure class; DDD-ground-02's open state loses its timing behaviour but survives.
+  The Gate 4 criterion-1 governing reading (11 of 11 expressing fully) reverts to 9 of 11 plus a nameable failure class; DDD-ground-02's deliberately-open value loses its timing behaviour but survives.
 owner: none
 changed: v5.5 (2026-08-15, vocabulary-and-delivery session)
 notes: |
@@ -41,8 +42,8 @@ notes: |
 
   The notation "—(open)" is the corpus table's own: a timing cell carrying no position, annotated
   with why. It is a reading of absence, not a fifth position — nothing is supplied at any time,
-  and nothing is escaped either, because the absence is declared and owned (DDD-ground-02's open
-  state, kept distinct from term:escape's supplied-by-nobody).
+  and nothing is escaped either, because the absence is declared and owned (deliberately-open
+  under DDD-ground-02, kept distinct from term:escape's supplied-by-nobody).
 
   The binary predicate this claim retires from primary use is the ground-axes holding note's
   §13.2 timing predicate ("is the resolution complete before the act, or does the act complete
