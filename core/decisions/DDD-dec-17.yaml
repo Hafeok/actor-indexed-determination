@@ -1,0 +1,69 @@
+format: 1
+id: DDD-dec-17
+kind: decision
+statement: |
+  The vocabulary-and-delivery session's filings: the ground and delivery areas are minted and the corpus-earned vocabulary files — the applicability gate, the orthogonal coverage/resolution/assurance typing with the —(open) timing value, and the delivery vocabulary (filing-is-not-encoding, undelivered-as-escape-generator, compounding, with delivery/undelivered/presumed-discharge established by core/13-delivery.md) — scoped as evidenced by the corpus test of 2026-08-14, with two scope extensions (DDD-cost-09, DDD-cost-08) and one term-collision repair (00-primitives) ruled in at GATE 3.
+principal: Emil
+made: 2026-08-15, vocabulary-and-delivery session (rulings at GATES 1–3; drafted at GATE 3; grows to session close)
+resolution: |
+  DRAFT — grows gate by gate; final at session close (GATE 5). Interactive canon curation;
+  every ruling below is Emil's, recorded at its gate; the session document
+  (vocabulary-delivery-session-2026-08-15.md, filed with the software projection's programme
+  layer) carries the full gate record.
+
+  The warrant: the corpus test of 2026-08-14 priced the ground-axes vocabulary against eleven
+  decisions (five canon-ratified, four accepted-not-ratified, two pending) and seven session
+  gates, and Emil ruled it earned under pre-declared criteria (11/11 expression under the
+  four-state typing's governing reading; 20 of 22 invented axes resolvable; cost at the bar
+  with marginal cost falling; delivery determinable at every examined gate). This session files
+  what was earned, scoped as evidenced.
+
+  Filed at GATES 2–3, upstream: DDD-ground-01 (the applicability gate, the applicability note's
+  Q1 wording governing, the axis-type field joined from the ground-axes note's Q19 as a
+  maturity state); DDD-ground-02 (the orthogonal typing, with declared-empty ruled to file now
+  as a coverage value whose filing is a claim-layer act — the applicability note's open
+  ruling 2, answered at GATE 2); DDD-ground-03 (the —(open) timing value, its own claim);
+  core/13-delivery.md (draft, minimal, establishing term:delivery, term:undelivered,
+  term:presumed-discharge); DDD-delivery-01/02/03. Downstream, with the projection:
+  DDD-delivery-04 (maturation retrieval-dependence, diachronic under the boundary charter).
+
+  Scope extensions, ruled at GATE 3 with this decision as their record (the DDD-cost-05
+  pattern from the escape reconciliation): the R-2 exposure check found two ratified-adjacent
+  claims wanting a named delivery condition, both corpus-evidenced by the no-unwrap row, and
+  deferring either to acceptance would have left a claim knowingly slightly wrong across the
+  merge —
+
+  - DDD-cost-09: region gains the per-act-site qualifier (assurance-by-check is supplied
+    standing at act-sites where the check is act-triggered; actor-triggered at another site,
+    the same check is judgement-mediated supply). Statement, status, evidence, falsifier,
+    owner unchanged.
+  - DDD-cost-08: notes gain the compounding cross-reference (the assurance gate's added
+    protection assumes gate delivery independent of the decision's; DDD-delivery-03 names the
+    correlated case). Statement, region, status unchanged.
+
+  The maturation return channel's exposure is filed as DDD-delivery-04 downstream; upstream
+  core/08 prose is not amended (the consequence is diachronic — boundary charter).
+
+  Term-collision repair, ruled at GATE 3, not a content edit: 00-primitives' closing aside
+  "A note on delivery" predates term:delivery and read as a forward pointer once the term
+  existed; the noun is swapped to "presentation" (a word the term registry does not own). The
+  maturation-divergence pattern caught before it became one.
+
+  Not filed, deliberately: no store change (the corpus session's SR-1 ruling stands; the
+  counterexample channel closed empty, and filing-is-not-encoding is a correctness condition
+  on reading); no amendment to term:escape or the escape mechanism (undelivered joins the
+  recorded generators under DDD-dec-15's holding — no new escape condition is minted); the
+  empty-option-set generator stays open and unexamined exactly as DDD-dec-15's notes hold it.
+basedOn:
+  - DDD-dec-09
+  - DDD-dec-15
+  - term:escape
+  - term:store
+  - DDD-cost-08
+  - DDD-cost-09
+notes: |
+  DRAFT pending session close. The retro-filing filing (DDD-ground-04) and the axis-registry
+  seed artefact are GATE 4; the basis-impact sweep, reference closure, and the downstream pin
+  staging are GATE 5 and will be recorded here before this decision is final. Spelling ruled at
+  GATE 3: canonical term texts take canon's "judgment" (matching term:judgment); claim prose
+  keeps the corpus's "judgement" — deliberate, recorded in the session manifest.

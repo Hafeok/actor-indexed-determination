@@ -486,7 +486,7 @@ terms:
   - id: term:delivery
     term: delivery
     aliases: [mechanical delivery, judgment-mediated delivery, judgement-mediated delivery]
-    established_by: 18-delivery.md
+    established_by: 13-delivery.md
     status: draft
     canonical_md: |
       > **Delivery** is how authored governance reaches an act: **mechanical** — the act triggers
@@ -496,7 +496,7 @@ terms:
       > another, and a path from a decision to an act is only as mechanical as its weakest edge.
   - id: term:undelivered
     term: undelivered
-    established_by: 18-delivery.md
+    established_by: 13-delivery.md
     status: draft
     canonical_md: |
       > **Undelivered** — filed, adequate, and never reached the act. No source supplied the governing
@@ -505,7 +505,7 @@ terms:
   - id: term:presumed-discharge
     term: presumed-discharge
     aliases: [presumed discharge]
-    established_by: 18-delivery.md
+    established_by: 13-delivery.md
     status: draft
     canonical_md: |
       > **Presumed discharge** — a gate's *pass* meaning never-reached: the artefact recording the

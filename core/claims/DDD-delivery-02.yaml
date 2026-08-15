@@ -21,9 +21,11 @@ evidence:
       non-arrival was surfaced, ruled, and the slot held open — DDD-dec-15 carries the UNVERIFIED
       block to this day. The reflexive chain: the same artefact also failed to arrive at the
       corpus session's first gate, caught both times by an identity check refusing to substitute
-      a summary for a source. Real, recurrent, detectable. (A third instance occurred in this
+      a summary for a source. Real, recurrent, detectable. A third instance occurred in this
       filing session itself: the applicability note announced at the Gate 1 ruling arrived only
-      after the identity check reported it absent — recorded in the session document.)
+      after the identity check reported it absent — the instance was minted during the filing,
+      while this claim was being drafted (recorded in the session document; ruled into this
+      field at Gate 3).
   - kind: observation
     ref: "Corpus test results, 2026-08-14 — rows 1 and 5"
     note: |

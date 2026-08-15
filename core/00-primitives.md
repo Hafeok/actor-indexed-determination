@@ -204,7 +204,7 @@ So the two-level structure is:
 
 **Specification is what determination demand is called when the actor is building software.**
 
-*A note on delivery.* "I have found a law governing immune systems, markets, and your codebase"
+*A note on presentation.* "I have found a law governing immune systems, markets, and your codebase"
 earns the skepticism it will receive. "Here is a conservation *principle* in software engineering —
 which turns out to be the projection of something more general, and which I am careful not to call
 a law, because I have no unit" is the same claim in the order, and the register, that earns belief.
