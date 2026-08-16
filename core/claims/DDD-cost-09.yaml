@@ -5,14 +5,14 @@ statement: |
   Assurance-by-actor binds assurance to a scarce carrier, supplied occasioned — at the act, at the carrier's class price. Assurance-by-check moves it into a mechanism, supplied standing — independent of the act. Closing a predicate converts a property's assurance supply from occasioned to standing.
 status: projected
 region: |
-  Per-act, synchronic; locus of supply per DDD-cost-01's register split. Governs the locus of assurance supply only; class consequences are DDD-cost-11's.
+  Per-act, synchronic; locus of supply per DDD-cost-01's register split. Governs the locus of assurance supply only; class consequences are DDD-cost-11's. The standing locus holds per act-site: assurance-by-check is supplied standing at act-sites where the check is act-triggered (term:delivery, mechanical); the same check actor-triggered at another site is judgement-mediated supply with its failure modes (qualifier added by scope extension, vocabulary-and-delivery session ruling 2026-08-15; the corpus no-unwrap row is the instance — one criterion, act-triggered in CI, actor-triggered locally).
 evidence: []
 falsifier: |
   A property whose check is complete at the declared assurance level, where the arrangement nonetheless cannot discharge that property's assurance without per-act carrier supply.
 breaks: |
   The predicate-discipline economics of 10 §6; DDD-cost-11's assurance-gate mechanism loses its supply-side premise.
 owner: none
-changed: v5.3 (2026-08-10, Wave 2 curation session)
+changed: v5.5 (2026-08-15, vocabulary-and-delivery session — region qualifier by scope extension)
 notes: |
   Ratified at Wave 2 GATE B with amendments (Emil, 2026-08-10): stated synchronically in locus
   terms; "built once, present for every act thereafter" struck (volume reading); "the
@@ -22,3 +22,8 @@ notes: |
   over act volume; occasioned carrier supply does not) file with the projection, citing this
   claim as pinned basis. Adjacent, not identical, to DDD-cost-11 (the sign flip): this claim
   governs supply locus; the sign flip governs class consequences.
+
+  Scope extension (Emil, vocabulary-and-delivery session GATE 3 ruling, 2026-08-15,
+  recorded in the session decision node): the per-act-site qualifier above, corpus-evidenced
+  (no-unwrap row), added now rather than on acceptance so the ratified claim does not cross the
+  merge knowingly slightly wrong. Statement, status, evidence, falsifier and owner unchanged.

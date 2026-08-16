@@ -1,0 +1,55 @@
+format: 1
+id: DDD-ground-04
+kind: normative
+statement: |
+  A retro-filed decision carries two fields — when the gap was uncovered, distinct from when the act occurred, and that it was retro-filed — because a node added after the fact has different evidential status from one authored before, and without the fields retro-filing launders escape into coverage and a sweep reading the register reports clean.
+status: projected
+region: |
+  Binds at filing, synchronically, on decision records in any register — register-general and
+  actor-general; the fields are properties of the record made at the filing act, not of anything
+  persisting between acts (upstream per DDD-dec-09's charter). The gap between act and
+  uncovering measures how long the graph was wrong; the retro-filed mark is what lets a reader
+  distinguish resolution authored before the act from pinning added after it.
+evidence: []
+falsifier: |
+  A corpus of retro-filed decisions distinguishable from before-the-act filings without the two fields — the marking adding nothing a sweep could not already read; or marked retro-filings that fail on audit to separate pinning from resolution.
+test: |
+  Audit of decision registers containing retro-filed nodes, once any exist marked: do the fields let a sweep separate authored-before from added-after, and does the uncovered-date gap distribution carry information the made-date alone does not?
+breaks: |
+  Nothing in core/ falls. The sweep's clean report loses its warrant over registers containing unmarked retro-filings — which is the laundering the claim names, not a consequence of the claim failing.
+owner: none
+changed: v5.5 (2026-08-15, vocabulary-and-delivery session)
+notes: |
+  Filed from the vocabulary-and-delivery session (earned 2026-08-14; interactive curation, Emil
+  ruling at every gate). Sourced from the ground-axes holding note (2026-08-13, unratified,
+  §13.4), filed here per the session prompt's F-4.
+
+  FLAGGED, per scoped-as-evidenced — the thinnest evidence base in the session's filings, and
+  stated as such at the gate: the corpus sampled no retro-filed row, so the evidence field is
+  empty and the claim files projected on its falsifier. The argument is the laundering risk,
+  and it is urgent for the stated reason: the escape correction (DDD-dec-15) and the
+  undelivered generator (DDD-delivery-02) make retro-filing more attractive — it is the only
+  mechanism converting a silent completion into a visible node — and nothing currently marks
+  it. DDD-delivery-02's distinguishing feature (the ledger shows coverage) is the same
+  presentation failure in space that unmarked retro-filing is in time.
+
+  The retro-filed mark distinguishes automatically what the ground-axes note's §13.5 observes
+  about tests: a test written after passing code pins behaviour against drift but constrained
+  nothing at the time — pinning, not resolution. Same artefact, opposite side of the act; the
+  mark is what keeps a register from conflating them.
+
+  Where decision-record format lives, reported at GATE 1: nowhere as spec — operationally in
+  the validator (identical in both registries) and register practice. Enforcement of these
+  fields is deliberately not built this session (no validator or tooling work); the claim files
+  the requirement, and the format follows on ratification.
+
+  Both sub-questions ruled at GATE 4 (Emil, 2026-08-15; recorded in DDD-dec-17):
+
+  - Retro-filing is a discharge mechanism for the escape generators — the ledger-side one —
+    and it discharges only when both fields are present. Without the fields it is not
+    discharge; it is the laundering this claim names. The two fields are what turn retro-filing
+    from concealment into remedy.
+  - The retro-filing act is a claim-layer act, by the same reasoning as declared-empty (the
+    sibling ruling to GATE 2's, same reasoning, same session): it asserts a fact about the past
+    — that this decision governed acts before its filing date — attributable, falsifiable by
+    one act in the interval the decision did not govern, and subject to claimant calibration.

@@ -1,0 +1,75 @@
+format: 1
+id: DDD-ground-01
+kind: normative
+statement: |
+  A governing decision must declare a resolvable applicability predicate, unless it explicitly declares universal applicability; non-evaluation must never silently become non-applicability, and where the predicate is implemented over declared ground axes, each axis is marked mechanically-evaluable or judgement-evaluable.
+status: projected
+region: |
+  Binds at filing, synchronically — the gate is a property of the filing act, not of anything
+  persisting between acts (upstream per DDD-dec-09's charter). The predicate abstraction is wider
+  than coordinate geometry: categorical or interval constraints, graph queries, temporal
+  conditions, and compositions all serve; factored axes are one implementation where the ground
+  admits them, not the ontology of every region. Evidenced bound, stated per the corpus: the gate
+  binds fully where acts are mediated by extractable artefacts; decisions whose discriminating
+  content is semantic may carry nameable axes with the weaker standing named. Both nameable axes
+  in the corpus registry came from canon-register rows with semantic content (charter
+  temporality, question bearing); every axis from the toolchain corpus resolved.
+evidence:
+  - kind: observation
+    ref: "Corpus test results, 2026-08-14 — 'The axis registry — first draft' and Gate 4 synthesis §2"
+    note: |
+      22 axes invented across the 11-row sample (5 canon-ratified, 4 accepted-not-ratified,
+      2 pending); 20 resolvable (one partial), 2 nameable — 91%. Every axis carried an extractor
+      sketch or an explicit nameable mark; no registry existed anywhere before the exercise, so
+      the invention cost measured is the adoption cost.
+  - kind: observation
+    ref: "Corpus test results, 2026-08-14 — §4 Q5 (beyond-region machinery)"
+    note: |
+      Three clear cases and one softer in 11 rows (~27–36%) needed graph or temporal predicates
+      beyond simple axis regions (conditional home, claim-death trigger, stranding clause,
+      self-referential region), concentrated where the register governs itself. Evidence that the
+      gate is rightly stated over predicates, with axes as one implementation.
+  - kind: observation
+    ref: "Corpus test results, 2026-08-14 — §4 Q2 (the matched pair) and the Gate 4 consequence ruling"
+    note: |
+      The axis-type field is a maturity state, not a fixed type: the same revisitation slot moved
+      from judgement-read to mechanically evaluable as the register's formats matured —
+      DDD-dec-02's reviewTrigger tolerance ("a wide margin", nameable; decision made 2026-07-28)
+      to the revisit_if ruling's hash-pinned tolerance (resolvable; pinned reported@2026-08-06,
+      ruling accepted 2026-08-13). Interval roughly two and a half weeks, per the repository
+      record. (Erratum carried in the session document: the corpus document's "five weeks" and
+      the session prompt's 2026-07-08 date do not match the repository; the repo governs.)
+falsifier: |
+  A material set of sound decisions cannot state applicability except through ceremonial universal predicates.
+test: |
+  Counterexample hunt over decision registers: sound decisions that can state applicability only ceremonially; or axes whose mechanically-evaluable/judgement-evaluable mark proves undecidable at filing.
+breaks: |
+  Nothing else in core/ falls. Downstream, the axis-registry seed artefact loses its gate premise, and any future sweep mechanisability rests on this gate having held.
+owner: none
+changed: v5.5 (2026-08-15, vocabulary-and-delivery session)
+notes: |
+  Filed from the vocabulary-and-delivery session (earned by the corpus test, Emil's Gate 4 ruling
+  2026-08-14; interactive curation, Emil ruling at every gate). Scoped as evidenced: the corpus
+  priced the gate against eleven decisions and found 20 of 22 invented axes resolvable, with the
+  beyond-region predicate cases at ~27–36%.
+
+  Provenance: the statement's gate — predicate-or-explicit-universal, and non-evaluation never
+  silently becoming non-applicability — is sourced from the ground-applicability holding note,
+  2026-08-12, unratified (revised Q1; identity verified on receipt 2026-08-15: 362 lines /
+  2,494 words / sha256 4afe380c…), filed here on corpus evidence per the Gate 1 ruling. The
+  axis-marking clause joins it from the ground-axes holding note's Q19 (2026-08-13, unratified),
+  which the corpus exercised directly; the join is this filing's, made because the prompt's F-1
+  requires both and the corpus evidenced both.
+
+  Exposition from the note, carried as guidance not as claim content: a usable filing states the
+  predicate, how its inputs are obtained, and what Unknown means; requiring only an axis name is
+  too weak — satisfiable ceremonially without making retrieval possible; a universal decision
+  states that scope explicitly rather than inventing a constant axis; if applicability requires
+  judgement, retrieval returns Unknown or routes the applicability judgement to a named actor.
+
+  Distinguish two failures the gate keeps apart: an artefact that can name no applicability at
+  all fails the decision admission test (term:admission-test) — it is a stated intention, not a
+  decision; a predicate nameable but not evaluable is closure failure, a legitimate filing routed
+  through the assurance gate with the weaker standing named. Non-evaluation never silently
+  becomes non-applicability because governing-set membership is fixed by tolerance and the world
+  (term:granularity-bound), not by what an extractor happens to close over.

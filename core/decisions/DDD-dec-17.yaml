@@ -1,0 +1,110 @@
+format: 1
+id: DDD-dec-17
+kind: decision
+statement: |
+  The vocabulary-and-delivery session's filings: the ground and delivery areas are minted and the corpus-earned vocabulary files — the applicability gate, the orthogonal coverage/resolution/assurance typing with the —(open) timing value, and the delivery vocabulary (filing-is-not-encoding, undelivered-as-escape-generator, compounding, with delivery/undelivered/presumed-discharge established by core/13-delivery.md) — scoped as evidenced by the corpus test of 2026-08-14, with two scope extensions (DDD-cost-09, DDD-cost-08) and one term-collision repair (00-primitives) ruled in at GATE 3.
+principal: Emil
+made: 2026-08-15, vocabulary-and-delivery session (rulings at GATES 1–3; drafted at GATE 3; grows to session close)
+resolution: |
+  DRAFT — grows gate by gate; final at session close (GATE 5). Interactive canon curation;
+  every ruling below is Emil's, recorded at its gate; the session document
+  (vocabulary-delivery-session-2026-08-15.md, filed with the software projection's programme
+  layer) carries the full gate record.
+
+  The warrant: the corpus test of 2026-08-14 priced the ground-axes vocabulary against eleven
+  decisions (five canon-ratified, four accepted-not-ratified, two pending) and seven session
+  gates, and Emil ruled it earned under pre-declared criteria (11/11 expression under the
+  four-state typing's governing reading; 20 of 22 invented axes resolvable; cost at the bar
+  with marginal cost falling; delivery determinable at every examined gate). This session files
+  what was earned, scoped as evidenced.
+
+  Filed at GATES 2–3, upstream: DDD-ground-01 (the applicability gate, the applicability note's
+  Q1 wording governing, the axis-type field joined from the ground-axes note's Q19 as a
+  maturity state); DDD-ground-02 (the orthogonal typing, with declared-empty ruled to file now
+  as a coverage value whose filing is a claim-layer act — the applicability note's open
+  ruling 2, answered at GATE 2); DDD-ground-03 (the —(open) timing value, its own claim);
+  core/13-delivery.md (draft, minimal, establishing term:delivery, term:undelivered,
+  term:presumed-discharge); DDD-delivery-01/02/03. Downstream, with the projection:
+  DDD-delivery-04 (maturation retrieval-dependence, diachronic under the boundary charter).
+
+  Scope extensions, ruled at GATE 3 with this decision as their record (the DDD-cost-05
+  pattern from the escape reconciliation): the R-2 exposure check found two ratified-adjacent
+  claims wanting a named delivery condition, both corpus-evidenced by the no-unwrap row, and
+  deferring either to acceptance would have left a claim knowingly slightly wrong across the
+  merge —
+
+  - DDD-cost-09: region gains the per-act-site qualifier (assurance-by-check is supplied
+    standing at act-sites where the check is act-triggered; actor-triggered at another site,
+    the same check is judgement-mediated supply). Statement, status, evidence, falsifier,
+    owner unchanged.
+  - DDD-cost-08: notes gain the compounding cross-reference (the assurance gate's added
+    protection assumes gate delivery independent of the decision's; DDD-delivery-03 names the
+    correlated case). Statement, region, status unchanged.
+
+  The maturation return channel's exposure is filed as DDD-delivery-04 downstream; upstream
+  core/08 prose is not amended (the consequence is diachronic — boundary charter).
+
+  Term-collision repair, ruled at GATE 3, not a content edit: 00-primitives' closing aside
+  "A note on delivery" predates term:delivery and read as a forward pointer once the term
+  existed; the noun is swapped to "presentation" (a word the term registry does not own). The
+  maturation-divergence pattern caught before it became one.
+
+  Filed at GATE 4, upstream: DDD-ground-04 (retro-filing's two fields — projected normative,
+  filed on falsifier strength with the empty evidence field stated; the corpus sampled no
+  retro-filed row). With the projection: the axis-registry seed artefact, artefact-not-canon,
+  with a stated promotion path. Two rulings made at GATE 4 and recorded here:
+
+  - Retro-filing is a discharge mechanism for the escape generators — the ledger-side one —
+    and it discharges only when both of DDD-ground-04's fields are present. Without the
+    fields it is not discharge; it is the laundering the claim names. The two fields turn
+    retro-filing from concealment into remedy.
+  - The retro-filing act is a claim-layer act, the sibling ruling to GATE 2's declared-empty
+    ruling, same reasoning, same session: it asserts a fact about the past — that this
+    decision governed acts before its filing date — attributable, falsifiable by one act in
+    the interval the decision did not govern, and subject to claimant calibration.
+
+  Recommended to the freight session, not filed here: the working convention that session
+  prompts and bootstraps are committed before sessions run, so delivered governing sets are
+  files at refs. The evidence is five arrival failures across three sessions — the manuscript,
+  the review, the predicted-ground note at the escape reconciliation, the applicability note
+  at this session's first gate, and the GATE 4 ruling of this session itself, which did not
+  arrive and was re-issued — and the cost is the corpus session's Test B reconstruction floor:
+  delivered sets recoverable only from their residue.
+
+  The reflexive chain, stated once in full as this decision's own remark on why delivery filed
+  when it did. A governing artefact failed to arrive at the escape reconciliation (the
+  predicted-ground note; slot held open, UNVERIFIED to this day). The same artefact failed to
+  arrive at the corpus session's first gate. The applicability note announced at this session's
+  GATE 1 ruling arrived only after the identity check reported it absent. This session's GATE 4
+  ruling itself did not arrive and was re-issued — the same failure class, since a ruling is a
+  delivered governing artefact and its non-arrival is the phenomenon. Each instance was caught
+  by the same mechanism: an identity check, or a gate hold, refusing to substitute a summary,
+  a memory, or an inference for the source. The failure mode is real, recurrent, and detectable
+  at every scale the programme has — which is why this vocabulary was worth an afternoon of
+  pricing and a session of filing.
+
+  Not filed, deliberately: no store change (the corpus session's SR-1 ruling stands; the
+  counterexample channel closed empty, and filing-is-not-encoding is a correctness condition
+  on reading); no amendment to term:escape or the escape mechanism (undelivered joins the
+  recorded generators under DDD-dec-15's holding — no new escape condition is minted); the
+  empty-option-set generator stays open and unexamined exactly as DDD-dec-15's notes hold it.
+basedOn:
+  - DDD-dec-09
+  - DDD-dec-15
+  - term:escape
+  - term:store
+  - DDD-cost-08
+  - DDD-cost-09
+notes: |
+  DRAFT pending session close. The basis-impact sweep, reference closure, and the downstream
+  pin staging are GATE 5 and are recorded here before this decision is final. Spelling ruled at
+  GATE 3: canonical term texts take canon's "judgment" (matching term:judgment); claim prose
+  keeps the corpus's "judgement" — deliberate, recorded in the session manifest.
+
+  Source identity, for the manifest (recorded at GATE 4, Emil): this session filed from the
+  ground-axes holding note revision 8 (1,375 lines / 13,622 words, sha256 5d8aede1…) and the
+  ground-applicability note of 2026-08-12 (362 lines / 2,494 words, sha256 4afe380c…). A
+  revision-14 copy of the ground-axes note now exists (1,869 lines, sha256 ac47441f…, assessed
+  separately, adding Q25–Q30); nothing in it touches this session's four filings, and it is
+  named here so the record shows which revision was filed from against which the successor
+  exists.

@@ -1,0 +1,81 @@
+format: 1
+id: DDD-ground-02
+kind: conceptual
+statement: |
+  Source coverage (covered · declared-empty · undeclared · unknown), resolution (resolved · deliberately-open · unknown), and assurance (adequate · inadequate · unknown) are orthogonal properties of ground relative to a filed decision set: only source coverage = undeclared is a source-coverage finding, deliberately-open is a resolution value carrying a deferred verdict, and Unknown is never a pass.
+status: projected
+region: |
+  Synchronic — properties of ground relative to a filed decision set, read per region at an act
+  (upstream per DDD-dec-09's charter). declared-empty is an attributable decision that no
+  outcome-relevant alternative is live in the region, not ungoverned ground. A deliberately open
+  object-level determination may be governed at the meta level by an experiment or observation
+  decision; openness at one level and governance at another coexist.
+evidence:
+  - kind: observation
+    ref: "Corpus test results, 2026-08-14 — rows 4 and 8, and §4 Q1"
+    note: |
+      The corpus (11 rows: 5 canon-ratified, 4 accepted-not-ratified, 2 pending) exercised
+      deliberately-open twice — DDD-dec-14's first-order question (second-order rule covered and
+      resolved; first-order determination deliberately-open, with owner and transfer condition)
+      and the What-boundaries acceptance (acceptance covered and resolved; the 24 underlying
+      determinations deliberately-open under a declared horizon). Both times the deferred
+      verdict's distinctive features did real work: an owner, a horizon or transfer condition,
+      under-observation. Row 8 shows the typing keeping apart what the store partition alone
+      cannot state: accepted exposure realising at a deliberately-open boundary is the
+      arrangement working, not a finding against coverage. Rows 4 and 8 varied resolution
+      independently of coverage — the one orthogonality the corpus did test, and it held.
+  - kind: observation
+    ref: "Corpus test results, 2026-08-14 — Gate 4 criterion-1 ruling"
+    note: |
+      11 of 11 rows express fully with the typing carried alongside timing and delivery (the
+      governing reading, ruled); 9 of 11 plus one nameable failure class without it. The gap
+      between the two readings is the typing's earned value, ruled at Gate 4. The corpus
+      exercised the typing in its four-state projection (governed / inert / open /
+      uncovered-undeclared); the mapping is recorded in notes.
+falsifier: |
+  Real cases cannot be represented without adding an ordering or coupling that the orthogonal split forbids.
+test: |
+  Expression over further decision corpora; the 2026-08-14 eleven-row table, expressed in the four-state projection, is the first instance. The declared-empty value has no corpus instance yet and is the value to watch.
+breaks: |
+  DDD-ground-03 loses its subject (deliberately-open is what has no resolution to time). The sweep's promised remedy — a retrieval miss resolving to a named state rather than an ambiguity between nothing-applies, nobody-filed, and deliberately-watching — reverts to advisory.
+owner: none
+changed: v5.5 (2026-08-15, vocabulary-and-delivery session)
+notes: |
+  Filed from the vocabulary-and-delivery session (earned 2026-08-14; interactive curation, Emil
+  ruling at every gate). Kept separate from DDD-ground-03 per Emil's Gate 1 ruling: the typing
+  and the timing value fail independently.
+
+  Provenance: the orthogonal typing, its value sets, the declared-empty and deliberately-open
+  readings, and the Unknown-is-never-a-pass rule are sourced from the ground-applicability
+  holding note, 2026-08-12, unratified (Q3; identity verified on receipt 2026-08-15: 362 lines /
+  2,494 words / sha256 4afe380c…), filed here on corpus evidence per the Gate 1 ruling.
+
+  Two-notes conflict, recorded rather than harmonised (flag, don't guess): the ground-axes
+  holding note (2026-08-13, revision 8 — the corpus session's source) carries Q3 as four states
+  (governed / inert / open / uncovered-undeclared); the applicability note (2026-08-12) replaces
+  the four states with the orthogonal axes above, and the session prompt and Gate 1 ruling
+  follow the applicability note. The later-dated note carries the superseded shape. The corpus
+  exercised the four-state projection; it maps onto the orthogonal typing as: governed ↔ covered
+  ∧ resolved; inert ↔ declared-empty; open ↔ deliberately-open (coverage possible at the meta
+  level); uncovered-undeclared ↔ undeclared. Nothing the corpus evidenced is lost in the
+  mapping; the orthogonality itself (coverage moving without resolution moving, assurance
+  independent of both) is exercised only partially — rows 4 and 8 vary resolution independently
+  of coverage; assurance was not varied.
+
+  The inert/open collapse question dissolves by construction (ruled at Gate 2, Emil,
+  2026-08-15): declared-empty is a coverage value and deliberately-open a resolution value —
+  they were never on one axis, so the ground-axes note's open ruling 2 (do inert and open
+  collapse?) is answered by the orthogonal split itself.
+
+  The declared-empty value files now, as the coverage value it already is in this typing (ruled
+  at Gate 2, Emil, 2026-08-15): omitting one of four values from a filed enumeration because the
+  corpus did not draw it would leave the enumeration incomplete on ratification. Zero corpus
+  draws is recorded as its evidence status. Shape, answering the applicability note's open
+  ruling 2 ("decision kind, resolution value, or conventional applicability record?") with the
+  note as source and this session as the ruling site: **the filing of a declared-empty is a
+  claim-layer act.** Declared-empty asserts that no choice in the region moves the outcome past
+  tolerance — an admission-test assertion, attributable and falsifiable by one act, which in
+  this framework is a claim with a claimant, subject to claimant calibration. Not a decision
+  kind; not a bare record. (Emil's ruling names the calibration instrument; it is carried here
+  as "claimant calibration" because the instrument is filed with a projection and this registry
+  carries no reference to its dependents.)
