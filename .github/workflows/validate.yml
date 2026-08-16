@@ -5,16 +5,24 @@ on:
     paths:
       - 'core/**'
       - 'graph/**'
+      - 'releases/**'
+      - 'scripts/**'
   pull_request:
     paths:
       - 'core/**'
       - 'graph/**'
+      - 'releases/**'
+      - 'scripts/**'
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history and tags: the descriptor-immutability check below
+          # compares against the base branch and against existing tags.
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -27,3 +35,40 @@ jobs:
           echo "$out" | grep -q ' W4 ' && { echo "FAIL: W4 migration-gap warnings present"; exit 1; } || true
       - name: Claim schema
         run: python3 scripts/validate-claims.py core/claims/
+      - name: Decision schema
+        run: python3 scripts/validate-claims.py core/decisions/ --decisions
+      - name: Release descriptor schema
+        run: |
+          if [ -d releases ]; then
+            python3 scripts/validate-releases.py releases/
+          else
+            echo "no releases/ directory yet — nothing to validate"
+          fi
+
+      # spec/release-format.md rule 6: descriptors are immutable once cut.
+      # A pull request that edits an already-tagged descriptor is changing a
+      # release that has already happened — the tag will not move, so the file
+      # and the world would disagree.
+      - name: Cut descriptors are immutable
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+          changed=$(git diff --name-only --diff-filter=MD "$BASE_SHA" "$HEAD_SHA" -- releases/ || true)
+          if [ -z "$changed" ]; then
+            echo "no modified or deleted descriptors"
+            exit 0
+          fi
+          fail=0
+          while IFS= read -r f; do
+            version=$(basename "$f" .yaml)
+            if git rev-parse --verify --quiet "refs/tags/$version" >/dev/null; then
+              echo "::error file=$f::$version is already tagged; its descriptor is immutable. Ship a correction as a new version."
+              fail=1
+            else
+              echo "  ok (not yet cut)  $f"
+            fi
+          done <<< "$changed"
+          exit "$fail"
