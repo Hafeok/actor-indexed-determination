@@ -1,0 +1,43 @@
+format: 1
+version: v5.5.0
+title: 'vocabulary and delivery: the ground and delivery areas'
+# Pinned rather than defaulted: this release is cut retroactively at the merge of
+# PR #10, which already sits on main. New releases omit commit and land wherever
+# their descriptor lands.
+commit: e8663b82ff9695f374aad1ada3938c12d20516f3
+date: 2026-08-16
+basis:
+  - DDD-ground-01
+  - DDD-ground-02
+  - DDD-ground-03
+  - DDD-ground-04
+  - DDD-delivery-01
+  - DDD-delivery-02
+  - DDD-delivery-03
+  - DDD-dec-17
+summary: |
+  Two areas land: the **ground** area, which names what a determination stands on,
+  and the **delivery** area, which names what leaves the act. Both were carried
+  through four review gates, with rulings applied between passes.
+
+  ### Added
+  - `core/13-delivery.md` — the delivery area.
+  - `core/claims/DDD-ground-01..04` — the ground claims, including retro-filing's
+    two fields (`DDD-ground-04`).
+  - `core/claims/DDD-delivery-01..03` — the delivery claims.
+  - `core/decisions/DDD-dec-17.yaml` — the decision filed across the gate passes,
+    extended by the GATE 4 rulings.
+  - Three delivery terms in the canonical registry.
+
+  ### Changed
+  - `core/00-primitives.md`, `core/06-composition.md` — scope extensions from the
+    GATE 3 rulings.
+  - `core/09-the-measure.md` — Related work inserted as §8, remainder renumbered;
+    "judgement" conformed to the paper's "judgment".
+  - A term-collision repair across the registry.
+
+  ### Note
+  The gate passes are visible in the history as draft-then-ruling pairs: each F-n
+  draft was filed pending a ruling, and the ruling commit applied it. The drafts
+  are kept rather than squashed — they are the record of what was proposed versus
+  what was ratified.
