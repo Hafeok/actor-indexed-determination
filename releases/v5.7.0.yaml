@@ -1,0 +1,103 @@
+format: 1
+version: v5.7.0
+# No `commit`: cut wherever this file lands on the default branch, the normal case
+# (spec/release-format.md §2 rule 3).
+date: 2026-08-18
+basis:
+  # Filed this release
+  - DDD-frame-13
+  - DDD-frame-14
+  - DDD-frame-15
+  - DDD-frame-16
+  - DDD-ground-05
+  - DDD-floor-02
+  - DDD-hyp-01
+  - DDD-hyp-02
+  - DDD-hyp-03
+  - DDD-hyp-04
+  - DDD-hyp-05
+  - DDD-dec-24
+  # Amended this release — cited because the release pins their new form
+  - DDD-frame-01
+  - DDD-frame-02
+  - DDD-frame-03
+  - DDD-frame-07
+title: 'Wave 3: the indexed-determination core, the discharge chain, the hypothesis set'
+summary: |
+  The principle-layer filings that make the manuscript a projection. Six
+  derivation-grade claims, five statement-grade hypotheses, three settled terms,
+  one new core document — filed under two declared evidence disciplines, with
+  every divergence from source material reported rather than harmonised.
+  Interactive canon curation, five gates, ruling at every gate (`DDD-dec-24`).
+
+  ### Added
+  - `core/14-indexed-determination.md` — the index stated as one document,
+    deliberately minimal (`establishes: []` — the tuple is a claim, not a term):
+    the six-tuple index (§1), commitment levels and residual discretion (§2), the
+    relational floor (§3), and what the index predicts (§4).
+  - `core/claims/DDD-frame-13.yaml` + `term:determinable`/`term:determinate`
+    (core/00 §4a) — demand's object and product: the determinable as
+    outcome-relevant dimension of variation at the declared tolerance, the
+    determinate as one way of occupying it, demand as a measure over unresolved
+    determinables. Johnson's structure (not genus–species; constitutive
+    exclusivity; orders of determinateness as the declared tolerance; dimension
+    of comparability) carried as exposition, locators verified.
+  - `core/claims/DDD-frame-14.yaml` + `term:outcome` (core/09 §7a) — the
+    determinate's two registers: outcome (world-landed, always) and verdict
+    (predicate-assessed, governed only); every diachronic instrument runs on
+    verdicts, so ungoverned discharge is invisible to learning in principle.
+  - `core/claims/DDD-frame-15.yaml` (core/13 §4) — supply-mode exhaustiveness:
+    at every completed act, demand is discharged by a filed decision, an actor's
+    judgment, an arrangement default, or an uncontrolled draw. **Demand is never
+    unmet, only ungoverned.** The seam guard is load-bearing: the four modes
+    partition discharge, not governance-supply — the store partition is
+    untouched and there is still no fifth source.
+  - `core/claims/DDD-frame-16.yaml` (core/13 §4) — discharge is act-indexed;
+    standing supply inherited per act, occasioned produced per act, no act-free
+    discharge.
+  - `core/claims/DDD-ground-05.yaml` (core/00 §4a) — constitutive priority of
+    ground, with the symmetry stated (ground prior in each act; decisions prior
+    in a registry's growth) so the bootstrap is not circular.
+  - `core/claims/DDD-floor-02.yaml` (core/14 §3) — the relational floor:
+    irreducibility as a property of the indexed relation, with canon's three
+    partial indexings each recovered by holding the remaining coordinates fixed.
+  - `core/claims/DDD-hyp-01..05.yaml` — the hypothesis set, a new `hyp` area:
+    operational evaluability, ground and judgment dependence, generator/checker
+    composition, accountability completeness, selection versus training.
+    Preregistration-shaped falsifiers, evidence fields empty by discipline,
+    owner paper-4; any projection carries them as predictions with unrun
+    falsifiers, never as findings. The open-predicate validity qualification is
+    restated on hyp-04/05 with `DDD-cost-13` cited.
+  - `core/decisions/DDD-dec-24.yaml` — the session decision.
+  - `core/13` §4 — the discharge section, including the distribution-weighting
+    paragraph that files as exposition by its own flag.
+
+  ### Changed
+  - `DDD-frame-01` — exposition home gained (core/14 §1); the UNVERIFIED flag
+    carried since v4.4 cleared with its factual content preserved; statement
+    unchanged.
+  - `DDD-frame-02` — residual-discretion clause added by amendment; prior
+    statement quoted in notes; flag cleared.
+  - `DDD-frame-03` — the seed's "conflated them" softened to the historical
+    claim canon makes; prior statement quoted; flag cleared.
+  - `DDD-frame-07` — amended only to cite the five hypothesis IDs; falsifier
+    untouched; flag cleared.
+  - `core/13` §5 — the maturation consuming-side consequence now points at
+    core/09 §7a (`DDD-frame-14`).
+  - The W1 baseline moves 52 → 59: `term:outcome` is a word documents 00–07
+    already use, accepted as honest forward pointers; each document gains its
+    pointers when next touched, not in a sweep.
+
+  ### Reported, not harmonised
+  - The revision foundation's §4.1 source table does not map 1:1 onto
+    `DDD-frame-15`'s four modes (frame-15 notes).
+  - The foundation's §8 training-gate softening contradicts settled
+    `term:training`; the supersession question is queued, unbundled (hyp-05
+    notes).
+  - The luck ruling is restated inside frame-15's derivation with provenance
+    marked, wording corrected to the register-correct "drawn outcome"; the step
+    becomes citable by reference when its source note ratifies.
+
+  Supersession and amendment throughout, never rewriting; no id renumbered,
+  retired, or reused. The three new terms enter settled: the acceptance of this
+  release is the ratification act.
