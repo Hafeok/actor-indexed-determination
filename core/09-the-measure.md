@@ -57,12 +57,17 @@ So demand is not a count. It is a **measure**. And the measure is **Shannon info
 <!-- ddd:embed id=term:verdict -->
 > **Definition (determination demand).** *(In the engineering projection this same quantity is
 > denominated in the vocabulary of the domain and called* **specification demand** *; the measure
-> below is identical either way.)* For a task with a decidable acceptance predicate, let the
-> **verdict** be the correct output the predicate assigns to each point of the input space, and let
-> `P` be the distribution over inputs (the *ground distribution*). The **determination demand** of
-> the task is the Shannon entropy of the verdict:
+> below is identical either way.)* For a task whose acceptance predicate **closes** for the
+> arrangement (`term:closure`; *decidable* is the formal special case, not the requirement),
+> the predicate evaluates outcomes, and the **task class** supplies one correct output per
+> input point. The **verdict** is that induced assignment — the correct output over each point
+> of the input space. Let `P` be the distribution over inputs (the *ground distribution*). The
+> **determination demand** of the task is the Shannon entropy of the verdict:
 >
 > **D = H(verdict)**, measured in **bits**.
+>
+> Where the task class supplies no such assignment, the predicate still evaluates outcomes and
+> there is no verdict to have entropy about — which is the boundary `09` §7 draws.
 <!-- /ddd:embed -->
 
 Demand is the information required to specify the correct answer over the ground the task faces. Not
@@ -279,10 +284,12 @@ H(verdict)`.
 *judgment* — the identity separates "encoded" from "everything else," not "judged" from "escaped."
 Splitting those two required a model of actor **capacity**, and `core/11-the-floor-mechanism.md`
 supplies it: hold and resolve capacity in bits, effective capacity `min(C_hold, C_resolve)`, the two
-overflow modes, and the intersection result `escape = overflow ∩ open` with a formula in bits, plus
-a soft-capacity bound derived from rate-distortion theory. The point at which `H(verdict|X)` exceeds
-effective capacity is where demand begins to escape — derived and demonstrated, not conjectured
-(`core/11` §§2–4).
+overflow modes, and the intersection result — overflow ∩ open is the mechanism of
+**capacity-generated** escape, sufficient for escape and never necessary for it (`DDD-dec-15`) —
+with a formula in bits, plus a soft-capacity bound derived from rate-distortion theory. The point at
+which `H(verdict|X)` exceeds effective capacity is where demand an actor has taken up begins to
+escape — derived and demonstrated, not conjectured (`core/11` §§2–4). The supply is partial: demand
+no actor took up escapes without overflowing anything, and is not split by this model.
 
 ---
 

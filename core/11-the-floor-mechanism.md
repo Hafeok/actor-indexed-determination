@@ -268,9 +268,9 @@ capacity *and* has no verifier — *the demand you can neither resolve nor catch
 **What this section does not close.** The intersection is sufficient for escape and is not necessary
 for it. It describes what an actor sheds from residual it has taken up; a governing decision that no
 supplier took up at all is escaped without overflowing anything, and canon diagnoses exactly that in
-`05` §7, `05` §8, `06`'s unanticipated situation at an encoded seam, and `10` §9's claim layer. The
-scope correction is recorded in `DDD-dec-15`; the general category remains `term:escape`'s —
-supplied by nobody, for any reason.
+five places: `05` §7's tower, `05` §6's unqualified declarer, `06`'s unanticipated situation at an
+encoded seam, `10` §9's claim layer, and `11` §6's own Missing row. The scope correction is recorded
+in `DDD-dec-15`; the general category remains `term:escape`'s — supplied by nobody, for any reason.
 
 **Remains.** `C_resolve` and `C_hold` are treated as **given constants**. Deriving them from actor
 architecture (parameters, context length, attention) is open — and is an **empirical calibration

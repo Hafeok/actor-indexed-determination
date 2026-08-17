@@ -27,16 +27,26 @@ evidence:
 falsifier: |
   An actor whose observed escape from residual it has taken up departs from the intersection — shed demand escaping without overflow, escape on shed decisions with a held verifier, or no escape past capacity on open decisions.
 owner: paper-3
-changed: v5.4 (2026-08-13, escape reconciliation session)
+changed: v5.6 (2026-08-17, freight session — transcription repair in notes; statement, region, status, evidence and falsifier unchanged)
 notes: |
   Restatused projected -> reported in the verification pass: the seed, drafted from projections pinned at v4.4/v4.5, treated the actor-capacity model as future work, but live canon supplies it — core/11 derives and demonstrates it, and both assets reproduce. The seed statement also omitted the open conjunct (overflow alone is retries, not escape — core/11 §3); amended to the intersection form.
 
-  Scope correction, 2026-08-13 (DDD-dec-15, Emil ruling at GATE 2). The prior statement quantified over escape as such — "demand escapes where ... AND ..." — and this claim's own falsifier named "escape without overflow" as the observation that would fire it. That limb fired, on five instances of ratified canon (05 §7's tower, 05 §8's unqualified declarer, 06's unanticipated situation at an encoded seam, 10 §9's claim layer, and 11 §6's own Missing row) and on the ground-applicability holding note's Q4 limb 1 (an act occurred for which no filed source applied). Every one of them is a governing decision that never entered an actor's residual, so nothing was shed and nothing overflowed, while the decision was still supplied by nobody — escaped under term:escape. The statement is re-scoped to the mechanism it always demonstrated rather than retired: the intersection is sufficient for escape and describes capacity-generated escape specifically.
+  Scope correction, 2026-08-13 (DDD-dec-15, Emil ruling at GATE 2). The prior statement quantified over escape as such — "demand escapes where ... AND ..." — and this claim's own falsifier named "escape without overflow" as the observation that would fire it. That limb fired, on five instances of ratified canon (05 §7's tower, 05 §6's unqualified declarer, 06's unanticipated situation at an encoded seam, 10 §9's claim layer, and 11 §6's own Missing row) and on the ground-applicability holding note's Q4 limb 1 (an act occurred for which no filed source applied). Every one of them is a governing decision that never entered an actor's residual, so nothing was shed and nothing overflowed, while the decision was still supplied by nobody — escaped under term:escape. The statement is re-scoped to the mechanism it always demonstrated rather than retired: the intersection is sufficient for escape and describes capacity-generated escape specifically.
 
   Status retained at reported. Both assets re-ran on 2026-08-13 and reproduce (hard table 0/2.490/3.987/5.989/9.971, all-verified escape 0.000 at C=0; derived p_err reproduces core/11 §4.1's 1.67/4.40/6.25/7.57). They support the re-scoped statement in full — the generality they never evidenced is exactly the generality removed — so the demotion rule for a failing computation is not triggered.
 
   Limb two of the falsifier — escape on decisions with a held verifier — did **not** fire on this corpus: every counter-instance is open in the mechanism's sense. That is an absence of counter-instances, not a demonstration, and no necessity claim for the open conjunct is filed on it.
 
   FLAGGED, not repaired here (Emil, GATE 2): the open conjunct is actor-indexed — "no verifier *the actor holds*" — which is ill-defined where no actor was assigned to the decision at all. A smaller scope problem of the same family, carried to a later session.
+
+  Transcription repair, 2026-08-17 (freight session, item A-1, Emil's GATE 1 ruling): the
+  unqualified declarer is at 05 §6, not 05 §8 — §8 is "Where this stops". DDD-dec-15's resolution,
+  the governing record, names §6 correctly; these notes and core/11 §7 both carried §8, and
+  meta/b1-reconciliation-2026-08-14.md §4 inherited it. Ruled a typo in a notes field rather than a
+  supersession of ratified statement content: no statement, region, status, evidence or falsifier
+  moves, and the five-instance count is unchanged. core/11 §7's prose, which additionally omitted
+  the fifth instance, is aligned to this claim in the same pass — the claim file is canon authority
+  and the prose was the bug, per the discrepancy the b1-reconciliation note flagged and did not
+  repair.
 
   UNVERIFIED — Emil review: the empty-option-set generator (predicted-ground holding note, 2026-08-11) was not examined in the session that made this correction; the source note did not reach it. Whether an empty closing set is a third route to unsupplied determination or an instance of the no-applicable-source route is open.

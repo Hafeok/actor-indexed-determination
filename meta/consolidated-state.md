@@ -315,10 +315,16 @@ claims — see §4).
   known bit-demand, find where error rate departs from zero; that value is C_resolve for that
   actor. Nobody has published such a measurement. Needs a rig, not more theory. This is now the
   framework's principal open empirical item, alongside the selection/training study.
-- The judgment/escape split. core/09 folds escape into H(verdict|X) with judgment. Separating them
-  needs an actor-CAPACITY model: the point at which H(verdict|X) exceeds actor capacity is where
-  demand escapes. This is where the floor (core/03) finally gets a number. Not yet done — the
-  natural next result.
+- The judgment/escape split. **LANDED at v4.2, re-scoped at v5.4.** core/09 folds escape into
+  H(verdict|X) with judgment; core/11 supplies the actor-CAPACITY model that separates them, and
+  the floor (core/03) has its number: overflow ∩ open, with p_err derived from rate-distortion.
+  Two assets reproduce (core/assets/floor-mechanism.py, core/assets/perr-rate-distortion.py).
+  **The split it delivers is partial, and the partiality is canon:** the intersection is the
+  mechanism of *capacity-generated* escape, sufficient for escape and never necessary for it
+  (DDD-dec-15). Demand no actor took up escapes without overflowing anything, contributes nothing
+  to H(verdict|X)'s allocation, and is not recoverable from it — so the judged/escaped cleave
+  inside H(verdict|X) remains incomplete for a second, independent reason. What is still open is
+  named below: real-actor calibration of C_resolve and C_hold, and the formal write-up (paper-3).
 parser violates the never-re-derive rule) · close the **`binds` join** · **live verification** of Key
 Vault / App Config · **scheduled** verify · the **model-actor harvester**.
 

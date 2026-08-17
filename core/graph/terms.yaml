@@ -346,12 +346,17 @@ terms:
     canonical_md: |
       > **Definition (determination demand).** *(In the engineering projection this same quantity is
       > denominated in the vocabulary of the domain and called* **specification demand** *; the measure
-      > below is identical either way.)* For a task with a decidable acceptance predicate, let the
-      > **verdict** be the correct output the predicate assigns to each point of the input space, and let
-      > `P` be the distribution over inputs (the *ground distribution*). The **determination demand** of
-      > the task is the Shannon entropy of the verdict:
+      > below is identical either way.)* For a task whose acceptance predicate **closes** for the
+      > arrangement (`term:closure`; *decidable* is the formal special case, not the requirement),
+      > the predicate evaluates outcomes, and the **task class** supplies one correct output per
+      > input point. The **verdict** is that induced assignment — the correct output over each point
+      > of the input space. Let `P` be the distribution over inputs (the *ground distribution*). The
+      > **determination demand** of the task is the Shannon entropy of the verdict:
       >
       > **D = H(verdict)**, measured in **bits**.
+      >
+      > Where the task class supplies no such assignment, the predicate still evaluates outcomes and
+      > there is no verdict to have entropy about — which is the boundary `09` §7 draws.
   - id: term:verdict-entropy
     term: verdict-entropy
     aliases: [verdict entropy]

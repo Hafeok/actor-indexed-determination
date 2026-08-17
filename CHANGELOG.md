@@ -4,6 +4,107 @@ This repository starts a fresh changelog at the split. The combined `decision-dr
 history stays with the software-projection repository; the claim graph carries the epistemics
 regardless of git lineage.
 
+## v5.5.0 — vocabulary and delivery: the ground and delivery areas
+
+Two corpus-earned areas land. The **ground** area names what a determination stands on — the
+applicability gate, orthogonal coverage/resolution/assurance typing, the `—(open)` timing value,
+and retro-filing's two fields. The **delivery** area names what leaves the act: filing is not
+encoding, undelivered supply is an escape generator, and judgement-mediated delivery on both the
+source and assurance sides compounds rather than stacks. Carried through four review gates, with
+rulings applied between passes. Decision filed as `DDD-dec-17`; release descriptor at
+`releases/v5.5.0.yaml`.
+
+### Added
+- `core/13-delivery.md` — the delivery area, establishing `term:delivery`, `term:undelivered`
+  and `term:presumed-discharge`.
+- `core/claims/DDD-ground-01..04` — the ground claims, including retro-filing's two fields
+  (`DDD-ground-04`).
+- `core/claims/DDD-delivery-01..03` — the delivery claims.
+- `core/decisions/DDD-dec-17.yaml` — the decision filed across the gate passes, extended by the
+  GATE 4 rulings.
+- Three delivery terms in the canonical registry.
+
+### Changed
+- `core/09-the-measure.md` — the ground area's exposition.
+- `core/claims/DDD-cost-09.yaml` — region gains the per-act-site qualifier by scope extension:
+  assurance-by-check is supplied standing at act-sites where the check is act-triggered; the same
+  check actor-triggered elsewhere is judgement-mediated supply with its own failure modes.
+- `core/claims/DDD-cost-08.yaml` — notes gain the compounding cross-reference: where the gate and
+  the decision both reach the act judgement-mediated, the failures correlate.
+- `core/00-primitives.md`, `core/06-composition.md`, `core/claims/DDD-measure-01/11/12` — wording
+  aligned to the landed vocabulary.
+
+## v5.4.0 — the escape scope correction
+
+Three holding notes independently reported canon's escape definition as too narrow. Tested against
+the repository, that report rested on an error: `term:escape` is stated over supply generally and
+`term:store` admits no fifth source, so the definition is not capacity-indexed and is not amended.
+What was too narrow sat one level down — the **mechanism** asserted a capacity condition as
+*necessary* for a category the definition indexes on supply alone. `DDD-floor-01`'s own filed
+falsifier named the observation that fires it, and it fired on five instances of ratified canon.
+Filed by supersession, not rewriting, per the Wave-1 precedent. Decision filed as `DDD-dec-15`.
+
+### Changed
+- `term:escape-mechanism` re-scoped in `core/graph/terms.yaml` and re-projected into `core/11` §3:
+  scoped to **capacity-generated** escape, declared sufficient and never necessary, with the
+  open-alone disjunct corrected to require a named accountable supplier.
+- `core/claims/DDD-floor-01.yaml` — statement re-scoped, region tightened to capacity-generated
+  escape, falsifier re-scoped to shed demand. Status retained at `reported`: the assets support
+  the re-scoped claim in full, and the generality removed is the generality they never evidenced.
+- `core/claims/DDD-cost-05.yaml` — statement amended to the denominational reading; region gains
+  the scope.
+- `core/claims/DDD-cost-08.yaml` — breaks field, which had named the defective clause as the thing
+  that survives.
+- `core/11-the-floor-mechanism.md` §§6–8, `core/05-accountability.md` §6, `core/10-cost.md` §5 —
+  prose corrected where it carried the superseded quantifier.
+- `meta/lineage-and-limits.md` — the register sentence, the framework's own novelty statement,
+  which had claimed the identification *of escape* with the intersection. Corrected to
+  capacity-generated escape: a false originality claim is the most expensive kind, which is why
+  this one file outside `core/` was in scope.
+
+### Added
+- `core/decisions/DDD-dec-15.yaml` — the scope correction, with the superseded quantifier recorded
+  rather than erased.
+
+### Not changed, deliberately
+- `core/claims/DDD-frame-04.yaml` — its "no adequate source-and-assurance combination" was already
+  supply-general; the inconsistency dated from v4.4 and resolves in its favour.
+- No new claim is minted for escape as the general condition: `term:escape`, `term:store`,
+  `term:exhaustiveness` and `DDD-frame-04` already carry it.
+
+## v5.3.0 — Wave 2 curation: the assurance and capability layers
+
+The register ruling (R3, `DDD-dec-12`): a synchronic, actor-general claim evidenced in a single
+domain files here at `projected` with the single-domain basis flagged; evidence instances file
+where their evidence lives. Diachronic claims stay outside R3's scope and file by layer per the
+boundary charter. Applied across the Wave 2 curation, which landed the assurance economics and the
+capability typing.
+
+### Added
+- `core/claims/DDD-cost-08.yaml` — actor selection is two-gated: capacity always, assurance exactly
+  where the acceptance predicate does not close.
+- `core/claims/DDD-cost-09.yaml` — closure converts a property's assurance supply from occasioned
+  to standing.
+- `core/claims/DDD-cost-11.yaml` — the sign flip: closing the predicate reverses the
+  assurance–class coupling, bounded by coverage.
+- `core/claims/DDD-cost-12.yaml` — required class is the max over the act's capabilities where
+  assurance is not discharged.
+- `core/claims/DDD-cost-13.yaml` — answer-keyed instruments evidence declared-predicate class only,
+  never open carriage.
+- `core/claims/DDD-cost-20.yaml` — around/within: encoding loci differ; training buys allocation,
+  not capacity.
+- `core/claims/DDD-cost-22.yaml` — the claim layer is governed by the same two gates.
+- `core/claims/DDD-cost-25.yaml` — tempo prunes assurance positions: latency over budget forces
+  assurance pre-act.
+- `core/claims/DDD-frame-11.yaml`, `DDD-frame-12.yaml` — the frame claims the wave earned.
+- `core/decisions/DDD-dec-12.yaml` — the register ruling (R3), with R4b recorded alongside.
+- `term:capability` in the canonical registry.
+
+### Changed
+- `core/10-cost.md` — §§6–9 built out: the two gates, capability typing, around/within, the claim
+  layer.
+- `core/09-the-measure.md`, `core/06-composition.md` — exposition aligned to the landed claims.
+
 ## v5.2.0 — the boundary charter applied to cost
 
 The boundary charter (R4, Emil 2026-08-09): the principle layer is synchronic and stateless —
