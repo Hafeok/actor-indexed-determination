@@ -21,6 +21,7 @@ The mapping:
 | §4 | Rate-split: description length prices the standing side, entropy the occasioned side | `DDD-cost-03` | projected |
 | §5 | Capacity = bits suppliable per act; the model's escape term = residual exceeding capacity | `DDD-cost-05` | projected, named next result |
 | §6 | Actor selection is two-gated: capacity always; assurance where the predicate does not close | `DDD-cost-08` | projected |
+| §1 | Demand and cost are two registers: demand says what must be supplied, cost what supplying it that way is worth | `DDD-cost-30` | projected |
 | §6 | Closure converts a property's assurance supply from occasioned to standing | `DDD-cost-09` | projected |
 | §6 | The sign flip: closure reverses the assurance–class coupling, bounded by coverage | `DDD-cost-11` | projected |
 | §7 | Required class = max over the act's capabilities where assurance is not discharged | `DDD-cost-12` | projected |
@@ -60,7 +61,10 @@ artifact, and **occasioned cost** for the price of the per-act event — both ra
 the act. The demand identity fixes, for every candidate encoding `E`, how much of the verdict each
 side must supply. Demand says what must be supplied; cost says what supplying it that way is worth.
 *(Claim `DDD-cost-01`, projected; falsifier: a case where the two sides of the identity denominate
-differently.)*
+differently. The register distinction itself — that demand says what must be supplied and cost says
+what supplying it that way is worth — is `DDD-cost-30`, projected; it is what licenses a cost layer
+to sit on the demand identity without amending it, and it is the distinction the boundary charter
+sorts by.)*
 
 ---
 

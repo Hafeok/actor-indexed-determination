@@ -94,7 +94,7 @@ they are Emil's to make.
 
 Canon states the instance count two ways, and the claim governs the prose.
 
-- **`DDD-floor-01` notes — five instances of ratified canon:** `05` §7's tower, `05` §8's unqualified
+- **`DDD-floor-01` notes — five instances of ratified canon:** `05` §7's tower, `05` §6's unqualified
   declarer, `06`'s unanticipated situation at an encoded seam, `10` §9's claim layer, **and `11` §6's
   own Missing row** — plus a sixth, non-canon instance, the ground-applicability holding note's Q4
   limb 1.
@@ -103,6 +103,14 @@ Canon states the instance count two ways, and the claim governs the prose.
 The claim file is canon authority, so the count is **five**. The prose in `core/11` §7 is the bug,
 and per the repository's standing rule it is flagged here rather than silently harmonised. The corpus
 session should work from five.
+
+> **Discharged 2026-08-17** (freight session, item A-1, on Emil's GATE 1 ruling). `core/11` §7 now
+> names all five. A second defect surfaced while repairing the first and is repaired with it: the
+> unqualified declarer is at `05` **§6**, not `05` §8 — §8 is *Where this stops*. `DDD-dec-15`'s
+> resolution, the governing record, had it right; `DDD-floor-01`'s notes carried §8, `core/11` §7
+> carried §8, and the list above inherited it from the claim. All three sites now read §6, and the
+> list above is corrected in place as a transcription repair. The count was never in doubt and does
+> not move: **five**.
 
 ## 5. What the corpus-test session should read differently
 

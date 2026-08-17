@@ -1,0 +1,46 @@
+format: 1
+id: DDD-measure-14
+kind: formal
+statement: |
+  The chain-rule identification iterates without approximation: conditioning a second time gives H(V) = I(V;S1) + I(V;S2|S1) + H(V|S1,S2), where the conditional mutual-information term is the internal seam — the demand the second-level split carries given what the first already carries. Chaining re-splits the seam between levels; it neither creates nor destroys demand, and the parts residual is invariant under the order of the chain.
+status: reported
+region: |
+  closing-predicate region, where the measure exists; conditional on DDD-measure-01 and DDD-measure-02. Sub-decompositions of one task, demonstrated on the date task. The multi-actor case — where the conditioning variables are actor encodings rather than sub-decompositions — is the same arithmetic on a distinct instance and is NOT evidenced here.
+credits: |
+  The theorem is Shannon's chain rule (1948), applied twice. Iteration is arithmetic; only the identification of the conditional term with an internal seam is the framework's, and it is DDD-measure-03's identification carried one level down.
+evidence:
+- kind: derivation
+  ref: core/06-composition.md
+  note: >-
+    the iterated identity as canon states it — H(V) = I(V;E1) + I(V;E2|E1) + H(V|E1,E2), the
+    conditional terms being internal seams; core/09 §2's identity conditioned a second time, with
+    DDD-measure-03's seam identification applied to the conditional term
+- kind: asset
+  ref: core/assets/measure-chained-seams.py
+  note: >-
+    both chain orders on the date task reproduce exactly — month-then-day-band 4.901 + 17.838 +
+    2.755 and day-band-then-month 14.474 + 8.265 + 2.755, each summing to the whole 25.493; the
+    two seam terms sum to the joint seam 22.739 either way, and the parts residual 2.755 does not
+    depend on the order. Re-run 2026-08-17
+falsifier: |
+  A chained decomposition whose level-one seam differs from the same split taken alone, or whose parts residual depends on the order of the chain — either would show iteration creating or destroying demand rather than re-splitting it. Fires with DDD-measure-02.
+breaks: |
+  The composition formalism's licence to read a composed arrangement's internal seams as conditional mutual-information terms; DDD-measure-03's seam identification would stop composing past one level.
+owner: paper-1
+changed: v5.6 (2026-08-17, freight session — filed from the measure completion session's standing marker)
+notes: |
+  Filed on the marker the measure note has carried since its §5.3 was written: "a dedicated claim
+  node for the iterated form is pending canon filing; until it lands, the citation basis is the
+  chain rule and the seam identification". The node exists now, and the projection's flag-upgrade
+  path cites this ID rather than the two claims it stands on.
+
+  The multi-actor restriction is deliberate and is the honest half of the claim. The framework's
+  composition formalism names the same iterated identity for a composed arrangement's internal
+  seams, with actor encodings as the conditioning variables. That is the same arithmetic on a
+  different instance, it remains unworked, and core/09 §9 already books it as owed. This claim
+  does not discharge that debt and must not be read as doing so.
+
+  Arithmetic, not evidence for the framework: iteration of the chain rule is a theorem, and the
+  asset demonstrates that the framework's seam identification survives being applied twice — it
+  does not confirm the identification itself. That confirmation is DDD-measure-01's and
+  DDD-measure-03's to carry, on their own regions.

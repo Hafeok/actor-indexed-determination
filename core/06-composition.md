@@ -182,8 +182,11 @@ individuates the outer act, one act regardless of how many inner verdicts fire i
 **The mathematics is the same identity, iterated.** Where the measure exists, the chain rule
 composes — `H(V) = I(V;E₁) + I(V;E₂|E₁) + H(V|E₁,E₂)` — and the conditional terms are the
 composition's internal seams. Composition is to the supply side what decomposition is to the
-task side, under the same identity. Earned in `09`, and named there as unfinished (`09` §9):
-chained seams and multi-actor compositions are exactly the cases still owed a worked instance.
+task side, under the same identity. Earned in `09`, and the iteration itself is now worked and
+filed (`DDD-measure-14`): chaining re-splits the seam between levels and leaves the parts residual
+invariant under the order of the chain. **The composition case is still owed a worked instance** —
+there the conditioning variables are actor encodings rather than sub-decompositions, which is the
+same arithmetic on a distinct instance (`09` §9).
 
 ---
 

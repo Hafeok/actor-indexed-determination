@@ -23,12 +23,20 @@ evidence:
 falsifier: |
   Occasioned per-act cost driven to zero under a mechanism short of closure — no non-zero occasioned floor.
 breaks: |
-  The capacity/escape denomination (DDD-cost-05) survives — it is not MDL-specific. The volume-optimisation layer that prices these rates across acts (relocated per DDD-dec-09) loses its pricing mechanism.
+  DDD-cost-05's per-act denomination of the capacity model's escape term survives — it is not MDL-specific. The volume-optimisation layer that prices these rates across acts (relocated per DDD-dec-09) loses its pricing mechanism.
 credits: |
   The two-part code is Rissanen's MDL; the identity beneath it is Shannon's. The identification with determination-supply cost is the framework's.
 owner: none
-changed: v5.2 (2026-08-09, R4 carve)
+changed: v5.6 (2026-08-17, freight session — transitive repair of the breaks field; statement, region, status, evidence and falsifier unchanged)
 notes: |
+  Transitive repair, 2026-08-17 (freight session, item A-9). The breaks field named "the
+  capacity/escape denomination (DDD-cost-05)", which carries the identity reading DDD-dec-15
+  superseded — capacity shortfall is one generator of escape, not its definition. Re-worded to
+  DDD-cost-05's own post-correction form, matching the wording DDD-cost-08's breaks field already
+  carries: "DDD-cost-05's per-act denomination of the capacity model's escape term". Named for a
+  later session in DDD-dec-15's GATE 4 list and closed here. Nothing about what breaks changes;
+  only the denomination is named correctly.
+
   Split per DDD-dec-09 (the boundary charter): the N-denominated total L(mechanism) + N·H(V|E),
   the marginal condition, and the crossover-curve falsifier relocated as a new claim citing this
   one as basis; DDD-dec-09 records where it filed. This ID keeps the per-act rate-split; the

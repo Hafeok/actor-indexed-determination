@@ -24,10 +24,12 @@ exposition (canon authority lives in the claim files; see `core/claims/README.md
 | §5 | Maturation asymptote `H(V) − I(V;S_encoded)` | `DDD-measure-13` |
 | §5, §6.2 | Predictive claims (`I(V;S)` cost, `I(V;E)` performance) | `DDD-measure-07` |
 | §6.2 | Store allocation actor-relative, total actor-invariant | `DDD-measure-04` |
-| §6.3 | Identification survives an estimated channel (RAG) | `DDD-measure-05` |
+| §6.3 | Identification survives an estimated channel (tractability, not measurement) | `DDD-measure-05` |
 | §7 | The measure exists iff the predicate closes; vanishes at the floor | `DDD-measure-06` |
 | §7, §9 | The measure prices the verdict, not the search | `DDD-measure-11` |
 | §9 | Demand is relative to the ground distribution | `DDD-measure-12` |
+| §2.1 | Admissibility: the engineering reading holds for admissible `X` only | `DDD-measure-15` |
+| §9 | The chain rule iterates; the conditional term is an internal seam | `DDD-measure-14` |
 
 Where this prose and a claim disagree, the claim governs and the prose is the bug
 (flagged in the claim's `notes:`, not silently harmonised).
@@ -57,12 +59,17 @@ So demand is not a count. It is a **measure**. And the measure is **Shannon info
 <!-- ddd:embed id=term:verdict -->
 > **Definition (determination demand).** *(In the engineering projection this same quantity is
 > denominated in the vocabulary of the domain and called* **specification demand** *; the measure
-> below is identical either way.)* For a task with a decidable acceptance predicate, let the
-> **verdict** be the correct output the predicate assigns to each point of the input space, and let
-> `P` be the distribution over inputs (the *ground distribution*). The **determination demand** of
-> the task is the Shannon entropy of the verdict:
+> below is identical either way.)* For a task whose acceptance predicate **closes** for the
+> arrangement (`term:closure`; *decidable* is the formal special case, not the requirement),
+> the predicate evaluates outcomes, and the **task class** supplies one correct output per
+> input point. The **verdict** is that induced assignment — the correct output over each point
+> of the input space. Let `P` be the distribution over inputs (the *ground distribution*). The
+> **determination demand** of the task is the Shannon entropy of the verdict:
 >
 > **D = H(verdict)**, measured in **bits**.
+>
+> Where the task class supplies no such assignment, the predicate still evaluates outcomes and
+> there is no verdict to have entropy about — which is the boundary `09` §7 draws.
 <!-- /ddd:embed -->
 
 Demand is the information required to specify the correct answer over the ground the task faces. Not
@@ -133,6 +140,32 @@ the **mutual information between the decomposition and the answer.**
 `H(verdict|S) + I(verdict;S)` is *forced* to equal `H(verdict)`. Moving work between the split and
 the parts is a zero-sum transfer. Conservation is not an empirical regularity; it is an algebraic
 identity — once you accept the identification in §1.
+
+### 2.1 Which conditioning variables the engineering reading applies to
+
+The arithmetic above holds for **any** `X` whatever. The engineering reading does not, and the
+condition that restricts it is the encoded store's own definition read as a restriction on
+conditioning variables (`term:encoded`, `term:act`):
+
+> **Admissibility.** A conditioning variable `X` is **admissible** where it is computable from
+> ground available at the act, and from what the arrangement has standing before it, and not from
+> the verdict itself. It must be computable by something that has not been handed the answer.
+
+The condition does real work. Choosing `X = verdict` gives `I(V;X) = H(V)` and `H(V|X) = 0` — the
+whole of the demand absorbed, tautologically — and without the restriction §5's *you cannot
+decompose your way out of the work* would be nearly vacuous. `X = V` is inadmissible because the
+verdict is not ground available before the verdict.
+
+What admissibility does **not** exclude is a mechanism that *computes* the verdict from admissible
+ground. §6.2's program does exactly that and reaches `H(V|E) = 0` legitimately. **The difference is
+between building the answer and being handed it** — the work is not escaped, it is relocated to the
+standing side and paid there (`core/10` §1). *(Claim `DDD-measure-15`, projected.)*
+
+Two further things `I(V;X)` does not establish, recorded so the reading is not taken wider than it
+is: mutual information is symmetric and observational, so it claims neither that anyone constructed
+`X` nor that information flowed causally from `X` to the verdict. Where this document calls `I(V;X)`
+*encoded* or *pre-paid*, the word is its name under the identification of §1, never a property of
+mutual information.
 
 ---
 
@@ -236,18 +269,20 @@ form of the unification of conservation with the actor model — and it corrects
 `H(verdict)` never mentions the actor. It is a property of the verdict function and the ground
 distribution — the task. That is exactly why it is "fixed by the task, never by the system."
 
-### 6.3 X = retrieval → RAG, and conservation measured on a real pattern
+### 6.3 X = what is supplied before the act → the encode/verify split
 
-RAG is the encode/verify split running in production: it converts
-**ground** (the corpus) into **encoded** specification (retrieved context), leaving the model to
-carry the residual as judgment. With `R` = retrieval:
+Retrieval-augmented generation motivates this instance; it is not what is simulated, and the
+instance is named for what is. The structure is the framework's **encode/verify split**: part of
+what an act needs is supplied to it in advance, and the rest is left to whatever acts. With `R` =
+what is supplied:
 
 > **H(answer) = I(answer ; R) + H(answer | R)**
 > total demand = **encoded by retrieval** + **left to the model's judgment**
 
-This was tested not with a clean formula but with a **messy simulated retrieval process** — imperfect
-hit rate, plausible distractor documents — with the information quantities *estimated empirically from
-40,000 samples*. If the identity were an artifact of a tidy channel, this would break it. It does not:
+The generating model is **stipulated, not learned**, and contains neither documents nor a model: `A`
+is drawn at each act from a fixed eight-outcome prior with population entropy `H(A) = 2.6126` bits,
+and `R` is a single categorical symbol carrying no document identity. The information quantities are
+*estimated empirically from 40,000 samples* per row:
 
 | retrieval (hit / distractor) | encoded `I(A;R)` | judged `H(A\|R)` | sum |
 |---|---|---|---|
@@ -258,10 +293,26 @@ hit rate, plausible distractor documents — with the information quantities *es
 | 0.90 / 0.05 | 2.136 | 0.474 | **2.61** |
 | 1.00 / 0.00 | 2.612 | 0.000 | **2.61** |
 
-`H(answer) ≈ 2.61` bits throughout. **Better retrieval moves demand from judgment to encoded;
-distractors push it back; the total never moves.** Conservation of determination demand, measured on
-a deployed system pattern rather than a toy — and the same theorem as the seam and the actor
-allocation.
+`H(answer) ≈ 2.61` bits throughout. **Better supply moves demand from judgment to encoded;
+distractors push it back.**
+
+**What this instance tests, and what it cannot.** `I(A;R)` is computed as `H(A) − H(A|R)`, so the
+sum column is exact by construction and tests nothing; presenting it as a check would be the
+arithmetic-as-evidence error this document exists to avoid. What the run does test is whether a
+plug-in estimator recovers the conditional entropy of a channel it is not given in closed form. It
+does: against the analytic joint, the mean estimate over 200 replicates is within 0.002 bits at
+every setting, and a single 40,000-sample run carries a standard deviation of up to 0.010 bits. The
+totals differ between rows because each re-estimates `H(A)` from its own fresh sample — estimator
+noise, nothing else; over 200 replicates at `N = 40,000` the plug-in `H(A)` has mean 2.6117 bits and
+standard deviation 0.0049, and every total above falls inside its central 95% range `[2.601, 2.621]`
+around the population value 2.6126.
+
+So this is **a tractability result, not a measurement of conservation**: it shows the quantities are
+estimable from samples at a useful accuracy, which is the condition any deployed system presents.
+The answer is generated independently of what is supplied, by construction, which makes the run
+closer to construction than to measurement — and `H(A|R)` remains the ideal-observer residual, so an
+actor that cannot exploit everything `R` carries faces more than the table shows, never less
+(`DDD-measure-05`).
 
 ### 6.4 What this unifies
 
@@ -279,10 +330,12 @@ H(verdict)`.
 *judgment* — the identity separates "encoded" from "everything else," not "judged" from "escaped."
 Splitting those two required a model of actor **capacity**, and `core/11-the-floor-mechanism.md`
 supplies it: hold and resolve capacity in bits, effective capacity `min(C_hold, C_resolve)`, the two
-overflow modes, and the intersection result `escape = overflow ∩ open` with a formula in bits, plus
-a soft-capacity bound derived from rate-distortion theory. The point at which `H(verdict|X)` exceeds
-effective capacity is where demand begins to escape — derived and demonstrated, not conjectured
-(`core/11` §§2–4).
+overflow modes, and the intersection result — overflow ∩ open is the mechanism of
+**capacity-generated** escape, sufficient for escape and never necessary for it (`DDD-dec-15`) —
+with a formula in bits, plus a soft-capacity bound derived from rate-distortion theory. The point at
+which `H(verdict|X)` exceeds effective capacity is where demand an actor has taken up begins to
+escape — derived and demonstrated, not conjectured (`core/11` §§2–4). The supply is partial: demand
+no actor took up escapes without overflowing anything, and is not split by this model.
 
 ---
 
@@ -457,13 +510,21 @@ Three, none fatal, all required in any write-up:
    faces different demand in different deployment environments — but it is an added parameter, not a
    free lunch.
 
-3. **Three instances is credibility, not certification.** The identity is general (it is the chain
-   rule), and it has now been exercised on three conditioning variables — decomposition, actor
-   encoding, and (empirically, with distractors) retrieval — all on closing-predicate tasks. That is
-   real triangulation, not a single toy. But chained seams, multi-actor compositions, and non-uniform
-   ground should still be worked before publication, and an information theorist should certify the
-   framing. The theorem is exact; *identifying* the real conditioning variable for a deployed system
-   is estimation with error bars.
+3. **Five instances is credibility, not certification.** The identity is general (it is the chain
+   rule), and it has now been exercised on five conditioning variables — decomposition, actor
+   encoding, what is supplied before the act (empirically, with distractors), a decomposition
+   applied *twice*, and a decomposition under varied ground — all on closing-predicate tasks. That
+   is real triangulation, not a single toy. Two of the three cases this caveat previously named as
+   owed are now worked: **chained seams** (`core/assets/measure-chained-seams.py`, claim
+   `DDD-measure-14` — both chain orders re-split the seam and leave the parts residual invariant)
+   and **non-uniform ground** (`core/assets/measure-nonuniform-ground.py`, claim `DDD-measure-12` —
+   the identity holds exactly under three ground distributions while the demand itself moves by a
+   factor of six). **Multi-actor compositions remain owed**, and the debt is not reduced by the
+   chained-seam instance: there the conditioning variables are sub-decompositions of one task, and
+   the composition case conditions on *actor encodings*. Same arithmetic, distinct instance,
+   unworked. An information theorist should still certify the framing. The theorem is exact;
+   *identifying* the real conditioning variable for a deployed system is estimation with error
+   bars.
 
 ---
 

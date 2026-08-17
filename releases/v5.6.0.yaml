@@ -1,0 +1,92 @@
+format: 1
+version: v5.6.0
+# No `commit`: this descriptor is cut wherever it lands on the default branch,
+# which is the normal case (spec/release-format.md §2 rule 3). v5.5.0 pins one
+# because it was filed retroactively at an already-merged commit; this one is
+# not, and pinning would be wrong.
+date: 2026-08-17
+basis:
+  # Filed this release
+  - DDD-measure-14
+  - DDD-measure-15
+  - DDD-cost-30
+  - DDD-dec-19
+  # Amended this release — cited because the release pins their new form
+  - DDD-floor-01
+  - DDD-cost-03
+  - DDD-cost-05
+  - DDD-measure-05
+  - DDD-measure-12
+title: 'the freight session: registry seams repaired, three claims filed, two assets promoted'
+summary: |
+  The accumulated small-items list, closed. Every item in this release was found
+  and recorded by an earlier session — the escape reconciliation, the corpus test,
+  or the vocabulary-and-delivery session — and carried forward unrepaired. Nothing
+  here is new design work.
+
+  ### Added
+  - `core/claims/DDD-measure-14.yaml` — the iterated chain-rule form,
+    `H(V) = I(V;S₁) + I(V;S₂|S₁) + H(V|S₁,S₂)`, with the conditional term identified
+    as an internal seam. Reported, on `core/assets/measure-chained-seams.py`. Its
+    region states what the asset does **not** evidence: the multi-actor case
+    conditions on actor encodings rather than sub-decompositions, and stays owed.
+  - `core/claims/DDD-measure-15.yaml` — admissibility. A conditioning variable is
+    admissible where it is computable from ground available at the act and from
+    standing supply, and **not** from the verdict handed over. The distinction is
+    building the answer versus being handed it: a mechanism that computes the
+    verdict from admissible ground reaches zero residual legitimately and pays
+    standing cost for it. Exposition at `core/09` §2.1.
+  - `core/claims/DDD-cost-30.yaml` — the register distinction, promoted from the
+    `core/10` §1 sentence it had been riding `DDD-cost-01`'s citation to carry.
+    Demand says what must be supplied; cost says what supplying it that way is
+    worth. It is what licenses a cost layer on the demand identity, and what the
+    boundary charter's sorting test has been applied against with no node behind it.
+  - `core/decisions/DDD-dec-19.yaml` — the registry seam reconciliations.
+  - `core/assets/measure-chained-seams.py` and `core/assets/measure-nonuniform-ground.py`,
+    promoted from the projection layer and re-run at their new home.
+  - `core/09` §2.1, the admissibility condition; `core/02` §3's quantifier clause.
+
+  ### Changed
+  - `term:verdict` re-stated by supersession and re-projected into `core/09` §1. It
+    required a *decidable* predicate where `term:closure` reserves decidable for the
+    formal special case, and described the verdict as something the predicate
+    assigns — conflating the criterion that evaluates one outcome with the assignment
+    over the input space. Now: the predicate evaluates outcomes; the verdict is the
+    assignment the task class induces. `D = H(verdict)` in bits is unchanged.
+  - `term:escape-mechanism` gains a scope note: the open conjunct is actor-indexed
+    and therefore **ill-defined, not merely false**, where no actor was assigned. It
+    bounds where the mechanism can be *asked*, which is narrower than where it is
+    true. Recorded as a registry note; the canonical text is untouched.
+  - `core/11` §7 now names all **five** no-supplier instances the claim files record,
+    at their correct sections — the unqualified declarer is at `05` §6, not `05` §8.
+    The same transcription error is repaired in `DDD-floor-01`'s notes.
+  - The superseded identity form `escape = overflow ∩ open` removed from `core/09`
+    §6.4, `core/05`'s header, and `core/README` — each scoped to capacity-generated
+    escape, per `DDD-dec-15`.
+  - `core/09` §6.3 retitled to the encode/verify split and its overclaim repaired:
+    the sum column is exact by construction and tests nothing, so the instance is a
+    tractability result, not a measurement of conservation. This clears the FLAG
+    standing on `DDD-measure-05`, by repairing the prose rather than relaxing the
+    claim. The 200-replicate estimator band is filed on its asset evidence.
+  - `core/09` §9's caveat: two of its three owed instances — chained seams and
+    non-uniform ground — are now worked. **Multi-actor composition is explicitly not
+    discharged** by the chained-seam instance. `core/06`'s matching sentence likewise.
+  - `DDD-measure-12` gains the computation it always described; `DDD-cost-03`'s
+    `breaks:` field re-worded off the superseded denomination; `DDD-cost-05` records
+    the proposed `C_resolve` extension as **not adopted**, the blocker being canon's
+    own — `DDD-measure-11` prices the verdict, not the search.
+  - `CHANGELOG.md` gains the v5.3.0, v5.4.0 and v5.5.0 entries.
+
+  ### Deferred, with the resistance named
+  The 06/08 diachronic carve. Not a budget question: three of its steps are unruled
+  design decisions, and a carve that removes a document's thesis is not freight. Its
+  plan is filed with the projection as the successor session's seed.
+
+  ### Opened
+  Whether the capacity model should be indexed to the **arrangement** rather than the
+  **actor**. `term:arrangement` holds that the unit of comparison is the arrangement;
+  `DDD-cost-05` reads "the bits an actor can supply per act"; both conjuncts of the
+  escape mechanism are actor-indexed. Four convergent sources, named and not answered.
+
+  Supersession throughout, never rewriting. Every superseded form is recorded in the
+  decision that replaced it; no id is renumbered, retired, or reused.

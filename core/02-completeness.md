@@ -80,6 +80,15 @@ criterion after. This is not double-counting; it is defence in depth, and the pr
 What the principle forbids is a governing decision that is **in no store at all** — uncovered, and
 with its cost unpaid. That is the escaped state, and it is the only forbidden one.
 
+**This does not contradict exhaustiveness**, and the two are worth separating explicitly because
+they read as if they might. Exhaustiveness quantifies over **the determination**: on any one
+occasion the decision is resolved by a rule, a check, an actor, or nothing — exactly one of them
+actually resolves it, and there is no fifth source. Defence in depth quantifies over **the carriers
+standing ready to resolve it**: an arrangement may hold as many as it likes. A constraint before and
+a criterion after are two carriers; whichever one determines the decision on the occasion is the one
+the partition counts. Redundant carriage changes which store does the determining when a carrier
+fails — that is the point of it — and never puts one determination in two stores at once.
+
 ---
 
 ## The boundary of a "governing decision"

@@ -1,0 +1,101 @@
+format: 1
+id: DDD-dec-19
+kind: decision
+statement: |
+  The registry seam reconciliations: term:verdict's canonical text is aligned to operational closure and re-stated as the assignment induced by the task class, separating it from term:acceptance-predicate; and the apparent conflict between term:exhaustiveness and core/02's defence-in-depth licence is resolved in prose by naming what each quantifies over. Filed by supersession of the superseded canonical text, not by rewriting.
+principal: Emil
+made: 2026-08-17, freight session (Batch B, on the GATE 1 ruling); drafted in-session
+resolution: |
+  Three seams, found by three prior sessions, closed together because they are one family: two
+  settled registry entries and one settled document describing the same objects at different
+  grains, with no ruling ever reconciling the descriptions.
+
+  B-1 and B-2, taken as one edit because they are one defect seen twice.
+
+  term:verdict's canonical text read "For a task with a decidable acceptance predicate". Two
+  things were wrong with it, and they compound.
+
+  First, decidability. term:closure (settled, established by 03) defines effective closure — the
+  relevant ground observable and adequacy evaluable within declared resource, latency and
+  confidence bounds — and reserves *decidable* explicitly for the formal special case. The measure
+  exists on the closing region, which is the operational one; term:verdict's wording narrowed it
+  to the formal one. Nothing downstream of the term used the narrow reading, which is why the
+  defect survived: the region was right everywhere it was applied and wrong only where it was
+  defined.
+
+  Second, the object. term:acceptance-predicate is "the criterion that settles whether an outcome
+  is acceptable at the declared tolerance" — it evaluates an outcome, one at a time. term:verdict
+  was "the correct output the predicate assigns to each point of the input space" — a total
+  assignment over the input space. A criterion that evaluates outcomes does not, by itself, hand
+  you an assignment; two objects were being described as one, and the registry carried both
+  without a joint.
+
+  The reconciliation, as ratified: the predicate evaluates outcomes; the verdict is the assignment
+  the predicate *induces* where the task class supplies one correct output per input point. The
+  task class does that work, and canon already relies on it — 09 §7's boundary is exactly the case
+  where no such assignment exists, and the account was worked out in full during the measure
+  revision session. term:verdict's canonical text now says so, and carries the boundary clause
+  explicitly so a reader of the registry alone reaches 09 §7 rather than inferring past it.
+
+  Region, status and every embed of term:verdict's *quantity* are untouched: D = H(verdict) in
+  bits, unchanged, and no claim's statement moves. What changes is the condition under which the
+  verdict exists and the account of what it is. Re-projected into 09 §1 in the same pass; E6
+  passes.
+
+  B-3, resolved at the prose site rather than the term.
+
+  term:exhaustiveness (settled) says every governing decision is determined by exactly one of a
+  rule, a check, an actor, or nothing. core/02 §3 licenses redundancy: a constraint before and a
+  criterion after, held for one decision. The corpus test (2026-08-14) found three rows sitting in
+  that configuration and reported the wording gap as a genuine seam rather than a coding failure.
+
+  They were never in conflict, and the resolution is to say which quantifier each carries.
+  Exhaustiveness quantifies over **the determination**: on the occasion, exactly one source
+  actually resolves the decision, and there is no fifth. Defence in depth quantifies over **the
+  carriers standing ready**: an arrangement may hold as many as it likes. Redundant carriage
+  changes which store determines when a carrier fails — that is what it is for — and never places
+  one determination in two stores at once.
+
+  Filed at core/02 §3, immediately after the licence, and deliberately not in
+  term:exhaustiveness's canonical text. The term's "exactly one of" is the exhaustiveness result
+  itself, load-bearing and widely embedded; adding a scope clause there would supersede the
+  partition's own statement to fix a reading problem that lives where the licence is granted. The
+  cheaper site is the correct one. A registry reader who reaches the apparent conflict reaches it
+  through 02, which is where the answer now is.
+
+  Not filed, deliberately. No claim is minted for any of the three: term:verdict's amendment is a
+  correction to a settled term's exposition of an unchanged quantity; the exhaustiveness clause
+  states what the partition already meant. Nothing here is a new result, and filing one would
+  overstate three repairs as findings.
+basedOn:
+  - term:verdict
+  - term:acceptance-predicate
+  - term:closure
+  - term:exhaustiveness
+  - DDD-measure-01
+  - DDD-measure-06
+notes: |
+  Sources, per the freight manifest: B-1 from the measure revision session (its D-2); B-2 from the
+  same session's GATE 5; B-3 from the corpus test of 2026-08-14, GATE 2, which ruled the three
+  double-held rows as canon-licensed and sent the wording gap to the freight list.
+
+  Supersession, not rewriting, per the Wave-1 boundary-charter precedent (DDD-dec-09) and the
+  escape precedent (DDD-dec-15): the superseded canonical text of term:verdict is recorded here — "For a
+  task with a decidable acceptance predicate, let the verdict be the correct output the predicate
+  assigns to each point of the input space" — rather than erased with the edit. No id is
+  renumbered, retired, or reused.
+
+  Citation scope, on Emil's GATE 6 ruling. An earlier draft of this decision cited the Wave-1
+  precedent as the pair DDD-dec-09/DDD-dec-10, following DDD-dec-15's ratified wording. DDD-dec-10
+  is a decision of the software projection, and this repository carries no reference to its
+  dependents: the charter rule is name the method, never the repo, and a dependent's decision id
+  under core/ is a dependent reference whatever the precedent. Trimmed to DDD-dec-09, the upstream
+  half, which is the half that supplies the pattern. DDD-dec-15 stands as ratified history and is
+  not repaired for consistency — history is not edited to match a later reading — but the wording
+  is not propagated either. Going forward: an upstream decision cites upstream ground only, and
+  the downstream adoption record is where a cross-reference belongs, which is what the
+  adoption-decision pattern exists for.
+
+  B-4, the fourth Batch B item, does not file here. It is the shadowing rule and its validator
+  warning class, which is instrumentation on the projection's own checker; it travels with the
+  instrumentation batch by the GATE 1 ruling and files downstream, where the checker lives.

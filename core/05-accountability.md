@@ -9,8 +9,9 @@ status: settled
 
 Extends `04-actors.md`. Actor-general, denominated in determinations. Depends on `00` (admission
 tests), `01` (the four stores), `03` (the floor lives in the acceptance predicate) and `04`
-(pinning-resolution spectrum). Forward-references `09` (the measure) and `11` (escape = overflow ∩
-open), both later in the read order; the dependency is citational, not definitional.
+(pinning-resolution spectrum). Forward-references `09` (the measure) and `11` (overflow ∩ open, the
+mechanism of capacity-generated escape), both later in the read order; the dependency is citational,
+not definitional.
 
 **Status: projected.** Derived, unexercised. Falsifiers stated per claim. Nothing here is reported.
 

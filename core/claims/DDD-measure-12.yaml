@@ -12,12 +12,26 @@ evidence:
 - kind: derivation
   ref: core/09-the-measure.md
   note: §9 caveat 2 — the worked example used uniform P(input); entropy is distribution-relative by definition
+- kind: asset
+  ref: core/assets/measure-nonuniform-ground.py
+  note: >-
+    the date task under three ground distributions — uniform, adversarial (invalid 9x valid), and
+    benign. Whole demand moves from 25.493 to 96.639 to a sixth of uniform while the identity
+    holds exactly in every deployment, and a fixed decomposition's seam share moves with the
+    distribution (41% benign, 57% uniform, 75% adversarial). Re-run 2026-08-17 after promotion
+    from the projection layer
 test: >
   A closing task whose verdict entropy is invariant to P(input), which would make the
   distribution parameter idle.
 owner: paper-1
-changed: v4.5
+changed: v5.6 (2026-08-17, freight session — asset evidence wired on promotion; statement, status, region and test unchanged)
 notes: >
   Extracted in the core/09 conversion (§9 caveat 2). A scoping proposition the seed folded
   silently into DDD-measure-01/04's "fixed by the task"; landed explicitly so the added
   parameter is visible.
+
+  Asset promoted 2026-08-17 (freight session, item D-7): measure-nonuniform-ground.py was written
+  for the measure note and lived in the projection layer's paper assets, where it could not back
+  an upstream reported claim. Moved to core/assets/, re-run there, and wired here — a reported
+  claim's computation belongs in core/assets/ and must reproduce. Nothing about the claim moves;
+  it gains the computation it always described.

@@ -1,0 +1,55 @@
+format: 1
+id: DDD-measure-15
+kind: conceptual
+statement: |
+  The engineering reading of the chain-rule identification holds only for admissible conditioning variables. A conditioning variable X is admissible where it is computable from ground available at the act and from what the arrangement has standing before it, and not from the verdict itself — computable by something that has not been handed the answer. The arithmetic holds for any X whatever; admissibility is what restricts the reading, not the identity.
+status: projected
+region: |
+  closing-predicate region, where the measure exists; a condition on the reading of DDD-measure-01/02/03, not an amendment to any of them. Excludes X = V, which returns I(V;X) = H(V) tautologically. Does NOT exclude a mechanism that computes the verdict from admissible ground and reaches H(V|X) = 0 legitimately — that is building the answer, not being handed it.
+evidence:
+- kind: derivation
+  ref: core/09-the-measure.md
+  note: >-
+    §2.1 — read off term:encoded and term:act: the encoded store is by definition what is fixed
+    before the act, by a rule; admissibility is that definition restated as a restriction on
+    conditioning variables
+- kind: asset
+  ref: core/assets/measure-actor-allocation.py
+  note: >-
+    the actor-allocation instance is the case the condition must keep legitimate — a program that
+    determines the whole verdict from the input reaches zero residual and pays for it in standing
+    cost; a form of the condition that excluded it would be wrong
+falsifier: |
+  An arrangement whose conditioning variable satisfies the condition — computable at the act from available ground and standing supply, without access to the verdict — and whose I(V;X) nonetheless cannot be supplied by anything the arrangement holds before the act; or a case where excluding X = V is shown insufficient to keep the decomposition result non-trivial.
+breaks: |
+  The engineering reading of conservation. Without the condition, "you cannot decompose your way out of the work" (DDD-measure-10) is close to tautologically false — choose X = V and the residual is zero for free. The identity survives untouched; what breaks is every claim that reads I(V;X) as demand somebody pre-paid.
+credits: |
+  Nothing borrowed. The condition is term:encoded and term:act read as a restriction on conditioning variables; the observation that mutual information is symmetric and observational, and therefore claims neither construction nor causal flow nor availability, is standard information theory.
+owner: paper-1
+changed: v5.6 (2026-08-17, freight session — filed from the measure revision session's standing marker, with the GATE 7 warning honoured)
+notes: |
+  The wording is load-bearing and was ruled so at the revision session's GATE 7. The condition
+  states what X must be computable FROM — ground available at the act, and standing supply — and
+  what it must not be computable from: the verdict, handed over. It must never be stated as
+  "cannot determine the verdict". That form is wrong twice. It would exclude the actor-allocation
+  instance's Program row, which determines the whole verdict from the input, reaches H(V|E) = 0,
+  and is legitimate — it builds the answer and pays standing cost for building it. And it would
+  make the framework's own encoded store inadmissible in the limit, which inverts the point: the
+  encoded store is exactly the thing that determines verdicts from ground fixed before the act.
+
+  The distinction the condition draws is between BUILDING the answer and BEING HANDED it. X = V is
+  inadmissible because the verdict is not ground available before the verdict — not because
+  determining the verdict is disallowed.
+
+  Three things the condition deliberately does not claim, recorded so the claim is not read wider
+  than it is. Mutual information is symmetric and observational: I(V;X) = I(X;V). It does not
+  establish that anyone constructed X, that information flowed causally from X to the verdict, or
+  that an engineering cost was paid. Availability is supplied by this condition; cost is supplied
+  by the cost register and is DDD-measure-07's open correspondence; deliberate construction and
+  causal flow are not claimed at all. Where canon calls I(V;X) "encoded" or "pre-paid", the word
+  is its name under the identification, never a property of mutual information.
+
+  Status projected rather than reported: the condition is a restriction earned by argument from
+  two settled terms, and the asset listed is evidence that the condition keeps a known-legitimate
+  instance legitimate — not evidence that the condition is the right one. A stronger form would
+  need a case where a candidate X divides the two readings.
