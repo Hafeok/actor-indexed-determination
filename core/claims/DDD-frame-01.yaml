@@ -11,7 +11,8 @@ test: >-
 owner: none
 changed: v5.7 (2026-08-18, Wave 3 session — exposition home gained, flag cleared; statement unchanged)
 notes: |
-  DRAFT-PENDING-RULING (GATE 3).
+  Filed from the Wave 3 session (2026-08-18; interactive curation, Emil ruling at every gate;
+  ratified at the GATE 3 ruling).
 
   Exposition home: core/14-indexed-determination.md §1, drafted from the revision foundation's
   §1.1 with canon at head governing. The UNVERIFIED flag carried since v4.4 — "the six-tuple

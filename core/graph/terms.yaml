@@ -107,7 +107,7 @@ terms:
   - id: term:determinable
     term: determinable
     established_by: 00-primitives.md
-    status: draft
+    status: settled
     canonical_md: |
       > The **determinable** — an outcome-relevant dimension of variation at the declared
       > tolerance: the object determination resolves, and the dimension of comparability an axis
@@ -116,7 +116,7 @@ terms:
   - id: term:determinate
     term: determinate
     established_by: 00-primitives.md
-    status: draft
+    status: settled
     canonical_md: |
       > The **determinate** — one specific way of occupying a determinable: what discharge
       > produces. A determinate is a way of being, not the determinable plus a differentia, and
@@ -406,7 +406,7 @@ terms:
   - id: term:outcome
     term: outcome
     established_by: 09-the-measure.md
-    status: draft
+    status: settled
     canonical_md: |
       > The **outcome** — the determinate as it lands in the world, produced at every completed
       > act. The **verdict** is the same determinate as assessed by a declared predicate,
