@@ -2,7 +2,7 @@
 
 <!-- ddd:contract
 
-requires: [store, mechanical, judgment, escape, assurance, act, maturation]
+requires: [store, mechanical, judgment, escape, assurance, act, maturation, verdict, outcome, determinate]
 establishes: [delivery, undelivered, presumed-discharge|presumed discharge]
 status: draft
 -->
@@ -10,8 +10,8 @@ status: draft
 **Read `00` through `12` first.** This document is deliberately minimal: it establishes the
 delivery vocabulary and points at the claims and the evidence; the corpus test that earned it
 (2026-08-14) carries the weight. The claims are `DDD-ground-01` through `DDD-ground-03` for the
-applicability side and `DDD-delivery-01` through `DDD-delivery-03` here; their files govern, and
-this prose is exposition.
+applicability side, `DDD-delivery-01` through `DDD-delivery-03` here, and `DDD-frame-15` and
+`DDD-frame-16` for the discharge section (§4); their files govern, and this prose is exposition.
 
 **Status: draft, pending ratification** — filed from the vocabulary-and-delivery session
 (2026-08-15), scoped to what the corpus evidenced.
@@ -69,10 +69,44 @@ an unretrieved decision and an unretrieved check over the same act are correlate
 same actor, same budget, same position — and correlation is exactly what a gate exists not to
 have.
 
-## 4. What this document does not do
+## 4. Discharge — how demand meets the act
 
-It adds no store — the partition `{rule, check, actor, nothing}` is untouched, and
-`DDD-delivery-01` is a correctness condition on *reading* allocation, not a fifth cell. It does
-not amend maturation — the harvest-channel condition (`08`) gains a consuming-side consequence,
-filed with the projection that carries diachronic claims. It closes no open generator — the
-empty-option-set generator recorded in the escape reconciliation stays open and unexamined.
+Delivery is how authored governance reaches an act. Discharge is what happens at the act
+regardless: the act completes, a determinate obtains — an outcome always, a verdict only where a
+predicate is declared (`core/09` §7a) — and the act's determination demand is thereby met by
+*something*.
+
+**Supply-mode exhaustiveness** (`DDD-frame-15`). At every completed act in a task's scope, the
+act's determination demand is discharged — by a filed decision, an actor's judgment, an
+arrangement default, or an uncontrolled draw. Escape is a supply mode of discharge, not an
+absence of it: an act no governance supplies still lands an outcome, drawn from a distribution
+the arrangement does not control. **Demand is never unmet, only ungoverned.**
+
+**The seam this claim must not cross.** The four supply modes partition **discharge** — the
+production of a determinate at the act. They do not partition **governance-supply**, and the
+store partition (`{rule, check, actor, nothing}` — no fifth source) is not this partition under
+new names: there, escape is *nothing*, because the question is what governance supplied, and
+nothing did; here, the same act's demand is discharged by an *uncontrolled draw*, because the
+question is what the world produced, and the world never produces nothing. A check, likewise, is
+an assurance position, not a discharge mode. The two partitions answer different questions about
+the same act, and neither reduces to the other.
+
+**Discharge is act-indexed** (`DDD-frame-16`). Standing supply is inherited per act; occasioned
+supply is produced per act; there is no act-free discharge. Governance never chooses *whether*
+demand is supplied — only *by what*, chosen in advance or defaulted at the act.
+
+**Distribution-weighting — an exposition note, deliberately not a claim.** Discharge is
+distribution-weighted: demand comes due where acts concentrate, at the rate the ground
+distribution `P` supplies them. This is the measure's own `P` (`core/09`) read back, a
+projection of the measure rather than a further claim, and it files as this paragraph — the
+flag is the finding.
+
+## 5. What this document does not do
+
+It adds no store — the partition `{rule, check, actor, nothing}` is untouched, `DDD-frame-15`
+partitions discharge rather than supply (§4), and `DDD-delivery-01` is a correctness condition
+on *reading* allocation, not a fifth cell. It does not amend maturation — the harvest-channel
+condition (`08`) gains a consuming-side consequence, named in canon at `core/09` §7a
+(`DDD-frame-14`); the instruments that run on it file with the projection that carries
+diachronic claims. It closes no open generator — the empty-option-set generator recorded in the
+escape reconciliation stays open and unexamined.

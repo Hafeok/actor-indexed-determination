@@ -1,0 +1,55 @@
+format: 1
+id: DDD-frame-14
+kind: conceptual
+statement: |
+  Discharge always produces a determinate, which lands in two registers: as an outcome — the determinate as it lands in the world, produced at every completed act — and as a verdict — the determinate as assessed by a declared predicate, produced only where governance has declared one; governance is thereby the conversion of outcomes into verdicts, and every diachronic instrument runs on verdicts alone.
+status: projected
+region: |
+  All completed acts. The verdict register exists only where a predicate is declared;
+  retro-conversion of outcomes into verdicts by replay over recorded ground is honest only under
+  retro-filing's two fields (DDD-ground-04); floor residual has no verdict in any tense — the
+  two-silences boundary of core/09 §7 survives beneath the registers.
+evidence:
+  - kind: derivation
+    ref: core/09-the-measure.md §7a
+    note: derivation check run at Wave 3 GATE 2; premises by ID and steps in notes
+falsifier: |
+  A diachronic instrument in canon demonstrated to update on ungoverned outcomes with no declared predicate anywhere in its loop.
+test: |
+  Explanatory utility across the instruments canon carries — the return channel, the calibration record, carrier assurance: each shown to consume verdicts and only verdicts, or the counterexample is the finding.
+owner: none
+changed: v5.7 (2026-08-18, Wave 3 session)
+notes: |
+  DRAFT-PENDING-RULING (GATE 2).
+
+  Derivation (premises by ID):
+
+  1. DDD-frame-13 — discharge selects a determinate: the passage from determinable to
+     determinate happens at every completed act, governed or not.
+  2. term:act — the act is "the bounded episode of determination running from its first
+     governing decision to an expressed outcome": the world register exists at every completed
+     act by the act's own definition.
+  3. term:verdict — the verdict exists only where the task class and closing predicate supply
+     the induced assignment; core/09 §7 already separates the registers without naming them
+     ("the predicate still evaluates outcomes and there is no verdict to have entropy about").
+     The claim names canon's existing boundary; it does not move it.
+  4. term:maturation + term:compound — maturation is the compound over repetition, and the
+     compound harvests through a mechanical check on what was harvested; a mechanical check's
+     product is a predicate-assessed determinate, a verdict. The return channel therefore
+     consumes verdicts only, and an outcome no predicate assesses never enters it — ungoverned
+     discharge is invisible to learning in principle.
+  5. DDD-frame-12 — the deferred verdict supplies the middle state; the full state space is
+     outcome-only (ungoverned) / verdict-pending (governed, open) / verdict-rendered (governed,
+     closed or matured).
+  6. DDD-ground-04 — retro-minted verdicts are honest only under the two retro-filing fields;
+     without them, retro-conversion is the laundering that claim names.
+
+  One-proposition note, for the ruling: the statement carries the register split and its
+  diachronic consequence in one sentence. The consequence is what the falsifier tests, so the
+  recommendation is to keep it in the statement rather than demote it to exposition; if the
+  ruling prefers a split, the consequence files as its own claim citing this one.
+
+  Downstream consequence (recorded here as routing, not as a reference this repo depends on):
+  the software projection carries an escape-cost claim whose mechanism this claim names; the
+  annotation naming DDD-frame-14 lands in that repository, per the citation-scope convention.
+  The term term:outcome enters with this claim, status draft pending ratification.

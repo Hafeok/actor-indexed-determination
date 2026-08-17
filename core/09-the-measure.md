@@ -2,8 +2,8 @@
 
 <!-- ddd:contract
 
-requires: [closure, acceptance-predicate, demand, conservation, seam, store, actor, act]
-establishes: [verdict|verdict function, verdict-entropy|verdict entropy, chain-rule-identification, seam-information|I(V;S), act-individuation|act individuation]
+requires: [closure, acceptance-predicate, demand, conservation, seam, store, actor, act, determinable, determinate]
+establishes: [verdict|verdict function, verdict-entropy|verdict entropy, chain-rule-identification, seam-information|I(V;S), act-individuation|act individuation, outcome]
 status: settled
 -->
 
@@ -30,6 +30,7 @@ exposition (canon authority lives in the claim files; see `core/claims/README.md
 | §9 | Demand is relative to the ground distribution | `DDD-measure-12` |
 | §2.1 | Admissibility: the engineering reading holds for admissible `X` only | `DDD-measure-15` |
 | §9 | The chain rule iterates; the conditional term is an internal seam | `DDD-measure-14` |
+| §7a | Outcome and verdict: the determinate's two registers | `DDD-frame-14` |
 
 Where this prose and a claim disagree, the claim governs and the prose is the bug
 (flagged in the claim's `notes:`, not silently harmonised).
@@ -389,6 +390,35 @@ The governance question therefore ranges strictly wider than the measure — the
 framework is not merely applied information theory, and the reason it governs claims, mission
 statements, and architecture where `H(verdict)` is undefined. *(Claim `DDD-frame-11`,
 projected.)*
+
+### 7a. Outcome and verdict: the determinate's two registers
+
+The boundary sharpens once the determinate (`core/00` §4a) is in hand. Discharge always produces
+a determinate — the act completes, and some way of occupying the determinable obtains whether or
+not anything governed it. What varies with governance is not whether a determinate lands but
+**which registers it lands in**:
+
+<!-- ddd:embed id=term:outcome -->
+> The **outcome** — the determinate as it lands in the world, produced at every completed
+> act. The **verdict** is the same determinate as assessed by a declared predicate,
+> produced only where governance has declared one. The world renders outcomes, never
+> verdicts; governance is the conversion of outcomes into verdicts.
+<!-- /ddd:embed -->
+
+§7 already draws this line without naming it: where the task class supplies no assignment, "the
+predicate still evaluates outcomes and there is no verdict to have entropy about." The register
+pair names it, and one consequence carries the weight: **every diachronic instrument runs on
+verdicts.** Maturation is the compound over repetition, and the compound harvests through a
+mechanical check on what was harvested — a check's product is a predicate-assessed determinate,
+a verdict. An outcome no predicate assesses never enters the return channel; ungoverned
+discharge is invisible to learning, in principle and not merely in practice.
+
+The state space follows: **outcome-only** (ungoverned) · **verdict-pending** (governed, open —
+the claim layer's deferred verdict, `DDD-frame-12`) · **verdict-rendered** (governed, closed or
+matured). Replay over recorded ground can retro-judge outcomes into verdicts once a predicate is
+declared — honestly only under retro-filing's two fields (`DDD-ground-04`). And the two silences
+of §7 survive beneath the registers: an outcome is convertible where a verdict function can be
+declared; floor residual has none in any tense. *(Claim `DDD-frame-14`, projected.)*
 
 Two consequences, booked:
 

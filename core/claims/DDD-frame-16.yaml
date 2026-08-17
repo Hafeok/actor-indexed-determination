@@ -1,0 +1,44 @@
+format: 1
+id: DDD-frame-16
+kind: conceptual
+statement: |
+  Discharge is act-indexed: standing supply is inherited per act and occasioned supply is produced per act, so there is no act-free discharge — governance never chooses whether demand is supplied, only by what, chosen in advance or defaulted at the act.
+status: projected
+region: |
+  All completed acts. The aggregate formal content — N·H(V) accounting over repeated acts, the
+  correlation inequality, the standing/occasioned bit asymmetry — is measure-register material
+  and lies outside this claim, routed to the projection that carries it.
+evidence:
+  - kind: derivation
+    ref: core/13-delivery.md §4
+    note: derivation check run at Wave 3 GATE 2; premises by ID and steps in notes
+falsifier: |
+  Demand shown to be consumed absent any act.
+test: |
+  Explanatory utility: every mechanism canon describes as paying demand once and benefiting many times — encoding, seam pre-payment, maturation — shown to discharge per inheriting act rather than at authoring; an instrument that consumes demand with no act to index it fails the claim.
+owner: none
+changed: v5.7 (2026-08-18, Wave 3 session)
+notes: |
+  DRAFT-PENDING-RULING (GATE 2).
+
+  Derivation (premises by ID):
+
+  1. term:act — the act is the unit demand is counted in. Demand that is due is due at acts;
+     consumption anywhere else has no denomination in the framework's own accounting.
+  2. term:standing-cost / term:occasioned-cost — the locus-of-supply split: a standing artifact
+     is built before any act but discharges only as acts inherit it; an occasioned event is
+     produced at each act. Both sides are per-act; authoring is when the supply is paid for,
+     inheritance is when it discharges.
+  3. DDD-frame-15 — every completed act's demand is discharged by one of four modes. With step
+     1, discharge and completed acts are in bijection on the demand ledger: no act-free
+     discharge, and no discharge-free completed act.
+  4. term:encode-verify-split — both halves of the split are defined relative to the act
+     (pre-resolving before it, verifying after it): even fully pre-resolved demand is consumed
+     per act, at inheritance, which is what "paid once, inherited by every run" means and why
+     the paid-once property belongs to delivery at the act (DDD-delivery-01) rather than to
+     authoring as such.
+
+  The second clause — governance never chooses whether, only by what — is the contrapositive
+  of DDD-frame-15 read through this claim: since every completed act discharges, the only
+  governable variable is which mode does the discharging, chosen in advance or defaulted at
+  the act.
