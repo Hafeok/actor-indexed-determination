@@ -2,12 +2,27 @@ format: 1
 id: DDD-frame-02
 kind: conceptual
 statement: |
-  Behavioural commitments attach at three levels — outcome, policy, principal — which compose and are not actor species.
+  Behavioural commitments attach at three levels — outcome, policy, principal — which compose and are not actor species; residual discretion is the outcome-relevant variation that remains after the arrangement's declared commitments are applied.
 status: projected
 region: engineered arrangements
 test: >-
-  boundary-case coverage; an arrangement whose commitments resist the three-level coding
+  boundary-case coverage; an arrangement whose commitments resist the three-level coding, or
+  whose remaining outcome-relevant variation resists description as residual discretion
 owner: none
-changed: v4.4
+changed: v5.7 (2026-08-18, Wave 3 session — residual-discretion clause added, exposition home gained, flag cleared)
 notes: |
-  UNVERIFIED — Emil review. The three commitment levels (outcome/policy/principal) appear only in the session-authored scaffolding (meta/way-of-working §4, meta/graph-tool-ontology §2 — pre-split scaffolding that did not migrate; neither file is present in this repository) as the decision node's commitmentLevel, not in any core/ document as a claim about behavioural commitments. Cannot verify against canon; flagged, not struck.
+  DRAFT-PENDING-RULING (GATE 3).
+
+  Amendment record (GATE 1 ruling: amend, not companion claim; the clause completes the same
+  thought and the claim is projected, not ratified). Prior statement, v4.4: "Behavioural
+  commitments attach at three levels — outcome, policy, principal — which compose and are not
+  actor species." The residual-discretion clause is drafted from the revision foundation's
+  §3.5, which additionally relativises it to task distribution, accessible ground, tolerance,
+  and time horizon — that relativity is DDD-frame-01's index doing its work and is carried as
+  exposition in core/14 §2, not restated in this claim. Residual discretion is deliberately not
+  minted as a term this session; the clause is claim content, and minting waits on use.
+
+  Exposition home: core/14-indexed-determination.md §2. The UNVERIFIED flag carried since v4.4
+  — the levels appeared only in pre-split scaffolding that did not migrate, "not in any core/
+  document" — cleared at the Wave 3 GATE 1/GATE 3 rulings: core/14 is the statement in canon,
+  and the clearance is recorded in the session decision.
