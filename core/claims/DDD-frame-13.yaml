@@ -1,0 +1,52 @@
+format: 1
+id: DDD-frame-13
+kind: conceptual
+statement: |
+  Determination's object is the determinable — an outcome-relevant dimension of variation at the declared tolerance — and its product is a determinate, one specific way of occupying that dimension; determination demand is thereby a measure over unresolved determinables, the verdict variable's support being the determinate-space at the declared grain where the predicate closes.
+status: projected
+region: |
+  Everywhere the framework claims scope. The verdict-support reading holds only where the
+  acceptance predicate closes (DDD-frame-11's measured domain); the determinable/determinate
+  vocabulary itself is total in domain, including open predicates where H(verdict) does not
+  exist.
+evidence:
+  - kind: derivation
+    ref: core/00-primitives.md §4a; core/09-the-measure.md §7a
+    note: derivation check run at Wave 3 GATE 2; premises by ID and steps in notes
+falsifier: |
+  A canonical use of "demand" that does not parse as a measure over determinables at a declared grain.
+test: |
+  Explanatory utility and counterexample hunt: a canonical framework object — a decision, an escape, a declared axis — that resists description as a determinable occupied, unoccupied, or taken up, at any grain.
+credits: |
+  The determinable/determinate relation, its non-genus-species structure, constitutive exclusivity, and orders of determinateness are W. E. Johnson's (Logic Part I, ch. XI, 1921; developed in Prior 1949, Mind 58(229): 1-20 and 58(230): 178-194; Funkhouser 2014, The Logical Structure of Kinds, OUP; surveyed in Wilson, "Determinables and Determinates", SEP, rev. 2023). The identification of the determinable as demand's object, and of the verdict variable's support as the determinate-space at grain tau, is ours.
+owner: none
+changed: v5.7 (2026-08-18, Wave 3 session)
+notes: |
+  Filed from the Wave 3 session (2026-08-18; interactive curation, Emil ruling at every gate;
+  ratified at the GATE 2 ruling).
+
+  Derivation (the check is the evidence; premises by ID):
+
+  1. term:admission-test — a choice is a decision iff varying the choice moves the outcome past
+     tolerance. Varying presupposes a dimension along which the choice varies; the object the
+     test quantifies over is a dimension-of-variation, not a bare option set.
+  2. term:tolerance / term:granularity-bound — the declared tolerance fixes the grain at which
+     variation counts. These are Johnson's orders of determinateness with the order named by
+     declaration: the admission test is the grain-picker, and two tolerances name two tasks by
+     order, not degree.
+  3. term:verdict — where the predicate closes, the verdict variable assigns one correct output
+     per input point; its support is the space of determinates at the declared grain, so
+     H(verdict) is literally a measure over the unresolved determinable. "Demand is a measure
+     over unresolved determinables" restates the existing definition; no new mechanism enters.
+  4. The stack downward, checked against canon: a decision is a determinable taken up by
+     governance (term:decision via term:admission-test); an escape is a determinable resolved by
+     nobody (term:escape); an axis is a determinable named in a registry (DDD-ground-01's
+     axes). Falsifier spot-check run against canonical uses of demand — term:conservation,
+     term:verdict, term:seam-information, DDD-cost-05's per-act capacity denomination — none
+     resists the parse.
+
+  Johnson's four structural gifts (not genus-species; constitutive exclusivity; orders as the
+  declared tolerance; the determinable as dimension of comparability) are carried as exposition
+  in core/00 §4a, not as claim content. Bibliographic locators verified 2026-08-18 (session
+  record, gate1-survey.md). The term pair term:determinable / term:determinate enters with this
+  claim, status draft pending ratification.

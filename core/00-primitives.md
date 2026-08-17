@@ -3,7 +3,7 @@
 <!-- ddd:contract
 
 requires: []
-establishes: [determination, decision, ground, tolerance, admission-test, actor, arrangement, last-decision|last decision in the chain, poisoned-ground|poisoned ground, granularity-bound|granularity bound, encode-verify-split|encode/verify split, act]
+establishes: [determination, decision, ground, tolerance, admission-test, actor, arrangement, last-decision|last decision in the chain, poisoned-ground|poisoned ground, granularity-bound|granularity bound, encode-verify-split|encode/verify split, act, determinable, determinate]
 status: settled
 -->
 
@@ -172,6 +172,44 @@ nothing.**
 
 ---
 
+## 4a. The determinable
+
+What do the tests admit choices *over*? Varying a choice presupposes a dimension along which it
+varies, and a tolerance presupposes a grain at which variation counts. That object has a name,
+and the name is a century old (W. E. Johnson, *Logic* Part I, ch. XI, 1921).
+
+<!-- ddd:embed id=term:determinable -->
+> The **determinable** — an outcome-relevant dimension of variation at the declared
+> tolerance: the object determination resolves, and the dimension of comparability an axis
+> names. Determinateness comes in orders — red → scarlet → this shade — and the declared
+> tolerance names the order at which the framework stops distinguishing.
+<!-- /ddd:embed -->
+
+<!-- ddd:embed id=term:determinate -->
+> The **determinate** — one specific way of occupying a determinable: what discharge
+> produces. A determinate is a way of being, not the determinable plus a differentia, and
+> determinates under one determinable are constitutively exclusive at their grain.
+<!-- /ddd:embed -->
+
+Four structural facts travel with the name, each landing on something already built. The
+relation is **not genus–species**: scarlet is a way of being red, not red plus a differentia —
+an axis is a dimension with a range, never a class hierarchy. Determinates under one
+determinable are **constitutively exclusive**: nothing is scarlet and crimson at the same grain,
+which is what lets one resolution settle a determinable. Determinateness comes in **orders**,
+and the declared tolerance names the order at which the framework stops distinguishing — ±50 m
+and ±0.5 m are different tasks by order, not degree. And the determinable is the **dimension of
+comparability** — what makes two resolutions comparable at all.
+
+The stack downward is then short: a decision is a determinable taken up by governance; a
+determination is the passage from determinable to determinate; and what no governance takes up
+is still a determinable — resolved, when its act completes, by whatever resolves it.
+
+**Constitutive priority follows.** A determination selects a determinate, and determinates exist
+only as ways of occupying a determinable, so declaring the determinable space precedes any
+determination over it. The symmetry keeps this from circling: within each act, ground is prior;
+in a registry's growth, decisions are prior — dimensions enter by naming rulings. One relation
+is constitution, the other is history. *(Claims `DDD-frame-13` and `DDD-ground-05`, projected;
+their files govern, and this prose is exposition.)*
 
 ---
 

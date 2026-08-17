@@ -1,0 +1,45 @@
+format: 1
+id: DDD-ground-05
+kind: conceptual
+statement: |
+  Declaring the determinable space is constitutively prior to determination over it — a determination selects a determinate, and determinates exist only as ways of occupying a declared determinable — with the symmetry that ground is prior within each act while decisions are prior in a registry's growth, so the priority is synchronic constitution and the bootstrap diachronic history, not a circle.
+status: projected
+region: |
+  Every governed determination, synchronically at the act. The diachronic half — registries
+  grow their axes by naming rulings — is descriptive of register practice; it constrains how
+  determinable spaces come to be declared, not what the world's acts do.
+evidence:
+  - kind: derivation
+    ref: core/00-primitives.md §4a
+    note: derivation check run at Wave 3 GATE 2; premises by ID and steps in notes
+falsifier: |
+  A governed determination exhibited over a space no declaration could have preceded — selection among alternatives that cannot be described as occupying any declarable dimension at any grain.
+test: |
+  Counterexample hunt over governed acts and over register history: an act governed without any declarable dimension selected over; or a register whose governed axes entered without any naming ruling.
+owner: none
+changed: v5.7 (2026-08-18, Wave 3 session)
+notes: |
+  Filed from the Wave 3 session (2026-08-18; interactive curation, Emil ruling at every gate;
+  ratified at the GATE 2 ruling).
+
+  Derivation (premises by ID):
+
+  1. DDD-frame-13 — a determinate is one specific way of occupying a determinable; there is no
+     free-standing determinate.
+  2. Determination is the passage from determinable to determinate (DDD-frame-13); a passage's
+     domain must exist for the passage to run. The priority is logical and per-act, not
+     temporal ceremony: what is required is that the dimension be declarable and declared at
+     the grain the act is governed at, not that a filing precede every act in time.
+  3. DDD-ground-01 — the applicability-predicate gate is this priority's mechanical form: a
+     filing declares its predicate over declared ground axes, or explicit universality, before
+     it governs; non-evaluation never silently becomes non-applicability. The gate enforces
+     declare-the-space-first at every filing act, which is why the gate could be built at all.
+  4. The symmetry, stated so the bootstrap is not circular: within an act, ground is prior
+     (steps 1-2); across a registry's history, decisions are prior — axes enter by naming
+     rulings, so the registry of determinables grows by determinations. Two orderings over two
+     different relations — constitution per act, growth per history — and no cycle, because
+     the determination that names an axis is itself governed over previously declared space or
+     enters as the declaration it is.
+
+  Filed as Q-E's corollary per the session prompt's ordering; exposition shares core/00 §4a
+  with DDD-frame-13.

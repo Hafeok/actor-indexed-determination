@@ -9,6 +9,16 @@ test: >-
   explanatory utility and counterexamples — a case where varying the arrangement cannot change
   any of the tuple-dependent properties
 owner: none
-changed: v4.4
+changed: v5.7 (2026-08-18, Wave 3 session — exposition home gained, flag cleared; statement unchanged)
 notes: |
-  UNVERIFIED — Emil review. The six-tuple index ⟨task, ground, acceptance relation, tolerance, arrangement, assurance⟩ is Paper A / foundation-revision material and is NOT stated in any core/ document. Canon carries the components severally (tolerance and assurance separated in core/01 §"declared assurance level"; arrangement in core/05 §2; ground and acceptance predicate in core/00, core/03) but never as this named tuple. Cannot verify the tuple as a canon claim; flagged for Emil, not struck.
+  Filed from the Wave 3 session (2026-08-18; interactive curation, Emil ruling at every gate;
+  ratified at the GATE 3 ruling).
+
+  Exposition home: core/14-indexed-determination.md §1, drafted from the revision foundation's
+  §1.1 with canon at head governing. The UNVERIFIED flag carried since v4.4 — "the six-tuple
+  index ... is NOT stated in any core/ document; cannot verify the tuple as a canon claim" —
+  cleared at the Wave 3 GATE 1/GATE 3 rulings: core/14 is the statement in canon, and the
+  clearance is recorded in the session decision. The flag's factual content is preserved as
+  provenance: canon carried the components severally (tolerance and assurance separated in
+  core/01 §"declared assurance level"; arrangement in core/05 §2; ground and acceptance
+  predicate in core/00, core/03) and never as the named tuple until core/14 stated it.

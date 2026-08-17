@@ -1,0 +1,46 @@
+format: 1
+id: DDD-floor-02
+kind: conceptual
+statement: |
+  The judgment floor is relational: irreducibility is a property of the indexed relation ⟨task, ground, acceptance relation, tolerance, arrangement, assurance⟩, not of the task alone — the portion of determination an arrangement cannot discharge through its prior commitments or adequate direct verification at the declared assurance level moves when any coordinate of the relation moves.
+status: projected
+region: |
+  Everywhere the framework claims scope. Consistent with, not competing against, term:floor —
+  the acceptance predicate is a coordinate of the relation, and "closed for an arrangement"
+  (term:closure) is what indexes the predicate's floor by the remaining coordinates.
+  DDD-floor-01's capacity mechanism is one generator of escape within this relation; it does not
+  exhaust the relation.
+evidence:
+  - kind: derivation
+    ref: core/14-indexed-determination.md §3
+    note: derivation check run at Wave 3 GATE 3; premises by ID and steps in notes
+falsifier: |
+  A task whose judgment floor is invariant under variation of ground, acceptance relation, tolerance, arrangement, and assurance — irreducibility recoverable as a property of the task alone.
+test: |
+  Explanatory utility and counterexamples: the same nominal task exhibiting different floors across arrangements, with the difference tracking the relation's coordinates; a counterexample is a floor no coordinate change can move.
+owner: none
+changed: v5.7 (2026-08-18, Wave 3 session)
+notes: |
+  Filed from the Wave 3 session (2026-08-18; interactive curation, Emil ruling at every gate;
+  ratified at the GATE 3 ruling).
+
+  Derivation (premises by ID):
+
+  1. term:floor — the intrinsic floor is a property of the acceptance predicate, not of the
+     decision: canon already denies the floor to the task simpliciter.
+  2. term:closure — a predicate is closed for an arrangement, within declared resource,
+     latency, and confidence bounds: checkability, and with it the floor, is indexed by
+     arrangement and assurance, not carried by the predicate in isolation.
+  3. core/03's consequence section states the pair form — the floor is a property of the
+     ⟨actor, predicate⟩ pair — and its one line locates irreducibility in whether the answer
+     can be checked.
+  4. DDD-frame-01 — the tuple index. Steps 1–3 are three partial indexings of one relation
+     (the predicate; the ⟨actor, predicate⟩ pair; the arrangement's closure bounds); this
+     claim states the unified form over frame-01's tuple. Each partial form is recovered by
+     holding the remaining coordinates fixed, so nothing already ratified is contradicted —
+     the unification is the claim.
+
+  The Batch W survey (session record, gate1-survey.md) found the components carried and the
+  unified statement absent; this is the batch's one new claim, per the GATE 1 ruling. Drafted
+  against foundation §6 ("Actor-indexed irreducibility") and its §13 closing statement;
+  exposition home core/14 §3.

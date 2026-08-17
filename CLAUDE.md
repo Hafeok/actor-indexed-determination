@@ -40,6 +40,24 @@ claim live in `core/assets/` and must reproduce — a claim whose computation fa
   - `python3 scripts/validate-claims.py core/claims/`
   - for any decisions, `python3 scripts/validate-claims.py core/decisions/ --decisions`
 
+## Releases
+
+A release is proposed and cut through one file: add `releases/v<major>.<minor>.<patch>.yaml` to
+the session's pull request, per `spec/release-format.md`. **Merging that file to the default
+branch is what cuts the tag** — CI does it; there is no manual `git tag`, no out-of-band step,
+and no privileged local credential in the path. A session expecting a tag on acceptance must
+therefore carry the descriptor in its PR (the freight session's `releases/v5.6.0.yaml` is the
+exemplar; Wave 3 nearly missed it).
+
+The rules that bite: the filename stem equals `version` and is never reused; `title` carries no
+version prefix (the tag message is composed as `<version> — <title>`); `commit` is omitted in
+the normal case ("wherever this file lands on the default branch") and set only for a retro-cut;
+`basis` is mandatory and every ID must resolve to `core/claims/` or `core/decisions/`;
+`summary` is written in the PR, not generated afterwards; descriptors are immutable once cut —
+corrections ship as a new version. Validate with `python3 scripts/validate-releases.py
+releases/` before pushing; CI additionally requires all three canon gates green at the commit
+under release.
+
 ## Cite claim IDs in commit messages
 
 **Every commit that changes canon must cite the claim or term IDs it rests on**, as a `Basis:` line

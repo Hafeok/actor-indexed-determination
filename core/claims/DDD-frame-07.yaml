@@ -2,13 +2,28 @@ format: 1
 id: DDD-frame-07
 kind: empirical
 statement: |
-  Operational evaluability, feedback density, and ground accessibility predict the comparative advantage of computationally assisted arrangements over unaided situated judgment, after controlling for difficulty and resources (H1–H5).
+  Operational evaluability, feedback density, and ground accessibility predict the comparative advantage of computationally assisted arrangements over unaided situated judgment, after controlling for difficulty and resources (H1–H5, filed as DDD-hyp-01 through DDD-hyp-05).
 status: projected
 region: task markets and deployed arrangements
 evidence: []
 falsifier: |
   Evaluability adds no predictive variance after controls, or highly evaluable tasks systematically favour unaided judgment at equal ground and checking access.
 owner: paper-4
-changed: v4.4
+changed: v5.7 (2026-08-18, Wave 3 session — hypothesis set filed and cited, flag cleared; predictors and falsifier unchanged)
 notes: |
-  UNVERIFIED — Emil review. H1-H5 is the arrangement-study (paper-4) hypothesis set, named in the program roadmap (meta/way-of-working §4, paper-4 row — pre-split scaffolding that did not migrate; the file is not present in this repository) but the hypotheses themselves are Paper A / foundation-revision material, not stated in any core/ document. Correctly projected and unexercised; flagged as not canon-grounded.
+  Filed from the Wave 3 session (2026-08-18; interactive curation, Emil ruling at every gate;
+  ratified at the GATE 4 ruling; owner paper-4 confirmed — paper-4 exercises the set, the
+  paper projection carries it as predictions with unrun falsifiers, never as findings).
+
+  The umbrella claim of the hypothesis set, per the GATE 1 ruling: kept rather than superseded
+  — its falsifier is H1's null and was already filed — and amended only to cite the five claim
+  IDs its statement always named as H1-H5. The set is DDD-hyp-01 (operational evaluability),
+  DDD-hyp-02 (ground and judgment dependence), DDD-hyp-03 (generator/checker composition),
+  DDD-hyp-04 (accountability completeness), DDD-hyp-05 (selection versus training); exposition
+  core/14 §4; shared preregistration-shaped falsifier discipline stated there.
+
+  Exposition home gained, flag cleared: the UNVERIFIED flag carried since v4.4 — the
+  hypotheses "not stated in any core/ document" — cleared at the Wave 3 GATE 1/GATE 4 rulings;
+  core/14 §4 and the five claim files are the statement in canon, and the clearance is
+  recorded in the session decision. The flag's factual content is preserved: before v5.7.0 the
+  set existed only in pre-split scaffolding that did not migrate.

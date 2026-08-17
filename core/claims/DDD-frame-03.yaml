@@ -2,11 +2,27 @@ format: 1
 id: DDD-frame-03
 kind: conceptual
 statement: |
-  The source of a resolution and the mechanism assuring it are separate dimensions; the four-store model conflated them.
+  The source of a resolution and the mechanism assuring it are separate dimensions; the four-store model held the arrangement largely fixed while the allocation was analysed, and did not draw the distinction.
 status: projected
 region: engineered arrangements
 test: case-study coding reliability across independent coders
 owner: none
-changed: v4.5
+changed: v5.7 (2026-08-18, Wave 3 session — historical clause softened to canon's form, flag cleared)
 notes: |
-  Verified against canon: core/05 §§1-2 (v4.5) makes accountability completeness a second axis "independent of pinning resolution" — the source axis (where the resolution's constraint attaches, core/04) and the assurance/accountability axis are separate, and core/05 §1 states the four-store partition "turns on a distinction it never draws". core/01 §"declared assurance level" (v4.5) separately splits tolerance from assurance. FLAGGED for Emil: the seed's historical clause "the four-store model conflated them" is the seed's gloss — canon says the store model did not draw the distinction, which is weaker than active conflation. Kept projected (conceptual; coding-reliability test unrun).
+  Filed from the Wave 3 session (2026-08-18; interactive curation, Emil ruling at every gate;
+  ratified at the GATE 3 ruling).
+
+  Amendment record (GATE 1 ruling: soften, in the same pass as the flag clearances). Prior
+  statement, v4.5: "... the four-store model conflated them." The flag — the seed's "conflated
+  them" was the seed's gloss, stronger than the historical claim canon makes — is cleared by
+  making the statement carry canon's form: core/05 §1 states the four-store partition "turns on
+  a distinction it never draws", and the ruled wording ("held the arrangement largely fixed
+  while the allocation was analysed") names why the distinction went undrawn. Nothing else
+  moves.
+
+  Verification retained from v4.5: core/05 §§1-2 makes accountability completeness a second
+  axis "independent of pinning resolution" — the source axis (where the resolution's constraint
+  attaches, core/04) and the assurance/accountability axis are separate. core/01 §"declared
+  assurance level" separately splits tolerance from assurance. Kept projected (conceptual;
+  coding-reliability test unrun). Exposition of the two-dimension model in the manuscript
+  register is foundation §4; canon's own exposition remains core/05.

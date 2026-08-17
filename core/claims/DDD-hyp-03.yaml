@@ -1,0 +1,30 @@
+format: 1
+id: DDD-hyp-03
+kind: empirical
+statement: |
+  A generator-plus-checker arrangement — a computational generator composed with a mechanical checker or an independent reviewer — outperforms both generator-alone and judgment-alone baselines where candidate generation benefits from breadth or speed, significant parts of acceptance are operationally closed, and the remaining open residue can be escalated.
+status: projected
+region: |
+  Task markets and deployed arrangements, on the stated three-condition region; outside it —
+  generation gaining nothing from breadth, acceptance largely open, no escalation path — the
+  hypothesis predicts nothing.
+evidence: []
+falsifier: |
+  In the preregistered interaction test, the composed arrangement's advantage over generator-alone failing to increase with operational evaluability or failing to decrease with missing ground and normative disagreement; or the composition failing to outperform both baselines within its stated region.
+owner: paper-4
+changed: v5.7 (2026-08-18, Wave 3 session)
+notes: |
+  Filed from the Wave 3 session (2026-08-18; interactive curation, Emil ruling at every gate;
+  ratified at the GATE 4 ruling; owner paper-4 confirmed — paper-4 exercises the set, the
+  paper projection carries it as predictions with unrun falsifiers, never as findings).
+
+  Statement-grade: a prediction, filed projected on its falsifier's strength; evidence debt is
+  the arrangement study's interaction conditions (revision foundation §9.4's stronger
+  hypothesis), unrun. H3 of the set summarised by DDD-frame-07.
+
+  Conceptual ground, not evidence: the composition is the index moving two coordinates at once
+  — the checker closes part of the acceptance relation (converting assurance from occasioned to
+  standing where it closes) while the escalation path keeps the open residue allocated rather
+  than escaped. The seam the composition creates is real demand (term:seam) and the hypothesis
+  is that what the closed part buys exceeds what the seam costs, on the stated region — an
+  empirical matter, which is why this files as hypothesis rather than corollary.

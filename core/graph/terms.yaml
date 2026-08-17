@@ -104,6 +104,23 @@ terms:
     canonical_md: |
       > The **encode/verify split** — the division of a determination's demand between pre-resolving
       > ground into the encoded store before the act and verifying the residual mechanically after it.
+  - id: term:determinable
+    term: determinable
+    established_by: 00-primitives.md
+    status: settled
+    canonical_md: |
+      > The **determinable** — an outcome-relevant dimension of variation at the declared
+      > tolerance: the object determination resolves, and the dimension of comparability an axis
+      > names. Determinateness comes in orders — red → scarlet → this shade — and the declared
+      > tolerance names the order at which the framework stops distinguishing.
+  - id: term:determinate
+    term: determinate
+    established_by: 00-primitives.md
+    status: settled
+    canonical_md: |
+      > The **determinate** — one specific way of occupying a determinable: what discharge
+      > produces. A determinate is a way of being, not the determinable plus a differentia, and
+      > determinates under one determinable are constitutively exclusive at their grain.
   - id: term:demand
     term: demand
     aliases: [determination demand]
@@ -386,6 +403,15 @@ terms:
     status: settled
     canonical_md: |
       > **I(verdict ; S)** is **seam demand** — what the *decomposition choice* absorbed.
+  - id: term:outcome
+    term: outcome
+    established_by: 09-the-measure.md
+    status: settled
+    canonical_md: |
+      > The **outcome** — the determinate as it lands in the world, produced at every completed
+      > act. The **verdict** is the same determinate as assessed by a declared predicate,
+      > produced only where governance has declared one. The world renders outcomes, never
+      > verdicts; governance is the conversion of outcomes into verdicts.
   - id: term:capacity
     term: capacity
     established_by: 11-the-floor-mechanism.md

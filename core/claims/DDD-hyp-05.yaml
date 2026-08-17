@@ -1,0 +1,45 @@
+format: 1
+id: DDD-hyp-05
+kind: empirical
+statement: |
+  Reliance on worker or provider selection increases as result-level evaluation becomes slower, less objective, less stationary, and less complete, holding labour supply, training cost, consequence severity, and task structure constant.
+status: projected
+region: |
+  Task markets and deployed arrangements, human and computational providers alike; the
+  comparison holds claimant-identity persistence constant, per the validity qualification
+  carried in the notes.
+evidence: []
+falsifier: |
+  Selection reliance failing to track evaluation speed, objectivity, stationarity, and completeness at matched labour supply, training cost, consequence, and task structure, in preregistered task-market comparisons.
+owner: paper-4
+changed: v5.7 (2026-08-18, Wave 3 session)
+notes: |
+  Filed from the Wave 3 session (2026-08-18; interactive curation, Emil ruling at every gate;
+  ratified at the GATE 4 ruling; owner paper-4 confirmed — paper-4 exercises the set, the
+  paper projection carries it as predictions with unrun falsifiers, never as findings).
+
+  Statement-grade: a prediction, filed projected on its falsifier's strength; evidence debt is
+  the task-market comparisons the foundation's §9 books, unrun. H5 of the set summarised by
+  DDD-frame-07. Conceptual ground, not evidence: term:selection (verification relocated onto
+  identity), term:training (the reliable-error-signal requirement — evaluation speed,
+  objectivity, stationarity, and completeness are that signal's quality dimensions), and
+  core/03's consequence — where you can check the work, you train; where you cannot, you check
+  the worker. DDD-cost-20 bounds what training buys (allocation, not capacity), which is why
+  selection does not vanish even where training is available.
+
+  Source-material divergence, reported not harmonised: the foundation's §8 H5 commentary says
+  "closure does not make training available or unavailable as a hard gate", which contradicts
+  the letter of term:training (settled: "closure decides whether training is available").
+  Canon at head governs: this claim is drafted so it needs no ruling on that sentence — the
+  gradient it predicts reads the settled term's error-signal requirement as a quality gradient,
+  which both formulations support. The foundation's softening stays manuscript prose; if Paper
+  A wants it as canon, that is a supersession question against a settled term, deliberately not
+  bundled into this session.
+
+  Validity qualification, restated per the Wave 2 close ruling (content restated here because
+  the instrument claim it qualifies lives in the software projection; the cross-link is
+  annotated there, per the citation-scope convention): selection reaches open-predicate
+  carriage only through records attached to claimant identities that outlive their verdict
+  horizons — an answer-keyed instrument cannot evidence such carriage (DDD-cost-13, pinned) —
+  so provider selection across model version succession is partial at best and per-capability,
+  and the hypothesis's gradient must be read with identity persistence held constant.

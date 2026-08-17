@@ -1,0 +1,32 @@
+format: 1
+id: DDD-hyp-01
+kind: empirical
+statement: |
+  Holding generation difficulty and resources constant, comparative advantage shifts toward high-throughput computational generators as acceptance becomes more operationally evaluable, feedback becomes faster and denser, ground becomes more accessible, checking becomes cheaper, and retries become more affordable.
+status: projected
+region: |
+  Task markets and deployed arrangements; the unit of comparison is the arrangement, never the
+  isolated actor label. Graded, not binary: the hypothesis predicts a gradient of advantage, not
+  a boundary.
+evidence: []
+falsifier: |
+  In the preregistered arrangement study, operational evaluability adding no predictive variance to comparative performance after nominal difficulty and resources are controlled; or highly evaluable tasks systematically favouring unaided situated judgment at equivalent ground and checking access.
+owner: paper-4
+changed: v5.7 (2026-08-18, Wave 3 session)
+notes: |
+  Filed from the Wave 3 session (2026-08-18; interactive curation, Emil ruling at every gate;
+  ratified at the GATE 4 ruling; owner paper-4 confirmed — paper-4 exercises the set, the
+  paper projection carries it as predictions with unrun falsifiers, never as findings).
+
+  Statement-grade: a prediction, filed projected on its falsifier's strength with the evidence
+  debt named — the preregistered multi-condition arrangement study (revision foundation §9:
+  eight arrangement conditions; operational evaluability, verification cost, feedback latency
+  and density, ground accessibility, acceptance-region accessibility measured separately from
+  nominal difficulty). No part of the study has run; the evidence field is honestly empty.
+
+  H1 of the hypothesis set DDD-hyp-01..05, summarised by DDD-frame-07 (the umbrella claim,
+  amended this session to cite the set). Conceptual ground, not evidence: DDD-frame-06 (closure
+  distinct from generation cost) is why the hypothesis must be graded — evaluability shifting
+  advantage is an empirical matter precisely because closure does not imply cheap adequacy.
+  Operational evaluability is the measured label, per the study design's own instruction; formal
+  decidability is not what is measured.
