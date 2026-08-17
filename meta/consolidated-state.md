@@ -311,6 +311,14 @@ claims — see §4).
   variable. Measurement and closure have the same domain (core/09 §7). This is the framework's
   limit, correctly drawn, and it coincides exactly with the floor. It should not appear on the
   ledger as unpaid work.
+- **The index of the capacity model: actor or arrangement?** OPEN, named 2026-08-17. DDD-cost-05
+  reads "the bits an ACTOR can supply per act" while term:arrangement (settled) holds that the
+  unit of comparison is the arrangement and not the isolated actor. term:escape-mechanism's open
+  conjunct is actor-indexed on the same pattern and carries a scope note recording that it is
+  ill-defined where no actor was assigned. Four convergent sources, two of them independent of
+  this repository. A vocabulary reconciliation over ratified canon, by supersession — NOT a
+  re-run of DDD-dec-15, which corrected a quantifier where this corrects an index. Booked as its
+  own successor item rather than folded into a wave.
 - Calibrating C_resolve and C_hold for a real actor. EMPIRICAL, not a proof: construct tasks of
   known bit-demand, find where error rate departs from zero; that value is C_resolve for that
   actor. Nobody has published such a measurement. Needs a rig, not more theory. This is now the

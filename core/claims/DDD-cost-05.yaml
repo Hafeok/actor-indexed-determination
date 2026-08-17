@@ -10,10 +10,40 @@ evidence: []
 test: |
   Lands with the floor-mechanism work (core/11): the per-act capacity model must reproduce 11's overflow ∩ open result under the act denomination; its falsifier files with that work.
 owner: none
-changed: v5.4 (2026-08-13, escape reconciliation session)
+changed: v5.6 (2026-08-17, freight session — an open extension recorded in notes; statement, region, status, evidence and test unchanged)
 notes: |
   Named as the next result, per the session's ratified input 5; the capacity/escape model itself is out of scope this session. Sims's channel model of a capacity-limited decision-maker is the credited ancestor (meta/lineage-and-limits §1.9, "Additional context").
 
   Scope correction, 2026-08-13 (DDD-dec-15, Emil ruling at GATE 4). The prior middle clause read "escape is the residual exceeding capacity", an identity carrying the same defect the same decision corrects in DDD-floor-01 and term:escape-mechanism: escape is supplied-by-nobody (term:escape), and the residual exceeding capacity is one generator of it, not its definition. Amended to the denominational reading the trailing clause always intended. Statement only; status, evidence, test, and owner unchanged, and the claim was projected with no evidence, so nothing rested on the defective reading.
 
   Surfaced by GATE 4's basis-impact sweep rather than by the GATE 2/3 scope, and pulled into the same supersession on Emil's ruling: the same defect, one clause, the correcting decision already existing, the claim unpinned and evidence-free, and the ground-applicability note's blocker B1 waiting on this node — leaving it defective would have blocked that note's Q10 on a statement known to be wrong.
+
+  Open extension, recorded not adopted (Emil's ruling, freight session GATE 5, 2026-08-17, item
+  F-2). The proposal: execution capacity pays for retrieving governance and for authoring
+  resolutions as well as for resolving, so escape can occur with residual well inside what could
+  have been resolved, because the budget went to retrieval. Its strongest instance is the LLM
+  arrangement, where context is simultaneously the ground, the retrieved governance and the
+  working space — three competing draws sharing one store with no accounting separating them.
+
+  Ruled: NOT adopted. Recorded here so the successor session inherits it formed, with the three
+  things that bound it.
+
+  First, commensurability is unestablished, and this is a blocker rather than a caution. One
+  budget assumes a common unit, and the framework has a unit for one draw only — H(V), on closing
+  predicates. Retrieval cost is search over an index; authoring cost is prior commitment.
+  DDD-measure-11 is already canon on the decisive half: the measure prices the verdict, not the
+  search, and two tasks with identical verdict entropy can differ unboundedly in generation cost.
+  Retrieval is search, so one of the three draws sits outside the unit this claim is denominated
+  in, and folding it in would require an exchange rate nobody has derived. The source's own
+  instruction governs: one budget versus three trading at a rate is a modelling claim with the
+  same status as the demand identification, and must be marked so rather than adopted as
+  structure.
+
+  Second, the LLM evidence sits behind a hold — the LLM-specific capacity question is parked by
+  Emil, and the strongest instance for the extension is inside the parked material.
+
+  Third, and adjacent: this claim reads "the bits an ACTOR can supply per act", while
+  term:arrangement (settled) holds that the unit of comparison is the arrangement and not the
+  isolated actor. Whether the capacity model should be re-indexed from actor to arrangement is a
+  distinct open question, booked as its own successor item with four convergent sources; it is
+  not answered here, and adopting the extension would have answered it silently in passing.
