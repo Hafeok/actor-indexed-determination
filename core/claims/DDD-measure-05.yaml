@@ -9,11 +9,39 @@ evidence:
 - kind: asset
   ref: core/assets/measure-rag.py
   note: >-
-    40k samples; answer generated independently of retrieval, so closer to construction than
-    measurement — never present as conservation in the wild
+    40k samples per row; answer generated independently of what is supplied, so closer to
+    construction than measurement — never present as conservation in the wild. The sum column is
+    exact by construction (I(A;R) is computed as H(A) - H(A|R)) and tests nothing; what is tested
+    is that a plug-in estimator recovers H(A|R) for a channel it is not given in closed form.
+    Replicate band, 200 independent replicates at N = 40,000 against the analytic joint: mean
+    estimate within 0.002 bits at every setting; single-run standard deviation up to 0.010 bits;
+    plug-in H(A) mean 2.6117, sd 0.0049, central 95% range [2.601, 2.621], bias -0.0008;
+    population value 2.6126. Every row total falls inside that range. The band characterises the
+    estimator and is not printed by the asset - it is reproduced by running the same plug-in
+    estimator over 200 samples from the prior and channel the asset stipulates
 falsifier: |
   Estimation on a real deployed retrieval system fails to recover the identity within error bars.
 owner: paper-1
-changed: v4.5
+changed: v5.6 (2026-08-17, freight session — replicate band added to the asset evidence note; prose tension resolved, FLAG cleared)
 notes: |
-  FLAGGED prose tension, not harmonised: core/09 §6.3 presents this as "conservation of specification demand, measured on a deployed system pattern rather than a toy", which overstates relative to this claim's region — the answer is generated independently of retrieval by construction, so the run is closer to construction than measurement. The claim keeps the honest form; the prose is the bug. Emil review.
+  FLAG CLEARED 2026-08-17 (freight session, item D-5). The flag read: core/09 §6.3 presented this
+  as "conservation of specification demand, measured on a deployed system pattern rather than a
+  toy", which overstated relative to this claim's region — the answer is generated independently
+  of what is supplied, by construction, so the run is closer to construction than measurement.
+  The claim kept the honest form and the prose was the bug, as the flag said.
+
+  The prose is now repaired rather than the claim relaxed, which is the direction the repository's
+  rule requires. core/09 §6.3 is retitled to what the instance actually is — the encode/verify
+  split, X = what is supplied before the act, with retrieval as motivation rather than as the
+  thing simulated — and the overclaiming sentence is replaced by a statement of what the run tests
+  and what it cannot: the sum column is exact by construction and tests nothing, and the result is
+  a tractability result, not a measurement of conservation. The claims mapping table row is
+  updated to match.
+
+  Region and status unchanged: simulation only, a tractability result, reported. What changed is
+  that canon's exposition now says the same thing the claim always did.
+
+  The replicate band was added to the asset evidence note in the same pass (item D-4). It was
+  computed for the measure note's revision and had never been carried in canon, which left a
+  reported claim's estimator uncharacterised — the numbers say how much of the row-to-row movement
+  in the sum column is estimator noise, and the answer is all of it.

@@ -1,0 +1,38 @@
+format: 1
+id: DDD-cost-30
+kind: conceptual
+statement: |
+  Demand and cost are two registers over the same act, and they answer different questions: the demand identity fixes, for every candidate encoding E, how much of the verdict each side must supply; the cost register prices what supplying it that way is worth. Demand says what must be supplied; cost says what supplying it that way is worth. The registers stay separate because only one of them is conserved — H(verdict) is fixed by the task, and L(mechanism) has no conservation identity.
+status: projected
+region: |
+  Per-act, synchronic; closing-predicate region, where the demand identity exists. A statement about the relation between the two registers, layered on the demand identity and amending nothing in it. Says nothing about the exchange rates between stores — cross-store cost addition remains undefined.
+evidence: []
+falsifier: |
+  A cost statement that is forced by the demand identity alone — a case where fixing H(verdict) and the encoding E fixes what supplying it is worth, with no independent pricing input. That would collapse the registers into one and make the cost layer derivable rather than layered.
+breaks: |
+  The licence to layer a cost register on the demand identity at all. If the registers are not distinct, DDD-cost-01's locus-of-supply asymmetry is a restatement of the identity rather than an independent claim, and the degeneracy result — that pricing distinctions apart requires description-length pricing (DDD-cost-02, DDD-cost-03) — loses the register it is a result about.
+credits: |
+  Nothing borrowed. The separation of a conserved quantity from its price is ordinary in economics and in physics; naming which of the framework's two registers is which is the framework's own bookkeeping, and the conserved half is Shannon's.
+owner: none
+changed: v5.6 (2026-08-17, freight session — the core/10 §1 sentence promoted to a node)
+notes: |
+  Filed from the sentence core/10 §1 has carried since the cost note landed: "Demand says what
+  must be supplied; cost says what supplying it that way is worth." It was doing claim work while
+  riding DDD-cost-01's citation, which is a different claim — DDD-cost-01 carries the
+  locus-of-supply asymmetry between I(V;E) and H(V|E), both denominated per act. This claim
+  carries the register distinction itself, which DDD-cost-01 presupposes rather than states.
+
+  Adjacent, not identical, to DDD-cost-01: that claim says the two sides of the identity differ by
+  locus of supply and denominate alike; this one says the identity and its pricing are different
+  registers with different questions. The first is a statement inside the demand register; the
+  second is a statement about the relation between registers.
+
+  Why it matters that this is a node rather than prose. The register separation is what licenses
+  cost claims to be layered without amending the demand identity, and the boundary charter
+  (DDD-dec-09) sorts by it — a statement that quantifies over act volume prices supply across acts
+  and files with the projection, while the identity itself is per-act and stays. That sorting test
+  has been applied repeatedly against a distinction no node carried.
+
+  Status projected, not reported: the separation is stated and used throughout the cost note, and
+  no computation establishes it. Its falsifier is the observation that would collapse the
+  registers, and nothing has been run against it.
