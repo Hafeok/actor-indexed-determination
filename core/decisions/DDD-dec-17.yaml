@@ -4,9 +4,10 @@ kind: decision
 statement: |
   The vocabulary-and-delivery session's filings: the ground and delivery areas are minted and the corpus-earned vocabulary files — the applicability gate, the orthogonal coverage/resolution/assurance typing with the —(open) timing value, and the delivery vocabulary (filing-is-not-encoding, undelivered-as-escape-generator, compounding, with delivery/undelivered/presumed-discharge established by core/13-delivery.md) — scoped as evidenced by the corpus test of 2026-08-14, with two scope extensions (DDD-cost-09, DDD-cost-08) and one term-collision repair (00-primitives) ruled in at GATE 3.
 principal: Emil
-made: 2026-08-15, vocabulary-and-delivery session (rulings at GATES 1–3; drafted at GATE 3; grows to session close)
+made: 2026-08-15, vocabulary-and-delivery session (rulings at GATES 1–5; drafted at GATE 3); session closed 2026-08-16 — merged e8663b8, tagged v5.5.0 on Emil's approval
 resolution: |
-  DRAFT — grows gate by gate; final at session close (GATE 5). Interactive canon curation;
+  Final at session close. GATE 5 accepted (Emil, 2026-08-15); merged as e8663b8 and tagged
+  v5.5.0 on Emil's approval (2026-08-16). Interactive canon curation;
   every ruling below is Emil's, recorded at its gate; the session document
   (vocabulary-delivery-session-2026-08-15.md, filed with the software projection's programme
   layer) carries the full gate record.
@@ -96,8 +97,9 @@ basedOn:
   - DDD-cost-08
   - DDD-cost-09
 notes: |
-  DRAFT pending session close. The basis-impact sweep, reference closure, and the downstream
-  pin staging are GATE 5 and are recorded here before this decision is final. Spelling ruled at
+  The basis-impact sweep, reference closure, and pin staging ran at GATE 5 and are recorded
+  in the session document's manifest; the pin advance is the projection's DDD-dec-18, bumped to
+  the tag on acceptance. Spelling ruled at
   GATE 3: canonical term texts take canon's "judgment" (matching term:judgment); claim prose
   keeps the corpus's "judgement" — deliberate, recorded in the session manifest.
 
