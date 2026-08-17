@@ -2,7 +2,7 @@
 
 <!-- ddd:contract
 
-requires: [determination, ground, tolerance, arrangement, assurance, acceptance-predicate, closure, floor, judgment, act]
+requires: [determination, ground, tolerance, arrangement, assurance, acceptance-predicate, closure, floor, judgment, act, selection, training, verdict]
 establishes: []
 status: draft
 -->
@@ -10,7 +10,8 @@ status: draft
 **Read `00` through `13` first.** This document is deliberately minimal: it states the index that
 the rest of canon carries severally, and points at the claims; their files govern, and this prose
 is exposition. The claims are `DDD-frame-01` (the tuple), `DDD-frame-02` (commitment levels and
-residual discretion), and `DDD-floor-02` (the relational floor).
+residual discretion), `DDD-floor-02` (the relational floor), and the hypothesis set
+`DDD-hyp-01` through `DDD-hyp-05` (§4), summarised by `DDD-frame-07`.
 
 **Status: draft, pending ratification** — filed from the Wave 3 session (2026-08-18), drafted
 against the Paper A revision foundation (§1.1, §3, §6) with canon at head governing.
@@ -65,3 +66,33 @@ ground, contracts, checks, and institutions move the boundary without making the
 property of the predicate (`03`), of the ⟨actor, predicate⟩ pair (`03`, consequence), of the
 arrangement's closure bounds (`term:closure`) — is recovered by holding the remaining
 coordinates of the relation fixed.
+
+## 4. What the index predicts
+
+The index is not only an accounting; it predicts. Binary human-versus-model predictions are
+replaced by graded hypotheses about arrangements — five, filed as the hypothesis set
+`DDD-hyp-01` through `DDD-hyp-05` and summarised by `DDD-frame-07` — under one shared falsifier
+discipline: each is stated with the preregistration-shaped null of the arrangement study that
+would fire it, the conditions compared are arrangements rather than isolated actor labels, and
+nominal difficulty and resources are controlled throughout.
+
+- **H1 — operational evaluability** (`DDD-hyp-01`): advantage shifts toward high-throughput
+  computational generation as acceptance becomes operationally evaluable, feedback fast and
+  dense, ground accessible, checking cheap, and retries affordable.
+- **H2 — ground and judgment dependence** (`DDD-hyp-02`): situated arrangements retain
+  advantage as ground goes missing, consequences delay, evaluators disagree, criteria drift,
+  and tacit knowledge or normative legitimacy is required.
+- **H3 — generator/checker composition** (`DDD-hyp-03`): a generator composed with a checker
+  or reviewer beats both generator-alone and judgment-alone baselines where generation
+  benefits from breadth, much of acceptance closes, and the open residue can be escalated.
+- **H4 — accountability completeness** (`DDD-hyp-04`): trust and deployment follow the
+  completeness of the accountability relation (`05`), not the executor's kind.
+- **H5 — selection versus training** (`DDD-hyp-05`): reliance on selection rises as
+  result-level evaluation slows, loses objectivity, drifts, and thins — where the work cannot
+  be checked, the worker is.
+
+Two of the five carry a validity qualification restated on their claim files: instruments that
+reach open-predicate carriage attach assurance to claimant identity, so they exist only for
+identities that outlive their verdict horizons — cross-identity transfer, model version
+succession included, is partial and per-capability, and an answer-keyed instrument cannot
+evidence such carriage at all (`DDD-cost-13`).

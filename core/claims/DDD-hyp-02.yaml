@@ -1,0 +1,28 @@
+format: 1
+id: DDD-hyp-02
+kind: empirical
+statement: |
+  Human or institutionally situated arrangements retain greater comparative advantage as relevant ground becomes unavailable to the computational system, consequences are delayed, evaluators disagree, acceptance criteria drift over time, tacit or socially distributed knowledge is required, or normative legitimacy is part of the task.
+status: projected
+region: |
+  Task markets and deployed arrangements; the unit of comparison is the arrangement. The
+  hypothesis names the situated-advantage variables; it does not claim a situated arrangement
+  can necessarily find a correct answer — some tasks are under-specified, contested, or
+  unknowable rather than judgment-dependent.
+evidence: []
+falsifier: |
+  In the preregistered arrangement study, the named dependencies — missing ground, delayed consequence, evaluator disagreement, criterion drift, tacit-knowledge or legitimacy requirements — adding no predictive variance to situated arrangements' comparative advantage after nominal difficulty and resources are controlled.
+owner: paper-4
+changed: v5.7 (2026-08-18, Wave 3 session)
+notes: |
+  DRAFT-PENDING-RULING (GATE 4).
+
+  Statement-grade: a prediction, filed projected on its falsifier's strength; evidence debt is
+  the same preregistered arrangement study as DDD-hyp-01 (revision foundation §9), unrun. H2 of
+  the set summarised by DDD-frame-07.
+
+  The variables named are the open-predicate side of the index: ground accessibility and the
+  acceptance relation's stability are coordinates of DDD-frame-01's tuple, and this hypothesis
+  is the index's prediction for the region where they degrade. The region's last sentence
+  carries the foundation §5.7 boundary — judgment-dependence is not a guarantee of judgment's
+  success — so the hypothesis cannot be read as a human-superiority claim.

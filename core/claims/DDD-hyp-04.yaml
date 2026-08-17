@@ -1,0 +1,38 @@
+format: 1
+id: DDD-hyp-04
+kind: empirical
+statement: |
+  Trust and deployment willingness are better predicted by the completeness of the accountability arrangement — attribution, persistent principal, authority linkage, stake, sanction path — than by whether the immediate executor is human or computational.
+status: projected
+region: |
+  Consequential deployments and their stakeholders; the comparison holds claimant-identity
+  persistence constant across executor kinds, per the validity qualification carried in the
+  notes.
+evidence: []
+falsifier: |
+  Accountability completeness failing to affect trust, adoption, or remediation outcomes in preregistered stakeholder and deployment studies with executor kind controlled; or executor kind predicting those outcomes better than relation completeness at matched completeness.
+owner: paper-4
+changed: v5.7 (2026-08-18, Wave 3 session)
+notes: |
+  DRAFT-PENDING-RULING (GATE 4).
+
+  Statement-grade: a prediction, filed projected on its falsifier's strength; evidence debt is
+  the stakeholder and case studies the foundation's §9 books, unrun. H4 of the set summarised
+  by DDD-frame-07.
+
+  Difference from DDD-frame-08, in one sentence, per the GATE 1 ruling: frame-08 states what
+  accountability is — a relation, with an arrangement naming an executor but no principal
+  incomplete — and this hypothesis predicts that the relation's completeness, not the
+  executor's kind, is what trust and deployment track; the prediction is frame-08's test made
+  graded and preregistered, filed citing frame-08 as its conceptual basis rather than
+  duplicating it.
+
+  Validity qualification, restated per the Wave 2 close ruling (content restated here because
+  the instrument claim it qualifies lives in the software projection; the cross-link is
+  annotated there, per the citation-scope convention): instruments that reach open-predicate
+  carriage attach assurance to claimant identity, so they exist only for claimant identities
+  that outlive their verdict horizons, and cross-identity transfer — model version succession
+  included — is partial at best and per-capability. An answer-keyed instrument cannot evidence
+  open-predicate carriage at all (DDD-cost-13, pinned). Completeness comparisons across
+  executor kinds must therefore hold identity persistence constant, or the executor-kind
+  variable smuggles the identity-persistence variable in.
