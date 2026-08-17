@@ -406,6 +406,21 @@ terms:
     aliases: [overflow ∩ open]
     established_by: 11-the-floor-mechanism.md
     status: settled
+    # SCOPE NOTE (filed 2026-08-17, freight session item F-3; flagged by Emil at DDD-dec-15's
+    # GATE 2 and carried forward unrepaired since). The open conjunct is ACTOR-INDEXED — "no
+    # verifier *the actor holds*" — and is therefore ill-defined, not merely false, where no
+    # actor was assigned to the decision at all. On the five ratified no-supplier instances
+    # DDD-dec-15 diagnoses, there is no actor whose verifier holdings can be asked about, so the
+    # conjunct does not evaluate. This does not affect the mechanism's own region: within it an
+    # actor has taken the residual up by construction, and the conjunct is well-formed. It bounds
+    # where the mechanism can be ASKED, which is narrower than where it is true. A specimen that
+    # will not classify is a datum, not a coding failure — record it as undefined rather than
+    # forcing it (meta/b1-reconciliation-2026-08-14.md §5.3).
+    #
+    # A smaller scope problem of the same family as the one DDD-dec-15 corrected, and NOT
+    # resolved here: this note records the limit, it does not re-index the conjunct. The related
+    # question of whether capacity is per-actor or per-arrangement is open and is before Emil
+    # separately.
     canonical_md: |
       > **Capacity-generated escape — the escape an actor produces from residual it has taken up —
       > requires two conditions, both necessary:**
