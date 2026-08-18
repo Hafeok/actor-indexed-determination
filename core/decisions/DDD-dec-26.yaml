@@ -109,3 +109,28 @@ notes: |
   Two items are carried open to Gate 3 by the charter and are not resolved at this gate:
   whether the retry example survives contact with the juniors, and whether rung 7 (closure)
   belongs before rung 5 (commitment level).
+
+  ## Attribution record (Gate 3, Emil ruling — notes only)
+
+  Three commits on this session's branches carry Emil's personal address as committer through a
+  configuration error, not through authorship: 30c3618 here, 77b4307 and b20cc56 in the software
+  projection. They are **session proposals**; Emil had ratified nothing at the time they were
+  made. The committer identity is corrected from that point forward and every later session
+  commit carries it.
+
+  **Not rewritten, and the reason is the corpus's own rule.** The mis-attribution is a recorded
+  act. This corpus does not repair a recorded act by erasing it — supersession records, it never
+  rewrites — and a history rewrite to tidy an attribution error, inside a session about
+  provenance, would apply the forbidden move to the discipline itself. The commits stand and this
+  paragraph is the correction.
+
+  **A false premise is corrected with it.** The session proposed the rewrite on the reasoning that
+  the committer address governs GitHub's Verified badge. It does not: that badge tracks a GPG or
+  SSH signature. The rewrite would not have made a single commit Verified, so the act proposed
+  would not have achieved the thing it was proposed for. What the address actually governs is
+  attribution, which is the real question and is answered above.
+
+  **Signing, booked and not settled.** Signature verification is configured for neither
+  repository, and no session commit is signed. Whether signing becomes a requirement for canon
+  pull requests is a separate question — booked here, deliberately unexamined, and not opened as
+  a work item this session. It is a wave of its own.
