@@ -558,3 +558,25 @@ terms:
       > skip is identical to the artefact recording the pass. Named as a property of the record, not
       > of an actor's omission, so it stays mechanisable — a discharge ref can be asked whether it
       > distinguishes applied-and-satisfied from never-reached.
+  - id: term:commitment-level
+    term: commitment-level
+    aliases: [commitment level, level of commitment]
+    established_by: 14-indexed-determination.md
+    status: draft
+    canonical_md: |
+      > A **commitment level** is a level at which an arrangement fixes behaviour in advance:
+      > **outcome-level** — permitted resolutions fixed directly; **policy-level** — the
+      > generating procedure fixed; **principal-level** — a determiner selected by qualification
+      > and case-level resolution delegated. The three compose, and they are levels of
+      > commitment, not species of actor: the question is never which of three kinds an actor
+      > is, but at which levels the arrangement has committed.
+  - id: term:residual-discretion
+    term: residual-discretion
+    aliases: [residual discretion]
+    established_by: 14-indexed-determination.md
+    status: draft
+    canonical_md: |
+      > **Residual discretion** is the outcome-relevant variation remaining at the act after the
+      > arrangement's declared commitments are applied. It is not randomness: a deterministic
+      > arrangement can carry substantial discretion across unfamiliar cases, a randomised one
+      > can be tightly committed, and a zero-variance arrangement can be consistently wrong.

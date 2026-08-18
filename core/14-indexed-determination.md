@@ -3,13 +3,15 @@
 <!-- ddd:contract
 
 requires: [determination, ground, tolerance, arrangement, assurance, acceptance-predicate, closure, floor, judgment, act, selection, training, verdict]
-establishes: []
+establishes: [commitment-level|commitment level, residual-discretion|residual discretion]
 status: draft
 -->
 
 **Read `00` through `13` first.** This document is deliberately minimal: it states the index that
 the rest of canon carries severally, and points at the claims; their files govern, and this prose
-is exposition. The claims are `DDD-frame-01` (the tuple), `DDD-frame-02` (commitment levels and
+is exposition. It establishes two terms and no more — `commitment-level` and `residual-discretion`
+(§2), both of them names for content `DDD-frame-02` already states. The tuple itself is a claim,
+not a term, and is not minted here. The claims are `DDD-frame-01` (the tuple), `DDD-frame-02` (commitment levels and
 residual discretion), `DDD-floor-02` (the relational floor), and the hypothesis set
 `DDD-hyp-01` through `DDD-hyp-05` (§4), summarised by `DDD-frame-07`.
 
@@ -34,23 +36,37 @@ who answers, and which residual risks stay accepted — or escape.
 
 ## 2. Commitment levels and residual discretion
 
-How does an arrangement commit behaviour in advance? At three levels, and they are levels of
-commitment, not species of actor *(`DDD-frame-02`)*:
+How does an arrangement commit behaviour in advance? *(`DDD-frame-02`.)*
 
-- **outcome-level** — permitted resolutions fixed directly: a lookup table, a schema constraint,
-  an invariant admitting one acceptable outcome for a class of cases;
-- **policy-level** — the generating procedure fixed: an algorithm, a trained policy, an
-  operating procedure, a controller;
-- **principal-level** — a determiner selected by qualification and case-level resolution
-  delegated: a licensed engineer, a court, a review board.
+<!-- ddd:embed id=term:commitment-level -->
+> A **commitment level** is a level at which an arrangement fixes behaviour in advance:
+> **outcome-level** — permitted resolutions fixed directly; **policy-level** — the
+> generating procedure fixed; **principal-level** — a determiner selected by qualification
+> and case-level resolution delegated. The three compose, and they are levels of
+> commitment, not species of actor: the question is never which of three kinds an actor
+> is, but at which levels the arrangement has committed.
+<!-- /ddd:embed -->
+
+Each level names what an arrangement has already settled before the act begins:
+
+| Level | What is fixed | Instances |
+|---|---|---|
+| **outcome** | the permitted resolutions themselves | a lookup table, a schema constraint, an invariant admitting one acceptable outcome for a class of cases |
+| **policy** | the procedure that generates a resolution | an algorithm, a trained policy, an operating procedure, a controller |
+| **principal** | who resolves, selected by qualification, the case delegated | a licensed engineer, a court, a review board |
 
 The levels compose: one deployment can select a principal, bind it to a policy, and enforce
-outcome constraints on what results. The analytical question is never which of three kinds an
-actor is; it is at which levels the arrangement has committed, and what **residual discretion**
-— the outcome-relevant variation remaining after the declared commitments are applied — is left
-at the act. Residual discretion is not randomness: a deterministic arrangement can carry
-substantial discretion across unfamiliar cases, a randomised one can be tightly committed, and a
-zero-variance arrangement can be consistently wrong.
+outcome constraints on what results. What the commitments do not reach is left at the act.
+
+<!-- ddd:embed id=term:residual-discretion -->
+> **Residual discretion** is the outcome-relevant variation remaining at the act after the
+> arrangement's declared commitments are applied. It is not randomness: a deterministic
+> arrangement can carry substantial discretion across unfamiliar cases, a randomised one
+> can be tightly committed, and a zero-variance arrangement can be consistently wrong.
+<!-- /ddd:embed -->
+
+The analytical question is therefore never which of three kinds an actor is; it is at which
+levels the arrangement has committed, and what residual discretion is left at the act.
 
 ## 3. The relational floor
 

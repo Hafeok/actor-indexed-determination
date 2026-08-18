@@ -1,0 +1,136 @@
+format: 1
+id: DDD-dec-26
+kind: decision
+statement: |
+  The Track 1 session mints two terms and no more — term:commitment-level and term:residual-discretion, both established by core/14-indexed-determination.md §2 — discharging the mint DDD-frame-02 deferred pending use; three anticipated deltas (axis, arrangement, escaped decision) are ruled non-deltas because canon already carries each, and the five-way ground-provenance taxonomy is ruled ineligible for minting because its institutional slot is Q27-gated.
+principal: Emil
+made: 2026-08-18, Track 1 session (determination learning track; Gate 0 accepted, Gate 1 proposing)
+resolution: |
+  [PROPOSED — Emil ratifies at Gate 1; nothing below is settled until he does.]
+
+  ## What is minted, and on whose authority
+
+  Two terms, both status: draft, matching the status of their establishing document:
+
+  - term:commitment-level — outcome-level, policy-level, principal-level; composing, and levels
+    of commitment rather than species of actor.
+  - term:residual-discretion — the outcome-relevant variation remaining at the act after the
+    arrangement's declared commitments are applied; not randomness, and zero variance is not
+    correctness.
+
+  Both are established by core/14-indexed-determination.md §2, which was already DDD-frame-02's
+  exposition home. Neither canonical text asserts anything new: each is drawn from §2's existing
+  prose and from DDD-frame-02's own statement, reorganised so a reader meets the definition
+  before the instances.
+
+  **Mint provenance, stated so a later reader cannot misread it.** The determination learning
+  track is the *trigger* for these two mints. It is **not their authority**. Their authority is
+  core/14 §2 and DDD-frame-02, both of which predate the track and neither of which the track
+  amends. A downstream projection may create the occasion for an upstream mint; it never
+  supplies the mint's ground. DDD-frame-02's Wave 3 note — "minting waits on use" — named this
+  exact sequence, and the track is the use arriving, not a new premise.
+
+  ## The minimality clause — read as tuple-specific, and why the alternative is named
+
+  DDD-dec-24 recorded core/14 as established minimal, with `establishes: []`, on the stated
+  reason "the tuple is a claim, not a term". Two readings were available and the choice between
+  them is an act, so both are on the record.
+
+  - **The reading taken (Emil, Gate 1).** A decision's recorded reason is its scope. The reason
+    is about the tuple; the tuple is still not minted and this session does not propose minting
+    it; so the minimality clause is **discharged as written, not overridden**. The contract line
+    moves from `establishes: []` to establishing two terms, and dec-24's reason survives that
+    move untouched. **No supersession.**
+  - **The reading not taken.** On the narrower reading — that the minimality was about the
+    document establishing *nothing at all*, independent of the tuple — this mint would be a
+    supersession of that clause of DDD-dec-24, and would have to be recorded as one before it
+    landed. It is deliberately **not** being treated as one.
+
+  Naming the alternative is what makes this an act rather than an assumption. If the narrower
+  reading turns out to be what dec-24 meant, the audit trail is here and the correction is a
+  supersession filed against this paragraph, not a silent re-reading.
+
+  ## The three non-deltas
+
+  - **axis** — not minted. term:determinable already reads "the dimension of comparability an
+    axis names": the determinable *is* the axis, and minting a second name would fork one graph
+    node into two. The track uses "axis" as the engineering-register word for the determinable
+    and says so at the point of use.
+  - **arrangement** — no delta. term:arrangement is settled and already carries the sentence
+    rung 4 needs: "The unit of comparison is the arrangement, not the isolated actor."
+  - **escaped decision** — no delta. term:escape is settled ("determined never, by nobody ...
+    the only forbidden state") and DDD-frame-04 already states that escaped decisions predict
+    ungoverned failure modes. Rung 9 cites both and adds nothing.
+
+  ## Ground provenance — ruled ineligible, not deferred by preference
+
+  The five-way taxonomy (controlled, observed, inferred, institutional, missing) is recorded
+  not-canon in the Wave 3 projection-readiness map, and its institutional slot is Q27-gated;
+  the taxonomy stands as a booked successor item. Minting a four-way variant would fix a
+  partition Q27 may restructure, so no term is minted. The track carries the canon half — a
+  fact belongs to ground when information about it can change the resolution or its acceptance
+  status beyond the declared tolerance — as the definition rung 3 teaches, and carries the
+  five-way taxonomy as track-native expository scaffolding, marked non-canon in line at the
+  point of use, with the institutional slot flagged Q27-gated where it appears. The track claim
+  records the Q27 dependency, so a Q27 landing forces a track revision rather than leaving a
+  stale taxonomy standing in a teaching surface.
+
+  ## Instrument state at the proposal
+
+  Validators run at this commit: validate-core-order.py exit 0, 0 errors; the warning set is
+  byte-identical to the v5.7.0 baseline — 59 W1 and 7 W2, 66 total — with only the summary
+  counts moving, 68 to 70 terms and 60 to 62 embedded. validate-claims.py: 60 claims valid.
+  Decisions: 7 valid before this file.
+basis:
+  - DDD-frame-01
+  - DDD-frame-02
+  - DDD-frame-04
+  - DDD-dec-24
+  - term:determinable
+  - term:determinate
+  - term:arrangement
+  - term:escape
+  - term:capability
+  - term:presumed-discharge
+notes: |
+  [PROPOSED] Drafted at Gate 1 and committed to the session branch before reporting, per the
+  session charter. Nothing in this file is ratified; Emil's acceptance of the Gate 1 proposal is
+  the ratification act, and the ruling asked for above must be recorded here before the two
+  terms can be read as settled.
+
+  Numbering: decisions share one space across the principle repo and the software projection.
+  26 was the next free id at 2026-08-18 (upstream held 08, 09, 12, 15, 17, 19, 24; downstream
+  held 01-07, 10, 11, 13, 14, 16, 18, 20-23, 25). The downstream session decision takes 27.
+
+  Scope discipline. The charter forbids bundling, and three adjacent things were left alone
+  deliberately: the Q27 wave, the term:training supersession question (Wave 3 successor item 1),
+  and the ref-staleness instrument (successor item 2). None is touched here.
+
+  Two items are carried open to Gate 3 by the charter and are not resolved at this gate:
+  whether the retry example survives contact with the juniors, and whether rung 7 (closure)
+  belongs before rung 5 (commitment level).
+
+  ## Attribution record (Gate 3, Emil ruling — notes only)
+
+  Three commits on this session's branches carry Emil's personal address as committer through a
+  configuration error, not through authorship: 30c3618 here, 77b4307 and b20cc56 in the software
+  projection. They are **session proposals**; Emil had ratified nothing at the time they were
+  made. The committer identity is corrected from that point forward and every later session
+  commit carries it.
+
+  **Not rewritten, and the reason is the corpus's own rule.** The mis-attribution is a recorded
+  act. This corpus does not repair a recorded act by erasing it — supersession records, it never
+  rewrites — and a history rewrite to tidy an attribution error, inside a session about
+  provenance, would apply the forbidden move to the discipline itself. The commits stand and this
+  paragraph is the correction.
+
+  **A false premise is corrected with it.** The session proposed the rewrite on the reasoning that
+  the committer address governs GitHub's Verified badge. It does not: that badge tracks a GPG or
+  SSH signature. The rewrite would not have made a single commit Verified, so the act proposed
+  would not have achieved the thing it was proposed for. What the address actually governs is
+  attribution, which is the real question and is answered above.
+
+  **Signing, booked and not settled.** Signature verification is configured for neither
+  repository, and no session commit is signed. Whether signing becomes a requirement for canon
+  pull requests is a separate question — booked here, deliberately unexamined, and not opened as
+  a work item this session. It is a wave of its own.
