@@ -1,0 +1,66 @@
+format: 1
+version: v5.8.0
+# No `commit`: cut wherever this file lands on the default branch, the normal case
+# (spec/release-format.md §2 rule 3).
+date: 2026-08-18
+basis:
+  # Amended this release — cited because the release pins their new form
+  - DDD-frame-02
+  # Filed this release
+  - DDD-dec-26
+title: 'Track 1: the two deferred mints, discharged on use'
+summary: |
+  The smallest possible upstream release: two terms minted, one claim's notes amended, one
+  session decision filed. Nothing else in `core/` moves.
+
+  Wave 3 deferred both mints explicitly. `DDD-frame-02`'s notes read *"Residual discretion is
+  deliberately not minted as a term this session; the clause is claim content, and minting waits
+  on use."* The determination learning track is that use arriving, and this release is the
+  deferral being discharged rather than new vocabulary being introduced.
+
+  ### Added
+  - `term:commitment-level` and `term:residual-discretion` — established by
+    `core/14-indexed-determination.md` §2, the exposition home `DDD-frame-02` already had. Both
+    enter `draft`, matching their establishing document's status. **Neither asserts anything
+    new:** the canonical text is drawn from §2's existing prose and from `DDD-frame-02`'s own
+    statement, reorganised so a reader meets each definition before its instances.
+  - `core/decisions/DDD-dec-26.yaml` — the session decision.
+
+  ### Changed
+  - `core/14-indexed-determination.md` §2 — restructured to host the two embeds; the three
+    commitment levels move from a bullet list into a table. The contract moves from
+    `establishes: []` to establishing the two terms, and the document's opening paragraph now
+    says so.
+  - `DDD-frame-02` — **notes only**. Statement, status, region, test, owner and `changed` are
+    untouched, and nothing is superseded.
+
+  ### Ruled, not assumed
+  - **`DDD-dec-24`'s minimality clause is read as tuple-specific.** A decision's recorded reason
+    is its scope: dec-24's reason was *"the tuple is a claim, not a term"*, the tuple is still not
+    minted, and the clause is discharged as written rather than overridden. **No supersession.**
+    The narrower reading — that the minimality was about establishing *nothing at all*, under
+    which this mint would have been a supersession — is named in `DDD-dec-26` and explicitly not
+    taken, so the audit trail survives if dec-24 is being misread.
+  - **Three anticipated deltas ruled non-deltas.** `axis` is not minted: `term:determinable`
+    already reads *"the dimension of comparability an axis names"*, and a second name would fork
+    one node into two. `term:arrangement` and `term:escape` are settled and already carry the
+    exact sentences the consuming track needs.
+  - **Ground provenance is ineligible for minting, not deferred by preference.** The five-way
+    taxonomy is recorded not-canon in the Wave 3 projection-readiness map with its institutional
+    slot Q27-gated; minting a four-way variant would fix a partition Q27 may restructure. The
+    consuming projection carries it as scaffolding marked non-canon in line, and carries a
+    positive revision obligation should Q27 land.
+
+  ### Recorded, not repaired
+  Three commits on the session branches carry a personal address as committer through a
+  configuration error rather than through authorship; the identity is corrected from that point
+  forward. They are **not rewritten**: supersession records and never rewrites, and a history
+  rewrite to tidy an attribution error inside a session about provenance would apply the
+  forbidden move to the discipline itself. The premise the rewrite was first proposed on — that
+  the committer address governs GitHub's Verified badge — is corrected with it; that badge tracks
+  a signature. Signing is configured for neither repository and is booked, not opened.
+
+  ### Instrument state
+  `validate-core-order.py` exit 0, 0 errors. The warning set is **byte-identical** to the v5.7.0
+  baseline — 59 W1 and 7 W2 — with only the summary counts moving, 68 to 70 terms and 60 to 62
+  embedded. 60 claims valid, 8 decisions valid.
