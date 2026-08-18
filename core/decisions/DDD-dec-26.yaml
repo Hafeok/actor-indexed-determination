@@ -30,16 +30,25 @@ resolution: |
   supplies the mint's ground. DDD-frame-02's Wave 3 note — "minting waits on use" — named this
   exact sequence, and the track is the use arriving, not a new premise.
 
-  ## The one consequence that needs a ruling rather than a note
+  ## The minimality clause — read as tuple-specific, and why the alternative is named
 
   DDD-dec-24 recorded core/14 as established minimal, with `establishes: []`, on the stated
-  reason "the tuple is a claim, not a term". That reason is untouched: the tuple is still not
-  minted, and this session does not propose minting it. But the contract line moves from
-  `establishes: []` to establishing two terms, and the sentence in DDD-dec-24 was a ruling.
-  Emil rules whether the minimality it recorded was about the tuple specifically (in which case
-  the mint is consistent with it) or about the document establishing nothing at all (in which
-  case this proposal supersedes that clause and the supersession must be recorded here before
-  it lands).
+  reason "the tuple is a claim, not a term". Two readings were available and the choice between
+  them is an act, so both are on the record.
+
+  - **The reading taken (Emil, Gate 1).** A decision's recorded reason is its scope. The reason
+    is about the tuple; the tuple is still not minted and this session does not propose minting
+    it; so the minimality clause is **discharged as written, not overridden**. The contract line
+    moves from `establishes: []` to establishing two terms, and dec-24's reason survives that
+    move untouched. **No supersession.**
+  - **The reading not taken.** On the narrower reading — that the minimality was about the
+    document establishing *nothing at all*, independent of the tuple — this mint would be a
+    supersession of that clause of DDD-dec-24, and would have to be recorded as one before it
+    landed. It is deliberately **not** being treated as one.
+
+  Naming the alternative is what makes this an act rather than an assumption. If the narrower
+  reading turns out to be what dec-24 meant, the audit trail is here and the correction is a
+  supersession filed against this paragraph, not a silent re-reading.
 
   ## The three non-deltas
 

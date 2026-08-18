@@ -32,8 +32,12 @@ notes: |
   the trigger for the mint and is not its authority: the canonical text is drawn from §2's
   existing exposition and from this claim's own statement, no new content is asserted by either
   term, and a downstream document is never the proximate cause of an upstream mint. One
-  consequence needs a ruling rather than a note: core/14's contract moves from establishes: []
-  to establishing the two terms, which changes the deliberate minimality DDD-dec-24 recorded.
+  One consequence was raised for ruling and is now ruled (Gate 1, Emil): core/14's contract
+  moves from establishes: [] to establishing the two terms, and DDD-dec-24's minimality clause
+  is read as tuple-specific — its recorded reason, "the tuple is a claim, not a term", is its
+  scope, the tuple is still not minted, and the clause is discharged as written rather than
+  overridden. No supersession. The alternative reading, and why it was not taken, is on the
+  record in DDD-dec-26.
 
   Exposition home: core/14-indexed-determination.md §2. The UNVERIFIED flag carried since v4.4
   — the levels appeared only in pre-split scaffolding that did not migrate, "not in any core/
