@@ -23,6 +23,18 @@ notes: |
   exposition in core/14 §2, not restated in this claim. Residual discretion is deliberately not
   minted as a term this session; the clause is claim content, and minting waits on use.
 
+  [PROPOSED] Mint record, Track 1 session (2026-08-18) — notes only; statement, status, region,
+  test, owner, and changed are untouched, and nothing here supersedes anything. The use the Wave
+  3 note waited on arrived: the determination learning track needs both "commitment level" and
+  "residual discretion" as citable nodes for its rungs 5 and 6. Both are minted as
+  term:commitment-level and term:residual-discretion, established by
+  core/14-indexed-determination.md §2 — the exposition home this claim already had. The track is
+  the trigger for the mint and is not its authority: the canonical text is drawn from §2's
+  existing exposition and from this claim's own statement, no new content is asserted by either
+  term, and a downstream document is never the proximate cause of an upstream mint. One
+  consequence needs a ruling rather than a note: core/14's contract moves from establishes: []
+  to establishing the two terms, which changes the deliberate minimality DDD-dec-24 recorded.
+
   Exposition home: core/14-indexed-determination.md §2. The UNVERIFIED flag carried since v4.4
   — the levels appeared only in pre-split scaffolding that did not migrate, "not in any core/
   document" — cleared at the Wave 3 GATE 1/GATE 3 rulings: core/14 is the statement in canon,
