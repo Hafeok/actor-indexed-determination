@@ -56,7 +56,7 @@ four. Kay Hammer & Tina Timmerman independently reached the same ("conservation 
 Law, generalized to include the escaped store and denominated in decisions rather than
 complexity.** State it that way, with credit, everywhere.
 
-### 1.3 Brooks — essential vs. accidental complexity (1986)
+### 1.3 Brooks — essential vs. accidental complexity (1986; 1987)
 
 > Essential complexity is inherent in the problem; accidental complexity is an artifact of tools
 > and can be attacked. No single technique yields an order-of-magnitude gain against the
@@ -68,6 +68,13 @@ vocabulary.
 
 **What DDD adds:** almost nothing to this specific claim. Credit Brooks as the source of
 task-fixed invariance.
+
+**Locator, both forms.** "No Silver Bullet — Essence and Accidents of Software Engineering",
+*Proceedings of the IFIP 10th World Computer Congress*, North-Holland, **1986**; reprinted in *IEEE
+Computer* **20(4):10–19, April 1987**, doi:10.1109/MC.1987.1663532. *(verified.)* Both are given
+because both circulate and the repository previously stated them inconsistently — this register
+dated the work 1986 and Paper A's bibliography dated it 1987. Stating both resolves the
+disagreement rather than choosing between two correct answers.
 
 ### 1.4 Meyer — Design by Contract (1986–92), on Hoare logic (1969)
 
@@ -251,6 +258,127 @@ not public; no statistical validation was performed and none is claimed.
 
 The batch-size and feedback-latency results. Cited so that production-as-ground does not appear to
 claim them.
+
+### 1.16 The floor's own ancestry — irreducibility before this framework
+
+**Why this section exists.** `core/03` attributes its three limits carefully (Rice; inevitable model
+error; Collins) and its degeneracy mechanism (Edelman & Gally), and named **no ancestor for the
+phenomenon itself** — an irreducible residue that no encoding and no checking removes — while
+opening on a novelty claim. A novelty claim whose prior art is unstated is not a stronger claim; it
+is an unbounded one. Polanyi and Collins are already §1.7 above; what follows is the rest of the
+tradition, and each entry states its locator's verification status in its own body.
+
+**Wittgenstein (1953) — no rule contains its own application.**
+
+> "This was our paradox: no course of action could be determined by a rule, because every course of
+> action can be made out to accord with the rule."
+
+*Philosophical Investigations* **§201**. Establishes that a specification never fixes what counts as
+following it: applying a rule is a further act, not a step the rule itself supplies. This is the
+deepest ancestor of the encode/verify split, because it says *why* encoding cannot be completed by
+more encoding.
+
+**Where DDD differs:** Wittgenstein's regress is about rules and meaning in general, and has no
+arrangement in it. The framework's residue is not the regress — it is what remains after a checker
+has run, and it is **zero** wherever the acceptance predicate closes. Wittgenstein's paradox closes
+for no predicate; this floor closes for many.
+
+**Locator — verified, with a reservation named in full.** §201 is a remark number and is stable
+across editions. The wording above is the Anscombe rendering as reproduced in the *Stanford
+Encyclopedia of Philosophy*'s Wittgenstein entry, §3.5, whose bibliography lists **both** Anscombe
+(Blackwell, 1953) **and** the revised fourth edition (Hacker & Schulte, eds. and trans.,
+Wiley-Blackwell, 2009) and does not attribute the quotation to either; the same wording is what
+Kripke quotes at the opening of *Wittgenstein on Rules and Private Language* (1982). **Not checked
+against a printed copy of either edition, and the fourth edition's revision of Anscombe's wording
+has not been compared.** Cite as Anscombe's rendering. A session with the printed text should
+confirm the wording or correct it, and this entry is the record of that debt.
+
+**Hayek (1945) — irreducibility by dispersion.**
+
+> "The peculiar character of the problem of a rational economic order is determined precisely by the
+> fact that the knowledge of the circumstances of which we must make use never exists in
+> concentrated or integrated form, but solely as the dispersed bits of incomplete and frequently
+> contradictory knowledge which all the separate individuals possess."
+
+Establishes that the knowledge a decision needs is not given to anyone in its totality: it exists
+dispersed, as particular knowledge of time and place, so no central determiner can assemble it.
+
+**Where DDD differs:** Hayek's irreducibility is about **where the ground is**, not about whether an
+answer can be checked. Dispersion enters this framework not as a floor in its own right but as one
+route to non-closure — observability is a conjunct of `term:closure`, and ground that an arrangement
+cannot reach is ground its predicate cannot evaluate over. So Hayek supplies a *generator* of
+non-zero floor, arrangement-indexed by construction, and does not supply the location. Dispersed
+ground with a closing predicate carries no floor at all.
+
+**Locator — verified against the article itself, not against a citation database.** "The Use of
+Knowledge in Society", *American Economic Review* **35(4):519–530**, September 1945; reprinted in
+*Individualism and Economic Order*, University of Chicago Press, 1948. A scanned facsimile of the
+original was read directly: its masthead gives *"VOLUME XXXV · SEPTEMBER, 1945 · NUMBER FOUR"*, and
+the sentence quoted above stands in **§I, on the article's first page, p. 519**.
+
+**One transcription warning, recorded because it caught this entry.** The sentence is widely
+reproduced online **without the comma after "integrated form"** — the Econlib text is one such
+reproduction, and it also places the sentence in §III rather than §I. The facsimile has the comma
+and has the sentence in §I. The quotation above follows the facsimile. Anyone re-checking this entry
+against a web reproduction should expect the discrepancy and prefer the scan.
+
+**Bainbridge (1983) — the operational form.**
+
+Establishes the *Ironies of Automation*: automating the tractable part of a task does not remove the
+human, it leaves them the part that could not be automated — and leaves it in worse conditions,
+because the residual arrives more rarely, is harder than what was taken away, and is met with less
+practice.
+
+**Where DDD differs:** this is the closest ancestor of the framework's **consequence** rather than
+its **mechanism**. Bainbridge shows that the residue lands on the human and prices what that costs;
+she does not say what makes a portion irreducible in the first place. The framework's addition is
+the criterion — the residue is exactly what the acceptance predicate cannot check, for this
+arrangement — which turns an observation made after automating into a property a task can be tested
+for before.
+
+**Locator — verified, both forms.** "Ironies of Automation", *Automatica* **19(6):775–779**, 1983,
+doi:10.1016/0005-1098(83)90046-8. The paper was first presented at the IFAC/IFIP/IFORS/IEA
+Conference on Analysis, Design and Evaluation of Man–Machine Systems, Baden-Baden, September
+**1982**. Both are given because both circulate as the citation.
+
+**Dreyfus (1972; 1992) and Suchman (1987) — embodiment and situated action.**
+
+One entry, because they make one move: both locate irreducibility in the **actor's embodied
+situation** rather than in the task. Dreyfus establishes that competence rests on an embodied,
+situational background which symbolic representation does not capture, so a formal system handed the
+representation is still missing what the performance needs. Suchman establishes that plans
+underdetermine situated action — a plan is a *resource* for action rather than its determinant, and
+the gap is closed in the moment by what the situation affords.
+
+**Where DDD differs:** Suchman's plan/action gap is the encode/verify split seen from the actor's
+side, and the framework's residue is her closing-in-the-moment named as a quantity. The difference
+is the index. Both accounts treat the gap as a standing feature of situated action; the framework
+makes it a property of a relation that **can be zero** — where the acceptance predicate closes, the
+situated actor is not load-bearing, because any adequate path is checkable and no particular one is
+required. Dreyfus and Suchman argue that formalisation cannot exhaust competence. The framework
+agrees, and adds the boundary at which it stops mattering.
+
+**Locators — verified.** Dreyfus, H. L., *What Computers Can't Do: A Critique of Artificial Reason*,
+Harper & Row, **1972**; revised as *What Computers Still Can't Do: A Critique of Artificial Reason*,
+MIT Press, **1992**, ISBN 0-262-54067-3. The 1992 MIT Press edition is the one cited; the 1972 first
+edition is given because subtitle variants circulate across printings and the two are frequently
+conflated. Suchman, L. A., *Plans and Situated Actions: The Problem of Human–Machine Communication*,
+Cambridge University Press, **1987**, ISBN 978-0-521-33739-7, 203 pp.
+
+**What none of them supplies.** Each of these locates irreducibility somewhere: in the knower
+(Polanyi, §1.7), in the society (Collins, §1.7), in the rule's application (Wittgenstein), in the
+dispersion of ground (Hayek), in the residue automation leaves (Bainbridge), in the actor's embodied
+situation (Dreyfus and Suchman), and in the problem (Brooks, §1.3). **None of them locates it in the
+checkability of the acceptance predicate, arrangement-indexed.** That is the framework's move, and
+it is the whole of the framework's move on this question. It is also what makes the claim testable
+in a way none of the ancestors' is: a floor located in the predicate can be driven to zero by
+finding or constructing a closing predicate, and a floor located in the knower, the society or the
+situation cannot.
+
+**Not filed here.** No row is added to §6's required-citations table for any of these. §6 is a
+standing duty on **every artifact that uses the corresponding claim**, and creating six new such
+duties is a filing with consequences well beyond this register — it would obligate Paper A and every
+future projection at once. The ancestry is recorded; the citation duty is not extended.
 
 ### Additional context worth acknowledging
 
