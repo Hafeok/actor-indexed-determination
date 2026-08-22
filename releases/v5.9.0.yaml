@@ -1,0 +1,102 @@
+format: 1
+version: v5.9.0
+# No `commit`: cut wherever this file lands on the default branch, the normal case
+# (spec/release-format.md §2 rule 3).
+date: 2026-08-21
+basis:
+  # Pinned by this release because its canonical text moves — the definition is promoted into
+  # the registry entry, so the release pins term:floor's new form via the claims that rest on it.
+  - DDD-floor-01
+  - DDD-floor-02
+  # The governing precedent for supersession-not-rewriting, and for the scope discipline the
+  # novelty deferral rests on.
+  - DDD-dec-15
+title: 'The floor: its definition, and its ancestry'
+summary: |
+  A prose, registry and lineage release on `core/03-the-floor.md`. **No claim statement moves** —
+  `DDD-floor-01` and `DDD-floor-02` are untouched in statement, region, status and falsifier,
+  verified by a sweep over all 68 claim and decision files rather than asserted.
+
+  The registry change is what makes this a minor rather than a patch: `term:floor`'s
+  `canonical_md` moves, and a downstream pin moves with it.
+
+  ### Changed
+  - **`term:floor`'s canonical text now defines the floor before claiming anything about it.**
+    The entry read *"The intrinsic floor is a property of the acceptance predicate, not of the
+    decision"* — which says what the floor is a property **of**, and never what a floor **is**.
+    It now carries the definition first, then that sentence verbatim. Both halves are promoted
+    byte-for-byte from `core/03`'s own prose; **nothing is authored into the term and nothing
+    ratified is lost.**
+  - **`core/03-the-floor.md`** — the embed moves to the document's opening move. The defect it
+    repairs: the floor's definition arrived *after* the claim block that used it, so a reader met
+    the claim about the floor before learning what a floor was. The claim block keeps both limbs
+    verbatim and gains one connective sentence, *"The claim has two limbs."*, in place of the
+    lead sentence that moved up. That is the release's **only** authored sentence in claim
+    material.
+  - **`meta/lineage-and-limits.md` §1.3** — Brooks's locator now states both circulating forms,
+    IFIP 1986 and *IEEE Computer* 20(4):10–19 (1987), resolving a disagreement between this
+    register and the downstream Paper A bibliography.
+
+  ### Added
+  - **`meta/lineage-and-limits.md` §1.16, "The floor's own ancestry"** — Wittgenstein (*PI* §201),
+    Hayek (1945), Bainbridge (1983), and Dreyfus with Suchman as one joint entry. `03` named
+    ancestors for its three *limits* and its degeneracy *mechanism*, and named none for the
+    phenomenon itself while opening on a novelty claim. Each entry states what it establishes,
+    where the framework differs, and **its locator's verification status in its own body.**
+  - **`core/03`'s "What is not new here"** — four sentences, and the document's first pointer at
+    the lineage register, which it had never carried. It ends on the contrast that makes the
+    original move legible: none of the ancestors locates irreducibility in the checkability of
+    the acceptance predicate, arrangement-indexed.
+
+  ### Verified, not asserted
+  Every locator was checked, and two were checked against the source rather than a database.
+  **Hayek** was read from a scanned facsimile of the *American Economic Review* original: its
+  masthead gives *"VOLUME XXXV · SEPTEMBER, 1945 · NUMBER FOUR"* and the quoted sentence stands in
+  §I, p. 519. That caught two errors in the widely circulated web text — a dropped comma after
+  *"integrated form"*, and the sentence attributed to §III. The entry quotes the facsimile and
+  records the discrepancy for the next re-checker.
+
+  **Wittgenstein is flagged-verified and says so in its own body**: the wording is the Anscombe
+  rendering as reproduced in the *SEP* entry §3.5, whose bibliography lists both Anscombe (1953)
+  and the revised fourth edition (Hacker & Schulte, 2009) and attributes the quotation to
+  neither; Kripke (1982) concurs; **no printed copy was consulted.** The debt is named in the
+  entry and booked, not hidden behind a citation.
+
+  ### Deferred whole, with the resistance named
+  The framework carries **three** novelty statements, not the two this work went looking for:
+  `core/03`'s *"the framework's best original result"* (also at `core/README.md:15` and
+  `meta/consolidated-state.md:78`); the v5.4.0-corrected register sentence, which is scoped to
+  `core/09` and `core/11` and does not compete; and `meta/lineage-and-limits.md` §5 item 2, which
+  awards the Escaped store *"the framework's clearest original contribution"* in a numbered list
+  that ranks the floor third.
+
+  The first and third genuinely compete, and **nothing was repaired.** Two ratified, unscoped
+  superlatives over one domain cannot both stand, and which one yields is a ranking of the
+  framework's contributions rather than a prose repair. The minimal reconciliation is drafted and
+  deliberately not taken. `DDD-dec-15` already names the register sentence *"the framework's own
+  novelty statement"* while that sentence's own paragraph scopes it to two documents, and that
+  inconsistency is part of what an inheriting session must settle.
+
+  ### Not filed
+  **No row is added to §6's required-citations table for the new ancestry.** §6 binds *every
+  artifact that uses the corresponding claim*; six new rows would obligate every existing and
+  future projection at once, retroactively. That is a governance change and needs its own ruling
+  with the obligation's scope examined. The ancestry is recorded; the citation duty is not
+  extended, and the non-filing is stated inside §1.16 so it reads as a decision.
+
+  ### Carried, not introduced
+  This release also carries `core/assets/measure-aggregate-discharge.py`, added after `v5.8.0`
+  was cut and covered by no descriptor since. It is **160 lines, one new file, and the entire
+  delta between `v5.8.0` and this session's base** — no claim, term, document or evidence field
+  moved with it, and no claim cites it yet. It is named here rather than left to ride silently:
+  a release descriptor that omits canon the tag will carry is a false record of what was cut.
+
+  ### Instrument state
+  `validate-core-order.py` exit 0 — 0 errors, **0 W4**, and the warning count is **identical to
+  the pre-session baseline at 66**, so the new section introduced no forward edge. 60 claims
+  valid, 8 decisions valid, 5 release descriptors valid. **All nine `core/assets/` computations
+  re-run and reproduce**, including the carried one above.
+
+  The registry delta is exactly one field on one term — `term:floor.canonical_md` — confirmed by
+  diffing the whole registry against the session base: 70 terms before and after, none added,
+  none removed, no other field on any other term touched.

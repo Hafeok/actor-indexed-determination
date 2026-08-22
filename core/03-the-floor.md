@@ -7,6 +7,14 @@ establishes: [acceptance-predicate|acceptance predicate, closure|closes|closed|c
 status: settled
 -->
 
+<!-- ddd:embed id=term:floor -->
+The "floor" is the portion of a determination's demand that **cannot be moved off the in-the-moment
+actor** — the residue that no amount of encoding or checking can amortise, that must be paid, per
+run, in judgment.
+
+> **The intrinsic floor is a property of the acceptance predicate, not of the decision.**
+<!-- /ddd:embed -->
+
 **The framework's best original result.** It corrects an earlier, over-strong claim (a "zero-floor
 postulate" that survived external review only in narrowed form) and replaces it with something
 sharper and more useful: **the irreducible floor is a property of the acceptance predicate, not of
@@ -16,20 +24,14 @@ the decision.**
 
 ## The claim
 
-<!-- ddd:embed id=term:floor -->
-> **The intrinsic floor is a property of the acceptance predicate, not of the decision.**
-<!-- /ddd:embed -->
->
+The claim has two limbs.
+
 > **Zero** wherever the predicate is **closed for the arrangement over ground it can inspect** — and
 > there, *path-degeneracy* makes it *robustly* zero: infinitely many structurally different
 > determiners suffice, so **no *particular* judgment is required, only an *adequate* one.**
 >
 > **Non-zero** exactly where the predicate does not close — and **whether it closes is, in general,
 > undecidable** (Rice's theorem).
-
-The "floor" is the portion of a determination's demand that **cannot be moved off the in-the-moment
-actor** — the residue that no amount of encoding or checking can amortise, that must be paid, per
-run, in judgment.
 
 The result relocates that floor. It is not a property of *how hard the decision is*. It is a
 property of **whether you can check the answer.**
@@ -136,6 +138,20 @@ does **not** rescue a zero floor on open predicates, for two reasons:
 
 Determinism buys nothing here. The floor is where it is because of what can be *decided*, not because
 of what is *fixed*.
+
+---
+
+## What is not new here
+
+An irreducible residue is not this framework's discovery, and the claim is stronger for saying so.
+Polanyi located that residue in the knower and Collins in the society; Wittgenstein located it in the
+fact that no rule contains its own application, Hayek in the dispersion of ground, Bainbridge in what
+automation leaves to the operator, and Dreyfus and Suchman in the actor's embodied situation. The
+register is `meta/lineage-and-limits.md` §1.7 and §1.16, which states for each what it contributes
+and where it differs. **None of them locates irreducibility in the checkability of the acceptance
+predicate, arrangement-indexed** — and that is the whole of the original move here: an ancestor's
+floor is a standing feature of knowers, societies or situations, while this one is a property of a
+relation, and it goes to zero wherever the predicate closes.
 
 ---
 
