@@ -219,6 +219,10 @@ terms:
     established_by: 03-the-floor.md
     status: settled
     canonical_md: |
+      The "floor" is the portion of a determination's demand that **cannot be moved off the in-the-moment
+      actor** — the residue that no amount of encoding or checking can amortise, that must be paid, per
+      run, in judgment.
+
       > **The intrinsic floor is a property of the acceptance predicate, not of the decision.**
   - id: term:path-degeneracy
     term: path-degeneracy
