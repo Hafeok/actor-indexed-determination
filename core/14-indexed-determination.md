@@ -82,8 +82,8 @@ an observer's inability to predict a fixed policy, and stochasticity. Only the f
 selection the commitments genuinely leave unresolved or delegate.
 
 This is the discharge partition seen from the commitment side. Residual discretion is exactly the
-**resolved** value of `DDD-frame-17` — the alternative not fixed by standing configuration and
-ground together, settled at the act by something within the arrangement's control. Where it is
+**exercised** value of `DDD-frame-17` — the alternative not predetermined by standing configuration
+and ground together, settled at the act by something within the arrangement's control. Where it is
 settled by something outside that control it is **drawn**, which is stochasticity, and
 stochasticity is not discretion.
 

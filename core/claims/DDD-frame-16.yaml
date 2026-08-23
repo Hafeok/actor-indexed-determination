@@ -34,14 +34,14 @@ notes: |
      1, discharge and completed acts are in bijection on the demand ledger: no act-free
      discharge, and no discharge-free completed act.
 
-     [PROPOSED — Phase 1a session, 2026-08-23, notes only; pending Emil's ruling. Statement,
+     [Phase 1a session, 2026-08-23, notes only; ratified at the GATE 2 ruling. Statement,
      status, region, evidence, falsifier, test, owner and changed are untouched, and nothing here
      supersedes anything.] DDD-frame-15 is retired and superseded by DDD-frame-17. This step
      carries forward unchanged in force: what it needs is that every completed act's demand is
      discharged some way or other, which DDD-frame-17 asserts of every outcome-relevant
      alternative and therefore a fortiori of every act. The literal mode count — "one of four
-     modes" — is the retired enumeration and reads now as "one of three values: fixed, resolved,
-     or drawn". The bijection the step establishes is unaffected, because it turns on discharge
+     modes" — is the retired enumeration and reads now as "one of three values: predetermined,
+     exercised, or drawn". The bijection the step establishes is unaffected, because it turns on discharge
      being total over completed acts and not on how many values the partition has.
   4. term:encode-verify-split — both halves of the split are defined relative to the act
      (pre-resolving before it, verifying after it): even fully pre-resolved demand is consumed
@@ -54,9 +54,10 @@ notes: |
   governable variable is which mode does the discharging, chosen in advance or defaulted at
   the act.
 
-  [PROPOSED — Phase 1a session, 2026-08-23, notes only.] Read now against DDD-frame-17, the
-  contrapositive is sharper rather than weaker: the governable variable is which of fixed,
-  resolved or drawn does the discharging, and governance moves an alternative between those
+  [Phase 1a session, 2026-08-23, notes only; ratified at the GATE 2 ruling.] Read now against
+  DDD-frame-17, the
+  contrapositive is sharper rather than weaker: the governable variable is which of
+  predetermined, exercised or drawn does the discharging, and governance moves an alternative between those
   values by changing the standing configuration or by changing what it controls — never by
   choosing whether demand is supplied at all.
 

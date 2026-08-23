@@ -77,21 +77,28 @@ predicate is declared (`core/09` §7a) — and the act's determination demand is
 *something*.
 
 **Discharge exhaustiveness** (`DDD-frame-17`). At every completed act in a task's scope, each
-outcome-relevant alternative is discharged in exactly one of three ways. **Fixed** — the
+outcome-relevant alternative is discharged in exactly one of three ways. **Predetermined** — the
 arrangement's standing configuration together with the ground at the act determines the
-resolution. **Resolved** — it does not, and something within the arrangement's control determines
+resolution. **Exercised** — it does not, and something within the arrangement's control determines
 it at the act. **Drawn** — it does not, and what determines it lies outside the arrangement's
 control. Escape is a supply mode of discharge, not an absence of it: an act no governance supplies
 still lands an outcome, drawn from a distribution the arrangement does not control. **Demand is
 never unmet, only ungoverned.**
 
 The unit is the **outcome-relevant alternative**, not the act. One act may carry several: a
-timeout has a *when-to-stop* alternative, fixed by the deadline, and a *what-to-return* alternative,
-drawn from whatever partial state obtained.
+timeout has a *when-to-stop* alternative, predetermined by the deadline, and a *what-to-return*
+alternative, drawn from whatever partial state obtained.
 
 **Exhaustiveness here is provable, not enumerated.** Given the standing configuration and the
 ground, the resolution is determined or it is not; if it is not, what determines it is inside the
-arrangement's control or outside it. Two dichotomies, three values, no remainder. This is the
+arrangement's control or outside it. Two dichotomies, three values, no remainder — and a
+dichotomy, unlike a list, cannot be counterexampled. The claim's content sits in the
+answerability of that first test, which is where its falsifier now points.
+
+**The value is the arrangement's at the act, not the carrier's in the abstract.** The same model
+is not always the same value: greedy decode is *predetermined*, the same weights sampled are
+*exercised*, or *drawn* where the arrangement does not control the sampling source. Coding
+practice reads the deployment, never the artefact. This is the
 repair that retired `DDD-frame-15`, whose four modes — filed decision, judgment, arrangement
 default, uncontrolled draw — were exhaustive only by enumeration over loci that turned out not to
 be disjoint. A declared default satisfied two of them completely, and nothing but *declaredness*
@@ -107,8 +114,12 @@ an assurance position, not a discharge value. The two partitions answer differen
 the same act, and neither reduces to the other.
 
 **Governance status is not an axis here, and the values are named so it cannot become one.**
-*Fixed*, *resolved* and *drawn* share no word with `term:store`, with the timing terms, or with
-`term:escape`. The retired mode list borrowed *filed decision* and *judgment* from the store
+*Predetermined*, *exercised* and *drawn* share no word with `term:store`, with the timing terms,
+or with `term:escape` — a collision check run against the registry settled the names, and the two
+that collided were changed. *Fixed* would have read the discharge axis back into `term:encoded`
+("a constraint, fixed *before* the act, **by a rule**"), which an incidental default takes without
+any rule at all; *resolved* is the genus of all three values, since `term:determination` is
+"the resolving of a decision against ground". The retired mode list borrowed *filed decision* and *judgment* from the store
 vocabulary while partitioning a different object — and `term:judgment` carries an accountability
 clause ("a judgment allocation naming no accountable party is not an allocation") that a discharge
 value cannot carry, since an ungoverned actor's variation still discharges. Two objects under one
@@ -117,8 +128,8 @@ word is a defect the shared names caused; distinct names are the cheaper half of
 **This axis does not stand alone, and the others are not restated as claims** because they are
 already canon. `DDD-frame-16`, below, says discharge is act-indexed. The second — at which *level*
 the arrangement committed in advance — is `14`'s, and `14` §2 states the composition from its own
-side, where the term it needs is established. A trained carrier decoding greedily is *fixed* here
-and committed at the level of its policy there, and both readings are true at once. That
+side, where the term it needs is established. A trained carrier decoding greedily is *predetermined*
+here and committed at the level of its policy there, and both readings are true at once. That
 composition is what the flat mode list could not represent, and it is why trained inference read as
 three incompatible things.
 

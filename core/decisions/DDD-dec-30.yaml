@@ -2,13 +2,10 @@ format: 1
 id: DDD-dec-30
 kind: decision
 statement: |
-  The four discharge modes of DDD-frame-15 are retired and superseded by DDD-frame-17, which partitions discharge by two dichotomies — determined or not by standing configuration and ground together, and if not, inside or outside the arrangement's control — yielding three values named off the store vocabulary: fixed, resolved, drawn; the unit of classification is fixed at the outcome-relevant alternative; governance status is excluded from the claim by construction rather than guarded by a paragraph; and DDD-frame-02's residual-discretion clause is corrected in place to hold the variation at fixed ground and to strike declared, no term being minted because term:residual-discretion already exists.
+  The four discharge modes of DDD-frame-15 are retired and superseded by DDD-frame-17, which partitions discharge by two dichotomies — determined or not by standing configuration and ground together, and if not, inside or outside the arrangement's control — yielding three values named off the store vocabulary: predetermined, exercised, drawn; the unit of classification is fixed at the outcome-relevant alternative; governance status is excluded from the claim by construction rather than guarded by a paragraph; and DDD-frame-02's residual-discretion clause is corrected in place to hold the variation at fixed ground and to strike declared, no term being minted because term:residual-discretion already exists.
 principal: Emil
-made: 2026-08-23, Phase 1a session (GATE 1 ruled; GATE 2 proposing)
+made: 2026-08-23, Phase 1a session (ratified at the GATE 2 ruling; value names settled at GATE 3)
 resolution: |
-  [PROPOSED — Emil ratifies at GATE 2; nothing below is settled until he does. The banner is
-  struck at the ruling, per DDD-dec-29's precedent.]
-
   ## What was ruled at GATE 1, and what this decision records
 
   GATE 1 offered two dispositions for the discharge partition: (a) an explicit priority rule
@@ -37,6 +34,12 @@ resolution: |
   The guard stops being a paragraph a reader may skip and becomes an exclusion the schema
   enforces.
 
+  A second difference in kind, stated at the GATE 2 ruling and recorded here because it is the
+  strongest thing the recast buys: DDD-frame-15 enumerated four loci and asserted no fifth, which
+  is a list, and a list can be counterexampled — which is what happened. The successor's two
+  dichotomies cannot be. The claim's content therefore moves out of the enumeration, where it was
+  false, and into the answerability of the fixing test, where the falsifier belongs.
+
   ## The three values, and why they are exhaustive rather than enumerated
 
   Given the arrangement's standing configuration and the ground at the act, the resolution is
@@ -57,12 +60,39 @@ resolution: |
   judgment mode and term:judgment were therefore two distinct objects sharing one word inside
   canon, not a reader's confusion. filed decision was likewise store-adjacent.
 
-  fixed, resolved and drawn share no word with term:store, with the timing terms
+  predetermined, exercised and drawn share no word with term:store, with the timing terms
   (term:encoded, term:mechanical, term:judgment), or with term:escape.
+
+  The names were checked against the registry at GATE 3, on Emil's instruction at the GATE 2
+  ruling — naming and not structure, the structure surviving either way. Two of the three names
+  drafted at GATE 2 collided and were changed.
+
+  fixed collided in the seam-critical direction. term:encoded reads "a constraint, fixed before
+  the act, by a rule"; an incidental default takes this value with no rule authored and no
+  governance supplied, so the shared word would have read the discharge axis back into the store
+  partition — the one thing this decision exists to prevent. term:commitment-level compounds it,
+  using "fixed" twice for the composing axis's own content, so the two axes would have shared
+  their most load-bearing word.
+
+  resolved collided as a genus rather than as a neighbour. term:determination is "the resolving of
+  a decision against ground… Nothing else resolves anything". Every value on this axis is a
+  resolving; naming one of three after the genus is a category error visible from the registry
+  alone.
+
+  drawn is clean and is kept, as Emil anticipated: its only technical neighbour in core/ is
+  core/09's "drawn at each act from a fixed eight-outcome prior", which is the intended sense, and
+  it is continuous with the luck ruling's corrected wording.
+
+  predetermined occurs nowhere in core/ and says what the value means without importing "by a
+  rule". exercised has no definitional use in the registry and joins the axis to
+  term:residual-discretion's own sentence — "a cryptographic hash… exercises no discretion". One
+  wobble on exercised is recorded in DDD-frame-17's notes rather than smoothed away.
 
   ## Three findings from drafting, not available at the GATE 1 ruling
 
-  1. **term:actor states that "a thermostat qualifies".** GATE 1's draft axis separated an
+  1. **term:actor states that "a thermostat qualifies".** Recorded on both sides at the GATE 2
+     ruling: the session drafted the axis without checking the term, and Emil ratified the
+     disposition at GATE 1 without checking it either. GATE 1's draft axis separated an
      artefact producer from an actor producer; canon forbids that split, because the very case the
      review raises is a canonical actor. The axis was rebuilt on the fixing test instead, and the
      rebuild is strictly better: it resolves the thermostat by asking whether the standing rule
@@ -157,6 +187,12 @@ notes: |
   precedent. DDD-frame-15 is retired and kept in the graph with its ratified statement preserved
   verbatim in its notes and its Wave 3 derivation retained beneath, so the retirement does not
   destroy the record it corrects.
+
+  THE ASYMMETRY, RULED AND STATED FOR FUTURE USE (Emil, GATE 2): retire when the statement is
+  wrong; amend when a clause is wrong. DDD-frame-15's enumeration did not partition, so the
+  statement died. DDD-frame-02's statement stands and its residual-discretion clause did not, so
+  the clause was corrected in place. Flagging the choice rather than assuming it was itself ruled
+  correct.
 
   DDD-frame-02 is amended rather than superseded, following that node's own Wave 3 precedent —
   the GATE 1 ruling there was "amend, not companion claim", and the prior statement was quoted in

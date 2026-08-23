@@ -25,7 +25,8 @@ exposition (canon authority lives in the claim files; see `core/claims/README.md
 | §5, §6.2 | Predictive claims (`I(V;S)` cost, `I(V;E)` performance) | `DDD-measure-07` |
 | §6.2 | Store allocation actor-relative, total actor-invariant | `DDD-measure-04` |
 | §6.3 | Identification survives an estimated channel (tractability, not measurement) | `DDD-measure-05` |
-| §7 | The measure exists iff the predicate closes; vanishes at the floor | `DDD-measure-06` |
+| §7 | The construction is available to an arrangement exactly where its predicate closes; existence and estimability are separate conditions | `DDD-measure-16` |
+| §7 | The construction's domain and the non-zero-floor region coincide — principled, not evidential | `DDD-measure-17` |
 | §7, §9 | The measure prices the verdict, not the search | `DDD-measure-11` |
 | §9 | Demand is relative to the ground distribution | `DDD-measure-12` |
 | §2.1 | Admissibility: the engineering reading holds for admissible `X` only | `DDD-measure-15` |

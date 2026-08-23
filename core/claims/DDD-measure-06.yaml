@@ -2,17 +2,89 @@ format: 1
 id: DDD-measure-06
 kind: formal
 statement: |
-  The measure exists iff the acceptance predicate operationally closes; H(V) is undefined exactly where the framework's floor result locates non-zero floor.
-status: established
-region: everywhere — this claim is about the boundary itself
-evidence:
-- kind: derivation
-  ref: core/09-the-measure.md
-  note: >-
-    near-definitional on the measure side; the force of the claim is the coincidence with
-    core/03's independently derived floor. Claim the boundary as principled, not as convergent
-    evidence.
-test: >-
-  a task with an open predicate for which a defensible verdict function exists anyway
-owner: paper-1
-changed: v4.5
+  RETIRED — "the measure exists iff the acceptance predicate operationally closes; H(V) is undefined exactly where the framework's floor result locates non-zero floor." The biconditional fails in both directions and the two limbs carry different warrants under one status. Superseded by DDD-measure-16 (availability to an arrangement, with existence and estimability separated) and DDD-measure-17 (the coincidence, at projected).
+status: retired
+region: —
+changed: v5.10 (2026-08-23, Phase 1a session)
+notes: |
+  [PROPOSED — drafted at the Phase 1a session's GATE 3, pending Emil's ruling. Nothing here is
+  ratified. The banner is struck when the ruling lands.]
+
+  Retired at the Phase 1a session (2026-08-23; interactive curation, Emil ruling at every gate).
+  Corrected by DDD-measure-16 and DDD-measure-17 jointly; both carry the supersedes edge per
+  spec §1.
+
+  THE FIELDS AS THEY STOOD FROM v4.5 TO v5.9, preserved verbatim, because a retirement must not
+  destroy the record it corrects:
+
+    statement: The measure exists iff the acceptance predicate operationally closes; H(V) is
+      undefined exactly where the framework's floor result locates non-zero floor.
+    status: established
+    region: everywhere — this claim is about the boundary itself
+    evidence:
+    - kind: derivation
+      ref: core/09-the-measure.md
+      note: near-definitional on the measure side; the force of the claim is the coincidence with
+        core/03's independently derived floor. Claim the boundary as principled, not as convergent
+        evidence.
+    test: a task with an open predicate for which a defensible verdict function exists anyway
+    owner: paper-1
+    changed: v4.5
+
+  There was no falsifier field, no breaks, no credits, no supersedes, and no notes. The whole file
+  was ten fields.
+
+  WHAT KILLED IT, IN THREE PARTS, of which only the first came from outside.
+
+  ONE — the biconditional fails in both directions, and its own companion projection says so. The
+  measure note's boundary section (§8 as merged; §7 in the review and in the response document,
+  which predate the discharge session's renumber) separates three requirements this node had
+  collapsed into one:
+
+  - EXISTENCE fails independently of closure. The verdict function is supplied by the task class,
+    not by the predicate (term:verdict). A fully decidable acceptance predicate can admit several
+    acceptable outputs, and no unique output-valued V exists until the task supplies a tie-breaker,
+    a canonical form, or a declared selection distribution. So a predicate can close while the
+    measure does not exist: closure is not sufficient.
+  - AVAILABILITY is what closure actually governs. "A verdict function can exist without being
+    usable… H(V) then exists mathematically while being unavailable in practice. These are two
+    failures, not one." So operational closure is not necessary for mathematical existence either.
+  - ESTIMABILITY fails independently of both. "Where the deployment distribution is unknown,
+    unstable, non-stationary, or only partly observable, the demand is well defined and cannot be
+    computed."
+
+  And §8.1 concedes the outward direction: "An open predicate does not abolish measurement… What
+  is unavailable outside the scope condition is *this construction*… and not measurement as such."
+  This node said H(V) is undefined there; the note says the construction is unavailable there,
+  which is a different and weaker thing.
+
+  TWO — the statement was compound, and spec/claim-format.md §2 rule 1 forbids it. "One
+  proposition per claim. Compound statements split. The unit of status change must be the unit of
+  statement." One status governed a near-definitional limb and a substantive one. This is the
+  mechanism by which the node resisted repair for five minor versions: demoting it would have
+  demoted the sound limb, so nobody demoted it. The defect was visible from the schema alone and
+  needed no reviewer.
+
+  THREE — the evidence field contained the instruction the node violated. "Claim the boundary as
+  principled, not as convergent evidence." The node then carried the convergence at established.
+  A claim at established whose only evidence entry disclaims the limb that carries its content
+  does not meet rule 2's entry condition, and CLAUDE.md's standing instrument — never present an
+  identity holding as evidence for the framework — says the rest.
+
+  THE HISTORICAL DETAIL, recorded because both directions were real. The measure note's revision,
+  at its own Gate 1, found the MANUSCRIPT overstating this node and repaired the manuscript to
+  comply with it. That repair was correct. It did not license skipping this node's own repair, and
+  for the interval between the two the projection was weaker than the node while the node was
+  wrong — so one projection off this graph contradicted another, which is how the defect surfaced.
+
+  MISSING FALSIFIER, AND THE INSTRUMENT GAP IT EXPOSES. This node sat at established from v4.5 to
+  v5.9 with no stated observation that would fire against it. That is legal: rule 2 requires a
+  falsifier for projected and says nothing for established. Emil ruled at GATE 1 that both
+  successors carry falsifiers, and that "every claim carries one" has no near-definitional
+  exception. The validator gap — validate-claims.py enforces neither falsifier presence nor rule 1
+  — is filed as a freight item with this node's two defects as its two instances.
+
+  WHAT SURVIVES. The boundary itself survives, drawn twice from different materials with neither
+  drawing fitted to the other, and it is still the measure note's best feature. What is retired is
+  the biconditional, the fusion of two warrants under one status, and the claim that the
+  coincidence is evidence.

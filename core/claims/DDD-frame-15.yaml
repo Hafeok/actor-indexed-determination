@@ -7,10 +7,8 @@ status: retired
 region: —
 changed: v5.10 (2026-08-23, Phase 1a session)
 notes: |
-  [PROPOSED — drafted at the Phase 1a session's GATE 2, pending Emil's ruling. Nothing here is
-  ratified. The banner is struck when the ruling lands, per the DDD-dec-26 / DDD-dec-29 pattern.]
-
-  Retired at the Phase 1a session (2026-08-23; interactive curation, Emil ruling at every gate).
+  Retired at the Phase 1a session (2026-08-23; interactive curation, Emil ruling at every gate;
+  ratified at the GATE 2 ruling).
   Killed by the Paper A external review §4, filed at
   meta/sessions/2026-08-23-phase1a/paper-a-objective-review.md in the projection repository;
   corrected by DDD-frame-17, which carries the supersedes edge per spec §1.
