@@ -1,0 +1,201 @@
+format: 1
+id: DDD-frame-17
+kind: conceptual
+statement: |
+  At every completed act in a task's scope, each outcome-relevant alternative is discharged in exactly one of three ways: predetermined — the arrangement's standing configuration together with the ground at the act determines the resolution; exercised — it does not, and something within the arrangement's control determines it at the act; or drawn — it does not, and what determines it lies outside the arrangement's control. Demand is never unmet, only ungoverned.
+status: projected
+region: |
+  Completed acts within a task's declared scope, quantified over outcome-relevant alternatives
+  and not over acts: one act may carry several alternatives discharging differently, and the
+  unit of classification is the alternative.
+
+  The seam this claim must not cross, stated as region and carried verbatim from DDD-frame-15
+  because it was correctly ratified and is untouched by this correction: the modes partition
+  discharge — the physical production of a determinate at the act — not governance-supply. In
+  the store partition (term:store) escape remains nothing and there is no fifth source, because
+  the question there is what governance supplied; here the same act's demand is met by an
+  uncontrolled draw, because the question is what the world produced, and the world never
+  produces nothing. The two partitions answer different questions about the same act, and
+  neither reduces to or replaces the other. Escape is a supply mode of discharge, not an
+  absence of supply.
+
+  Governance status is not an axis of this claim. Whether a resolution is declared, governed,
+  filed, or escaped is term:store's question and is answered there. This claim's three values
+  turn on determination and control alone, never on declaredness — which is what makes the seam
+  guard an exclusion the schema enforces rather than a paragraph a reader may skip.
+
+  The value is a property of the arrangement at the act, not of the carrier in the abstract. The
+  same model is not always the same value: a carrier decoding greedily is predetermined, and the
+  same weights sampled at temperature are exercised, or drawn where the arrangement does not
+  control the sampling source. Coding practice must therefore read the deployment and never the
+  artefact, and an arrangement that changes its decode changes the value without changing what it
+  bought.
+
+  No value on this axis turns on actorhood. The fixing test asks whether the standing
+  configuration and the ground jointly determine the resolution, which is answerable without
+  deciding whether the producer is an actor — and term:actor holds in terms that a thermostat
+  qualifies, so an actor/artefact split would have been unavailable in any case. DDD-frame-15's
+  judgment mode did turn on actorhood and thereby inherited the actor admission test's open
+  circularity; this claim does not inherit it.
+
+  Two axes compose with this one and are not restated here, both already canon:
+  term:commitment-level (at which level the arrangement committed — outcome, policy, principal,
+  or none reaching this alternative) and DDD-frame-16 (act-indexation: standing supply inherited
+  per act, occasioned supply produced per act). A trained carrier is predetermined on this axis
+  and policy-committed on term:commitment-level's; the two readings are both true and are not in
+  competition, which is what the superseded four-mode list could not represent.
+
+  Deliberately out of region, deferred with the resistance named (the C-1 precedent): an
+  abstention that is never expressed. term:act runs an act "to an expressed outcome", so on that
+  reading no act completes and the case is outside this claim. The reading is not ruled here,
+  because the case bears on DDD-frame-16 as well as on term:act-individuation — if an unexpressed
+  abstention is not an act while the determinable is nevertheless determined, that is act-free
+  discharge, which DDD-frame-16 denies. That tension is a design question, not a repair, and is
+  booked as a successor item naming both nodes.
+evidence:
+  - kind: derivation
+    ref: core/13-delivery.md §4
+    note: derivation by dichotomy; premises by ID and steps in notes
+falsifier: |
+  An outcome-relevant alternative at a completed act for which there is no fact of the matter whether the standing configuration and the ground together determine the resolution; or a completed act with an outcome-relevant alternative resolved by nothing at all.
+test: |
+  Coding reliability over recorded acts: independent coders assigning every completed act's outcome-relevant alternatives to predetermined, exercised, or drawn without remainder, without collapsing the discharge coding into the store coding, and agreeing on where the fixing test is answerable.
+owner: none
+changed: v5.10 (2026-08-23, Phase 1a session)
+supersedes: DDD-frame-15
+notes: |
+  Filed at the Phase 1a session (2026-08-23; interactive curation, Emil ruling at every gate;
+  ratified at the GATE 2 ruling, value names settled at GATE 3 after the collision check the
+  ruling ordered).
+
+  Successor to DDD-frame-15, which is retired. The occasion is the Paper A external review (§4),
+  filed at meta/sessions/2026-08-23-phase1a/paper-a-objective-review.md in the projection
+  repository; canon at head governs and the review is the occasion, never the authority.
+
+  WHAT WAS WRONG. DDD-frame-15's four modes — filed decision, judgment, arrangement default,
+  uncontrolled draw — do not partition. Three overlaps were reported and all three reproduce
+  against canon:
+
+  1. A declared, governed default is both a filed decision and an arrangement default. The two
+     glosses do not differ in locus: "authored in advance and delivered" and "carried by the
+     arrangement's standing configuration without a fresh resolution" are both satisfied,
+     completely, by a lookup table. What would separate them is declaredness — governance status
+     — which DDD-frame-15's own region assigns to the store partition. The overlap was therefore
+     not repairable by a priority rule: every ordering that breaks the tie crosses the seam guard.
+  2. A thermostat reads ground at the act and produces output by a rule fixed beforehand. Canon
+     times a rule as encoded (term:encoded, before the act) while the judgment mode's gloss reads
+     as covering it. Compounding this, term:actor states in terms that "a thermostat qualifies",
+     so actorhood cannot do the discriminating work either.
+  3. Trained inference is policy-level commitment (term:commitment-level), judgment (the mode's
+     gloss), and standing encoded supply (DDD-cost-20: training converts judgment allocation to
+     encoded allocation inside the carrier) at once. A flat list of four has room for one answer
+     where three are true.
+
+  DERIVATION (by dichotomy, which is why exhaustiveness is provable here and was enumerated
+  before):
+
+  1. term:act — the act is the unit demand is counted in; DDD-frame-15's own test field already
+     quantified over "every completed act's outcome-relevant alternatives", so the unit is the
+     alternative and this claim's statement now says so.
+  2. DDD-frame-14 — discharge always produces a determinate: at every completed act each
+     outcome-relevant alternative in scope lands some way or other, in the world register at
+     least.
+  3. First dichotomy: given the arrangement's standing configuration and the ground at the act,
+     the resolution is determined or it is not. Exhaustive and exclusive by construction.
+     Determined is the predetermined value.
+  4. Second dichotomy, on the negative branch: what determines the resolution is either within
+     the arrangement's control or it is not. Exhaustive and exclusive by the meaning of control.
+     Within is exercised; outside is drawn.
+  5. The luck ruling, restated as a stated step and carried forward from DDD-frame-15 unchanged.
+     Provenance: ground-axes holding note revision 18, correction 1, Emil-ruled 2026-08-13; the
+     note is unratified, so the step is stated rather than cited. Content: whether an act escaped
+     is tested on the arrangement, not the outcome — was any adequate source-and-assurance
+     combination governing the act? If not, the act escaped whether or not what landed was
+     acceptable. Note this is the escape test and it is store-side; it does not discriminate
+     between this claim's three values, which is the seam guard doing its work.
+  6. The drawn branch is non-empty by steps 2 and 5: an act no governance supplies still lands an
+     outcome, drawn from a distribution the arrangement does not control.
+
+  WHY EXHAUSTIVENESS IS DIFFERENT IN KIND FROM ITS PREDECESSOR'S. DDD-frame-15 enumerated four
+  loci and asserted no fifth; that is a list, and a list can be counterexampled — which is what
+  happened. Steps 3 and 4 are two dichotomies, and a dichotomy cannot be. The claim's content
+  therefore moves out of the enumeration, where it was false, and into the answerability of the
+  fixing test, where the falsifier now sits and where it belongs.
+
+  A PAYOFF THE REPAIR WAS NOT AIMED AT, recorded because a repair that sheds an inherited defect
+  it was not aimed at is evidence the shape is right. The review reports at §6 that the actor
+  admission test distinguishes selection from mere perturbation by asserting that one is
+  selection, and the triage rules that open rather than patched. DDD-frame-15's judgment mode
+  turned on actorhood and inherited that openness whole. The fixing test does not ask whether
+  anything is an actor, so this axis does not inherit it. See region.
+
+  SIX CASES, TESTED BEFORE THE DISPOSITION WAS PROPOSED, per the session's charter. Each entry is
+  one outcome-relevant alternative.
+
+  | Case | Alternative | Value | term:commitment-level |
+  |---|---|---|---|
+  | trained inference, greedy decode | what to output | predetermined | policy committed, outcome open |
+  | trained inference, sampled decode | what to output | exercised, or drawn if the sampling source is uncontrolled | policy |
+  | lookup table | which output for this key | predetermined | outcome |
+  | declared default | which value when the trigger fires | predetermined | outcome, conditional on the trigger |
+  | randomised search with checking | which candidate is drawn | exercised if the generator is arrangement-controlled, drawn if not | none reaches this alternative |
+  | randomised search with checking | which candidates are admissible | predetermined | outcome, as a constraint set |
+  | abstention, expressed, rule-governed | whether to resolve | predetermined | policy |
+  | abstention, expressed, actor-declined | whether to resolve | exercised | principal, or none |
+  | abstention, unexpressed | — | out of region; deferred, see region | — |
+  | timeout | when to stop | predetermined | outcome |
+  | timeout | what to return at the cut | drawn, or exercised where the arrangement fixes the partial-state policy | none reaches this alternative |
+
+  Every case classifies exactly once. The check is an assurance position and not a value on this
+  axis, carried forward from DDD-frame-15's region unchanged.
+
+  THE VALUE NAMES, AND THE COLLISION CHECK THAT SETTLED THEM. Emil ordered the check at the GATE 2
+  ruling — naming, not structure, the structure surviving either way. Three names were drafted at
+  GATE 2 and two of them collided:
+
+  - fixed collided, and in the seam-critical direction. term:encoded reads "a constraint, fixed
+    before the act, by a rule". An incidental default is determined by configuration and ground
+    with no rule authored and no governance supplied, so it takes this value while not being
+    encoded at all — and the shared word would have read the discharge axis back into the store
+    partition, which is the one thing this claim exists to prevent. term:commitment-level
+    compounds it, using "fixed" twice for the composing axis's own content ("permitted
+    resolutions fixed directly"; "the generating procedure fixed"), so the two axes would have
+    shared their most load-bearing word.
+  - resolved collided worse, and as a genus rather than a neighbour. term:determination is "the
+    resolving of a decision against ground… Nothing else resolves anything", term:actor "resolves
+    decisions by reading ground", term:capacity carries "resolve capacity" and "jointly
+    resolved". Every value on this axis is a resolving; naming one of three after the genus is a
+    category error visible from the registry alone.
+  - drawn is clean and is kept. Its only technical neighbour in core/ is core/09's "drawn at each
+    act from a fixed eight-outcome prior", which is the intended sense exactly, and it is
+    continuous with the luck ruling's corrected wording.
+
+  predetermined has no occurrence anywhere in core/ and says what the value means without
+  importing "by a rule". exercised has no definitional use in the registry, and it joins this
+  axis to term:residual-discretion's own sentence — "a cryptographic hash… exercises no
+  discretion" — which is the convergence recorded below made lexical.
+
+  One wobble on exercised is recorded rather than smoothed: a seeded generator inside the
+  arrangement is not obviously "exercising" anything. The answer is that the value names what the
+  arrangement does with an alternative its commitments left open, not what the immediate producer
+  is — which is the same property that keeps actorhood off this axis, so the oddity and the
+  virtue are one thing.
+
+  Names deliberately rejected: settled (it is a term status value in the registry), selected
+  (term:selection carries a specific and unrelated technical meaning — verification relocated onto
+  the actor's identity), carried (terms.yaml already reads "carried by judgment", store-side
+  allocation vocabulary), occasioned (DDD-frame-16's word, and DDD-frame-16 is a composing axis).
+
+  THE CONVERGENCE WITH DDD-FRAME-02. Residual discretion is exactly the exercised value: the
+  commitments leave the alternative open and something within the arrangement's control settles
+  it at the act. Where it is settled outside that control it is drawn, which is stochasticity,
+  which term:residual-discretion already held is not discretion. The four-way separation of
+  review §5 and this partition are one distinction seen from two sides, which is why the session's
+  charter put them in one gate and why neither repair is complete without the other.
+
+  WHAT IS NOT DONE HERE. Nothing is minted. The two composing axes are term:commitment-level and
+  DDD-frame-16, both already canon. The reviewer's suggestion that "ungoverned resolution" would
+  read better than term:escape's "determined never, by nobody" touches a settled term, is outside
+  this session's booked scope, and is booked as a successor item — with the finding that an
+  external reader met the seam guard and still reported the phrasing as conflicting, which is a
+  finding about the guard's audience and not about its content.

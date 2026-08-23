@@ -580,7 +580,12 @@ terms:
     established_by: 14-indexed-determination.md
     status: draft
     canonical_md: |
-      > **Residual discretion** is the outcome-relevant variation remaining at the act after the
-      > arrangement's declared commitments are applied. It is not randomness: a deterministic
-      > arrangement can carry substantial discretion across unfamiliar cases, a randomised one
-      > can be tightly committed, and a zero-variance arrangement can be consistently wrong.
+      > **Residual discretion** is the outcome-relevant variation the arrangement's commitments
+      > leave open at the act, **held at fixed ground**: the alternatives still admissible once
+      > the standing configuration and the ground at the act are both given. It is not variation
+      > across ground — a cryptographic hash varies enormously with its input and exercises no
+      > discretion, because at each input the commitments fix the output exactly. It is not an
+      > observer's inability to predict a fixed policy, which is a fact about the observer and
+      > not about the arrangement. And it is not randomness: a deterministic arrangement can
+      > carry substantial discretion across unfamiliar cases, a randomised one can be tightly
+      > committed, and a zero-variance arrangement can be consistently wrong.

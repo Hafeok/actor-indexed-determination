@@ -2,14 +2,14 @@ format: 1
 id: DDD-frame-02
 kind: conceptual
 statement: |
-  Behavioural commitments attach at three levels — outcome, policy, principal — which compose and are not actor species; residual discretion is the outcome-relevant variation that remains after the arrangement's declared commitments are applied.
+  Behavioural commitments attach at three levels — outcome, policy, principal — which compose and are not actor species; residual discretion is the outcome-relevant variation those commitments leave open at the act, held at fixed ground.
 status: projected
 region: engineered arrangements
 test: >-
   boundary-case coverage; an arrangement whose commitments resist the three-level coding, or
   whose remaining outcome-relevant variation resists description as residual discretion
 owner: none
-changed: v5.7 (2026-08-18, Wave 3 session — residual-discretion clause added, exposition home gained, flag cleared)
+changed: "v5.10 (2026-08-23, Phase 1a session — residual-discretion clause corrected; quantifier fixed at held ground, declared struck)"
 notes: |
   Filed from the Wave 3 session (2026-08-18; interactive curation, Emil ruling at every gate;
   ratified at the GATE 3 ruling).
@@ -43,3 +43,68 @@ notes: |
   — the levels appeared only in pre-split scaffolding that did not migrate, "not in any core/
   document" — cleared at the Wave 3 GATE 1/GATE 3 rulings: core/14 is the statement in canon,
   and the clearance is recorded in the session decision.
+
+  [Phase 1a session, 2026-08-23; ratified at the GATE 2 ruling. Amendment, not supersession,
+  following this node's own Wave 3 precedent: the GATE 1 ruling there was "amend, not companion
+  claim", and the prior statement was quoted in these notes rather than filed as a separate node.
+  The shape was flagged for ruling rather than assumed, and Emil stated the principle it settles:
+  retire when the statement is wrong, amend when a clause is wrong. DDD-frame-15's enumeration did
+  not partition, so its statement died; this node's statement stands and its residual-discretion
+  clause did not.]
+
+  PRIOR STATEMENT, v5.7 to v5.9, preserved verbatim: "Behavioural commitments attach at three
+  levels — outcome, policy, principal — which compose and are not actor species; residual
+  discretion is the outcome-relevant variation that remains after the arrangement's declared
+  commitments are applied."
+
+  The first clause is untouched. Only the residual-discretion clause changes, and it changes in
+  two words and one added qualifier.
+
+  WHY. The Paper A external review (§5), filed at
+  meta/sessions/2026-08-23-phase1a/paper-a-objective-review.md in the projection repository, shows
+  the clause conflating four phenomena, with a cryptographic hash as the decisive case: enormous
+  outcome variation across ground, no discretion whatever. The clause as it stood admitted the
+  hash, because "the variation that remains" fixed no quantifier — a hash's outputs plainly vary,
+  and nothing in the sentence said the variation is held at fixed ground. Adding "held at fixed
+  ground" excludes it: at each input the commitments fix the output exactly, so nothing is left
+  open.
+
+  THE SEPARATION, RULED BEFORE ANY TEXT MOVED, per the session's charter that the four phenomena
+  separate first and minting comes after:
+
+  | Phenomenon | Discretion? | Why |
+  |---|---|---|
+  | outcome variation across ground | no | the commitments fix the output at each ground point; the variation is the ground's, not the arrangement's. The hash. |
+  | epistemic uncertainty about a fixed policy | no | a fact about an observer, not about the arrangement. An unread lookup table exercises no discretion. |
+  | stochasticity | no | already excluded by the clause's surviving sentence, which is the one thing the Wave 3 text got right |
+  | genuine unresolved or delegated selection | yes | this alone. The commitments leave the alternative open and something at the act settles it |
+
+  "declared" is struck for a second and independent reason. Declaredness is governance status,
+  which term:store answers and which DDD-frame-17's region excludes by construction; making
+  discretion depend on it would have imported the seam this session's other repair spent its
+  budget excluding. Undeclared commitments constrain the act exactly as declared ones do — that is
+  what makes an incidental default a default at all.
+
+  THE CONVERGENCE WITH DDD-FRAME-17, which is why the two repairs were drafted in one gate:
+  residual discretion is exactly the exercised value of DDD-frame-17's axis. The commitments leave
+  the alternative open (not predetermined) and something within the arrangement's control settles it at the
+  act. The four-way separation and the discharge partition are one distinction seen from two
+  sides, and neither repair is complete without the other. Where the alternative is settled by
+  something outside the arrangement's control it is drawn, which is stochasticity, and the clause's
+  surviving sentence already said that is not discretion.
+
+  TWO PHENOMENA THE REVIEW'S PROSE NAMES AND ITS RECOMMENDATION DOES NOT, reported rather than
+  silently dropped. §5's prose enumerates six candidates while its recommendation asks for four
+  terms. The two extras are "designer ignorance about consequences", which is a variant of
+  epistemic uncertainty aimed at downstream effects rather than at outputs and is likewise not
+  discretion; and "unspecified acceptance criteria", which is not a species of discretion at all —
+  it is an open acceptance predicate, and it is the existence condition DDD-measure-16 carries.
+  The convergence is worth recording: the review reached the same boundary from two sections.
+
+  NOTHING IS MINTED. term:residual-discretion already exists — minted at v5.8.0 by the Track 1
+  session under DDD-dec-26, established by core/14 §2, status draft. The session's charter
+  described canon at v5.7.0 and instructed that minting follow the separation; the term having
+  been minted in the interval, the separation lands as a correction to canonical text instead, and
+  Emil recorded the staleness at the GATE 1 ruling. No new term is proposed for the three
+  non-discretions: two already have canon names, and the third is the measure's estimability
+  condition.

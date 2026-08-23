@@ -1,0 +1,78 @@
+format: 1
+id: DDD-measure-17
+kind: conceptual
+statement: |
+  The verdict-entropy construction's domain and the region where the framework's floor result locates non-zero floor coincide, and the coincidence is principled rather than evidential: the two arguments share the closure of the acceptance predicate as a premise, so their agreement about where the line falls is close to definitional on the measure's side and is not evidence that the identification is correct.
+status: projected
+region: |
+  The boundary itself, on both sides: the measure's silence off the closing region, and the
+  floor's non-zero residual there. Both were derived before the other existed and neither was
+  fitted to the other, which is the whole of what this claim asserts.
+
+  Deliberately bounded away from three readings the predecessor admitted. It does not assert that
+  measurement fails off the region — only that this construction does not apply (DDD-measure-16).
+  It does not assert that governance fails off the region — the governance question is well-formed
+  on the total domain and its domain is strictly wider (DDD-frame-11). And it does not assert that
+  the coincidence supports the identification of determination demand with verdict entropy
+  (DDD-measure-01); that identification is a modelling claim and its falsifier is the
+  correspondence of the measure note's §7, not this agreement.
+evidence: []
+falsifier: |
+  A demonstration that the two arguments do not in fact share the closure premise — that the floor result can be derived without it, or that the construction's domain can be stated without it — in which case the agreement would be substantive and this claim would understate it; or an arrangement for which the two lines demonstrably part, a task whose predicate does not close for it and whose floor is nevertheless zero, or a closing predicate with non-zero floor.
+breaks: |
+  Nothing in core/ falls. The boundary remains available to argument as principled-because-drawn-twice, and the measure's availability condition (DDD-measure-16) is untouched, since it does not rest on the coincidence.
+test: >-
+  explanatory utility against the alternative reading: whether treating the agreement as
+  convergent evidence ever licenses an inference the shared premise does not already license.
+  Where it does, the alternative reading is preferable and this claim is wrong
+owner: paper-1
+changed: v5.10 (2026-08-23, Phase 1a session)
+supersedes: DDD-measure-06
+notes: |
+  Filed at the Phase 1a session (2026-08-23; interactive curation, Emil ruling at every gate;
+  ratified at the GATE 3 ruling).
+
+  The coincidence limb of DDD-measure-06, carried at the strength its own evidence supports. The
+  availability limb is DDD-measure-16. DDD-measure-06 is retired.
+
+  WHY projected AND NOT established, in the repository's own words rather than the reviewer's.
+
+  DDD-measure-06 carried this content at established, and its single evidence entry contained the
+  instruction it violated:
+
+  > near-definitional on the measure side; the force of the claim is the coincidence with core/03's
+  > independently derived floor. Claim the boundary as principled, not as convergent evidence.
+
+  The node then claimed it at established, which is the convergent reading. The companion
+  projection, written later and merged, says so outright — measure note §8.2 as merged: "That is
+  worth noticing and it is not evidence." Rule 2 requires a derivation or theorem for established.
+  A claim whose own companion projection says its content is not evidence does not meet that
+  condition, and CLAUDE.md's standing instrument says the rest: never present an identity holding
+  as evidence for the framework, and state which is arithmetic and which is a modelling claim,
+  always. Rule 4 forbids fusing the two in one file. The split into a formal/established
+  availability claim and a conceptual/projected coincidence claim is that instrument applied to a
+  node that had fused them.
+
+  WHAT IS NOT WEAKENED BY THE DEMOTION, and it matters because the boundary is the measure note's
+  best feature. The line was drawn twice, from different materials, with neither drawing fitted to
+  the other. That remains true and it is what makes the boundary principled rather than arbitrary.
+  What the demotion removes is the inference from the agreement to the correctness of the
+  identification — an inference the node never had the warrant for and which its own evidence
+  field told it not to make.
+
+  THE FALSIFIER'S FIRST LIMB IS THE INTERESTING ONE. If the shared closure premise could be
+  removed from either derivation, the agreement would become substantive and this claim would be
+  too weak rather than too strong. That is the shape a genuine strengthening would take, and
+  naming it is what keeps the demotion honest rather than merely cautious: the claim can fail by
+  understating as well as by overstating.
+
+  KIND. conceptual rather than formal, because what is asserted is a relation between two
+  arguments and their premises, assessed by explanatory utility and by counterexample to the
+  shared-premise reading — not an identity that holds. DDD-measure-16 is the formal half.
+
+  CITATION SITES. This node is the successor for the five live citations of DDD-measure-06 that
+  are specifically about the coincidence: papers/paper-a/paper-a.md lines 532, 605, 756 and 911,
+  and papers/measure-note/measure-note.md line 782 ("Measurement and closure have the same
+  domain"). Three of the Paper A sites carry the predecessor's status inline as **established**
+  and are wrong from the moment this lands. They are not repaired here: the pin is held at v5.9.0
+  by this session and Paper A's revision advances it, which is where those citations are rewritten.

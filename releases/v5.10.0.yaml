@@ -1,0 +1,125 @@
+format: 1
+version: v5.10.0
+# No `commit`: cut wherever this file lands on the default branch, the normal case
+# (spec/release-format.md §2 rule 3).
+date: 2026-08-23
+basis:
+  # The two repairs, and the nodes they create.
+  - DDD-frame-17
+  - DDD-measure-16
+  - DDD-measure-17
+  # The nodes they retire, cited because a release pins what it retires as much as what it files.
+  - DDD-frame-15
+  - DDD-measure-06
+  # The clause corrected in place, and the composing axis its correction leans on.
+  - DDD-frame-02
+  - DDD-frame-16
+  # The session's own ruling record, and the precedent it rests on for supersession.
+  - DDD-dec-30
+  - DDD-dec-15
+title: 'The discharge partition, and the measure boundary'
+summary: |
+  Two claim-level corrections from an external review of Paper A, taken at claim level because
+  both are cheapest there. **Two nodes retire and three are filed.** This is a minor and not a
+  patch: two claim statements die, one is amended, a registry entry's canonical text moves, and a
+  downstream pin will move with it — though **not this release** (see *Pin*, below).
+
+  ### The discharge partition
+
+  **`DDD-frame-15`'s four modes did not partition.** A declared, governed default was both a filed
+  decision and an arrangement default; a thermostat satisfied the judgment gloss under a rule canon
+  times as *encoded*; trained inference was policy commitment, judgment, and standing encoded
+  supply at once. All three reproduce against canon.
+
+  A priority rule was drafted and tested against six cases before any disposition was proposed —
+  trained inference, lookup tables, declared defaults, randomised search with checking, abstention,
+  timeout. **It ties twice, and both ties are the same tie**: *filed decision* against *arrangement
+  default*, which do not differ in locus. The only discriminator is declaredness, which is
+  governance status, which `DDD-frame-15`'s own region assigns to the store partition. **Every
+  ordering that classifies all six exactly once crosses the seam guard.**
+
+  **`DDD-frame-17` partitions by dichotomy instead.** Given the arrangement's standing configuration
+  and the ground at the act, the resolution is determined or it is not; if it is not, what
+  determines it is inside the arrangement's control or outside it. Three values — **predetermined ·
+  exercised · drawn** — and no remainder.
+
+  Two consequences are worth more than the repair itself:
+
+  - **Exhaustiveness is now provable rather than enumerated.** A list of four loci can be
+    counterexampled, and was. Two dichotomies cannot be. The claim's content moves out of the
+    enumeration, where it was false, and into the answerability of the fixing test, where the
+    falsifier now points.
+  - **Governance status is not an axis of the claim at all.** The seam guard stops being a
+    paragraph a reader may skip and becomes an exclusion the schema enforces. The values are named
+    off the store vocabulary for the same reason: `term:judgment` carries an accountability clause a
+    discharge mode cannot carry, so `DDD-frame-15`'s judgment mode and `term:judgment` were two
+    objects under one word inside canon.
+
+  A payoff the repair was not aimed at: **no value on the new axis turns on actorhood**, so it does
+  not inherit the actor admission test's open circularity. `DDD-frame-15`'s judgment mode did.
+
+  ### Residual discretion
+
+  **`DDD-frame-02`'s residual-discretion clause is corrected in place** — the statement stands, the
+  clause did not. Two changes: the variation is now **held at fixed ground**, which excludes the
+  cryptographic hash that made the conflation decisive; and *declared* is struck, because
+  declaredness is governance status and would have imported into this node the seam the other
+  repair spends its budget excluding.
+
+  `term:residual-discretion`'s canonical text moves with it, and now names the two phenomena it
+  previously admitted. **Nothing is minted** — the term already existed, minted at `v5.8.0`.
+
+  **Residual discretion is exactly `DDD-frame-17`'s `exercised` value.** The separation and the
+  partition are one distinction seen from two sides.
+
+  ### The measure boundary
+
+  **`DDD-measure-06` said *iff*, and its own companion projection concedes both directions.** The
+  measure note's boundary section separates existence, availability and estimability; the node
+  collapsed them. **Three defects, and only the first came from outside:**
+
+  1. The biconditional fails both ways. Closure is not sufficient — a fully decidable predicate can
+     admit several acceptable outputs, so no unique verdict function exists until the task class
+     supplies a tie-breaker. And an open predicate does not abolish measurement; what is
+     unavailable is *this construction*, not measurement as such.
+  2. **The statement was compound**, violating `spec/claim-format.md` §2 rule 1. One status governed
+     a near-definitional limb and a substantive one — **which is how the defect survived five minor
+     versions: demoting the node would have demoted the sound limb, so nobody demoted it.**
+  3. **The evidence field carried the instruction the node violated**: *"Claim the boundary as
+     principled, not as convergent evidence."*
+
+  The node splits on the fault line it already carried:
+
+  - **`DDD-measure-16`** — `formal`, **`established`**. The construction is available to an
+    arrangement exactly where the predicate closes *for that arrangement*. Existence and
+    estimability are separated into `region`, where boundedness is stated and never implied.
+  - **`DDD-measure-17`** — `conceptual`, **`projected`**. The coincidence with the floor, carried at
+    the strength its own evidence supports. Its falsifier can fire in **both** directions: if the
+    shared closure premise could be removed from either derivation the agreement would become
+    substantive and the claim would be too *weak*.
+
+  **The demotion lands on the coincidence, not on the boundary.** The line was still drawn twice,
+  from different materials, with neither fitted to the other. What goes is the inference from that
+  agreement to the correctness of the identification.
+
+  ### Retired, and kept
+
+  - **`DDD-frame-15`** — all ratified text preserved verbatim in `notes`, Wave 3 derivation retained
+    beneath it.
+  - **`DDD-measure-06`** — all ten fields preserved verbatim.
+
+  ### Pin
+
+  **The downstream pin is deliberately not advanced by this release.** Retiring `DDD-frame-15`
+  rewrites its statement, and Paper A block-quotes it — along with `DDD-frame-02`'s statement and
+  `term:residual-discretion`'s canonical text. Those three quotations are rewritten at Paper A's
+  revision, which advances the pin then. Canon is not shaped around a projection's convenience: the
+  pin waits, the retirement does not. The precedent is `DDD-dec-28`'s predecessor ruling, where
+  nodes were deliberately left unpinned rather than pinned to something not yet true.
+
+  ### Deliberately not in this release
+
+  The decoder repair (arrangement-relative admissibility) — research, not filing. The status/kind
+  separation — a registry change with its own session. The closure ladder's axis error — Paper A
+  prose, recorded as a constraint on the constructive-closure node's eventual filing rather than
+  repaired here. `term:escape`'s wording, which the review proposes changing and which is settled.

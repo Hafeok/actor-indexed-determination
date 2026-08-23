@@ -34,3 +34,12 @@ notes: |
   so decision IDs stay unique across the whole graph; this is the first decision filed in the
   principle repo, and core/decisions/ is created for it (CLAUDE.md already names the validator
   invocation).
+
+  [Phase 1a session, 2026-08-23 — notes only; ratified at the GATE 3 ruling. Statement,
+  principal, made, resolution, basedOn and every other field are untouched.] DDD-measure-06 in
+  basedOn is now retired, superseded by DDD-measure-16 and DDD-measure-17. The edge is left as
+  written: basis edges record what a decision was made on, and rewriting one to point at a
+  successor would falsify the record. What this decision took from DDD-measure-06 is the
+  availability limb — that the measure has a boundary at closure — which DDD-measure-16 carries
+  unchanged in force and at the same status. Nothing this decision rests on moved.
+
