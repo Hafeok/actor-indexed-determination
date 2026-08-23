@@ -10,7 +10,7 @@ status: draft
 **Read `00` through `12` first.** This document is deliberately minimal: it establishes the
 delivery vocabulary and points at the claims and the evidence; the corpus test that earned it
 (2026-08-14) carries the weight. The claims are `DDD-ground-01` through `DDD-ground-03` for the
-applicability side, `DDD-delivery-01` through `DDD-delivery-03` here, and `DDD-frame-15` and
+applicability side, `DDD-delivery-01` through `DDD-delivery-03` here, and `DDD-frame-17` and
 `DDD-frame-16` for the discharge section (§4); their files govern, and this prose is exposition.
 
 **Status: draft, pending ratification** — filed from the vocabulary-and-delivery session
@@ -76,20 +76,51 @@ regardless: the act completes, a determinate obtains — an outcome always, a ve
 predicate is declared (`core/09` §7a) — and the act's determination demand is thereby met by
 *something*.
 
-**Supply-mode exhaustiveness** (`DDD-frame-15`). At every completed act in a task's scope, the
-act's determination demand is discharged — by a filed decision, an actor's judgment, an
-arrangement default, or an uncontrolled draw. Escape is a supply mode of discharge, not an
-absence of it: an act no governance supplies still lands an outcome, drawn from a distribution
-the arrangement does not control. **Demand is never unmet, only ungoverned.**
+**Discharge exhaustiveness** (`DDD-frame-17`). At every completed act in a task's scope, each
+outcome-relevant alternative is discharged in exactly one of three ways. **Fixed** — the
+arrangement's standing configuration together with the ground at the act determines the
+resolution. **Resolved** — it does not, and something within the arrangement's control determines
+it at the act. **Drawn** — it does not, and what determines it lies outside the arrangement's
+control. Escape is a supply mode of discharge, not an absence of it: an act no governance supplies
+still lands an outcome, drawn from a distribution the arrangement does not control. **Demand is
+never unmet, only ungoverned.**
 
-**The seam this claim must not cross.** The four supply modes partition **discharge** — the
+The unit is the **outcome-relevant alternative**, not the act. One act may carry several: a
+timeout has a *when-to-stop* alternative, fixed by the deadline, and a *what-to-return* alternative,
+drawn from whatever partial state obtained.
+
+**Exhaustiveness here is provable, not enumerated.** Given the standing configuration and the
+ground, the resolution is determined or it is not; if it is not, what determines it is inside the
+arrangement's control or outside it. Two dichotomies, three values, no remainder. This is the
+repair that retired `DDD-frame-15`, whose four modes — filed decision, judgment, arrangement
+default, uncontrolled draw — were exhaustive only by enumeration over loci that turned out not to
+be disjoint. A declared default satisfied two of them completely, and nothing but *declaredness*
+would have separated the two, which is the one thing this document may not use here.
+
+**The seam this claim must not cross.** The three values partition **discharge** — the
 production of a determinate at the act. They do not partition **governance-supply**, and the
 store partition (`{rule, check, actor, nothing}` — no fifth source) is not this partition under
 new names: there, escape is *nothing*, because the question is what governance supplied, and
 nothing did; here, the same act's demand is discharged by an *uncontrolled draw*, because the
 question is what the world produced, and the world never produces nothing. A check, likewise, is
-an assurance position, not a discharge mode. The two partitions answer different questions about
+an assurance position, not a discharge value. The two partitions answer different questions about
 the same act, and neither reduces to the other.
+
+**Governance status is not an axis here, and the values are named so it cannot become one.**
+*Fixed*, *resolved* and *drawn* share no word with `term:store`, with the timing terms, or with
+`term:escape`. The retired mode list borrowed *filed decision* and *judgment* from the store
+vocabulary while partitioning a different object — and `term:judgment` carries an accountability
+clause ("a judgment allocation naming no accountable party is not an allocation") that a discharge
+value cannot carry, since an ungoverned actor's variation still discharges. Two objects under one
+word is a defect the shared names caused; distinct names are the cheaper half of the repair.
+
+**This axis does not stand alone, and the others are not restated as claims** because they are
+already canon. `DDD-frame-16`, below, says discharge is act-indexed. The second — at which *level*
+the arrangement committed in advance — is `14`'s, and `14` §2 states the composition from its own
+side, where the term it needs is established. A trained carrier decoding greedily is *fixed* here
+and committed at the level of its policy there, and both readings are true at once. That
+composition is what the flat mode list could not represent, and it is why trained inference read as
+three incompatible things.
 
 **Discharge is act-indexed** (`DDD-frame-16`). Standing supply is inherited per act; occasioned
 supply is produced per act; there is no act-free discharge. Governance never chooses *whether*
@@ -103,7 +134,7 @@ flag is the finding.
 
 ## 5. What this document does not do
 
-It adds no store — the partition `{rule, check, actor, nothing}` is untouched, `DDD-frame-15`
+It adds no store — the partition `{rule, check, actor, nothing}` is untouched, `DDD-frame-17`
 partitions discharge rather than supply (§4), and `DDD-delivery-01` is a correctness condition
 on *reading* allocation, not a fifth cell. It does not amend maturation — the harvest-channel
 condition (`08`) gains a consuming-side consequence, named in canon at `core/09` §7a

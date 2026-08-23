@@ -1,0 +1,171 @@
+format: 1
+id: DDD-dec-30
+kind: decision
+statement: |
+  The four discharge modes of DDD-frame-15 are retired and superseded by DDD-frame-17, which partitions discharge by two dichotomies — determined or not by standing configuration and ground together, and if not, inside or outside the arrangement's control — yielding three values named off the store vocabulary: fixed, resolved, drawn; the unit of classification is fixed at the outcome-relevant alternative; governance status is excluded from the claim by construction rather than guarded by a paragraph; and DDD-frame-02's residual-discretion clause is corrected in place to hold the variation at fixed ground and to strike declared, no term being minted because term:residual-discretion already exists.
+principal: Emil
+made: 2026-08-23, Phase 1a session (GATE 1 ruled; GATE 2 proposing)
+resolution: |
+  [PROPOSED — Emil ratifies at GATE 2; nothing below is settled until he does. The banner is
+  struck at the ruling, per DDD-dec-29's precedent.]
+
+  ## What was ruled at GATE 1, and what this decision records
+
+  GATE 1 offered two dispositions for the discharge partition: (a) an explicit priority rule
+  assigning each case exactly once, or (b) the modes recast as orthogonal axes. Emil ruled (b),
+  and ruled the renaming as its cheaper half rather than as an alternative to it. This decision
+  records the disposition as drafted at GATE 2, together with three findings that arrived during
+  drafting and were not available when the disposition was ruled.
+
+  ## Why (a) was not available, which is the load-bearing half of the ruling
+
+  A priority rule was drafted and tested against the six cases the session's charter names —
+  trained inference, lookup tables, declared defaults, randomised search with checking,
+  abstention, timeout. It classifies four of the six cleanly and ties twice, on declared defaults
+  and on a timeout's when-to-stop alternative. Both ties are the same tie: filed decision against
+  arrangement default.
+
+  That tie cannot be broken. The two modes do not differ in locus — "authored in advance and
+  delivered" and "carried by the arrangement's standing configuration without a fresh resolution"
+  are both satisfied, completely, by a lookup table. The only available discriminator is
+  declaredness, which is governance status, which DDD-frame-15's own region assigns to the store
+  partition. Every ordering that classifies all six exactly once therefore does so by crossing the
+  seam guard.
+
+  The consequence Emil named at the ruling is the disposition's real payoff and is recorded as its
+  reason, not as a side effect: under (b) governance status is not an axis of the claim at all.
+  The guard stops being a paragraph a reader may skip and becomes an exclusion the schema
+  enforces.
+
+  ## The three values, and why they are exhaustive rather than enumerated
+
+  Given the arrangement's standing configuration and the ground at the act, the resolution is
+  determined or it is not — exhaustive and exclusive by construction. If it is not, what
+  determines it is within the arrangement's control or outside it — exhaustive and exclusive by
+  the meaning of control. Two dichotomies, three values, no remainder.
+
+  DDD-frame-15's exhaustiveness was an enumeration over four loci that turned out not to be
+  disjoint. DDD-frame-17's is provable. That is a strengthening and it is the reason the recast is
+  cheaper than it looks: the claim's content moves out of the enumeration, where it was false, and
+  into the answerability of the fixing test, where the falsifier now sits.
+
+  ## Why the values are renamed, and what the shared words were costing
+
+  term:judgment carries an accountability clause — "a judgment allocation naming no accountable
+  party is not an allocation; it is Escaped with an executor attached" — that a discharge mode
+  cannot carry, because an ungoverned actor's variation still discharges the act. DDD-frame-15's
+  judgment mode and term:judgment were therefore two distinct objects sharing one word inside
+  canon, not a reader's confusion. filed decision was likewise store-adjacent.
+
+  fixed, resolved and drawn share no word with term:store, with the timing terms
+  (term:encoded, term:mechanical, term:judgment), or with term:escape.
+
+  ## Three findings from drafting, not available at the GATE 1 ruling
+
+  1. **term:actor states that "a thermostat qualifies".** GATE 1's draft axis separated an
+     artefact producer from an actor producer; canon forbids that split, because the very case the
+     review raises is a canonical actor. The axis was rebuilt on the fixing test instead, and the
+     rebuild is strictly better: it resolves the thermostat by asking whether the standing rule
+     fixes the output given the ground — which it does — rather than by adjudicating actorhood.
+     A second payoff follows. The review reports at §6 that the actor admission test distinguishes
+     selection from mere perturbation by asserting that one is selection, and the triage rules that
+     open rather than patched. DDD-frame-15's judgment mode inherited that open problem.
+     DDD-frame-17 does not: no value on this axis turns on actorhood.
+
+  2. **The trained-inference case is answered rather than suppressed, and it splits.** A
+     greedy-decoded carrier is fixed — the same value as a lookup table, which is exactly what
+     DDD-cost-20 says when it holds that training converts judgment allocation to encoded
+     allocation inside the carrier. A sampled carrier is resolved, or drawn where the sampling
+     source is not arrangement-controlled. The three incompatible readings the review reports
+     dissolve into one value on this axis plus a policy-level commitment on term:commitment-level's,
+     both true at once. The cost is real and is recorded: the same model is not always the same
+     value, and coding practice must read the deployment, not the artefact.
+
+  3. **Retiring DDD-frame-15 changes its statement, and two projections block-quote it.** Canon's
+     retirement convention rewrites a retired statement into a retirement record (DDD-frame-09,
+     DDD-measure-08 are the exemplars). Paper A block-quotes DDD-frame-15's live statement, and
+     also DDD-frame-02's and term:residual-discretion's. This is a consequence for the downstream
+     pin, not for canon, and it is why the session proposes not advancing the pin — see the
+     downstream session record. Canon is not shaped around a projection's convenience; the
+     projection's pin waits.
+
+  ## What DDD-frame-02's correction does, and why nothing is minted
+
+  The residual-discretion clause conflated four phenomena, with a cryptographic hash as the
+  decisive case. The clause fixed no quantifier, so a hash's enormous variation across inputs read
+  as discretion. "Held at fixed ground" excludes it: at each input the commitments fix the output
+  exactly.
+
+  "declared" is struck for an independent reason. Declaredness is governance status, and making
+  discretion depend on it would import the seam the other half of this decision spends its budget
+  excluding. Undeclared commitments constrain an act exactly as declared ones do; that is what
+  makes an incidental default a default.
+
+  The separation ruled before any text moved: outcome variation across ground is not discretion
+  (the hash); epistemic uncertainty about a fixed policy is not (it is a fact about an observer);
+  stochasticity is not (the clause's surviving sentence already said so); genuine unresolved or
+  delegated selection is, and it alone.
+
+  Nothing is minted. term:residual-discretion was minted at v5.8.0 under DDD-dec-26 — the
+  session's charter described canon at v5.7.0, and Emil recorded the staleness at the GATE 1
+  ruling. The separation therefore lands as a correction to canonical text. No term is proposed
+  for the three non-discretions: two already have canon names, and the third is the measure's
+  estimability condition.
+
+  ## The convergence, which is why the two repairs were drafted in one gate
+
+  Residual discretion is exactly DDD-frame-17's **resolved** value. The commitments leave the
+  alternative open, and something within the arrangement's control settles it at the act. Where it
+  is settled outside that control it is **drawn**, which is stochasticity, which is not discretion.
+  The four-way separation and the discharge partition are one distinction seen from two sides, and
+  neither repair is complete without the other.
+
+  ## Deliberately not done
+
+  - **No priority rule anywhere.** Not as a fallback, not in notes.
+  - **The seam guard is not rewritten.** It is carried into DDD-frame-17's region verbatim,
+    because it was correctly ratified and is orthogonal to the overlaps that killed the mode list.
+  - **term:escape is untouched.** The review proposes that "ungoverned resolution" would read
+    better than "determined never, by nobody". That is a settled term, outside this session's
+    booked scope, and is booked as a successor item — with the finding that an external reader met
+    the seam guard and still reported the phrasing as conflicting, which is a finding about the
+    guard's audience and not about its content.
+  - **The unexpressed-abstention case is deferred, not ruled**, per Emil's GATE 1 ruling and the
+    C-1 precedent. The successor item names both term:act-individuation and DDD-frame-16: if an
+    unexpressed abstention is not an act while the determinable is nevertheless determined, that is
+    act-free discharge, which DDD-frame-16 denies.
+  - **No amendment to DDD-frame-16's statement.** Its derivation step 3 names the retired mode
+    count; the amendment is notes-only, because the step turns on discharge being total over
+    completed acts and not on how many values the partition has.
+basis:
+  - DDD-frame-15
+  - DDD-frame-16
+  - DDD-frame-14
+  - DDD-frame-02
+  - DDD-cost-20
+  - DDD-dec-26
+  - term:store
+  - term:judgment
+  - term:encoded
+  - term:escape
+  - term:actor
+  - term:act
+  - term:commitment-level
+  - term:residual-discretion
+notes: |
+  Supersession, never rewriting, for ratified text — the DDD-dec-09 / DDD-dec-10 / DDD-dec-15
+  precedent. DDD-frame-15 is retired and kept in the graph with its ratified statement preserved
+  verbatim in its notes and its Wave 3 derivation retained beneath, so the retirement does not
+  destroy the record it corrects.
+
+  DDD-frame-02 is amended rather than superseded, following that node's own Wave 3 precedent —
+  the GATE 1 ruling there was "amend, not companion claim", and the prior statement was quoted in
+  its notes rather than filed as a separate node. The choice is flagged at GATE 2 for ruling
+  rather than assumed, because the two repairs in this decision take different shapes and the
+  asymmetry should be deliberate: DDD-frame-15's defect is in what its statement enumerates, so
+  the statement dies; DDD-frame-02's is in two words of a clause whose first half is untouched.
+
+  The occasion for both repairs is the Paper A external review, filed with this session's record
+  at meta/sessions/2026-08-23-phase1a/ in the projection repository. Canon at head governs; the
+  review is cited as the occasion and never as authority, and no field in any node drafted here
+  cites it as evidence.

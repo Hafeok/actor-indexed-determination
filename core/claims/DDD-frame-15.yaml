@@ -2,70 +2,99 @@ format: 1
 id: DDD-frame-15
 kind: conceptual
 statement: |
-  At every completed act in a task's scope, the act's determination demand is discharged — by a filed decision, an actor's judgment, an arrangement default, or an uncontrolled draw; escape is a supply mode of discharge, not an absence of supply — demand is never unmet, only ungoverned.
-status: projected
-region: |
-  Completed acts within a task's declared scope. The seam this claim must not cross, stated as
-  region: the four modes partition discharge — the physical production of a determinate at the
-  act — not governance-supply. In the store partition (term:store) escape remains nothing and
-  there is no fifth source, because the question there is what governance supplied; here the
-  same act's demand is met by an uncontrolled draw, because the question is what the world
-  produced, and the world never produces nothing. The two partitions answer different questions
-  about the same act, and neither reduces to or replaces the other.
-evidence:
-  - kind: derivation
-    ref: core/13-delivery.md §4
-    note: derivation check run at Wave 3 GATE 2; premises by ID and steps in notes
-falsifier: |
-  An act exhibiting a fifth supply mode unclassifiable as the four; or an act completing with an outcome-relevant alternative resolved by nothing at all.
-test: |
-  Coding reliability over recorded acts: independent coders assigning every completed act's outcome-relevant alternatives to the four modes without remainder, and without collapsing the discharge coding into the store coding.
-owner: none
-changed: v5.7 (2026-08-18, Wave 3 session)
+  RETIRED — "every completed act's determination demand is discharged by a filed decision, an actor's judgment, an arrangement default, or an uncontrolled draw." The four modes do not partition: a declared default is both a filed decision and an arrangement default, a thermostat satisfies the judgment gloss under a rule canon times as encoded, and trained inference is policy commitment, judgment and standing encoded supply at once. Superseded by DDD-frame-17, which partitions the same object by dichotomy on determination and control.
+status: retired
+region: —
+changed: v5.10 (2026-08-23, Phase 1a session)
 notes: |
-  Filed from the Wave 3 session (2026-08-18; interactive curation, Emil ruling at every gate;
-  ratified at the GATE 2 ruling — the seam guard passed verbatim).
+  [PROPOSED — drafted at the Phase 1a session's GATE 2, pending Emil's ruling. Nothing here is
+  ratified. The banner is struck when the ruling lands, per the DDD-dec-26 / DDD-dec-29 pattern.]
 
-  Derivation (premises by ID; one step is a restated ruling, provenance marked):
+  Retired at the Phase 1a session (2026-08-23; interactive curation, Emil ruling at every gate).
+  Killed by the Paper A external review §4, filed at
+  meta/sessions/2026-08-23-phase1a/paper-a-objective-review.md in the projection repository;
+  corrected by DDD-frame-17, which carries the supersedes edge per spec §1.
 
-  1. DDD-frame-14 — discharge always produces a determinate: at every completed act, each
-     outcome-relevant alternative in scope lands some way or other, in the world register at
-     least.
-  2. term:escape — decided-by-nobody as a first-class category, carrying latent defect
-     exposure. Exposure presupposes a landed outcome: canon's escape already describes an act
-     that completes ungoverned, not an act that fails to complete.
-  3. The luck ruling, restated as a stated step. Provenance: ground-axes holding note revision
-     18, correction 1, Emil-ruled 2026-08-13; the note is unratified, so the step is stated
-     here in full rather than cited, and becomes citable by reference when the note's
-     corrections ratify. Content: whether an act escaped is tested on the arrangement, not the
-     outcome — was any adequate source-and-assurance combination governing the act? If not, the
-     act escaped whether or not what landed was acceptable, because what landed was drawn from
-     a distribution the arrangement did not control. Wording note, reported not harmonised: the
-     ruling's own words say "a drawn verdict"; under DDD-frame-14's registers, which postdate
-     it, what an ungoverned act draws is an outcome — a verdict exists only where a predicate
-     is declared. The restatement uses the register-correct word.
-  4. Exhaustiveness by cases on where the resolving variation lives: authored in advance and
-     delivered (a filed decision); produced at the act by an actor reading ground (judgment);
-     carried by the arrangement's standing configuration without a fresh resolution (a
-     default); or in nothing the arrangement controls (the draw, non-empty by steps 2-3). A
-     fifth mode would need a completed act whose alternative resolves in none of these loci —
-     the falsifier's first limb. Note the modes classify the producer of the resolution, not
-     its governance status: a default may be declared and governed or incidental and not; the
-     governance question is the store partition's, per the region.
-  5. Foundation §4.3 (Paper A revision foundation, session record 2026-08-18; source material,
-     unratified): "'Escaped' does not mean 'determined by nothing.' Defaults, physical
-     behaviour, legacy code, incentives, or accidental interaction will still determine an
-     outcome." Corroboration of step 3's content from the material this claim makes
-     projectable.
+  THE STATEMENT AS RATIFIED, preserved verbatim because it is ratified text and two projections
+  quote it:
 
-  Source-material divergence, reported not harmonised: the foundation's §4.1 enumerates
-  resolution sources as prior commitment / runtime actor / environmental-or-default /
-  failure-or-non-resolution. Its third source mixes declared defaults with uncontrolled
-  dynamics, and its fourth is not a discharge mode — under DDD-frame-14 even a failed
-  arrangement's act lands a world-register outcome. This claim's four modes split the
-  foundation's third along the luck ruling's line and absorb its fourth into the draw. Canon at
-  head governs; the divergence is the projection gap Paper A closes by projecting this claim
-  rather than its §4.1 table.
+  > At every completed act in a task's scope, the act's determination demand is discharged — by a
+  > filed decision, an actor's judgment, an arrangement default, or an uncontrolled draw; escape
+  > is a supply mode of discharge, not an absence of supply — demand is never unmet, only
+  > ungoverned.
 
-  The compact form — demand is never unmet, only ungoverned — is the conjunction of this claim
-  with DDD-frame-16, per the rev18 booking.
+  WHAT SURVIVES THE RETIREMENT, and it is most of the claim. The compact form — demand is never
+  unmet, only ungoverned — is unchanged and is carried by DDD-frame-17's closing clause. The seam
+  guard is unchanged and is carried into DDD-frame-17's region verbatim; it was correctly
+  ratified, it separates governance-supply from discharge, and it is orthogonal to the overlaps
+  that killed the mode list. Escape as a supply mode of discharge rather than an absence of supply
+  is unchanged. What is retired is the four-way enumeration alone.
+
+  WHAT KILLED IT. The four modes were exhaustive "by cases on where the resolving variation
+  lives", and the loci are not disjoint. The decisive limb is the first overlap rather than the
+  most dramatic one: filed decision and arrangement default cannot be separated by any locus test,
+  because they do not differ in locus — a lookup table satisfies both glosses completely. The only
+  available discriminator is declaredness, which this claim's own region assigns to the store
+  partition. A priority rule assigning each case exactly once was drafted and tested against the
+  six cases the review names, and it ties on declared defaults and on a timeout's when-to-stop
+  alternative; every ordering that breaks those ties crosses the seam guard. That is why the
+  disposition is a recast and not a rule.
+
+  A SECOND DEFECT THE REVIEW DID NOT REPORT, found while drafting the successor and recorded here
+  because it is this claim's and not the successor's: this claim's statement quantified over acts
+  while its own test field quantified over "every completed act's outcome-relevant alternatives".
+  Those are different claims. Several reported overlaps dissolve once the unit is fixed at the
+  alternative — a timeout act carries a when-to-stop alternative and a what-to-return alternative,
+  and they discharge differently. DDD-frame-17's statement fixes the unit.
+
+  DERIVATION AND PROVENANCE AS RATIFIED, retained below unchanged so the retirement does not
+  destroy the record it is a correction to.
+
+  ----- original notes, Wave 3, verbatim -----
+
+    Filed from the Wave 3 session (2026-08-18; interactive curation, Emil ruling at every gate;
+    ratified at the GATE 2 ruling — the seam guard passed verbatim).
+
+    Derivation (premises by ID; one step is a restated ruling, provenance marked):
+
+    1. DDD-frame-14 — discharge always produces a determinate: at every completed act, each
+       outcome-relevant alternative in scope lands some way or other, in the world register at
+       least.
+    2. term:escape — decided-by-nobody as a first-class category, carrying latent defect
+       exposure. Exposure presupposes a landed outcome: canon's escape already describes an act
+       that completes ungoverned, not an act that fails to complete.
+    3. The luck ruling, restated as a stated step. Provenance: ground-axes holding note revision
+       18, correction 1, Emil-ruled 2026-08-13; the note is unratified, so the step is stated
+       here in full rather than cited, and becomes citable by reference when the note's
+       corrections ratify. Content: whether an act escaped is tested on the arrangement, not the
+       outcome — was any adequate source-and-assurance combination governing the act? If not, the
+       act escaped whether or not what landed was acceptable, because what landed was drawn from
+       a distribution the arrangement did not control. Wording note, reported not harmonised: the
+       ruling's own words say "a drawn verdict"; under DDD-frame-14's registers, which postdate
+       it, what an ungoverned act draws is an outcome — a verdict exists only where a predicate
+       is declared. The restatement uses the register-correct word.
+    4. Exhaustiveness by cases on where the resolving variation lives: authored in advance and
+       delivered (a filed decision); produced at the act by an actor reading ground (judgment);
+       carried by the arrangement's standing configuration without a fresh resolution (a
+       default); or in nothing the arrangement controls (the draw, non-empty by steps 2-3). A
+       fifth mode would need a completed act whose alternative resolves in none of these loci —
+       the falsifier's first limb. Note the modes classify the producer of the resolution, not
+       its governance status: a default may be declared and governed or incidental and not; the
+       governance question is the store partition's, per the region.
+    5. Foundation §4.3 (Paper A revision foundation, session record 2026-08-18; source material,
+       unratified): "'Escaped' does not mean 'determined by nothing.' Defaults, physical
+       behaviour, legacy code, incentives, or accidental interaction will still determine an
+       outcome." Corroboration of step 3's content from the material this claim makes
+       projectable.
+
+    Source-material divergence, reported not harmonised: the foundation's §4.1 enumerates
+    resolution sources as prior commitment / runtime actor / environmental-or-default /
+    failure-or-non-resolution. Its third source mixes declared defaults with uncontrolled
+    dynamics, and its fourth is not a discharge mode — under DDD-frame-14 even a failed
+    arrangement's act lands a world-register outcome. This claim's four modes split the
+    foundation's third along the luck ruling's line and absorb its fourth into the draw. Canon at
+    head governs; the divergence is the projection gap Paper A closes by projecting this claim
+    rather than its §4.1 table.
+
+    The compact form — demand is never unmet, only ungoverned — is the conjunction of this claim
+    with DDD-frame-16, per the rev18 booking.

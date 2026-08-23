@@ -33,6 +33,16 @@ notes: |
   3. DDD-frame-15 — every completed act's demand is discharged by one of four modes. With step
      1, discharge and completed acts are in bijection on the demand ledger: no act-free
      discharge, and no discharge-free completed act.
+
+     [PROPOSED — Phase 1a session, 2026-08-23, notes only; pending Emil's ruling. Statement,
+     status, region, evidence, falsifier, test, owner and changed are untouched, and nothing here
+     supersedes anything.] DDD-frame-15 is retired and superseded by DDD-frame-17. This step
+     carries forward unchanged in force: what it needs is that every completed act's demand is
+     discharged some way or other, which DDD-frame-17 asserts of every outcome-relevant
+     alternative and therefore a fortiori of every act. The literal mode count — "one of four
+     modes" — is the retired enumeration and reads now as "one of three values: fixed, resolved,
+     or drawn". The bijection the step establishes is unaffected, because it turns on discharge
+     being total over completed acts and not on how many values the partition has.
   4. term:encode-verify-split — both halves of the split are defined relative to the act
      (pre-resolving before it, verifying after it): even fully pre-resolved demand is consumed
      per act, at inheritance, which is what "paid once, inherited by every run" means and why
@@ -43,3 +53,17 @@ notes: |
   of DDD-frame-15 read through this claim: since every completed act discharges, the only
   governable variable is which mode does the discharging, chosen in advance or defaulted at
   the act.
+
+  [PROPOSED — Phase 1a session, 2026-08-23, notes only.] Read now against DDD-frame-17, the
+  contrapositive is sharper rather than weaker: the governable variable is which of fixed,
+  resolved or drawn does the discharging, and governance moves an alternative between those
+  values by changing the standing configuration or by changing what it controls — never by
+  choosing whether demand is supplied at all.
+
+  ONE TENSION, RAISED HERE AND DEFERRED, naming this node because it is half of it. An abstention
+  that is never expressed sits outside DDD-frame-17's region on the reading that term:act runs an
+  act "to an expressed outcome". If that reading holds and the determinable is nevertheless
+  determined, the determination is act-free, which this claim denies. Either the reading is wrong,
+  or an unexpressed abstention determines nothing, or this claim's scope needs a boundary it does
+  not currently state. That is a design question and not a repair; it is booked as a successor
+  item naming this node and term:act-individuation, per the C-1 precedent.

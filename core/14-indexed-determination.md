@@ -59,14 +59,33 @@ The levels compose: one deployment can select a principal, bind it to a policy, 
 outcome constraints on what results. What the commitments do not reach is left at the act.
 
 <!-- ddd:embed id=term:residual-discretion -->
-> **Residual discretion** is the outcome-relevant variation remaining at the act after the
-> arrangement's declared commitments are applied. It is not randomness: a deterministic
-> arrangement can carry substantial discretion across unfamiliar cases, a randomised one
-> can be tightly committed, and a zero-variance arrangement can be consistently wrong.
+> **Residual discretion** is the outcome-relevant variation the arrangement's commitments
+> leave open at the act, **held at fixed ground**: the alternatives still admissible once
+> the standing configuration and the ground at the act are both given. It is not variation
+> across ground — a cryptographic hash varies enormously with its input and exercises no
+> discretion, because at each input the commitments fix the output exactly. It is not an
+> observer's inability to predict a fixed policy, which is a fact about the observer and
+> not about the arrangement. And it is not randomness: a deterministic arrangement can
+> carry substantial discretion across unfamiliar cases, a randomised one can be tightly
+> committed, and a zero-variance arrangement can be consistently wrong.
 <!-- /ddd:embed -->
 
 The analytical question is therefore never which of three kinds an actor is; it is at which
 levels the arrangement has committed, and what residual discretion is left at the act.
+
+**Held at fixed ground — the qualifier is doing work.** Residual discretion is what the
+commitments leave open *at a ground point*, never variation *across* ground points. A
+cryptographic hash varies enormously with its input and exercises no discretion at all: at each
+input the commitments fix the output exactly, so nothing is left open. Three things are therefore
+not residual discretion, and they are commonly mistaken for it — outcome variation across ground,
+an observer's inability to predict a fixed policy, and stochasticity. Only the fourth is:
+selection the commitments genuinely leave unresolved or delegate.
+
+This is the discharge partition seen from the commitment side. Residual discretion is exactly the
+**resolved** value of `DDD-frame-17` — the alternative not fixed by standing configuration and
+ground together, settled at the act by something within the arrangement's control. Where it is
+settled by something outside that control it is **drawn**, which is stochasticity, and
+stochasticity is not discretion.
 
 ## 3. The relational floor
 
