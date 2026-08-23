@@ -100,7 +100,7 @@ notes: |
   warning class, which is instrumentation on the projection's own checker; it travels with the
   instrumentation batch by the GATE 1 ruling and files downstream, where the checker lives.
 
-  [Phase 1a session, 2026-08-23 — notes only; PROPOSED, pending Emil's GATE 3 ruling. Statement,
+  [Phase 1a session, 2026-08-23 — notes only; ratified at the GATE 3 ruling. Statement,
   principal, made, resolution, basedOn and every other field are untouched.] DDD-measure-06 in
   basedOn is now retired, superseded by DDD-measure-16 and DDD-measure-17. The edge is left as
   written, for the reason given in DDD-dec-08's corresponding note: a basis edge records what a
