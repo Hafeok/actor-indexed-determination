@@ -1,6 +1,6 @@
 # Actor-Indexed Determination
 
-> \*\*Where you cannot check the work, check the worker.\*\*
+> **Where you cannot check the work, check the worker.**
 
 A framework for deciding **where determinations are supplied, how they are assured, and who answers for them** — at the level of individual decisions rather than whole jobs.
 
@@ -40,7 +40,7 @@ Where the work can be checked, assurance can attach to the check rather than to 
 
 Different allocations therefore carry different costs, different assurance, different residual discretion, and different answers to who is accountable.
 
-> \*\*The framework does not tell you which to choose. It tells you what you are choosing between, and it makes the choice one you make on the record.\*\*
+> **The framework does not tell you which to choose. It tells you what you are choosing between, and it makes the choice one you make on the record.**
 
 \---
 
@@ -48,8 +48,8 @@ Different allocations therefore carry different costs, different assurance, diff
 
 The framework begins with two primitives:
 
-> \*\*Decisions\*\* — the things determined.  
-> \*\*Ground\*\* — what they are determined against.
+> **Decisions** — the things determined.  
+> **Ground** — what they are determined against.
 
 A **determination** is the resolving of a decision against ground.
 
@@ -61,7 +61,7 @@ The unit of analysis is therefore not simply a task, nor simply an actor.
 
 Unresolved determination is indexed by:
 
-> \*\*⟨task, ground, acceptance relation, tolerance, arrangement, assurance⟩\*\*
+> **⟨task, ground, acceptance relation, tolerance, arrangement, assurance⟩**
 
 Change one coordinate and the determination problem may change with it.
 
@@ -84,7 +84,7 @@ Every governing determination is supplied from one of four places:
 
 In shorthand:
 
-> \*\*{rule, check, actor, nothing}.\*\*
+> **{rule, check, actor, nothing}.**
 
 There is no fifth source.
 
@@ -96,7 +96,7 @@ The forbidden condition is not redundancy.
 
 It is **uncovered demand**.
 
-> \*\*Every governing decision gets made. The only forbidden outcome is the one made by nobody.\*\*
+> **Every governing decision gets made. The only forbidden outcome is the one made by nobody.**
 
 See [`core/01-the-principle.md`](core/01-the-principle.md) and [`core/02-completeness.md`](core/02-completeness.md).
 
@@ -110,7 +110,7 @@ The irreducible judgment floor is not a property of how "difficult" a task is.
 
 It is a property of whether adequacy can be checked.
 
-> \*\*The floor is non-zero exactly when, and because, you cannot check the work.\*\*
+> **The floor is non-zero exactly when, and because, you cannot check the work.**
 
 Where the acceptance predicate **closes for the arrangement** — relevant ground is observable and adequacy can be evaluated within the required resource, latency, confidence, and assurance bounds — no particular determiner is required for trust. Different paths may produce acceptable outputs because the result itself can be checked.
 
@@ -118,7 +118,7 @@ Where the predicate does **not** close, that route to assurance disappears.
 
 Verification moves from the output toward the supplier:
 
-> \*\*You cannot check the work, so you check the worker.\*\*
+> **You cannot check the work, so you check the worker.**
 
 This explains why organisations use licences, qualifications, grades, track records, certification, institutional standing, and selection.
 
@@ -169,7 +169,7 @@ The practical question is therefore not:
 
 It is:
 
-> \*\*For this decision, what has already been committed, what remains open, what can be checked, what arrangement can carry the residual, and who answers for it?\*\*
+> **For this decision, what has already been committed, what remains open, what can be checked, what arrangement can carry the residual, and who answers for it?**
 
 See [`core/04-actors.md`](core/04-actors.md) and [`core/14-indexed-determination.md`](core/14-indexed-determination.md).
 
@@ -194,7 +194,7 @@ A well-formed accountability arrangement requires:
 
 So:
 
-> \*\*A judgment allocation naming no accountable party is not an allocation. It is Escaped with an executor attached.\*\*
+> **A judgment allocation naming no accountable party is not an allocation. It is Escaped with an executor attached.**
 
 Today's accountability towers generally terminate at an operator, owner, institution, vendor, or other principal rather than at the model itself.
 
@@ -223,8 +223,8 @@ That seam must itself be allocated:
 
 This gives a concrete trade:
 
-> \*\*Actor-at-seam buys adaptivity and pays with a bottleneck and a poisonable centre.\*\*  
-> \*\*Mechanism-at-seam buys scale and robustness and pays with rigidity.\*\*
+> **Actor-at-seam buys adaptivity and pays with a bottleneck and a poisonable centre.**  
+> **Mechanism-at-seam buys scale and robustness and pays with rigidity.**
 
 The framework's **compound** is the loop that watches recurring judgment, harvests it into encoding, and pairs that encoding with a check.
 
@@ -242,13 +242,13 @@ Let `V` be the verdict induced by the task over the ground distribution.
 
 Then determination demand is identified as:
 
-> \*\*D = H(V)\*\*
+> **D = H(V)**
 
 measured in bits.
 
 For any admissible encoding `X`:
 
-> \*\*H(V) = I(V;X) + H(V|X)\*\*
+> **H(V) = I(V;X) + H(V|X)**
 
 Read through the framework:
 
@@ -258,7 +258,7 @@ Read through the framework:
 
 For a decomposition `S`:
 
-> \*\*H(V) = I(V;S) + H(V|S)\*\*
+> **H(V) = I(V;S) + H(V|S)**
 
 so the information absorbed by the decomposition is the seam term.
 
@@ -268,7 +268,7 @@ This construction is exact once the framework's quantities are identified with t
 
 It has a hard boundary:
 
-> \*\*Where the acceptance predicate does not close, there is no verdict function with the required ground truth, so `H(V)` is undefined.\*\*
+> **Where the acceptance predicate does not close, there is no verdict function with the required ground truth, so `H(V)` is undefined.**
 
 The measure does not cross the floor.
 
@@ -290,7 +290,7 @@ Standing mechanisms are paid for differently from per-act judgment. Description 
 
 So:
 
-> \*\*Demand is conserved. Cost is not.\*\*
+> **Demand is conserved. Cost is not.**
 
 The cost model therefore asks which supply arrangement is cheapest while remaining adequate at the declared tolerance and assurance level.
 
@@ -307,7 +307,7 @@ An actor has two relevant capacities:
 
 Capacity-generated escape requires two conditions:
 
-> \*\*overflow ∩ open\*\*
+> **overflow ∩ open**
 
 The residual exceeds what the actor can resolve **and** no verifier catches what gets shed.
 
@@ -366,7 +366,7 @@ The mapping is not intended as metaphor:
 
 The case also supplies an ensemble actor: diversity across a population carries coverage no single member can.
 
-> \*\*Redundancy buys reliability. Diversity buys coverage.\*\*
+> **Redundancy buys reliability. Diversity buys coverage.**
 
 The immune system matters because no engineer specified it. If the framework's categories only worked for deliberately engineered systems, the actor-general claim would fail here.
 
@@ -391,7 +391,7 @@ Reliance on selection should rise as result-level evaluation becomes slower, les
 
 In the shortest form:
 
-> \*\*Where the work can be checked, check the work. Where it cannot, check the worker.\*\*
+> **Where the work can be checked, check the work. Where it cannot, check the worker.**
 
 These hypotheses are **projected**, not reported findings.
 
@@ -534,5 +534,5 @@ The repository has independent git history from the split point. The claim graph
 
 ## The one line
 
-> \*\*For every decision, ask what must be determined, what ground it depends on, whether the work can be checked, where the determination is supplied, and who answers for it. Where you can check the work, check the work. Where you cannot, check the worker.\*\*
+> **For every decision, ask what must be determined, what ground it depends on, whether the work can be checked, where the determination is supplied, and who answers for it. Where you can check the work, check the work. Where you cannot, check the worker.**
 
