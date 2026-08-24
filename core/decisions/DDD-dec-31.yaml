@@ -1,0 +1,118 @@
+format: 1
+id: DDD-dec-31
+kind: decision
+statement: |
+  The kind value conceptual is not split in this session. The split is real — sixteen of the twenty-nine conceptual/projected claims are definitions in the reviewer's sense — but it is sequenced after rule 1's adjudication rather than filed alongside it, because the definitional/assertoric boundary runs through eight claims rather than between them, and a kind value assigned before those eight are split would miscode whichever job it did not name. Filed with it, and ruled at the same gate: a definition's falsifier is its test, the schema's three named test forms — counterexamples, coding reliability, explanatory utility — being the three definitional failure modes.
+principal: Emil
+made: 2026-08-25, item-4 session (ratified at the GATE 1 ruling)
+resolution: |
+  ## What was asked, and what the survey found
+
+  The occasion was an external observation that the framework's four kinds should be
+  definitional · formal · empirical · normative where canon's are conceptual · formal ·
+  empirical · normative. The session was instructed to survey before proposing: read all
+  twenty-nine conceptual/projected claims and report how many are definitions, and, if
+  conceptual is coherent, say so and file nothing.
+
+  It is not coherent. Under a criterion applied uniformly — a definition fails by
+  non-application, no extension, or a wrong joint; an assertoric claim fails by a describable
+  state of affairs — the twenty-nine divide sixteen definitions, five assertoric claims, and
+  eight that carry both a separable stipulative limb and a separable assertoric limb.
+
+  ## Why the finding does not license the filing, which is the whole of this decision
+
+  A new kind value would have to code the eight. DDD-frame-17 is the clearest case: it is a
+  stipulated taxonomy, an exhaustiveness claim, and a carried-over compact form, in one
+  statement. Whichever value it takes, the other job it does is miscoded — and miscoded in a
+  field an outside reader takes as authoritative, which is worse than the present state, where
+  conceptual is at least honestly vague.
+
+  DDD-frame-11 makes the point without argument. Its falsifier field already carries two limbs
+  of different type: an audit question that cannot be posed without the measure, which is a
+  definitional failure, and a demand reduction at fixed task and tolerance, which is an
+  empirical one. The claim is reporting that it is two claims.
+
+  ## The sequence, and the asymmetry that fixes its direction
+
+  Rule 1 first, kind second.
+
+  Emil's reason at the ruling, recorded because it is stronger than the session's: a kind value
+  is cheap to add and expensive to undo. Once definitional exists and sixteen claims carry it,
+  the later split adjudication is constrained by what has already been filed. Splitting first
+  leaves the assignment free. The cost is asymmetric, so the order is not a preference.
+
+  ## The precedent, run forwards rather than inverted
+
+  DDD-measure-16 and DDD-measure-17 are this operation performed by hand for one node, because
+  the schema had no field doing the work. The arithmetic limb went formal/established and the
+  modelling limb went conceptual/projected — and it could be done because the split came first.
+  Phase 1a did not add a kind value; it split a statement, and the kinds fell out. Eight nodes
+  are waiting for the same treatment, and adding a value before splitting them inverts the order
+  that worked.
+
+  ## A definition's falsifier is its test
+
+  The enforcement question this raises was answered at the same gate, because rule 1's
+  enforcement cannot be drafted without it: if some conceptual claims are definitions, a
+  falsifier-presence rule must say what a definition's falsifier looks like.
+
+  The schema already answers it. spec/claim-format.md §1 gives test for conceptual and normative
+  kinds and names its three forms — counterexamples, coding reliability, explanatory utility.
+  Those are the three definitional failure modes: carves the wrong joint, cannot be applied
+  consistently, earns nothing. The format anticipated the distinction it was said to be missing.
+
+  The corpus confirms it rather than merely permitting the reading. Of the twenty-nine, four
+  carry test and no falsifier — DDD-cost-05, DDD-frame-01, DDD-frame-02, DDD-frame-03 — and all
+  four are definitions. No mixed and no assertoric claim is test-only. The field already
+  separates a definitional subset, with perfect precision and poor recall.
+
+  What this does not license: test is not a general escape from falsifier. The ruling that every
+  claim carries one, with no near-definitional exception, stands and is costed separately.
+
+  ## Deliberately not done
+
+  - **No kind value is added, and none is reserved.** Reserving definitional would create the
+    same constraint the sequencing exists to avoid.
+  - **No claim's kind is changed**, and no claim's statement is touched. This session edits
+    headers, schema, the validator and documentation only.
+  - **The finding is not filed as a claim node.** It is a finding about canon's metadata, not a
+    claim about the world, so it files here and as a successor item — Emil's ruling, and the
+    distinction is worth keeping sharp: the claim graph is not a place to record facts about the
+    claim graph's fields.
+  - **The eight are not split here.** Splitting them edits statements, which this session forbids
+    by construction, and each split needs its own ruling.
+basis:
+  - DDD-measure-06
+  - DDD-measure-16
+  - DDD-measure-17
+  - DDD-frame-11
+  - DDD-frame-17
+  - DDD-cost-05
+  - DDD-frame-01
+  - DDD-dec-30
+notes: |
+  The eight mixed claims, named so the successor adjudication starts from a list rather than a
+  re-survey: DDD-cost-01, DDD-cost-09, DDD-cost-12, DDD-cost-20, DDD-cost-25, DDD-frame-11,
+  DDD-frame-14, DDD-frame-17.
+
+  DDD-frame-17 is the named first target, and the reason is uncomfortable enough to record
+  plainly: it was filed this month, at v5.10.0, as the successor built to cure DDD-frame-15's
+  compoundness — and it is already known-compound, at three limbs. That is evidence for the
+  sequencing rather than against the claim. A repair authored under a rule the validator does not
+  check reproduces the defect it repairs, which is the same argument the freight item makes about
+  DDD-measure-06 and is why the two items sit on one surface.
+
+  The sixteen definitions: DDD-cost-05, DDD-cost-30, DDD-delivery-01, DDD-delivery-02,
+  DDD-floor-02, DDD-frame-01, DDD-frame-02, DDD-frame-03, DDD-frame-12, DDD-frame-13,
+  DDD-frame-16, DDD-ground-02, DDD-ground-03, DDD-ground-05, DDD-measure-15, DDD-measure-17.
+  The five assertoric: DDD-cost-08, DDD-cost-11, DDD-cost-13, DDD-cost-22, DDD-delivery-03.
+
+  The per-claim criterion and reason for each of the twenty-nine are filed with the session
+  record rather than here, so a disagreement lands on a claim rather than on a total.
+
+  A correction to the triage that raised this, recorded because the triage's own file carries it
+  forward: the observation was escalated into a claim that the registry needed a second field
+  carrying kind, separate from maturity. There is no such defect. kind has existed since format 1
+  and is legal and populated on all eighty-nine claims across both repositories, spanning ten
+  kind x status combinations, with no default and no claim needing one. The observation was about
+  a projection that renders no kind column, and the schema was never asked.

@@ -4,6 +4,7 @@ kind: conceptual
 statement: |
   RETIRED — "every completed act's determination demand is discharged by a filed decision, an actor's judgment, an arrangement default, or an uncontrolled draw." The four modes do not partition: a declared default is both a filed decision and an arrangement default, a thermostat satisfies the judgment gloss under a rule canon times as encoded, and trained inference is policy commitment, judgment and standing encoded supply at once. Superseded by DDD-frame-17, which partitions the same object by dichotomy on determination and control.
 status: retired
+retired_from: projected
 region: —
 changed: v5.10 (2026-08-23, Phase 1a session)
 notes: |
@@ -96,3 +97,8 @@ notes: |
 
     The compact form — demand is never unmet, only ungoverned — is the conjunction of this claim
     with DDD-frame-16, per the rev18 booking.
+  RETIRED_FROM — `projected`, recovered from git: the claim is filed at `status: projected`
+  at `dba00c5` (2026-08-17, Wave 3) and holds it through `b668667` until the Phase 1a
+  retirement at `c73c463`. It is not recoverable from this file, whose notes preserve the
+  ratified statement verbatim and not the status it held — which is the asymmetry that made
+  the field necessary. Filed at the item-4 session (2026-08-25) under DDD-dec-32.

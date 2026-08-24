@@ -4,6 +4,7 @@ kind: formal
 statement: |
   RETIRED — "a better decomposition destroys demand." Cheaper parts were purchased by a higher-information seam; the destruction was an artifact of not counting I(V;S).
 status: retired
+retired_from: unrecoverable
 region: —
 evidence:
 - kind: computation
@@ -23,3 +24,12 @@ notes: |
   consolidated-state P1.2): re-decomposition relocates demand into the seam, the total is
   invariant, and what changes the total is changing the task or tolerance. The correction loop
   closed — repo → graph surfaces the contradiction → canon revised.
+  RETIRED_FROM — the prior maturity was searched for and not found, so the field records
+  the loss rather than a reconstruction. This claim was already `retired` in this
+  repository's first commit (`f9c1534`, v5.0.0, 2026-08-05) carrying `changed: v4.5`, so
+  its status transition predates the repository. Searched: this repository's git history
+  (the claim's whole history is one commit, at `retired`); the downstream seed
+  `meta/seed/claims-seed.yaml`, which also carries it at `retired`; and `CHANGELOG.md`,
+  which records what the retirement corrected and never what the node was. The value is
+  `unrecoverable` and is never to be inferred — a recorded loss is a fact, a guessed status
+  would read as authoritative. Filed at the item-4 session (2026-08-25) under DDD-dec-32.

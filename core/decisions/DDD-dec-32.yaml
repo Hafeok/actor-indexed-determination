@@ -1,0 +1,106 @@
+format: 1
+id: DDD-dec-32
+kind: decision
+statement: |
+  A retired claim records the maturity it held immediately before retirement in an optional retired_from field, legal only where status is retired and taking the value unrecoverable where that maturity cannot be established from the graph, from git, or from the seed and changelog; the alternative disposition — a lifecycle field orthogonal to maturity, letting status keep the maturity the claim actually held — is accepted as conceptually correct and deferred as a format-2 candidate, because it removes a value from status's range and thereby changes what an unchanged claim file means to an unchanged consumer, which is a format version's work.
+principal: Emil
+made: 2026-08-25, item-4 session (ratified at the GATE 1 ruling)
+resolution: |
+  ## The harm, stated as an external reader meets it
+
+  retired is a lifecycle state occupying a maturity field. Once a claim takes it, the field no
+  longer distinguishes a claim that reached established and did not survive from a young claim
+  that was replaced. For a public registry that is a real loss: a reader cannot see that a claim
+  was argued to the strongest status canon offers and then fell — which is the single most
+  informative thing a correction loop has to show.
+
+  DDD-measure-06 is the case. It held established from v4.5 to v5.9 and now reads retired, and
+  nothing in its header says which.
+
+  ## What the survey found, and it is worse than the diagnosis
+
+  The fallback the diagnosis implicitly relies on — recover the prior status from history — fails
+  for half the retired corpus.
+
+  - **DDD-measure-06 — established.** Readable from the graph, but only as prose: the Phase 1a
+    session preserved the whole pre-retirement field block verbatim in notes. Good practice, and
+    not a mechanism.
+  - **DDD-frame-15 — projected.** Not readable from the graph at all. Its notes preserve the
+    ratified statement verbatim and not the status it held. It was retired in the same session as
+    DDD-measure-06, three commits later, by the same hand — so two claims retired on the same day
+    differ in whether the loss occurred.
+  - **DDD-frame-09 and DDD-measure-08 — unrecoverable.** Both were already retired in this
+    repository's first commit, carrying changed: v4.5, so their transitions predate the
+    repository. Git, the downstream seed and the changelog were all searched; the changelog
+    records what each retirement corrected and never what the node was.
+
+  One in four reads from the graph, by luck of authorship. That is the argument, and it is
+  stronger than the one the item made.
+
+  ## Why retired_from and not the lifecycle field
+
+  The lifecycle field is the conceptually correct disposition and the ruling says so. The
+  diagnosis is that a lifecycle state is sitting in a maturity field; lifecycle removes it from
+  there, and retired_from adds a second field to compensate for its still being there. On the
+  merits the deferred option is the better one.
+
+  It is deferred on a difference in kind rather than in size. retired_from is additive: the field
+  is optional, fires only on retired claims, and leaves every live claim and every existing
+  consumer correct without an edit — four files in total, no backfill. lifecycle is not additive.
+  It removes retired from status's range, so an unchanged claim file means something different to
+  an unchanged reader, and every consumer of status changes with it — the appendix generator, the
+  validator, and any external reader who learned the four values. That is a format version's
+  work, and this session's charter is headers, schema, validator, appendix and documentation
+  within one format.
+
+  Recorded so the deferral is legible rather than merely recorded: the cheaper option was taken
+  knowing it treats the symptom, and the better option is booked with the reason it costs more.
+
+  ## unrecoverable is a value, not a gap
+
+  Where the prior maturity cannot be established, the field records that it was searched for and
+  not found. It is never inferred and never reconstructed. Emil's ruling at the gate, and the
+  reason is the general one: a recorded loss is a fact, and a guessed status would then read as
+  authoritative — the graph would assert something nobody knows, in a field an outside reader
+  trusts precisely because the rest of it is checked.
+
+  A claim taking unrecoverable states in its notes what was searched, so the value can be
+  overturned by evidence rather than merely doubted.
+
+  ## What is filed
+
+  - spec/claim-format-2-addendum.md gains the field, alongside canonical_home and canonical_md,
+    with the migration note that all format-1 claims are valid unchanged.
+  - The four retired claims take their values: DDD-measure-06 established, DDD-frame-15
+    projected, DDD-frame-09 and DDD-measure-08 unrecoverable, each with its provenance or its
+    search recorded in notes.
+  - No statement is touched, and no live claim is touched.
+
+  ## Deliberately not done
+
+  - **No lifecycle field, and none reserved.** It is booked as a successor item with this
+    decision's reasoning attached.
+  - **Rule 2 is not amended here.** Whether retired_from becomes mandatory on retired claims is
+    validator work and is ruled with the validator, not ahead of it.
+  - **Nothing is inferred for the two unrecoverable claims**, including from the v4.5 changelog
+    entries that record their corrections. Those say what the retirement fixed, not what the node
+    was, and reading a status out of them would be the fabrication the value exists to prevent.
+basis:
+  - DDD-measure-06
+  - DDD-measure-08
+  - DDD-frame-09
+  - DDD-frame-15
+  - DDD-dec-30
+notes: |
+  The field's own first test, and it passes: can a reader see, from the graph alone, that
+  DDD-measure-06 was once established? With retired_from: established in the header, yes — as a
+  field, queryable, and without reading a notes block written by a session that happened to be
+  thorough.
+
+  The two unrecoverable values are the honest half of the answer. They say the graph does not
+  know, and they say where the looking was done. A registry that records what it lost is more
+  trustworthy than one whose fields are always full.
+
+  Supersession, never rewriting: nothing about the four claims' retirement is altered, and the
+  preserved field blocks in DDD-measure-06's notes stay exactly as Phase 1a wrote them. The field
+  is added beside that record, not in place of it.

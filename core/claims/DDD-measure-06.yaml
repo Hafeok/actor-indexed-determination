@@ -4,6 +4,7 @@ kind: formal
 statement: |
   RETIRED — "the measure exists iff the acceptance predicate operationally closes; H(V) is undefined exactly where the framework's floor result locates non-zero floor." The biconditional fails in both directions and the two limbs carry different warrants under one status. Superseded by DDD-measure-16 (availability to an arrangement, with existence and estimability separated) and DDD-measure-17 (the coincidence, at projected).
 status: retired
+retired_from: established
 region: —
 changed: v5.10 (2026-08-23, Phase 1a session)
 notes: |
@@ -86,3 +87,9 @@ notes: |
   drawing fitted to the other, and it is still the measure note's best feature. What is retired is
   the biconditional, the fusion of two warrants under one status, and the claim that the
   coincidence is evidence.
+  RETIRED_FROM — `established`, sourced from this file's own preserved field block above
+  ("THE FIELDS AS THEY STOOD FROM v4.5 TO v5.9") and confirmed independently against git at
+  `f9c1534`, where the claim enters the repository at `status: established`. The field exists
+  because that prose is not a mechanism: `DDD-frame-15`, retired in the same session three
+  commits later, preserved its statement and not its status. Filed at the item-4 session
+  (2026-08-25) under DDD-dec-32.

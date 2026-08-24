@@ -4,7 +4,17 @@ kind: formal
 statement: |
   RETIRED — "closed predicates make intelligence unnecessary." Does not follow from producer-independence under verification; generation may still require whatever capability the search demands.
 status: retired
+retired_from: unrecoverable
 region: —
 changed: v4.5
 notes: |
   Verified retired against canon: core/07 §2 carries only the scoped form — "A closing predicate makes intelligence unnecessary FOR TRUST" — and §5 records the unscoped cost reading as a met falsifier (satisfiability: linear to check, NP-hard to solve), retiring the generation-cost reading rather than the floor result. The v4.5 generation-cost correction (core/03, core/04 §2, core/07 §§2,4,4.2) is where canon landed this. Corrected by DDD-frame-05 (producer-independence is for trust only) and DDD-frame-06 (closure ≠ generation cost) jointly. AMENDED: the seed's malformed "supersedes: none — corrected by..." moved here to notes; retired claims need supersedes or a notes entry naming what killed it (spec §2), and no single claim supersedes this one.
+  RETIRED_FROM — the prior maturity was searched for and not found, so the field records
+  the loss rather than a reconstruction. This claim was already `retired` in this
+  repository's first commit (`f9c1534`, v5.0.0, 2026-08-05) carrying `changed: v4.5`, so
+  its status transition predates the repository. Searched: this repository's git history
+  (the claim's whole history is one commit, at `retired`); the downstream seed
+  `meta/seed/claims-seed.yaml`, which also carries it at `retired`; and `CHANGELOG.md`,
+  which records what the retirement corrected and never what the node was. The value is
+  `unrecoverable` and is never to be inferred — a recorded loss is a fact, a guessed status
+  would read as authoritative. Filed at the item-4 session (2026-08-25) under DDD-dec-32.
