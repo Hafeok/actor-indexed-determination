@@ -54,3 +54,36 @@ The reason is a difference in kind rather than in size: `retired_from` is additi
 existing claim and every existing reader stays correct, whereas `lifecycle` removes a value
 from `status`'s range and thereby changes what an unchanged claim file means to an unchanged
 consumer. That is a format version's work, not an addendum's.
+
+## Falsifier presence at every live status — a rule altered
+
+Rule 2 of `spec/claim-format.md` states the falsifier condition for `projected` and is
+silent for `reported` and `established`. Under this addendum it holds for every live
+status:
+
+> A claim at `projected`, `reported` or `established` carries a `falsifier`, or — for
+> `conceptual` and `normative` kinds — a `test`. `retired` claims are exempt: a retired
+> claim's statement is a retirement record and has no falsifier.
+
+**Migration note: all format-1 claims satisfy it unchanged.** The hit list against the
+corpus at `v5.10.0` is empty — 0 of 89 claims across both repositories.
+
+**Why it is worth a rule.** `DDD-measure-06` sat at `established` from v4.5 to v5.9 with
+no stated observation that would fire against it. That was legal: rule 2 required a
+falsifier for `projected` and said nothing for `established`, so the strongest status
+canon offers carried the weakest evidential requirement. The node was eventually found by
+an external reader working through the argument; **the repository could have found it by
+reading the file.**
+
+**A definition's falsifier is its `test`, and that is not an exemption.** §1 gives `test`
+to `conceptual` and `normative` kinds and names its three forms — counterexamples, coding
+reliability, explanatory utility. Those are the three ways a definition fails: it carves
+the wrong joint, it cannot be applied consistently, or it earns nothing. Sixteen of the
+twenty-nine `conceptual`/`projected` claims are definitions, and all four claims carrying
+a `test` and no `falsifier` are among them (`DDD-dec-31`). The substitution is available
+to the kinds the spec gives `test` to, and to no others.
+
+**The strict reading is not adopted here.** That every claim carries a `falsifier`, with
+no near-definitional exception, is ruled — and it fires on seven claims that must each be
+written with a ruling. It ships as a warning until they are, and the ruling that lands the
+last of them is the one that promotes it.
