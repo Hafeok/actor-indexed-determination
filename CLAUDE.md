@@ -13,8 +13,14 @@ projection, its apparatus, or its applications anywhere under `core/`.
 Read `core/README.md`, then, before changing any claim or converting any prose:
 
 - `spec/claim-format.md` — the claim schema (format 1) and its validation rules.
-- `spec/claim-format-2-addendum.md` — the additive fields (`canonical_md`, `canonical_home`) that let
-  a claim serve as an embed source; all format-1 claims remain valid unchanged.
+- `spec/claim-format-2-addendum.md` — the additive extensions **in force**: `canonical_md` and
+  `canonical_home`, which let a claim serve as an embed source; `retired_from`, which records the
+  maturity a retired claim held; and the falsifier condition held at every live status. All
+  format-1 claims remain valid unchanged, which is why none of it needed a format bump — format 2
+  is reserved for the first change that cannot be additive (`DDD-dec-32`, `DDD-dec-33`).
+- `spec/claim-format.md` §5 — **what the statuses mean and what they do not.** Read it before
+  citing a status to anyone outside the programme: `established` is internally argued and
+  unchallenged, not externally validated, and it is four claims, all `formal`.
 - `core/graph/terms.yaml` — the canonical term registry. Every term a doc `establishes` has an entry
   here; edit canonical text **here**, never in the doc, and re-project.
 
@@ -37,7 +43,10 @@ claim live in `core/assets/` and must reproduce — a claim whose computation fa
   (`UNVERIFIED — Emil review`), never asserted.
 - **Validate before commit.** All three must pass:
   - `python3 validate-core-order.py core/` — exit 0, zero W4
-  - `python3 scripts/validate-claims.py core/claims/`
+  - `python3 scripts/validate-claims.py core/claims/` — exit 0. It also prints **warnings**, which
+    are candidates and not violations: rule-1 limb candidates, and claims carrying a `test` and no
+    `falsifier`. Do not clear a warning by editing a claim without a ruling; the counts at
+    `v5.11.0` are 32 upstream and 6 downstream (`DDD-dec-33`).
   - for any decisions, `python3 scripts/validate-claims.py core/decisions/ --decisions`
 
 ## Releases

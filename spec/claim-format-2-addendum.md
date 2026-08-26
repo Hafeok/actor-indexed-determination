@@ -1,4 +1,24 @@
-# Claim format — proposed format 2 (additive)
+# Claim format — additive extensions in force, and the format-2 bump they do not need
+
+**Status of this file, stated because its title used to say something else.** Everything here is
+**in force now**, enforced by `validate-core-order.py` and `scripts/validate-claims.py`, and every
+claim in both repositories still declares `format: 1` — validly, because each addition below is
+*additive*: an optional field, or a rule whose hit list against the existing corpus is empty. No
+format-1 claim needs an edit to remain valid, so none has had one.
+
+This file previously called itself *"proposed format 2"* while its first two fields were already
+being enforced on 62 embedded blocks. The self-description was inconsistent with the practice, and
+it is the description that was wrong.
+
+**What would need the bump, and does not exist yet.** A format version is owed when a change is not
+additive — when it removes a value from a field's range, changes what an existing field means, or
+makes an unchanged claim file invalid. The first such change already has a name: the `lifecycle`
+field booked under `DDD-dec-32`, which removes `retired` from `status`'s range and thereby changes
+what every unchanged claim file says to every unchanged reader. **Format 2 is reserved for it.**
+Spending a format version on changes that break nothing would leave the real migration without a
+number to arrive under.
+
+---
 
 ## Transclusion source — `canonical_home`, `canonical_md`
 
