@@ -1,4 +1,26 @@
-# Claim format — proposed format 2 (additive)
+# Claim format — additive extensions in force, and the format-2 bump they do not need
+
+**Status of this file, stated because its title used to say something else.** Everything here is
+**in force now**, enforced by `validate-core-order.py` and `scripts/validate-claims.py`, and every
+claim in both repositories still declares `format: 1` — validly, because each addition below is
+*additive*: an optional field, or a rule whose hit list against the existing corpus is empty. No
+format-1 claim needs an edit to remain valid, so none has had one.
+
+This file previously called itself *"proposed format 2"* while its first two fields were already
+being enforced on 62 embedded blocks. The self-description was inconsistent with the practice, and
+it is the description that was wrong.
+
+**What would need the bump, and does not exist yet.** A format version is owed when a change is not
+additive — when it removes a value from a field's range, changes what an existing field means, or
+makes an unchanged claim file invalid. The first such change already has a name: the `lifecycle`
+field booked under `DDD-dec-32`, which removes `retired` from `status`'s range and thereby changes
+what every unchanged claim file says to every unchanged reader. **Format 2 is reserved for it.**
+Spending a format version on changes that break nothing would leave the real migration without a
+number to arrive under.
+
+---
+
+## Transclusion source — `canonical_home`, `canonical_md`
 
 Two optional fields, enabling a claim to serve as the canonical source for a byte-exact
 block embedded in a core document:
@@ -18,3 +40,70 @@ Rationale: the repo already holds one YAML per claim under `core/claims/`; a par
 claims registry would duplicate canon. The terms registry (`core/graph/terms.yaml`) is
 new — terms had no prior home — but claims extend in place.
 `validate-core-order.py` reads both sources.
+
+## Retirement provenance — `retired_from`
+
+One optional field, legal only on a claim whose `status` is `retired`, naming the maturity
+the claim held immediately before it was retired:
+
+```yaml
+status: retired
+retired_from: established | reported | projected | unrecoverable
+```
+
+**The defect it repairs.** `retired` is a lifecycle state occupying a maturity field. Once a
+claim takes it, the field no longer distinguishes a claim that reached `established` and did
+not survive from a young claim that was replaced — and that distinction is exactly what an
+outside reader of a public registry needs. `DDD-measure-06` held `established` from v4.5 to
+v5.9; nothing in its header says so.
+
+**`unrecoverable` is a value, not a gap.** Where the prior maturity cannot be established from
+the graph, from git, or from the seed and changelog, the field records that it was searched for
+and not found. It is never inferred and never reconstructed: a recorded loss is a fact, and a
+guessed status would read as authoritative. A claim taking `unrecoverable` states in `notes`
+what was searched. `DDD-frame-09` and `DDD-measure-08` are the exemplars — both were already
+`retired` in this repository's first commit, so their transitions predate the repository.
+
+**Migration note: all format-1 claims are valid unchanged.** The field is optional, and a claim
+that is not `retired` never carries it, so no live claim is touched — four files in total.
+
+**Why this and not a lifecycle field.** The alternative, and the conceptually correct one, is a
+`lifecycle: active | retired` field orthogonal to maturity, letting `status` keep the maturity
+the claim actually held. It is booked as a format-2 candidate and deliberately not taken here.
+The reason is a difference in kind rather than in size: `retired_from` is additive, so every
+existing claim and every existing reader stays correct, whereas `lifecycle` removes a value
+from `status`'s range and thereby changes what an unchanged claim file means to an unchanged
+consumer. That is a format version's work, not an addendum's.
+
+## Falsifier presence at every live status — a rule altered
+
+Rule 2 of `spec/claim-format.md` states the falsifier condition for `projected` and is
+silent for `reported` and `established`. Under this addendum it holds for every live
+status:
+
+> A claim at `projected`, `reported` or `established` carries a `falsifier`, or — for
+> `conceptual` and `normative` kinds — a `test`. `retired` claims are exempt: a retired
+> claim's statement is a retirement record and has no falsifier.
+
+**Migration note: all format-1 claims satisfy it unchanged.** The hit list against the
+corpus at `v5.10.0` is empty — 0 of 89 claims across both repositories.
+
+**Why it is worth a rule.** `DDD-measure-06` sat at `established` from v4.5 to v5.9 with
+no stated observation that would fire against it. That was legal: rule 2 required a
+falsifier for `projected` and said nothing for `established`, so the strongest status
+canon offers carried the weakest evidential requirement. The node was eventually found by
+an external reader working through the argument; **the repository could have found it by
+reading the file.**
+
+**A definition's falsifier is its `test`, and that is not an exemption.** §1 gives `test`
+to `conceptual` and `normative` kinds and names its three forms — counterexamples, coding
+reliability, explanatory utility. Those are the three ways a definition fails: it carves
+the wrong joint, it cannot be applied consistently, or it earns nothing. Sixteen of the
+twenty-nine `conceptual`/`projected` claims are definitions, and all four claims carrying
+a `test` and no `falsifier` are among them (`DDD-dec-31`). The substitution is available
+to the kinds the spec gives `test` to, and to no others.
+
+**The strict reading is not adopted here.** That every claim carries a `falsifier`, with
+no near-definitional exception, is ruled — and it fires on seven claims that must each be
+written with a ruling. It ships as a warning until they are, and the ruling that lands the
+last of them is the one that promotes it.

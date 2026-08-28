@@ -1,0 +1,151 @@
+format: 1
+id: DDD-dec-33
+kind: decision
+statement: |
+  validate-claims.py enforces falsifier presence at every live status and retirement provenance on every retired claim, both at error class because both fire on nothing in the existing corpus; the strict reading of falsifier presence and rule 1's single-limb proxy ship at warning class, the first with a named backlog of seven and the second permanently, because rule 1 is not mechanically decidable and its best available proxy fires on sound claims; and a check becomes error class only when its hit list against the existing corpus is empty or already migrated, which makes the hit list a precondition of the class rather than a report about it.
+principal: Emil
+made: 2026-08-25, item-4 session (ratified at the GATE 3 ruling; proposed with hit lists at GATE 1)
+resolution: |
+  ## The gap, and how it stayed open
+
+  spec/claim-format.md §2 states two rules the validator did not check: rule 1, one proposition per
+  claim, and rule 2's falsifier condition. Both were stated and unenforced, and DDD-measure-06 is
+  the worked instance of each — a compound statement, and no falsifier at established from v4.5 to
+  v5.9.
+
+  **Rule 2 required a falsifier for projected and said nothing above it, so the strongest status
+  canon offers carried the weakest evidential requirement.** That is exactly how DDD-measure-06
+  survived: the node was legal at every point, and the rule that would have caught it stopped one
+  status short of where it sat.
+
+  The node was eventually found by an external reader working through the argument. Both its
+  defects were visible from the schema alone, without a reviewer.
+
+  ## The four checks, and the rule that assigns their classes
+
+  A check becomes error class only when its hit list against the existing corpus is empty or
+  already migrated. A check that fires on ratified claims needs a migration plan, not a merge — so
+  the hit list is produced before the class is chosen, never after, and the class is a ruling
+  rather than an author's preference. CHECK_CLASS in the checker is the whole of that policy, one
+  line per check, so promoting a check is a one-word reviewable change and never a silent one.
+
+  - **falsifier-presence — error, 0 of 89.** Rule 2's condition held at every live status. test
+    substitutes for conceptual and normative kinds only, per DDD-dec-31.
+  - **falsifier-strict — warning, 7 of 89.** Every live claim carries a falsifier, test no
+    substitute. The seven each need a falsifier written with a ruling; the ruling that lands the
+    last of them is the one that promotes the check, and the code says so where the class is set.
+  - **single-limb — warning, 31 of 89, permanently.** Rule 1's proxy.
+  - **retired-from — error, 0 of 89.** Retirement provenance, per DDD-dec-32.
+
+  ## Why rule 1 is never error class
+
+  "One proposition" is a semantic property. What a checker can count is clause-joining punctuation,
+  and the gap between the two is not a tuning problem.
+
+  The decisive evidence is the detector's own false positives. It fires on DDD-measure-16 — the
+  established claim built at the previous session to cure DDD-measure-06's compoundness. **A rule-1
+  check at error class would have blocked the repair of the defect it exists to catch.** It is
+  therefore a drafting prompt that locates candidates for adjudication, labels them as candidates in
+  its own message, and never decides.
+
+  A second correction, made while implementing and worth keeping: the check must exempt retired
+  claims. A retired claim's statement is a retirement record, not a proposition, and
+  DDD-measure-06's epitaph quotes verbatim the compound statement that killed it — so the check was
+  flagging the record of the defect as though it were the defect. The reasoning lives in the
+  check's own docstring rather than at its call site, because the next person to widen a rule will
+  read it there.
+
+  Rule 1's real enforcement is an adjudication with rulings, booked as a successor item with this
+  session's hit list attached.
+
+  ## Why retirement provenance is mandatory rather than optional
+
+  Argued on its own terms rather than on the field's newness.
+
+  **The rule can never be unsatisfiable.** unrecoverable is always available and always honest, so
+  a mandatory field discharged by a truthful "not found" creates no pressure to fabricate. A
+  mandatory field with no such value would create exactly that pressure, and the fabrication would
+  then read as authoritative.
+
+  **Optional is the disposition that fails, because it reproduces the defect.** What
+  retired_from repairs is not that prior maturity is hard to record — it is that two claims retired
+  on the same day by the same hand recorded it differently, DDD-measure-06 preserving its field
+  block and DDD-frame-15 not. That is a consistency defect. An optional field gets filled by
+  sessions that are thorough and skipped by sessions that are busy, and a reader cannot then
+  distinguish a claim whose prior status was never recorded from one whose prior status was never
+  looked for. **An optional provenance field records diligence, not provenance.**
+
+  The sub-check requiring notes where the value is unrecoverable is deliberately weak and says so
+  in its own message: that notes exist is checkable, that they record a search is not. Rule 1's
+  lesson applied honestly rather than a check pretending to more than it does.
+
+  ## The seed stays red
+
+  meta/seed/claims-seed.yaml is the frozen pre-conversion snapshot in the projection repository.
+  Under these checks it exits 1 with three violations, the first being DDD-measure-06 at
+  established with no falsifier — **the instrument catching, on its first run against the v4.5
+  material, the node an external reader found five minor versions later.**
+
+  It is not repaired. History is not edited to pass today's checks: a snapshot amended to go green
+  stops being a record of what v4.5 was, and a passing snapshot achieved by amendment is the same
+  fabrication that unrecoverable exists to prevent. Its exit 1 is a true report. The reason is
+  recorded in the checker's docstring, together with the facts that make the run look like a
+  regression when it is not — CI validates core/claims/ and core/decisions/ only, and the usage
+  line invites exactly that run.
+
+  ## Why this is not format 2
+
+  Both halves of the reasoning, because the question will be asked.
+
+  **The tension is real and inherited.** spec/claim-format.md's own versioning rule calls a field
+  added or a rule altered a format change, and this session has done both: retired_from is a field,
+  and the falsifier condition at every live status is rule 2 altered. Meanwhile the addendum
+  carrying them called itself "proposed format 2" while its first two fields were already enforced
+  on 62 embedded blocks, and no claim in either repository declares format 2. The spec contradicted
+  the practice before this session arrived.
+
+  **The disposition is to reclassify, not to bump.** Each addition is additive — an optional field,
+  or a rule whose hit list is empty — so no format-1 claim needs an edit to stay valid, and none has
+  had one. The addendum now says that, which costs nothing and stops the contradiction.
+
+  **The bump waits for the first change that genuinely cannot be additive, and it has a name.** The
+  lifecycle field booked under DDD-dec-32 removes retired from status's range and changes what every
+  unchanged claim file says to every unchanged reader. Format 2 is reserved for it. Spending a
+  format version on changes that break nothing would leave the real migration without a number to
+  arrive under.
+
+  ## Deliberately not done
+
+  - **No warnings-as-errors flag.** A switch that promotes checks by configuration would move the
+    class out of the ruling and into an invocation, which is the escaped-decision shape this
+    repository exists to name. Promotion is a code change, reviewed.
+  - **No claim is edited to clear a warning.** The seven falsifiers and the 31 rule-1 candidates
+    are canon authoring, each needing a ruling, and every one of them edits a statement or adds a
+    field with content — outside this session by construction.
+  - **The seed is not exempted and not repaired.**
+basis:
+  - DDD-measure-06
+  - DDD-measure-16
+  - DDD-frame-09
+  - DDD-measure-08
+  - DDD-frame-15
+  - DDD-dec-31
+  - DDD-dec-32
+  - DDD-agent-01
+notes: |
+  The freight item this discharges was filed at the Phase 1a session with DDD-measure-06's two
+  defects as its two instances, and was ruled there to be the freight session's instrument rather
+  than Phase 1a's. It is taken here because it is the same surface as the status and kind work:
+  one registry, one validator, one session.
+
+  The durable half of the original finding, restated because it is what makes the instrument worth
+  building rather than tidy: a compound statement makes a node UNDEMOTABLE. DDD-measure-06's two
+  limbs carried different warrants under one status, so demoting the node would have demoted the
+  sound limb — which is how a defect survives five minor versions in a repository that reviews its
+  own canon. Not because nobody saw it, but because the only available correction was worse than
+  the defect.
+
+  A note on what the warning counts mean, so a later reader does not treat them as a defect
+  inventory: 32 warnings upstream and 6 downstream are candidates, not findings. The 31 rule-1
+  candidates in particular include claims that have been read and judged sound — DDD-measure-04 and
+  DDD-measure-16 among them — and the check says so in every line it prints.

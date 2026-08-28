@@ -1,0 +1,136 @@
+format: 1
+version: v5.11.0
+# No `commit`: cut wherever this file lands on the default branch, the normal case
+# (spec/release-format.md §2 rule 3).
+date: 2026-08-25
+basis:
+  # The three rulings this release files.
+  - DDD-dec-31
+  - DDD-dec-32
+  - DDD-dec-33
+  # The node that is the worked instance of every defect repaired here, and its two successors.
+  - DDD-measure-06
+  - DDD-measure-16
+  - DDD-measure-17
+  # The other three retired claims, cited because this release changes all four of their headers.
+  - DDD-frame-09
+  - DDD-frame-15
+  - DDD-measure-08
+  # The claims that carry the findings: the compound successor, and the claim whose own falsifier
+  # field has two limbs of different type.
+  - DDD-frame-17
+  - DDD-frame-11
+  # Basis as query, applied to this repository's own agents.
+  - DDD-agent-01
+title: 'Retirement provenance, the validator, and what a status means'
+summary: |
+  **An instrument release.** No claim statement moves, no claim's status moves, and no live claim
+  is edited at all. What changes is the registry's *metadata* — one additive field, two rules the
+  validator now enforces, and the first canonical statement of what the status values mean to
+  somebody outside this programme.
+
+  This is a minor and not a patch: the schema gains a field and a rule, three decisions are filed,
+  and an external reader's view of the graph changes shape. It is not a major because **every
+  format-1 claim remains valid unchanged** and the corpus migration is empty.
+
+  ### The occasion, and a correction to how it was framed
+
+  An external observation reported the registry as missing a field carrying **kind**, separate from
+  maturity. **There is no such defect.** `kind` has existed since format 1 and is legal and
+  populated on all 89 claims across both repositories, spanning ten `kind` × `status` combinations,
+  with no default and no claim needing one.
+
+  What the reader had actually met was **Paper A's appendix**, which rendered `id | status |
+  statement` and no kind column. A projection defect reads as a schema defect when the projection
+  is the only view a reader has — and the appendix was the only view. The column is added
+  downstream; the schema needed nothing.
+
+  ### `retired` was hiding what a claim had been
+
+  `retired` is a lifecycle state occupying a maturity field, so once a claim takes it the field no
+  longer distinguishes a claim that reached `established` and did not survive from a young claim
+  that was replaced. **`DDD-measure-06` held `established` from v4.5 to v5.9, and nothing in its
+  header said so.**
+
+  The survey found the loss worse than the diagnosis. Recovering prior status from history **fails
+  outright** for `DDD-frame-09` and `DDD-measure-08`, both already retired in this repository's
+  first commit; git, the downstream seed and the changelog were searched, and the changelog records
+  what each retirement *corrected*, never what the node *was*. `DDD-measure-06` reads only because
+  the previous session preserved its whole field block as prose — while `DDD-frame-15`, retired the
+  same day by the same hand, preserved its statement and not its status. **One in four, by luck.**
+
+  **`retired_from` is filed**, mandatory on retired claims, taking `established`, `reported`,
+  `projected` or **`unrecoverable`**. The last is a value and not a gap: it says the prior maturity
+  was searched for and not found, and the search is recorded in `notes`. Nothing is ever inferred —
+  a recorded loss is a fact, and a guessed status would read as authoritative.
+
+  **The conceptually correct disposition is deferred and named.** A `lifecycle` field orthogonal to
+  maturity is the better repair, and `retired_from` treats the symptom. It waits because it is not
+  additive: it removes `retired` from `status`'s range and so changes what an unchanged claim file
+  says to an unchanged reader. **Format 2 is reserved for it.**
+
+  ### The validator now checks two rules it only stated
+
+  `spec/claim-format.md` §2 has always stated rule 1 (one proposition per claim) and rule 2's
+  falsifier condition. Neither was checked. `DDD-measure-06` is the worked instance of both, and
+  **rule 2 required a falsifier for `projected` and said nothing above it — so the strongest status
+  canon offers carried the weakest evidential requirement.** That is how the node sat at
+  `established` for five minor versions with no stated observation that would fire against it.
+
+  Four checks ship, and **the class of each was chosen from its hit list against the existing
+  corpus, produced before the class and not after**:
+
+  | Check | Class | Hits |
+  |---|---|---|
+  | falsifier at every live status | **error** | 0 of 89 |
+  | retirement provenance | **error** | 0 of 89 |
+  | falsifier strictly, `test` no substitute | warning | 7 of 89 |
+  | rule 1's single-limb proxy | warning | 31 of 89 |
+
+  **Rule 1 is never error class, and the reason is the sharpest finding of the session.** "One
+  proposition" is semantic; what a checker counts is punctuation. The best available detector fires
+  on `DDD-measure-16` — the `established` claim built last month to cure `DDD-measure-06`'s
+  compoundness. **A rule-1 check at error would have blocked the repair of the defect it exists to
+  catch.** It ships as a drafting prompt that labels its own findings candidates.
+
+  ### `conceptual` does not split, and the reason is a sequence
+
+  All 29 `conceptual`/`projected` claims were read before anything was proposed. **Sixteen are
+  definitions**, five are assertoric, and **eight carry both a stipulative and an assertoric limb**.
+  The observation that `conceptual` is doing two jobs is correct.
+
+  It is not filed, because **the boundary runs through those eight rather than between them**. A
+  `kind` value assigned before they are split miscodes whichever job it does not name, in a field an
+  outside reader takes as authoritative — and a `kind` value is cheap to add and expensive to undo.
+  Rule 1 first, `kind` second: the `DDD-measure-16`/`-17` precedent run forwards, since that split
+  worked precisely because the statement was split before the kinds were assigned.
+
+  **`DDD-frame-17` is the named first target, and the fact is uncomfortable:** filed at `v5.10.0` as
+  the successor built to cure `DDD-frame-15`'s compoundness, it is already known-compound at three
+  limbs. *A repair authored under a rule the validator does not check reproduces the defect it
+  repairs.*
+
+  A definition's falsifier is settled in the same ruling: **it is its `test`.** §1's three test
+  forms — counterexamples, coding reliability, explanatory utility — are the three ways a definition
+  fails. All four claims carrying a `test` and no `falsifier` are definitions, and no mixed or
+  assertoric claim is test-only.
+
+  ### What a status means, stated for the first time
+
+  `spec/claim-format.md` gains **§5 — what the statuses mean, and what they do not.** Until now the
+  only written gloss lived inside a generator in the projection repository.
+
+  The number that anchors it: **`established` is four claims, and all four are `formal`.** Nothing
+  empirical, conceptual or normative has ever reached it. `established` means argued from a
+  derivation and unchallenged *within this framework* — not externally validated. `reported` means
+  a computation reproduces, not that the world was consulted. **`kind` and `status` must be read
+  together, because either alone misleads.**
+
+  ### Deliberately not in this release
+
+  The eight mixed claims are not split — that edits statements, and each split needs a ruling. The
+  seven missing falsifiers are not written, for the same reason. Rule 1's real enforcement is an
+  adjudication, booked with its hit list. The `lifecycle` field is booked. The ground migration's
+  W1 is **not** taken: `ground distribution` sits in the `statement` field of four claims, one of
+  them `established`, so the only coherent W1 breaks this release's own rule, and half a rename is
+  worse than none. The downstream pin stays at `v5.9.0`.
