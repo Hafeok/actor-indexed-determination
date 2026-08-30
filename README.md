@@ -79,7 +79,7 @@ Every governing determination is supplied from one of four places:
 |-|-|-|-|
 |**Encoded**|a rule|before the act|paid in advance; amortises|
 |**Mechanical**|a check|after the act|expensive to construct; cheap to trust|
-|**Judgment**|an actor reading ground|during the act|paid per run|
+|**Judgment**|an actor reading ground, **with an accountable party named**|during the act|paid per run|
 |**Escaped**|nobody|never|latent defect exposure|
 
 In shorthand:
@@ -112,7 +112,7 @@ It is a property of whether adequacy can be checked.
 
 > **The floor is non-zero exactly when, and because, you cannot check the work.**
 
-Where the acceptance predicate **closes for the arrangement** — relevant ground is observable and adequacy can be evaluated within the required resource, latency, confidence, and assurance bounds — no particular determiner is required for trust. Different paths may produce acceptable outputs because the result itself can be checked.
+Where the acceptance predicate **closes for the arrangement** — relevant ground is observable and adequacy can be evaluated within the declared resource, latency, confidence, and assurance bounds — no particular determiner is required for trust. Different paths may produce acceptable outputs because the result itself can be checked.
 
 Where the predicate does **not** close, that route to assurance disappears.
 

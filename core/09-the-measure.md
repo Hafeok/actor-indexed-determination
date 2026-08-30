@@ -59,9 +59,7 @@ Count and demand come apart.
 So demand is not a count. It is a **measure**. And the measure is **Shannon information**.
 
 <!-- ddd:embed id=term:verdict -->
-> **Definition (determination demand).** *(In the engineering projection this same quantity is
-> denominated in the vocabulary of the domain and called* **specification demand** *; the measure
-> below is identical either way.)* For a task whose acceptance predicate **closes** for the
+> **Definition (determination demand).** For a task whose acceptance predicate **closes** for the
 > arrangement (`term:closure`; *decidable* is the formal special case, not the requirement),
 > the predicate evaluates outcomes, and the **task class** supplies one correct output per
 > input point. The **verdict** is that induced assignment — the correct output over each point

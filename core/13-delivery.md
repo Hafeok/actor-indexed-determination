@@ -2,7 +2,7 @@
 
 <!-- ddd:contract
 
-requires: [store, mechanical, judgment, escape, assurance, act, maturation, verdict, outcome, determinate]
+requires: [store, judgment, escape, assurance, act, maturation, verdict, outcome, determinate]
 establishes: [delivery, undelivered, presumed-discharge|presumed discharge]
 status: draft
 -->
@@ -22,11 +22,11 @@ Supply says who resolves a governing decision and when. It does not say whether 
 **reaches** the act it governs. Delivery is that axis.
 
 <!-- ddd:embed id=term:delivery -->
-> **Delivery** is how authored governance reaches an act: **mechanical** — the act triggers
+> **Delivery** is how authored governance reaches an act: **act-triggered** — the act triggers
 > retrieval, without judgment — or **judgment-mediated** — it reaches the act only if an actor
 > recalls it. Delivery is a property of a decision **at an act-site**, never of the decision
-> alone: the same decision can be mechanically delivered at one act-site and judgment-mediated at
-> another, and a path from a decision to an act is only as mechanical as its weakest edge.
+> alone: the same decision can be act-triggered at one act-site and judgment-mediated at
+> another, and a path from a decision to an act is act-triggered only if **every** edge on it is.
 <!-- /ddd:embed -->
 
 Delivery sits beside standing supply rather than replacing it: standing supply says when the
@@ -35,7 +35,7 @@ apart is the finding (`DDD-delivery-01` — filing is not encoding: store alloca
 off artefacts, because an artefact records the authoring, not the arrival).
 
 The trigger, not the index, is what distinguishes the values: if the act triggers retrieval,
-delivery is mechanical; if someone must decide to look, delivery is judgment-mediated, whatever
+delivery is act-triggered; if someone must decide to look, delivery is judgment-mediated, whatever
 machinery then runs. The corpus's no-unwrap row shows one criterion carrying both values at two
 act-sites — act-triggered in CI, actor-triggered locally.
 

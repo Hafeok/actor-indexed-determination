@@ -5,7 +5,7 @@ statement: |
   Assurance-by-actor binds assurance to a scarce carrier, supplied occasioned — at the act, at the carrier's class price. Assurance-by-check moves it into a mechanism, supplied standing — independent of the act. Closing a predicate converts a property's assurance supply from occasioned to standing.
 status: projected
 region: |
-  Per-act, synchronic; locus of supply per DDD-cost-01's register split. Governs the locus of assurance supply only; class consequences are DDD-cost-11's. The standing locus holds per act-site: assurance-by-check is supplied standing at act-sites where the check is act-triggered (term:delivery, mechanical); the same check actor-triggered at another site is judgement-mediated supply with its failure modes (qualifier added by scope extension, vocabulary-and-delivery session ruling 2026-08-15; the corpus no-unwrap row is the instance — one criterion, act-triggered in CI, actor-triggered locally).
+  Per-act, synchronic; locus of supply per DDD-cost-01's register split. Governs the locus of assurance supply only; class consequences are DDD-cost-11's. The standing locus holds per act-site: assurance-by-check is supplied standing at act-sites where the check is act-triggered (term:delivery, act-triggered); the same check actor-triggered at another site is judgement-mediated supply with its failure modes (qualifier added by scope extension, vocabulary-and-delivery session ruling 2026-08-15; the corpus no-unwrap row is the instance — one criterion, act-triggered in CI, actor-triggered locally).
 evidence: []
 falsifier: |
   A property whose check is complete at the declared assurance level, where the arrangement nonetheless cannot discharge that property's assurance without per-act carrier supply.

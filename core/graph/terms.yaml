@@ -293,6 +293,10 @@ terms:
     established_by: 06-composition.md
     status: settled
     canonical_md: |
+      > The **seam** — the coordination boundary decomposition creates between the parts: splitting a
+      > task or an actor manufactures new governing decisions, the ones about how the parts coordinate,
+      > that did not exist when the thing was whole.
+      >
       > A composite carries the demand of its parts, **plus** the seam demand `S` created *between* them.
   - id: term:seam-identity
     term: seam-identity
@@ -307,6 +311,9 @@ terms:
     established_by: 06-composition.md
     status: settled
     canonical_md: |
+      > A **composite actor** — several actors read as one at a declared boundary: from outside it the
+      > composite is **one actor**, with one capability envelope and one verdict owed.
+      >
       > **A composite actor carries its members' demand, plus the seam demand between them.**
   - id: term:seam-occupancy
     term: seam-occupancy
@@ -343,6 +350,10 @@ terms:
     established_by: 08-projections.md
     status: settled
     canonical_md: |
+      > A **projection** of the principle — the compound drawn on one axis: *pay once, inherit
+      > thereafter*, read along **depth** within a run (the funnel) or along **repetition** across runs
+      > (maturation).
+      >
       > The principle has two projections. They are not two mechanisms. **They are the same
       > mechanism — the compound — run along two different axes.**
   - id: term:funnel
@@ -364,10 +375,12 @@ terms:
     aliases: [verdict function]
     established_by: 09-the-measure.md
     status: settled
+    denominations:
+      - audience: engineering
+        name: specification demand
+        note: the measure is identical either way
     canonical_md: |
-      > **Definition (determination demand).** *(In the engineering projection this same quantity is
-      > denominated in the vocabulary of the domain and called* **specification demand** *; the measure
-      > below is identical either way.)* For a task whose acceptance predicate **closes** for the
+      > **Definition (determination demand).** For a task whose acceptance predicate **closes** for the
       > arrangement (`term:closure`; *decidable* is the formal special case, not the requirement),
       > the predicate evaluates outcomes, and the **task class** supplies one correct output per
       > input point. The **verdict** is that induced assignment — the correct output over each point
@@ -535,15 +548,15 @@ terms:
     status: settled
   - id: term:delivery
     term: delivery
-    aliases: [mechanical delivery, judgment-mediated delivery, judgement-mediated delivery]
+    aliases: [act-triggered delivery, judgment-mediated delivery, judgement-mediated delivery]
     established_by: 13-delivery.md
     status: draft
     canonical_md: |
-      > **Delivery** is how authored governance reaches an act: **mechanical** — the act triggers
+      > **Delivery** is how authored governance reaches an act: **act-triggered** — the act triggers
       > retrieval, without judgment — or **judgment-mediated** — it reaches the act only if an actor
       > recalls it. Delivery is a property of a decision **at an act-site**, never of the decision
-      > alone: the same decision can be mechanically delivered at one act-site and judgment-mediated at
-      > another, and a path from a decision to an act is only as mechanical as its weakest edge.
+      > alone: the same decision can be act-triggered at one act-site and judgment-mediated at
+      > another, and a path from a decision to an act is act-triggered only if **every** edge on it is.
   - id: term:undelivered
     term: undelivered
     established_by: 13-delivery.md
