@@ -1,0 +1,136 @@
+format: 1
+version: v5.12.0
+# No `commit`: cut wherever this file lands on the default branch, the normal case
+# (spec/release-format.md §2 rule 3).
+date: 2026-08-27
+basis:
+  # The discipline this release's rename obeys, and the case it was written for.
+  - DDD-dec-30
+  # The claim that already carried `act-triggered` in canon, and whose statement moves here.
+  - DDD-cost-09
+  # The two delivery claims whose statements move with the value rename.
+  - DDD-delivery-01
+  - DDD-delivery-03
+  # The retired claim whose judgment gloss the public README still carried.
+  - DDD-frame-15
+  # The ruling that gated ground-provenance minting, and the two ground claims the
+  # classification is anchored on — cited because this release is what a deferred
+  # migration files instead of the migration.
+  - DDD-dec-26
+  - DDD-ground-02
+  - DDD-ground-05
+  # Basis as query, applied to this repository's own agents.
+  - DDD-agent-01
+title: 'Definitions that were never in the registry, and a collision the store won'
+summary: |
+  **A repair release, filed by a migration that deferred.** The ground migration was planned in
+  full, priced, and **deferred whole** on the C-1 precedent. What ships here is the set of repairs
+  that surfaced while planning it and that stand on their own evidence. **No occurrence of `ground`
+  changes sense or wording anywhere in this release.**
+
+  This is a minor and not a patch: the terms registry gains an additive field, four settled
+  canonical texts move, and a value in `term:delivery` is renamed. It is not a major because every
+  format-1 claim and every registry entry remains valid unchanged, no id moves, and no status moves.
+
+  ### Three terms that never defined themselves
+
+  A sweep of all 62 registry entries carrying canonical text asked one question of each: **does it
+  define its subject, or assert something about it?** 41 define, 11 do both — which is
+  `term:floor`'s repaired shape — and **10 assert without defining.** Three of those had no
+  definition anywhere, in the registry or in the establishing document:
+
+  - **`term:seam`** named the seam and defined only *seam demand*. 41 uses of the bare word in `06`,
+    none definitional.
+  - **`term:composite-actor`** carried a near-duplicate of `term:seam`'s claim.
+  - **`term:projection`** said there were two and what they shared, never what one **is**.
+
+  Each now carries a definition **promoted byte-for-byte from its own establishing document** —
+  `06`'s *"splitting a task or an actor manufactures new governing decisions … that did not exist
+  when the thing was whole"*, `06` §"Composition at one act"'s *"from outside the declared boundary,
+  the composite is one actor"*, and `08`'s *"the same compound — pay once, inherit thereafter —
+  drawn on two axes"*. **Nothing was authored.** Each is now definition-then-claim, the shape
+  `term:floor` was repaired into.
+
+  **The remaining seven are booked with their grading**, which is the artefact: two have an
+  ungoverned definition already in their document and need a promotion; five carry a definition
+  subordinated to an assertion and need a reordering. None is pinned.
+
+  ### `mechanical` named two objects; the store keeps the word
+
+  `term:mechanical` is a **store** — *a criterion, applied after the act, by a check*. `term:delivery`
+  used the same word for a **delivery mode** — *the act triggers retrieval, without judgment*.
+  Unrelated objects, one word, and *"encoded and mechanically delivered"* read as incoherent.
+
+  **The delivery value is renamed to `act-triggered`. The store is untouched.** Volume decided it —
+  roughly 49 occurrences at `draft` status against roughly 340 at `settled` — and the clincher is
+  that it is **reuse rather than minting**: `DDD-cost-09` already read *"where the check is
+  act-triggered"*, and `13-delivery.md` already read *"act-triggered in CI, actor-triggered
+  locally"*. `term:compound`'s *"a mechanical **check**"* is correctly retained.
+
+  **`DDD-dec-30` is the warrant, and the discipline existed before the violation.** That decision
+  chose `predetermined`/`exercised`/`drawn` because they *"share no word with `term:store`, or the
+  timing terms"*. `term:delivery` is the case that rule was written for — filed five minor versions
+  earlier.
+
+  **A finding, discovered rather than planned.** `13-delivery.md` used `mechanical` in exactly two
+  places: its contract's `requires` list and the delivery value. **It never used the store at all.**
+  The contract declared a dependency the body did not have, **and the collision masked it** — the
+  body linter sees the word and cannot see which object, so `W2 required term never appears in body`
+  never fired. The stale edge is removed with the rename that revealed it.
+
+  ### `denominations:` — a rule canon already practised in one place
+
+  One additive terms-registry field, filed in the format-2 addendum:
+  **canon is the naming authority; a projection denominates for its audience; the denomination is
+  recorded on the term rather than invented downstream.**
+
+  `term:verdict`'s inline parenthetical — *"(in the engineering projection this same quantity is
+  denominated … and called* **specification demand***)"* — moves into the field. The parenthetical
+  was added deliberately at the `09` register fix and **pointed at no downstream path**, respecting
+  the Stable Dependency Principle; **the field preserves that exactly**, naming an audience and no
+  repository.
+
+  **It repairs a second problem as a side effect rather than as a second action.** That parenthetical
+  is where `projection` did denomination duty inside a settled entry, while `term:projection` names
+  an axis of the compound — a live collision, now the cheapest repair available and cheaper than
+  renaming either object.
+
+  **No validator check is proposed**, and the addendum says why: a denomination is right or wrong by
+  ruling, not by rule.
+
+  ### Two pages that contradicted themselves
+
+  **`README.md`** carried the judgment row **unpatched** — *"an actor reading ground"* with no
+  accountable-party clause, the gloss `CANON-PATCH-REGISTER.md` records as corrected in
+  `01-the-principle.md` and which `term:judgment` settles with *"a judgment allocation naming no
+  accountable party is not an allocation."* It is the same gloss that made `DDD-frame-15`'s judgment
+  mode collide with `term:judgment`, still live on the repository's public front page. Its closure
+  paraphrase also said *required* where canon says **declared**. Both corrected.
+
+  **`i18n/ordliste-dansk.md`** glossed `grund` with **two definitions in one entry**: canon's *"what
+  a decision is determined against"* plus the apparatus's *"the readable substrate the actor
+  inspects"* — the definition the ground audit found **miscited to `core/00`**. The second is
+  removed, applying the file's own rule that the English source wins.
+
+  **Neither page's `ground` senses moved.** Repair what contradicts itself; never resolve what is
+  merely unqualified.
+
+  ### Deliberately not in this release
+
+  **The ground migration.** It is planned in full and deferred whole: 187 bare prose re-expressions
+  in canon and the projection, 11 registry entries of which 7 sit under a live pin, and 11 embed
+  re-projections. The plan is filed downstream as the successor's seed.
+
+  **W1 is again unavailable**, and for the second independently-found reason: `v5.11.0` recorded that
+  `ground distribution` sits in the `statement` field of four claims, one of them `established`; this
+  session adds that `SR-5` binds W1 to a paper revision that is out of scope. **Half a rename is
+  worse than none**, twice over.
+
+  **`product-cli` is untouched.** W4 remains priced and unexecuted, carrying two local collisions a
+  field-name divergence would not dispose of: `tolerance_floor` against the Polanyi floor across 168
+  files, and two further objects under `ground` — the RDF `ground term` and a CSS surface colour.
+
+  **The downstream pin stays at `v5.9.0`.** When it is next advanced past this release, **exactly
+  three `W6` fire**: `term:delivery`, `DDD-cost-09` and `DDD-delivery-01` — the three pinned objects
+  whose statement or canonical text moved. Stated here so the advance is a governed act and not a
+  discovery.
