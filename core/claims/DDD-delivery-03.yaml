@@ -7,7 +7,7 @@ status: projected
 region: |
   Synchronic, per act (upstream per DDD-dec-09's charter). Applies where both a governing
   decision and a check over the same act reach it by judgement-mediated delivery; where either
-  side is mechanically delivered, the correlation is broken by construction. Cuts across source
+  side is act-triggered, the correlation is broken by construction. Cuts across source
   and assurance identically — which is evidence the delivery split is real rather than an
   artefact of the source side (the originating note's Q17 argument, Emil's extension).
 evidence:
@@ -43,5 +43,5 @@ notes: |
   The record asymmetry underneath the claim: retrieval failure is invisible to the check's own
   record — a gate reports passed meaning applied-and-satisfied or meaning never-reached
   (term:presumed-discharge), where on the source side the act's outcome is at least available to
-  argue from. That asymmetry is why mechanical delivery matters more on the assurance side, and
+  argue from. That asymmetry is why act-triggered delivery matters more on the assurance side, and
   it is what the falsifier's ordering tests.

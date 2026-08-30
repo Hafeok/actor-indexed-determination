@@ -2,7 +2,7 @@ format: 1
 id: DDD-delivery-01
 kind: conceptual
 statement: |
-  Filing is not encoding: a decision sits in I(V;X) only to the extent the arrangement delivers it at the act, so store allocation cannot be read off artefacts, and the paid-once-inherited-by-every-run property belongs to mechanical delivery specifically, not to standing supply generally.
+  Filing is not encoding: a decision sits in I(V;X) only to the extent the arrangement delivers it at the act, so store allocation cannot be read off artefacts, and the paid-once-inherited-by-every-run property belongs to act-triggered delivery specifically, not to standing supply generally.
 status: projected
 region: |
   A correctness condition on reading allocation, synchronic — it constrains what may be inferred
@@ -15,11 +15,11 @@ evidence:
   - kind: observation
     ref: "Corpus test results, 2026-08-14 — rows 1 and 5 (DDD-dec-15/16), and row 6"
     note: |
-      Ratified canon carries the instance: the downstream pin's mechanical channel (E12/E13/W5)
+      Ratified canon carries the instance: the downstream pin's act-triggered channel (E12/E13/W5)
       demonstrably did not deliver the escape-scope correction — the checks instrument status,
       not statement, and would have carried the repository forward against a superseded statement
       without a word. The artefact showed coverage; the delivery had not happened. Row 6 shows
-      the same divergence spatially: one decision mechanically delivered at the MCP write path
+      the same divergence spatially: one decision act-triggered at the MCP write path
       and absent at the CLI act-site — the register's artefact identical from both sites. Corpus
       sample: 11 rows (5 canon-ratified, 4 accepted-not-ratified, 2 pending).
   - kind: observation

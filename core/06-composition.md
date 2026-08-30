@@ -20,10 +20,17 @@ actor into several, or one task into several.**
 <!-- /ddd:embed -->
 >
 <!-- ddd:embed id=term:seam -->
+> The **seam** — the coordination boundary decomposition creates between the parts: splitting a
+> task or an actor manufactures new governing decisions, the ones about how the parts coordinate,
+> that did not exist when the thing was whole.
+>
 > A composite carries the demand of its parts, **plus** the seam demand `S` created *between* them.
 <!-- /ddd:embed -->
 
 <!-- ddd:embed id=term:composite-actor -->
+> A **composite actor** — several actors read as one at a declared boundary: from outside it the
+> composite is **one actor**, with one capability envelope and one verdict owed.
+>
 > **A composite actor carries its members' demand, plus the seam demand between them.**
 <!-- /ddd:embed -->
 

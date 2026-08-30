@@ -107,3 +107,49 @@ to the kinds the spec gives `test` to, and to no others.
 no near-definitional exception, is ruled — and it fires on seven claims that must each be
 written with a ruling. It ships as a warning until they are, and the ruling that lands the
 last of them is the one that promotes it.
+
+
+## Audience denomination — `denominations:`
+
+One optional field on a **terms-registry** entry, recording what a named audience calls the same
+object. Additive: an entry without it is unchanged and valid.
+
+```yaml
+- id: term:verdict
+  term: verdict
+  denominations:
+    - audience: engineering
+      name: specification demand
+      note: the measure is identical either way
+```
+
+**The rule it files.** **Canon is the naming authority. A projection denominates for its audience,
+and the denomination is recorded on the term rather than invented downstream.** A projection may
+render `denominations:` for its audience; it may not mint a name canon does not carry.
+
+**Why a field and not a parenthetical.** Canon has practised this in exactly one place and never
+named it as a rule: `term:verdict`'s canonical text carried *"(in the engineering projection this
+same quantity is denominated in the vocabulary of the domain and called* **specification demand***)"*.
+Carrying it inline has three costs, and the third is the one that bites:
+
+1. **It is unreadable to a projection.** A generator cannot extract a name from prose, so every
+   downstream rendering re-authors the denomination — which is exactly the mint canon forbids.
+2. **It taxes every reader for one audience's benefit.** The parenthetical interrupts a definition
+   for readers who are not that audience.
+3. **It puts a load-bearing word inside canonical text for a second purpose.** The parenthetical is
+   where `projection` does denomination duty inside a settled entry, while `term:projection` names
+   an axis of the compound. **Moving the denomination out is the cheapest available repair of that
+   collision** — cheaper than renaming either object.
+
+**This is the same shape as two defects already ruled**: Paper A's appendix rendering `id | status |
+statement` and no `kind` when the graph had carried `kind` since format 1, and
+`spec/claim-format.md` §5's status semantics living in a projection rather than in the schema. **The
+projection carrying what the schema should say** is the repeating error; a field is the repair.
+
+**No validator check is proposed.** `denominations:` is inert data with no consistency condition a
+checker could evaluate — a name is right or wrong by ruling, not by rule. The instrument here is the
+field plus the review discipline, as with `canonical_home`.
+
+**First and only instance at filing:** `term:verdict`. The primer is the first projection that will
+need the field at scale, and it is the second consumer that made it worth filing now rather than
+with the primer.

@@ -30,6 +30,10 @@ The principle has two projections. They are not two mechanisms. **They are the s
 encoded store amortising a cost paid once — viewed on two different axes.**
 
 <!-- ddd:embed id=term:projection -->
+> A **projection** of the principle — the compound drawn on one axis: *pay once, inherit
+> thereafter*, read along **depth** within a run (the funnel) or along **repetition** across runs
+> (maturation).
+>
 > The principle has two projections. They are not two mechanisms. **They are the same
 > mechanism — the compound — run along two different axes.**
 <!-- /ddd:embed -->

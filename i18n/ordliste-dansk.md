@@ -14,7 +14,7 @@ erstatte den.*
 | Dansk | Engelsk | Note |
 |---|---|---|
 | **beslutning** | decision | Det, der afgøres. Grundenheden. |
-| **grund** | ground | Det, en beslutning afgøres *imod* — det læsbare underlag, aktøren inspicerer for at handle. Bærer samme "fundament, man står på"-betydning på dansk. |
+| **grund** | ground | Det, en beslutning afgøres *imod*. Bærer samme "fundament, man står på"-betydning på dansk. |
 
 *Kernepåstanden: der findes kun beslutninger og grund. Handlingen **er** en beslutning — den sidste
 i kæden, tættest på verden.*
