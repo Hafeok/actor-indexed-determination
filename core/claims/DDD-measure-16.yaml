@@ -2,7 +2,7 @@ format: 1
 id: DDD-measure-16
 kind: formal
 statement: |
-  The verdict-entropy construction is available to an arrangement exactly where the task's acceptance predicate closes for that arrangement; availability is a property of the arrangement, not of the task, and it is neither the existence of the verdict function nor the estimability of the ground distribution.
+  The verdict-entropy construction is available to an arrangement exactly where the task's acceptance predicate closes for that arrangement; availability is a property of the arrangement, not of the task, and it is neither the existence of the verdict function nor the estimability of the deployment distribution.
 status: established
 region: |
   Arrangements, not tasks: closure is closure for an arrangement (term:closure), so availability
@@ -21,7 +21,7 @@ region: |
   exists until the task supplies a tie-breaker, a canonical form, or a declared selection
   distribution.
 
-  ESTIMABILITY. H(V) is taken with respect to P, the ground distribution (core/09 §2), so P must
+  ESTIMABILITY. H(V) is taken with respect to P, the deployment distribution (core/09 §2), so P must
   be known well enough to estimate. Where the deployment distribution is unknown, unstable,
   non-stationary, or only partly observable, the demand is well defined and cannot be computed
   (DDD-measure-12). A verdict function alone does not deliver a number.

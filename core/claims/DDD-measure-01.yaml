@@ -2,7 +2,7 @@ format: 1
 id: DDD-measure-01
 kind: empirical
 statement: |
-  Specification demand is verdict entropy: for a task whose acceptance predicate closes, the demand engineers experience as specification burden is H(V) over the ground distribution.
+  Specification demand is verdict entropy: for a task whose acceptance predicate closes, the demand engineers experience as specification burden is H(V) over the deployment distribution.
 status: projected
 region: closing predicates only
 evidence:

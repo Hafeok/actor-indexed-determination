@@ -21,7 +21,7 @@ the joint entropy is exact in closed form. Canon licenses the framing directly
 The i.i.d. control redraws the month at every act. It must return exactly
 N*H(V) — the equality limb of the inequality, demonstrated rather than stated.
 
-Task, denomination (bits x n) and ground distribution as in measure-toy.py;
+Task, denomination (bits x n) and deployment distribution as in measure-toy.py;
 entropies are exact (exhaustive, log-space), nothing is sampled.
 Exercises DDD-frame-16 (discharge is act-indexed) as worked arithmetic.
 
@@ -31,7 +31,7 @@ from math import log2, lgamma, log
 
 LOG2E = 1.0 / log(2.0)
 
-# Task: validate (M, D). VALID iff D <= days_in_month(M). Uniform ground.
+# Task: validate (M, D). VALID iff D <= days_in_month(M). Uniform deployment distribution.
 days = {1: 31, 2: 28, 3: 31, 4: 30}
 points = [(m, d) for m in days for d in range(1, 32)]
 verdict = {(m, d): (d <= days[m]) for (m, d) in points}

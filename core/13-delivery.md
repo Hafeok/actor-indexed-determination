@@ -138,7 +138,7 @@ supply is produced per act; there is no act-free discharge. Governance never cho
 demand is supplied — only *by what*, chosen in advance or defaulted at the act.
 
 **Distribution-weighting — an exposition note, deliberately not a claim.** Discharge is
-distribution-weighted: demand comes due where acts concentrate, at the rate the ground
+distribution-weighted: demand comes due where acts concentrate, at the rate the deployment
 distribution `P` supplies them. This is the measure's own `P` (`core/09`) read back, a
 projection of the measure rather than a further claim, and it files as this paragraph — the
 flag is the finding.

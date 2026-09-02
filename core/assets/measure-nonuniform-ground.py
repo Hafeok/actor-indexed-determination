@@ -1,12 +1,12 @@
 """
-Non-uniform ground for "Specification Demand Is Verdict Entropy."
+Non-uniform deployment distribution for "Specification Demand Is Verdict Entropy."
 Re-runs the date task under skewed input distributions and verifies the identity
 
     H(V) = I(V;S) + H(V|S)
 
 per deployment: same task, same code, same decompositions — demand moved by the
-ground distribution alone. Exercises DDD-measure-12 (demand is relative to the
-ground distribution) as a worked instance rather than a stated caveat.
+deployment distribution alone. Exercises DDD-measure-12 (demand is relative to the
+deployment distribution) as a worked instance rather than a stated caveat.
 Task and denomination (bits x n) as in measure-toy.py; entropies are exact
 (weighted, exhaustive), nothing is sampled.
 
@@ -29,7 +29,7 @@ def H(pairs):
     return -(p * log2(p) + (1 - p) * log2(1 - p))
 
 def analyze(split, weight):
-    """(parts, seam, whole) in bits x n under the weighted ground distribution."""
+    """(parts, seam, whole) in bits x n under the weighted deployment distribution."""
     all_pairs = [(weight(p), verdict[p]) for p in points]
     tot = sum(w for w, _ in all_pairs)
     Hv = H(all_pairs)
@@ -42,7 +42,7 @@ def analyze(split, weight):
         Hc += (sum(w for w, _ in pairs) / tot) * H(pairs)
     return n * Hc, n * (Hv - Hc), n * Hv
 
-# Deployments: the ground distribution the task faces, nothing else varied.
+# Deployments: the deployment distribution the task faces, nothing else varied.
 deployments = [
     ("benign      (valid 9x invalid)", lambda p: 9.0 if verdict[p] else 1.0),
     ("uniform     (the worked example)", lambda p: 1.0),

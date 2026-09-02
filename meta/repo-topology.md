@@ -27,7 +27,7 @@ to pin it independently. That is an N*-type decision — the crossover machinery
 layer applied to repository structure. **Do not split ahead of the crossover.**
 
 The seam itself splits across the charter boundary: its arithmetic — the chain-rule identity,
-the declared ground distribution — is synchronic and lives with the principle (`core/09`); its
+the declared deployment distribution — is synchronic and lives with the principle (`core/09`); its
 life — choosing `S`, the interface contract, the `I(V;S)` ↔ interface-cost correspondence with
 its `closesAt`, amortisation over `N` — persists between acts and lives with the ledger layer
 (`decision-driven-design`).

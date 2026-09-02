@@ -40,7 +40,7 @@ the prose is the bug — flag it in the claim's `notes:`, never harmonise silent
 
 | Debt | Where booked | State |
 |---|---|---|
-| Chained seams, multi-actor compositions, non-uniform ground | `core/09` §9 caveat 3; `core/06` line 185 | Open, unmoved. The honest filler for the length gap, if one is ever wanted |
+| Chained seams, multi-actor compositions, non-uniform deployment distribution | `core/09` §9 caveat 3; `core/06` line 185 | Open, unmoved. The honest filler for the length gap, if one is ever wanted |
 | Outside certification by an information theorist | `core/09` §9 caveat 3; `core/11` §7 | Open, and now owed twice — `core/11` inherited it |
 
 Two further items read as debts and are not. The RAG instance is **not** claimed as evidence of
@@ -114,7 +114,7 @@ Thirteen IDs, one retired. Status vocabulary: `established` (formal, follows fro
 | `DDD-measure-09` | conceptual | reported | paper-1 | Demand is a measure, not a count |
 | `DDD-measure-10` | formal | established | paper-1 | You cannot decompose your way out |
 | `DDD-measure-11` | conceptual | reported | paper-1 | The measure prices the verdict, not the search |
-| `DDD-measure-12` | conceptual | reported | paper-1 | Demand is relative to the ground distribution |
+| `DDD-measure-12` | conceptual | reported | paper-1 | Demand is relative to the deployment distribution |
 | `DDD-measure-13` | formal | reported | paper-1 | The maturation asymptote is `H(V) − I(V;S_encoded)` |
 
 `owner:` names *which projection pays the claim's debt*, per `spec/claim-format.md`. Ten of these are

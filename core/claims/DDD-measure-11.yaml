@@ -3,7 +3,7 @@ id: DDD-measure-11
 kind: conceptual
 statement: >
   The measure prices the verdict, not the search: H(verdict) is a property of the verdict
-  function and the ground distribution and says nothing about the cost of computing a
+  function and the deployment distribution and says nothing about the cost of computing a
   correct answer. Two tasks with identical verdict entropy can differ unboundedly in
   generation cost, so the measure must not be read as pricing generation.
 status: reported

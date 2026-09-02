@@ -28,7 +28,7 @@ exposition (canon authority lives in the claim files; see `core/claims/README.md
 | §7 | The construction is available to an arrangement exactly where its predicate closes; existence and estimability are separate conditions | `DDD-measure-16` |
 | §7 | The construction's domain and the non-zero-floor region coincide — principled, not evidential | `DDD-measure-17` |
 | §7, §9 | The measure prices the verdict, not the search | `DDD-measure-11` |
-| §9 | Demand is relative to the ground distribution | `DDD-measure-12` |
+| §9 | Demand is relative to the deployment distribution | `DDD-measure-12` |
 | §2.1 | Admissibility: the engineering reading holds for admissible `X` only | `DDD-measure-15` |
 | §9 | The chain rule iterates; the conditional term is an internal seam | `DDD-measure-14` |
 | §7a | Outcome and verdict: the determinate's two registers | `DDD-frame-14` |
@@ -63,7 +63,7 @@ So demand is not a count. It is a **measure**. And the measure is **Shannon info
 > arrangement (`term:closure`; *decidable* is the formal special case, not the requirement),
 > the predicate evaluates outcomes, and the **task class** supplies one correct output per
 > input point. The **verdict** is that induced assignment — the correct output over each point
-> of the input space. Let `P` be the distribution over inputs (the *ground distribution*). The
+> of the input space. Let `P` be the distribution over inputs (the *deployment distribution*). The
 > **determination demand** of the task is the Shannon entropy of the verdict:
 >
 > **D = H(verdict)**, measured in **bits**.
@@ -266,7 +266,7 @@ form of the unification of conservation with the actor model — and it corrects
 > mere relabelled difficulty). Demand is "constant *across* actors, *allocated by* actor."** The same
 > `H(verdict)` faces every actor; the actor sets only how it splits between encoded and judgment.
 
-`H(verdict)` never mentions the actor. It is a property of the verdict function and the ground
+`H(verdict)` never mentions the actor. It is a property of the verdict function and the deployment
 distribution — the task. That is exactly why it is "fixed by the task, never by the system."
 
 ### 6.3 X = what is supplied before the act → the encode/verify split
@@ -459,7 +459,7 @@ concession. A distribution-free quantity cannot express it.
 Second, the objects differ. MDL is computable — that is its purpose — but it prices the description of
 a hypothesis against data. It is model-selection machinery. Verdict entropy prices the distinctions a
 task requires of whatever resolves it. The two reconcile rather than compete: by the source-coding
-theorem, `H(V)` is the expected length of an optimal description of the verdict under the ground
+theorem, `H(V)` is the expected length of an optimal description of the verdict under the deployment
 distribution. The measure proposed here is therefore itself a description-length quantity — the
 distribution-relative expectation, which is the form a deployed system faces.
 
@@ -498,7 +498,7 @@ from it (`core/11` §4), and that bound supplies the escape/judgment split that 
 supply is partial: the mechanism is sufficient for escape and not necessary for it (`core/11` §7).
 
 **Brooks (1987).** "No Silver Bullet" claims an essential complexity fixed by the problem. `H(V)` gives
-that claim an exact form and a boundary: fixed by the task, the tolerance, and the ground distribution
+that claim an exact form and a boundary: fixed by the task, the tolerance, and the deployment distribution
 — and never by the actor — where the predicate closes, and only there.
 
 ### References
@@ -533,21 +533,21 @@ Three, none fatal, all required in any write-up:
    decomposition with conditioning. That identification is falsifiable and was vindicated on the
    example — but it must be claimed as a modelling result, never as a mathematical discovery.
 
-2. **Demand is relative to the ground distribution.** `H(verdict)` depends on `P(input)`; the
+2. **Demand is relative to the deployment distribution.** `H(verdict)` depends on `P(input)`; the
    example used uniform. So *"fixed by the task"* must be stated as *"fixed by the task, the
-   tolerance, and the ground distribution."* This is arguably more correct — the same validator
+   tolerance, and the deployment distribution."* This is arguably more correct — the same validator
    faces different demand in different deployment environments — but it is an added parameter, not a
    free lunch.
 
 3. **Five instances is credibility, not certification.** The identity is general (it is the chain
    rule), and it has now been exercised on five conditioning variables — decomposition, actor
    encoding, what is supplied before the act (empirically, with distractors), a decomposition
-   applied *twice*, and a decomposition under varied ground — all on closing-predicate tasks. That
+   applied *twice*, and a decomposition under varied deployment distributions — all on closing-predicate tasks. That
    is real triangulation, not a single toy. Two of the three cases this caveat previously named as
    owed are now worked: **chained seams** (`core/assets/measure-chained-seams.py`, claim
    `DDD-measure-14` — both chain orders re-split the seam and leave the parts residual invariant)
-   and **non-uniform ground** (`core/assets/measure-nonuniform-ground.py`, claim `DDD-measure-12` —
-   the identity holds exactly under three ground distributions while the demand itself moves by a
+   and **non-uniform deployment distribution** (`core/assets/measure-nonuniform-ground.py`, claim `DDD-measure-12` —
+   the identity holds exactly under three deployment distributions while the demand itself moves by a
    factor of six). **Multi-actor compositions remain owed**, and the debt is not reduced by the
    chained-seam instance: there the conditioning variables are sub-decompositions of one task, and
    the composition case conditions on *actor encodings*. Same arithmetic, distinct instance,

@@ -387,7 +387,7 @@ rather than be caught by:
 
 - **Minimum description length / Kolmogorov complexity** (Solomonoff, Kolmogorov, Rissanen) — an
   alternative formalisation of "how much specification does this task require." `core/09` uses
-  Shannon entropy over a ground distribution instead, which is *weaker but computable*. Worth a
+  Shannon entropy over a deployment distribution instead, which is *weaker but computable*. Worth a
   sentence in any paper explaining the choice: MDL would give a distribution-free measure but is
   uncomputable; entropy is distribution-relative but calculable, which is what let us actually
   compute the worked examples.
