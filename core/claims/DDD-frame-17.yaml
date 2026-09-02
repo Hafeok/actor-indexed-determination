@@ -57,7 +57,7 @@ evidence:
     ref: core/13-delivery.md §4
     note: derivation by dichotomy; premises by ID and steps in notes
 falsifier: |
-  An outcome-relevant alternative at a completed act for which there is no fact of the matter whether the standing configuration and the ground together determine the resolution; or a completed act with an outcome-relevant alternative resolved by nothing at all.
+  An outcome-relevant alternative at a completed act for which there is no fact of the matter whether the standing configuration and the ground at the act together determine the resolution; or a completed act with an outcome-relevant alternative resolved by nothing at all.
 test: |
   Coding reliability over recorded acts: independent coders assigning every completed act's outcome-relevant alternatives to predetermined, exercised, or drawn without remainder, without collapsing the discharge coding into the store coding, and agreeing on where the fixing test is answerable.
 owner: none
