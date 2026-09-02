@@ -90,7 +90,7 @@ timeout has a *when-to-stop* alternative, predetermined by the deadline, and a *
 alternative, drawn from whatever partial state obtained.
 
 **Exhaustiveness here is provable, not enumerated.** Given the standing configuration and the
-ground, the resolution is determined or it is not; if it is not, what determines it is inside the
+ground at the act, the resolution is determined or it is not; if it is not, what determines it is inside the
 arrangement's control or outside it. Two dichotomies, three values, no remainder — and a
 dichotomy, unlike a list, cannot be counterexampled. The claim's content sits in the
 answerability of that first test, which is where its falsifier now points.
@@ -138,7 +138,7 @@ supply is produced per act; there is no act-free discharge. Governance never cho
 demand is supplied — only *by what*, chosen in advance or defaulted at the act.
 
 **Distribution-weighting — an exposition note, deliberately not a claim.** Discharge is
-distribution-weighted: demand comes due where acts concentrate, at the rate the ground
+distribution-weighted: demand comes due where acts concentrate, at the rate the deployment
 distribution `P` supplies them. This is the measure's own `P` (`core/09`) read back, a
 projection of the measure rather than a further claim, and it files as this paragraph — the
 flag is the finding.

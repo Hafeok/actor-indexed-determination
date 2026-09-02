@@ -172,7 +172,7 @@ judgment into encoding, and an **inheritance path** from encoding to the next ru
 A composed arrangement executing one act is the two primitives twice over. From outside the
 declared boundary, the composite is **one actor**: one capability envelope (`04`), one verdict
 owed. Inside the boundary, the wiring — who reads what, which member resolves which slice, what
-sits at the seam — is declared structure, exactly as the decomposition and the ground
+sits at the seam — is declared structure, exactly as the decomposition and the deployment
 distribution are. Nothing about being composed requires anything beyond the act.
 
 Synchronic does not mean timeless. Sequence exists within the episode — members fire in order,

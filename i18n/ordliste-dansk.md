@@ -100,7 +100,7 @@ men escape er ofte bare fravær af en beslutning, ikke forsømmelse).*
 |---|---|---|
 | **gulvet** | the floor | Den del af vurderingsbehovet, der **ikke** kan flyttes væk fra aktøren. |
 | **acceptprædikat** | acceptance predicate | Tjekket, der afgør, om en afgørelse er rigtig. |
-| **lukker / lukning** | closes / closure | Om acceptprædikatet kan afgøres over digital grund. |
+| **lukker / lukning** | closes / closure | Om den relevante grund er observerbar, og tilstrækkelighed kan evalueres inden for de erklærede grænser. *Afgørbar* er forbeholdt det formelle specialtilfælde. |
 | **stidegenererethed** | path-degeneracy | Uendeligt mange forskellige afgørelser, der alle rammer et tilstrækkeligt resultat. |
 
 > **Gulvet ligger i acceptprædikatet, ikke i beslutningen.** Nul, hvor prædikatet lukker (og der gør
@@ -141,7 +141,7 @@ men escape er ofte bare fravær af en beslutning, ikke forsømmelse).*
 | Dansk | Engelsk | Note |
 |---|---|---|
 | **indkod/verificér-delingen** | the encode/verify split | Indkod grund, du kontrollerer; verificér grund, du ikke gør. |
-| **forgiftet grund** | poisoned ground | Når en aktør forbruger sit eget tidligere output som grund. Fejl bliver *korrekte slutninger over falske præmisser*. |
+| **forgiftet grund** | poisoned ground | Grund, der er til stede, men falsk: substratet, en afgørelse læser, er korrumperet. Fejl bliver *korrekte slutninger over falske præmisser*. |
 | **lukningsprincippet** | the closure principle | En aktørs eget tidligere output er ikke grund. |
 
 ---

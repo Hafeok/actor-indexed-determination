@@ -25,7 +25,7 @@ Status: reports an identity consequence (DDD-cost-02) and exercises a
 projected rate-split (DDD-cost-03). Coefficients stipulated, not measured.
 
 Task (identical to measure-toy.py figures): (M, D), M in 1..4, D in 1..31,
-uniform ground, verdict VALID iff D <= days(M), days = {31, 28, 31, 30}.
+uniform deployment distribution, verdict VALID iff D <= days(M), days = {31, 28, 31, 30}.
 """
 
 import itertools

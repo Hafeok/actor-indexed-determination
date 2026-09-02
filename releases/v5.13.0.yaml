@@ -1,0 +1,75 @@
+format: 1
+version: v5.13.0
+# No `commit`: cut wherever this file lands on the default branch, the normal case
+# (spec/release-format.md §2 rule 3).
+date: 2026-09-02
+basis:
+  # The four measure claims whose statements move with the population sense.
+  - DDD-measure-01
+  - DDD-measure-11
+  - DDD-measure-12
+  - DDD-measure-16
+  # The claim whose falsifier is aligned to its own statement's act-indexed form,
+  # and whose region is deliberately left as declared verbatim carriage.
+  - DDD-frame-17
+  # The naming discipline the executed vocabulary obeys — reuse, never minting.
+  - DDD-dec-30
+  # The ruling that gated ground-provenance minting; the provenance adjectives the
+  # migration leaves in place are that ruling still holding.
+  - DDD-dec-26
+  # Basis as query: the statement examined, ruled untouched, and left un-fired.
+  - DDD-agent-01
+title: 'The ground migration, executed — smaller than every instrument predicted'
+summary: |
+  **The deferred migration, executed under twenty ratified precedents.** The predecessor planned
+  the ground migration completely and deferred it whole, because its first twenty re-expressions
+  would have set precedents the rest inherited unreviewed. This release is the execution: twenty
+  precedents ruled individually first, then every remaining occurrence citing exactly one of them
+  — and the finding is that **the migration is smaller than four instruments in a row predicted**.
+  Each shrink came from a ruling, not a re-count.
+
+  This is a minor and not a patch: settled canonical text moves in three registry entries, four
+  pinned claim statements move, and the population sense leaves the word. It is not a major
+  because every format-1 claim remains valid unchanged, no id moves, and no status moves.
+
+  ### The population sense leaves: `deployment distribution`
+
+  `ground` had been carrying five senses. The one sense that was a genuinely distinct object —
+  S5, the distribution over inputs a deployed task faces — now has its own name everywhere in
+  canon: `term:verdict`'s definition, `core/09`'s prose, `core/06`, `core/13`, the `README`, and
+  the statements of `DDD-measure-01`, `-11`, `-12` and `-16`. The papers moved first (the Paper A
+  revision); canon now agrees with them. Asset filenames keep their names, and three printed
+  strings inside `measure-nonuniform-ground.py` deliberately keep the old phrase — the output
+  bytes are recorded evidence, and they are booked with the filename as one item for whoever next
+  advances that asset.
+
+  ### The definitional layer was already correct
+
+  The plan predicted seven pinned registry entries moving, with seven W6 firings. **Zero of the
+  seven fire.** Ruled sentence by sentence under the precedents, every pinned entry's text
+  already names what is done to the ground — `reading`, `declared`, `observable`, `in context at
+  once`, `channels`, `held at fixed`, `at the act`. The three entries that do move are unpinned:
+  `term:overflow` completes its own parallel (*"exceeds hold capacity"*), `term:poisoned-ground`
+  gains one sentence naming its state (*"ground that reached the act false — what arrived is
+  wrong, not missing"*), and `term:verdict` takes the population rename. Three embeds re-project.
+
+  ### What fires, stated before it happened
+
+  When the downstream pin next advances past this release, **exactly two W6 fire**:
+  `DDD-measure-01` and `DDD-measure-16`, whose statements carry the population rename. Both were
+  predicted by id and hash before the edit, and both landed on the predicted hash exactly. Zero
+  W5, zero W7. `DDD-frame-17`'s digest is verified unmoved: its falsifier (unhashed) is aligned
+  to the statement's own *"at the act"* form, and its region — which declares itself carried
+  verbatim from `DDD-frame-15` — is left, a declared carriage inside a hashed field.
+
+  ### The prose, ruled rather than rewritten
+
+  Of the corpus's bare occurrences in canon and the projection, the wave bodies held 131 rows and
+  the surfaced remainder 54. Every row now cites exactly one precedent in a committed citation
+  map. **Seven sentences were edited.** The rest were already correct — the vocabulary was doing
+  its work in canon's habits, and the rulings are what made that checkable. Two Danish glosses
+  are repaired under the glossary's own English-wins rule; `apparatus/encode-verify.md` stops
+  attributing its read-only-surface gloss to `core/00` and owns it.
+
+  The classification, the citation maps, the instruments and the per-gate rulings live in the
+  projection repository's session record (`meta/sessions/2026-08-31-ground-migration-exec/`).

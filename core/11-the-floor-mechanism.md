@@ -50,12 +50,12 @@ Effective capacity is `min(C_hold, C_resolve)`, but the two produce different es
 <!-- /ddd:embed -->
 
 <!-- ddd:embed id=term:overflow -->
-> **Hold-overflow** — the decision's governing ground does not fit. **Resolve-overflow** —
+> **Hold-overflow** — the decision's governing ground exceeds hold capacity. **Resolve-overflow** —
 > the ground fits and is held, but the bits that must be *jointly resolved* exceed resolve
 > capacity.
 <!-- /ddd:embed -->
 
-- **Hold-overflow** — the decision's governing ground does not fit; the actor decides against a
+- **Hold-overflow** — the decision's governing ground exceeds hold capacity; the actor decides against a
   *partial view*. This is **encodable away**: pre-resolve some ground into the constraint (raise
   `I(verdict;X)`) and the residual that must be held shrinks until it fits. RAG is this move. Not
   floor.

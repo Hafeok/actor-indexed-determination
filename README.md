@@ -238,7 +238,7 @@ See [`core/06-composition.md`](core/06-composition.md).
 
 For the region in which the acceptance predicate closes, the informal conservation principle admits an exact information-theoretic construction.
 
-Let `V` be the verdict induced by the task over the ground distribution.
+Let `V` be the verdict induced by the task over the deployment distribution.
 
 Then determination demand is identified as:
 

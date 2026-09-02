@@ -86,7 +86,8 @@ terms:
     canonical_md: |
       > **Poisoned ground** — ground that is present but false: the substrate a determination reads has
       > been corrupted, so a correct determiner resolves wrongly with full authority. The logic is
-      > sound; the ground is the attack surface.
+      > sound; the ground is the attack surface. The state it names: **ground that reached the act
+      > false** — what arrived is wrong, not missing.
   - id: term:granularity-bound
     term: granularity-bound
     aliases: [granularity bound]
@@ -384,7 +385,7 @@ terms:
       > arrangement (`term:closure`; *decidable* is the formal special case, not the requirement),
       > the predicate evaluates outcomes, and the **task class** supplies one correct output per
       > input point. The **verdict** is that induced assignment — the correct output over each point
-      > of the input space. Let `P` be the distribution over inputs (the *ground distribution*). The
+      > of the input space. Let `P` be the distribution over inputs (the *deployment distribution*). The
       > **determination demand** of the task is the Shannon entropy of the verdict:
       >
       > **D = H(verdict)**, measured in **bits**.
@@ -441,7 +442,7 @@ terms:
     established_by: 11-the-floor-mechanism.md
     status: settled
     canonical_md: |
-      > **Hold-overflow** — the decision's governing ground does not fit. **Resolve-overflow** —
+      > **Hold-overflow** — the decision's governing ground exceeds hold capacity. **Resolve-overflow** —
       > the ground fits and is held, but the bits that must be *jointly resolved* exceed resolve
       > capacity.
   - id: term:escape-mechanism

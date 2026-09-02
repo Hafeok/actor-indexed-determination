@@ -95,7 +95,8 @@ The apparatus holds against this without strain:
 <!-- ddd:embed id=term:poisoned-ground -->
 > **Poisoned ground** — ground that is present but false: the substrate a determination reads has
 > been corrupted, so a correct determiner resolves wrongly with full authority. The logic is
-> sound; the ground is the attack surface.
+> sound; the ground is the attack surface. The state it names: **ground that reached the act
+> false** — what arrived is wrong, not missing.
 <!-- /ddd:embed -->
 
 <!-- ddd:embed id=term:encode-verify-split -->

@@ -2,8 +2,8 @@ format: 1
 id: DDD-measure-12
 kind: conceptual
 statement: >
-  Demand is relative to the ground distribution: H(verdict) depends on P(input), so "fixed
-  by the task" must be read as "fixed by the task, the tolerance, and the ground
+  Demand is relative to the deployment distribution: H(verdict) depends on P(input), so "fixed
+  by the task" must be read as "fixed by the task, the tolerance, and the deployment
   distribution" — the same validator faces different demand in different deployment
   environments.
 status: reported
@@ -15,7 +15,7 @@ evidence:
 - kind: asset
   ref: core/assets/measure-nonuniform-ground.py
   note: >-
-    the date task under three ground distributions — uniform, adversarial (invalid 9x valid), and
+    the date task under three deployment distributions — uniform, adversarial (invalid 9x valid), and
     benign. Whole demand moves from 25.493 to 96.639 to a sixth of uniform while the identity
     holds exactly in every deployment, and a fixed decomposition's seam share moves with the
     distribution (41% benign, 57% uniform, 75% adversarial). Re-run 2026-08-17 after promotion
