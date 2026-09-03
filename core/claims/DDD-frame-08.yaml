@@ -2,13 +2,48 @@ format: 1
 id: DDD-frame-08
 kind: normative
 statement: |
-  Accountability is a relation (attribution, persistent principal, authority linkage, stake, sanction path), not an intrinsic capacity; an arrangement naming an executor but no principal is incomplete.
+  Accountability is a relation, not an intrinsic capacity of an executor. Completeness is a design-time condition on an arrangement, distinct from the relation's definition: a complete arrangement links attribution, a persistent principal, authority linkage, stake, and a sanction path. An arrangement can instantiate the relation and still be incomplete; an arrangement naming an executor but no principal is incomplete.
 status: projected
 region: consequential deployments
 test: >-
   stakeholder and case studies — completeness of the relation predicting trust and remediation
   outcomes better than executor identity
 owner: paper-4
-changed: v4.5
+changed: v5.14 (2026-09-03, pre-transfer session, GATE 1 ruling C — statement re-scoped as the completeness condition; status, region, test unchanged; version per the session's close proposal)
 notes: |
-  Conceptual core verified against canon: core/05 (v4.5, P1) states "Accountability completeness is a property of an arrangement, not a capacity of an actor... linked to a persistent responsible principal, an attributable record, a defined stake, and an enforceable consequence path", and core/01/core/05 §1 "a judgment allocation naming no accountable party is... Escaped with an executor attached". Kept projected: the normative prediction (relation-completeness predicting trust/remediation) is unexercised, needing the stated case studies.
+  Re-scoped, 2026-09-03 (pre-transfer session, GATE 1 ruling C, Emil). The prior statement read:
+  "Accountability is a relation (attribution, persistent principal, authority linkage, stake,
+  sanction path), not an intrinsic capacity; an arrangement naming an executor but no principal is
+  incomplete." Read against term:accountability (settled, three elements), that left two counts of
+  the relation's elements with nothing saying which governs. The ruling: the term defines what
+  accountability is — attribution of the determination, a persistent answerable party, a borne
+  consequence; this claim asserts what a complete instance requires at design time — the borne
+  consequence refined into stake plus the sanction path, and authority linkage added as a
+  completeness condition. The two objects differ, and there is a test: an arrangement can
+  instantiate the relation and still be incomplete — attribution exists, a persistent principal
+  exists, a consequence is borne, and no authority has jurisdiction to enforce it; everyone knows
+  who is responsible, nobody can sanction them. The term deliberately does not carry authority
+  linkage: a settled definition carries only what the corpus argues at settled grade, and authority
+  linkage's carriage is this projected claim and DDD-hyp-04's unrun prediction. core/05 §2 states
+  the distinction beside the term's embed.
+
+  Conceptual core verified against canon, citation corrected in the same ruling: the prior notes
+  cited core/05 §2's completeness sentence alone, which carried four elements (persistent
+  responsible principal, attributable record, defined stake, enforceable consequence path) — a
+  four-element source cited as verification for five. The verification is the pair: that sentence
+  (now carrying all five, attributed to this claim), plus core/05 §2's sanctionability line —
+  "sanctionability depends on an authority with enforceable jurisdiction — all properties of a
+  relationship among executor, principal, record, and sanctioning authority" — which is where the
+  prose argues the fifth element. Also core/01/core/05 §1: "a judgment allocation naming no
+  accountable party is... Escaped with an executor attached".
+
+  Lineage (Paper A's related-work survey, 2026-08-30): four of the five elements are already
+  Bovens's — the actor–forum relation, with the actor obliged to inform, the forum able to
+  interrogate, and the forum able to pass judgement and impose sanctions (European Law Journal
+  13(4), 2007). The delta is authority linkage, which Bovens does not carry as a distinct element,
+  and a change of tense: Bovens's relation is assessed retrospectively over conduct, this claim's
+  completeness is constituted at design time. Half the delta is a tense change and is claimed as no
+  more than that.
+
+  Kept projected: the normative prediction (relation-completeness predicting trust/remediation) is
+  unexercised, needing the stated case studies.
