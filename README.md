@@ -4,7 +4,7 @@
 
 A framework for deciding **where determinations are supplied, how they are assured, and who answers for them** — at the level of individual decisions rather than whole jobs.
 
-It applies to any arrangement that determines choices against ground: programs, models, humans, organisations, markets, immune systems, and compositions of them.
+It is written to apply across arrangements that determine choices against ground — programs, models, humans, organisations, markets, immune systems, and compositions of them.
 
 \---
 
@@ -102,15 +102,17 @@ See [`core/01-the-principle.md`](core/01-the-principle.md) and [`core/02-complet
 
 \---
 
-## The central result: check the work or check the worker
+## The central claim: check the work or check the worker
 
-The framework's most important result concerns the **acceptance predicate**: the criterion by which an outcome would be judged acceptable.
+The framework's central claim concerns the **acceptance predicate**: the criterion by which an outcome would be judged acceptable.
 
 The irreducible judgment floor is not a property of how "difficult" a task is.
 
 It is a property of whether adequacy can be checked.
 
 > **The floor is non-zero exactly when, and because, you cannot check the work.**
+
+*(Claim `DDD-floor-02`, **projected** — argued, with a declared falsifier that has not been met.)*
 
 Where the acceptance predicate **closes for the arrangement** — relevant ground is observable and adequacy can be evaluated within the declared resource, latency, confidence, and assurance bounds — no particular determiner is required for trust. Different paths may produce acceptable outputs because the result itself can be checked.
 
@@ -120,7 +122,7 @@ Verification moves from the output toward the supplier:
 
 > **You cannot check the work, so you check the worker.**
 
-This explains why organisations use licences, qualifications, grades, track records, certification, institutional standing, and selection.
+This is the framework's reading of why organisations use licences, qualifications, grades, track records, certification, institutional standing, and selection — carried as a projected hypothesis (`DDD-hyp-05`), not a finding.
 
 They are not merely descriptions of capability.
 
@@ -317,7 +319,7 @@ An open predicate within capacity remains judgment.
 
 Overflow on an open predicate produces escape.
 
-This also yields a mechanical account of one class of hallucination: output decoupled from correct ground because that ground is absent, false, or present but unresolved.
+Read as exposition, this suggests a mechanical reading of one class of hallucination: output decoupled from correct ground because that ground is absent, false, or present but unresolved. No claim carries that reading; the mechanism claim itself (`DDD-floor-01`) is `reported` on toy actors only.
 
 See [`core/11-the-floor-mechanism.md`](core/11-the-floor-mechanism.md).
 
@@ -351,11 +353,11 @@ See [`core/07-determination-and-intelligence.md`](core/07-determination-and-inte
 
 \---
 
-## A worked instance outside software
+## A suggestive parallel outside software
 
-The actor-general vocabulary is tested against the vertebrate immune system.
+The actor-general vocabulary is read against the vertebrate immune system.
 
-The mapping is not intended as metaphor:
+The reading is a **suggestive parallel with known disanalogies** — that demotion is on record, and no claim carries the instance at any status. The mapping offered:
 
 |Store|Immune-system instance|
 |-|-|
@@ -364,11 +366,11 @@ The mapping is not intended as metaphor:
 |**Judgment**|adaptive per-encounter response|
 |**Escaped**|a pathogen no response catches|
 
-The case also supplies an ensemble actor: diversity across a population carries coverage no single member can.
+The case also suggests an ensemble actor: diversity across a population carries coverage no single member can.
 
 > **Redundancy buys reliability. Diversity buys coverage.**
 
-The immune system matters because no engineer specified it. If the framework's categories only worked for deliberately engineered systems, the actor-general claim would fail here.
+The parallel matters because no engineer specified the immune system: a vocabulary that could only describe deliberately engineered systems would not be actor-general. The instance is offered as a reading to be broken, not a test that was passed.
 
 See [`core/12-the-licensing-instance.md`](core/12-the-licensing-instance.md).
 
