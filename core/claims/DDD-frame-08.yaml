@@ -11,7 +11,8 @@ test: >-
 owner: paper-4
 changed: v5.14 (2026-09-03, pre-transfer session, GATE 1 ruling C — statement re-scoped as the completeness condition; status, region, test unchanged; version per the session's close proposal)
 notes: |
-  Re-scoped, 2026-09-03 (pre-transfer session, GATE 1 ruling C, Emil). The prior statement read:
+  Re-scoped, 2026-09-03 (pre-transfer session, GATE 1 ruling C, Emil; the ruling is filed as
+  DDD-dec-36, which governs — these notes carry the text). The prior statement read:
   "Accountability is a relation (attribution, persistent principal, authority linkage, stake,
   sanction path), not an intrinsic capacity; an arrangement naming an executor but no principal is
   incomplete." Read against term:accountability (settled, three elements), that left two counts of
