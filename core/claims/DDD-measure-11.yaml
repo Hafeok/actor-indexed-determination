@@ -6,7 +6,7 @@ statement: >
   function and the deployment distribution and says nothing about the cost of computing a
   correct answer. Two tasks with identical verdict entropy can differ unboundedly in
   generation cost, so the measure must not be read as pricing generation.
-status: reported
+status: projected
 region: closing predicates only (where H(verdict) exists)
 credits: >
   Cook-Levin (1971), via DDD-frame-06: satisfiability is linear to check yet NP-hard to
@@ -21,9 +21,15 @@ falsifier: >
   A task family in which verdict entropy bounds generation cost, so that the measure does
   price the search.
 owner: paper-1
-changed: v4.5
+changed: v5.14 (2026-09-07, pre-transfer session, GATE 4 ruling — demoted reported -> projected; statement, region, evidence and falsifier unchanged; version per the session's close proposal)
 notes: >
   Extracted in the core/09 conversion; added to canon at v4.5 (generation-cost
   correction). The measure-framed companion of DDD-frame-06 (the closure/generation-cost
   separation, established) — the two variables this release separates must not be re-fused
   through the measure.
+
+  Demoted reported -> projected, 2026-09-07 (pre-transfer session, GATE 4 ruling, Emil):
+  the only evidence entry is a derivation, and spec/claim-format.md §5 defines reported as
+  carrying at least one evidence entry whose asset reproduces. The derivation stays
+  recorded; the status now matches what the evidence carries — and matches how the primer's
+  §6 already read this claim. Restatus to reported when a reproducing asset exercises it.

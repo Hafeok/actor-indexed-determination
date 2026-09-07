@@ -1,0 +1,70 @@
+format: 1
+version: v5.14.0
+# No `commit`: cut wherever this file lands on the default branch, the normal case
+# (spec/release-format.md §2 rule 3).
+date: 2026-09-07
+basis:
+  # The claim re-scoped as the completeness condition (GATE 1 ruling C): the settled term
+  # defines the relation; the claim asserts what a complete instance requires at design time.
+  - DDD-frame-08
+  # Examined under the same ruling and deliberately untouched: its prediction already
+  # quantifies over completeness of the five-element arrangement.
+  - DDD-hyp-04
+  # The two demotions: derivation-only evidence under a status §5 defines as requiring a
+  # reproducing asset (GATE 4 ruling).
+  - DDD-measure-11
+  - DDD-measure-13
+title: 'Publication readiness — the arity ruled, the front page carries no more than a status does'
+summary: |
+  **The last canon work before the repositories become public**, chosen by one test: does this get
+  more expensive, or become unfixable, once someone outside can read it or fork it? Interactive
+  throughout; every change below is a gate ruling (pre-transfer session, Emil; the session record
+  is the projection repository's `meta/sessions/2026-09-02-pre-transfer/`).
+
+  This is a minor and not a patch: a projected claim's statement moves by supersession and two
+  statuses move. It is not a major because every format-1 claim remains valid unchanged, no id
+  moves, and no settled node moves.
+
+  ### The accountability arity, ruled (disposition C)
+
+  `DDD-frame-08` (projected) counted five elements where `term:accountability` (settled) counts
+  three, and nothing said which governs. Ruled: **they are different objects, and the difference
+  has a test.** The term defines what accountability is — attribution, a persistent answerable
+  party, a borne consequence. The claim asserts what a *complete* instance requires at design
+  time — the borne consequence refined into stake plus sanction path, and authority linkage added
+  as a completeness condition. An arrangement can instantiate the relation and still be
+  incomplete: everyone knows who is responsible; nobody can sanction them. The claim's statement
+  now says so; the term is untouched; `core/05` §2 states the distinction beside the embed, with
+  its completeness sentence carrying all five elements at the claim's grade, attributed. The
+  lineage lands in the claim's notes at its true size: four of the five elements are Bovens's;
+  the delta is authority linkage plus the change from retrospective assessment to design-time
+  constitution — half of it a tense change, claimed as no more.
+
+  ### Two statuses stop overstating their evidence
+
+  `DDD-measure-11` and `DDD-measure-13` demote `reported` → `projected`: their only evidence is a
+  derivation, and `spec/claim-format.md` §5 defines `reported` as carrying at least one evidence
+  entry whose asset reproduces. The derivations stay recorded; the downstream primer already read
+  both conservatively as projected, and canon now agrees with its own projection. Neither is
+  pinned downstream; nothing fires on their account.
+
+  ### The front page carries no more than a status does
+
+  Repaired in place, converging on the register the README already used where it was right: the
+  central claim is named a claim with `DDD-floor-02`'s status beside it; the licences sentence
+  carries `DDD-hyp-05` as a projected hypothesis, not a finding; the hallucination passage is
+  marked exposition; the immune-system section takes the recorded v3-era demotion — a suggestive
+  parallel with known disanalogies, offered as a reading to be broken, not a test that was
+  passed; the applicability sentence states intent rather than asserting universality; and the
+  closure sentence returns to the settled term's three bounds — the fourth was the front page's
+  own addition, which three sources contradicted.
+
+  ### What fires, stated before it happens
+
+  When the downstream pin next advances past this release, **exactly one W6 fires**:
+  `DDD-frame-08`, `sha256:cf73b307…` → `sha256:ef5d5faf…` (statement re-scoped, status held).
+  The demotions fire nothing — `DDD-measure-11` and `DDD-measure-13` are not pinned, and status
+  is instrumented by W5 only for pinned ids. Zero W5, zero W7 change. The downstream pin advance
+  *to* v5.13.0 was executed and verified in the same session (downstream `DDD-dec-35`): the
+  ground migration's own two-W6 prediction held in every limb, by id and by hash, across a tag
+  and a merge.

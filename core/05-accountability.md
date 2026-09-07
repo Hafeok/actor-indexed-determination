@@ -52,16 +52,28 @@ spectrum runs the other way.
 
 > **Accountability completeness is a property of an arrangement, not a capacity of an actor. An
 > execution is accountability-complete when it is linked to a persistent responsible principal, an
-> attributable record, a defined stake, and an enforceable consequence path.**
+> attributable record, a defined stake, an enforceable consequence path, and an authority with
+> jurisdiction to enforce it.**
 >
 > It is independent of pinning resolution, in the sense that it is not recoverable from it — and it
 > is the scarcer of the two properties.
+
+That is the completeness condition — five elements: attribution, persistent principal, authority
+linkage, stake, sanction path *(claim `DDD-frame-08`, **projected**)*. It is not the definition.
+The definition is the settled term embedded below, and the two are different objects.
 
 <!-- ddd:embed id=term:accountability -->
 > **Accountability** is a property of the arrangement, not of the executor: attribution of
 > the determination, a persistent answerable party, and a borne consequence. An arrangement
 > missing any of the three has not allocated the decision's consequence.
 <!-- /ddd:embed -->
+
+The definition and the completeness condition differ, and the difference has a test: an arrangement
+can instantiate the relation and still be incomplete. Attribution exists, a persistent principal
+exists, a consequence is borne — and no authority has jurisdiction to enforce it. Everyone knows who
+is responsible; nobody can sanction them. The completeness condition refines the definition's borne
+consequence into stake plus sanction path and adds authority linkage; the refinement and the
+addition are carried at the claim's grade (**projected**), not the term's (**settled**).
 
 A model does not simply *lack* sanctionability. Persistence depends on identity rules and continuity
 of obligation; stake depends on property, role, bond, reputation, or delegated interest;
