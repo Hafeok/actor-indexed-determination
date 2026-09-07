@@ -1,0 +1,33 @@
+format: 1
+version: v5.14.1
+# No `commit`: cut wherever this file lands on the default branch, the normal case
+# (spec/release-format.md §2 rule 3).
+date: 2026-09-07
+basis:
+  # The arity ruling's decision node — the content this patch carries.
+  - DDD-dec-36
+  # The claim the ruling re-scoped at v5.14.0; its notes now point at the decision.
+  - DDD-frame-08
+title: 'The arity ruling lands in the decision register'
+summary: |
+  **A sequencing correction, carried openly.** The GATE 5 ruling of the pre-transfer session
+  held that ruling C — the accountability arity — files as a decision node on the `DDD-dec-15`
+  precedent: a stranger reading `DDD-frame-08` should reach why it was re-scoped through the
+  graph rather than through the projection repository's session records, and the Bovens lineage
+  constraint (no file may claim more than authority linkage plus the change of tense) is a
+  governing decision that outlives the session. The filing was pushed to the session branch
+  after PR #22 had already been merged, so **v5.14.0 was cut without it**. A cut descriptor is
+  immutable and corrections ship as a new version; this patch is that correction.
+
+  What this release adds, and all it adds:
+
+  - `core/decisions/DDD-dec-36` — the ruling: the two refused dispositions with their reasons,
+    the test that separates the objects (an arrangement can instantiate the relation and still
+    be incomplete), the lineage constraint, and the executed consequences.
+  - `DDD-frame-08`'s notes gain the pointer to the decision that governs them. Notes are outside
+    the instrumented fields: the digest is unchanged, and v5.14.0's next-advance prediction
+    (exactly one W6, `cf73b307…` → `ef5d5faf…`) stands exactly as published.
+
+  v5.14.0 itself needs no correction of content: the re-scoped claim, the demotions and the
+  front-page repairs all landed in it, and its basis resolves at its tag. What it lacked was
+  the ruling's own node, and the graph now carries it.
