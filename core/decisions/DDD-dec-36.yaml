@@ -1,0 +1,84 @@
+format: 1
+id: DDD-dec-36
+kind: decision
+statement: |
+  The accountability arity ruling: term:accountability (settled, three elements) and DDD-frame-08 (projected, five) are different objects rather than two counts of one — the term defines the relation, the claim asserts what a complete instance requires at design time — and DDD-frame-08 is re-scoped by supersession to say so, with the term untouched and the Bovens lineage filed as a governing constraint on what any file may claim.
+principal: Emil
+made: 2026-09-03, pre-transfer session (GATE 1 ruling C; filed as a decision node at the GATE 5 ruling)
+resolution: |
+  The question, the refused dispositions, and the ruling.
+
+  ## The question
+
+  DDD-frame-08's statement counted five elements of the accountability relation (attribution,
+  persistent principal, authority linkage, stake, sanction path) where term:accountability's
+  settled canonical text counts three (attribution of the determination, a persistent answerable
+  party, a borne consequence), and nothing said which governs. Carried as an elaboration since
+  both were filed; flagged by Paper A's external review and its Gate 3 ruling (the paper flags,
+  a canon session rules — both, not either); the canon session is the pre-transfer session, and
+  this is the ruling. Canon additionally held a third enumeration: core/05 §2's completeness
+  sentence carried four elements.
+
+  ## Two dispositions refused, with reasons that outlive the session
+
+  - **The term does not supersede to five** — refused on principle, not cost: it would move
+    content whose evidence grade is projected (one projected claim, one unrun hypothesis,
+    DDD-hyp-04) into a settled node. That is the over-claim defect the pre-transfer session
+    exists to prevent.
+  - **The claim does not narrow to three** — refused because it would make canon smaller than
+    the corpus supporting it: core/05 argues authority linkage in its exposition
+    ("sanctionability depends on an authority with enforceable jurisdiction"), and narrowing
+    the claim while the prose continues to argue for more resolves one inconsistency by
+    creating another — and strands half of Paper A's stated delta over Bovens with no
+    canonical carrier.
+
+  ## The ruling (C): different objects, and there is a test
+
+  The term defines what accountability is. The claim asserts what a complete instance requires
+  at design time: the borne consequence refined into stake plus the sanction path, and authority
+  linkage added as a completeness condition. The test that separates the objects: an arrangement
+  can instantiate the relation and still be incomplete, and it is the ordinary case — attribution
+  exists, a persistent principal exists, consequence is borne, and no authority has jurisdiction
+  to enforce it. Everyone knows who is responsible; nobody can sanction them.
+
+  The convergence that decided it: the distinction C draws is the delta over Bovens —
+  retrospective assessment versus design-time constitution. The definition/completeness split is
+  not a device to make two counts coexist; it is the same distinction that makes the
+  contribution non-derivative. C carries the contribution; narrowing discards it.
+
+  ## The governing lineage constraint
+
+  Four of the five elements are already Bovens's (the actor–forum relation: the actor obliged to
+  inform, the forum able to interrogate, the forum able to pass judgement and impose sanctions;
+  European Law Journal 13(4), 2007). The delta is authority linkage, which Bovens does not carry
+  as a distinct element, and the change of tense from retrospective assessment to design-time
+  constitution. Half the delta is a tense change and is claimed as no more than that. **No file
+  in either repository may claim more than this delta**, and Paper A states it at the same size.
+
+  ## Executed consequences (v5.14.0)
+
+  - DDD-frame-08's statement re-scoped by supersession; the prior statement preserved in its
+    notes with this ruling.
+  - The claim's verification corrected: the prior notes cited core/05 §2's completeness sentence
+    alone — four elements cited as verification for five; the verification is the pair, that
+    sentence plus the sanctionability-and-jurisdiction line.
+  - core/05 §2's completeness sentence carries all five elements, attributed to DDD-frame-08 and
+    marked projected — both grades visible in one document — with the distinction and its test
+    stated in prose beside the term's embed.
+  - No schema field: term registry entries take no notes field for one case; prose beside the
+    embed suffices; reconsider on a second case.
+  - DDD-hyp-04 examined and deliberately untouched: its prediction already quantifies over
+    completeness of the five-element arrangement.
+basedOn:
+  - DDD-frame-08
+  - term:accountability
+  - DDD-hyp-04
+  - DDD-dec-15
+notes: |
+  Filed at the GATE 5 ruling of the pre-transfer session, on the DDD-dec-15 precedent: a ruled
+  re-scoping of a claim, with its supersession recorded and its warrant stated, belongs in the
+  decision register rather than only in the claim's notes and a session record — a stranger
+  reading DDD-frame-08 should reach why it was re-scoped through the graph rather than through
+  meta/, and the lineage constraint is a governing decision that outlives the session. The
+  claim's notes carry the text; this decision carries the ruling. Full session record:
+  the projection repository's meta/sessions/2026-09-02-pre-transfer/gate1-arity.md.
