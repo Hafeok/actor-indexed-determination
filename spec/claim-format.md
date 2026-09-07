@@ -1,7 +1,8 @@
 # Claim format specification
 
 **Format version: 1.** This file is the versioned schema artifact for claim nodes — shape and
-validation rules only. It contains no process (see `meta/conversion-protocol.md`, versioned with
+validation rules only. It contains no process (see the projection repository's
+`meta/conversion-protocol.md`, versioned with
 the way of working) and no content (see `core/claims/`, versioned per claim via `changed`). The
 three change independently:
 

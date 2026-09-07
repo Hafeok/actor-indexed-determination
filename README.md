@@ -114,7 +114,7 @@ It is a property of whether adequacy can be checked.
 
 *(Claim `DDD-floor-02`, **projected** — argued, with a declared falsifier that has not been met.)*
 
-Where the acceptance predicate **closes for the arrangement** — relevant ground is observable and adequacy can be evaluated within the declared resource, latency, confidence, and assurance bounds — no particular determiner is required for trust. Different paths may produce acceptable outputs because the result itself can be checked.
+Where the acceptance predicate **closes for the arrangement** — relevant ground is observable and adequacy can be evaluated within the declared resource, latency, and confidence bounds — no particular determiner is required for trust. Different paths may produce acceptable outputs because the result itself can be checked.
 
 Where the predicate does **not** close, that route to assurance disappears.
 
